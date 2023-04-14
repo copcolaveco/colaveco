@@ -1,0 +1,4 @@
+bc_dt_elem_i([ 0,9,0 ],'Anuncioid',allownulls,no).
+bc_dt_elem_i([ 0,9,0 ],'Anunciotitulo',allownulls,no).
+bc_dt_elem_i([ 0,9,0 ],'Anunciodescripcion',allownulls,no).
+ 

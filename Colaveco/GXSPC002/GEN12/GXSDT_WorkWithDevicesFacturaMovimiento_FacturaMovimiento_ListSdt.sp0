@@ -1,0 +1,39 @@
+ 
+spec_i([ sdt,[ 26,1000000,0 ],'WorkWithDevicesFacturaMovimiento_FacturaMovimiento_ListSdt','WorkWithDevicesFacturaMovimiento_FacturaMovimiento_ListSdt',0,eng,'17_0_7-156546' ]).
+ 
+struct_dt_i([ 26,1000000,0 ],name,'WorkWithDevicesFacturaMovimiento_FacturaMovimiento_ListSdt').
+struct_dt_i([ 26,1000000,0 ],camelname,'WorkWithDevicesFacturaMovimiento_FacturaMovimiento_ListSdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'WorkWithDevicesFacturaMovimiento_FacturaMovimiento_ListSdt').
+struct_dt_i([ 26,1000000,0 ],collection,'False').
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],panel,[ 'FacturaMovimiento.List' ]).
+struct_dt_i([ 26,1000000,0 ],key,[ 2,[ 2 ],[ 2,1,'FacturaMovimiento' ] ]).
+struct_dt_i([ 26,1000000,0 ],modified,yes).
+struct_dt_i([ 26,1000000,0 ],fullname,'WorkWithDevicesFacturaMovimiento_FacturaMovimiento_ListSdt').
+ 
+struct_dt_elem_i([ 26,1000000,0 ],1,name,'Fmid').
+struct_dt_elem_i([ 26,1000000,0 ],1,camelname,'FMId').
+struct_dt_elem_i([ 26,1000000,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],1,length,18).
+struct_dt_elem_i([ 26,1000000,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],1,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],2,name,'Fmsaldoactual').
+struct_dt_elem_i([ 26,1000000,0 ],2,camelname,'FMSaldoActual').
+struct_dt_elem_i([ 26,1000000,0 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],2,length,18).
+struct_dt_elem_i([ 26,1000000,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],2,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],2,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],1,attributeid,'2').
+struct_dt_elem_i([ 26,1000000,0 ],2,attributeid,'176').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\SD','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\SD','PackageName','GeneXus.jar').

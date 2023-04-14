@@ -1,0 +1,19 @@
+
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>HomeColaveco_Level_DetailSdt</name>
+<camelname>HomeColaveco_Level_DetailSdt</camelname>
+<camelnameex>HomeColaveco_Level_DetailSdt</camelnameex>
+<collection>False</collection>
+<wwsd_sdt>True</wwsd_sdt>
+<modified>yes</modified>
+<fullname>HomeColaveco_Level_DetailSdt</fullname></Level>
+<Prompts></Prompts>
+<TableAccess></TableAccess>
+<XRef>
+<Object>
+<Class>33</Class>
+<Id>10</Id>
+<Guid>5eeae3ad-0251-4019-9c0b-039f15a72e4a</Guid></Object></XRef></SdtSpec>

@@ -1,0 +1,35 @@
+current_obj_i(2,proc,25).
+ 
+current_guid('144f2b4f-c19d-4c8b-b530-010e4e85763b').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_main_object(anotificationsregistrationhandler,'Notifications Registration Handler','','""','INTERNAL',default).
+ 
+ 
+ 
+ 
+ij_object_dependency(anotificationsregistrationhandler,[],[],[ notificationsregistrationhandler_RESTInterfaceIN,notificationsregistrationhandler_services_rest ],25).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus','PACKAGE','com.genexuscore').
+module_info_i('GeneXus','PackageName','GeneXus.jar').
+ 

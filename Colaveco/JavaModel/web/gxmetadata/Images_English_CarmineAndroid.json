@@ -1,0 +1,181 @@
+{ 
+    "ResourcesLocation" : "static/Resources",
+    "Language" : "English",
+    "Theme" : "CarmineAndroid",
+    "Images" : [ { 
+        "Name" : "ActionInsert",
+        "Type" : "I",
+        "Guid" : "5649fbb8-8ce0-4810-a5ce-bd649ea83c3a",
+        "Location" : "ActionInsert.gif",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "Group",
+        "Type" : "I",
+        "Guid" : "429d6190-65aa-4257-86db-fce0370ff650",
+        "Location" : "CarmineAndroid/Group.png",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "agua",
+        "Type" : "I",
+        "Guid" : "ea977fc6-d211-448e-ade1-f59eca454eea",
+        "Location" : "agua.png",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "calidad_leche",
+        "Type" : "I",
+        "Guid" : "b7b07a3d-8aa3-44c5-9f1b-7fbf5ce351d9",
+        "Location" : "calidad_leche.png",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "efluentes",
+        "Type" : "I",
+        "Guid" : "72161498-ee12-470e-8aab-d8b2d9761b43",
+        "Location" : "efluentes.png",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "envio",
+        "Type" : "I",
+        "Guid" : "49a64cd0-2247-4809-bec9-b4416bf4f5bf",
+        "Location" : "envio.png",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "fisicoquimico",
+        "Type" : "I",
+        "Guid" : "de1c8545-466f-4d9e-8922-f6d71d595cd2",
+        "Location" : "fisicoquimico.png",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "inocuidad",
+        "Type" : "I",
+        "Guid" : "dba83ce5-7c58-49d2-8edd-5e35a18402ab",
+        "Location" : "inocuidad.png",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "nutricion",
+        "Type" : "I",
+        "Guid" : "1a941648-f7d8-4a95-9058-b0cf810d51fa",
+        "Location" : "nutricion.png",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "paquete_recibido",
+        "Type" : "I",
+        "Guid" : "cfab4145-4473-45ff-ba76-f41d35f7d0d3",
+        "Location" : "paquete_recibido.png",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "pasturas",
+        "Type" : "I",
+        "Guid" : "e8887987-78e0-4008-941a-4f62bbe87c4d",
+        "Location" : "pasturas.png",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "vaca",
+        "Type" : "I",
+        "Guid" : "6fe83b86-f2ef-4cdc-96e4-212159b8b00b",
+        "Location" : "vaca.png",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "veterinaria",
+        "Type" : "I",
+        "Guid" : "c8f9857a-043c-4e00-a15c-00a86e2fdb7d",
+        "Location" : "veterinaria.png",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "Logo_App",
+        "Type" : "I",
+        "Guid" : "b3b7ec37-18f4-4028-aa0f-495e3c6debca",
+        "Location" : "Logo_App.png",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "Fondo",
+        "Type" : "I",
+        "Guid" : "3122465e-831c-44b2-afce-74f076388960",
+        "Location" : "Fondo.png",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "LogoLogin",
+        "Type" : "I",
+        "Guid" : "d551da9e-57de-4cd4-8380-9e5ff9bf541a",
+        "Location" : "LogoLogin.jpg",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "MenuInicio",
+        "Type" : "I",
+        "Guid" : "72f07639-8e72-435c-aee0-7b7cfbd3d39f",
+        "Location" : "MenuInicio.png",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "MenuResultados",
+        "Type" : "I",
+        "Guid" : "a4b77b3d-07fa-4ca7-95df-23779d9dbdcc",
+        "Location" : "MenuResultados.png",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "MenuEstadoCuenta",
+        "Type" : "I",
+        "Guid" : "e3afe4b6-7ea6-4a21-9b67-94d26c82a9d3",
+        "Location" : "MenuEstadoCuenta.png",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "MenuFrascos",
+        "Type" : "I",
+        "Guid" : "51780e8f-4f8b-4e1b-9749-184d855ef3c8",
+        "Location" : "MenuFrascos.png",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "MenuPerfil",
+        "Type" : "I",
+        "Guid" : "f8c5a70b-4d95-4e89-bd8b-7b3ecc1410a8",
+        "Location" : "MenuPerfil.png",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "MenuSalir",
+        "Type" : "I",
+        "Guid" : "f780c951-7371-412e-b9af-ffbd2df45d7c",
+        "Location" : "MenuSalir.png",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "MenuPassword",
+        "Type" : "I",
+        "Guid" : "2e521e9f-599f-4611-a890-1220c18e3640",
+        "Location" : "MenuPassword.png",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "MenuNotificaciones",
+        "Type" : "I",
+        "Guid" : "cddb5104-33c2-4195-be6d-b38b75125aa4",
+        "Location" : "MenuNotificaciones.png",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    }, { 
+        "Name" : "resultadoNoti",
+        "Type" : "I",
+        "Guid" : "27f95ecf-2967-4b4c-81dd-ed580c79a972",
+        "Location" : "resultadoNoti.png",
+        "RenderingMode" : "automatic",
+        "FlipsForRTL" : false
+    } ]
+}

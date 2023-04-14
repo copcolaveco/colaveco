@@ -1,0 +1,97 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_7-156546</SpecVersion>
+<Object>
+<ObjClsGuid>2a9e9aba-d2de-4801-ae7f-5e3819222daf</ObjClsGuid>
+<ObjCls>33</ObjCls>
+<ObjId>10</ObjId>
+<ObjName>DPAnuncios</ObjName>
+<ObjDesc>DPAnuncios</ObjDesc>
+<ObjPgmName>DPAnuncios</ObjPgmName>
+<ObjClsName>DataProvider</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>out</IO>
+<Token>SDTAnuncio</Token></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>9</TableId>
+<TableName>Anuncio</TableName>
+<Description>Anuncio</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>192</AttriId>
+<AttriName>AnuncioId</AttriName>
+<Description>Anuncio Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IANUNCIO</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>9</TableId>
+<TableName>Anuncio</TableName>
+<Description>Anuncio</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>192</AttriId>
+<AttriName>AnuncioId</AttriName>
+<Description>Anuncio Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>40000</AttriId>
+<AttriName>AnuncioImagen.Uri  </AttriName>
+<Description></Description></Attribute>
+<Attribute>
+<AttriId>192</AttriId>
+<AttriName>AnuncioId</AttriName>
+<Description>Anuncio Id</Description></Attribute>
+<Attribute>
+<AttriId>193</AttriId>
+<AttriName>AnuncioTitulo</AttriName>
+<Description>Anuncio Titulo</Description></Attribute>
+<Attribute>
+<AttriId>194</AttriId>
+<AttriName>AnuncioSubTitulo</AttriName>
+<Description>Anuncio Sub Titulo</Description></Attribute>
+<Attribute>
+<AttriId>195</AttriId>
+<AttriName>AnuncioImagen</AttriName>
+<Description>Anuncio Imagen</Description></Attribute>
+<Attribute>
+<AttriId>196</AttriId>
+<AttriName>AnuncioPublico</AttriName>
+<Description>Anuncio Publico</Description></Attribute>
+<Attribute>
+<AttriId>197</AttriId>
+<AttriName>AnuncioDescripcion</AttriName>
+<Description>Anuncio Descripcion</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

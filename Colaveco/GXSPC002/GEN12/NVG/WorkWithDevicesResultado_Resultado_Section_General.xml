@@ -1,0 +1,163 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_7-156546</SpecVersion>
+<Object>
+<ObjClsGuid>2a9e9aba-d2de-4801-ae7f-5e3819222daf</ObjClsGuid>
+<ObjCls>33</ObjCls>
+<ObjId>0</ObjId>
+<ObjName>WorkWithDevicesResultado_Resultado_Section_General</ObjName>
+<ObjDesc>WorkWithDevicesResultado_Resultado_Section_General</ObjDesc>
+<ObjPgmName>WorkWithDevicesResultado_Resultado_Section_General</ObjPgmName>
+<ObjClsName>DataProvider</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>resultadoId</AttriName>
+<Description>resultado Id</Description></Attribute></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Gxid</VarId>
+<VarName>&amp;gxid</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Token>WorkWithDevicesResultado_Resultado_Section_GeneralSdt</Token></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations>
+<Optimization>
+<Type>FirstRows</Type>
+<MaxRows>1</MaxRows></Optimization></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>1</TableId>
+<TableName>Resultado</TableName>
+<Description>Resultado</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>resultadoId</AttriName>
+<Description>resultado Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IRESULTADO</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>resultadoId</AttriName>
+<Description>resultado Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>@resultadoId</AttriName>
+<Description>resultado Id</Description></Attribute></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>resultadoId</AttriName>
+<Description>resultado Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>@resultadoId</AttriName>
+<Description>resultado Id</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>1</TableId>
+<TableName>Resultado</TableName>
+<Description>Resultado</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>resultadoId</AttriName>
+<Description>resultado Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>resultadoFicha</AttriName>
+<Description>resultado Ficha</Description></Attribute>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>resultadoIdNetUsuario</AttriName>
+<Description>resultado Id Net Usuario</Description></Attribute>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>resultadoFechaCreado</AttriName>
+<Description>resultado Fecha Creado</Description></Attribute>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>resultadoFechaEmision</AttriName>
+<Description>resultado Fecha Emision</Description></Attribute>
+<Attribute>
+<AttriId>8</AttriId>
+<AttriName>resultadoComentarios</AttriName>
+<Description>resultado Comentarios</Description></Attribute>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>resultadoUserId</AttriName>
+<Description>resultado User Id</Description></Attribute>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>resultadoTypeId</AttriName>
+<Description>resultado Type Id</Description></Attribute>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>resultadoPathExcel</AttriName>
+<Description>resultado Path Excel</Description></Attribute>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>resultadoPathPdf</AttriName>
+<Description>resultado Path Pdf</Description></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>resultadoPathCsv</AttriName>
+<Description>resultado Path Csv</Description></Attribute>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>resultadoIdEstado</AttriName>
+<Description>resultado Id Estado</Description></Attribute>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>resultadoIdLibro</AttriName>
+<Description>resultado Id Libro</Description></Attribute>
+<Attribute>
+<AttriId>166</AttriId>
+<AttriName>resultadoIdNetTipoinforme</AttriName>
+<Description>resultado Id Net Tipoinforme</Description></Attribute>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>resultadoEliminado</AttriName>
+<Description>resultado Eliminado</Description></Attribute>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>resultadoAbonado</AttriName>
+<Description>resultado Abonado</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

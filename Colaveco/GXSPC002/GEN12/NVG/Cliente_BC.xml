@@ -1,0 +1,939 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_7-156546</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>4</ObjId>
+<ObjName>Cliente_BC</ObjName>
+<ObjDesc>Cliente</ObjDesc>
+<ObjPgmName>Cliente_BC</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>4</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>4</TableId>
+<TableName>Cliente</TableName>
+<Description>Cliente</Description></Table></BaseTable>
+<StandAloneRules></StandAloneRules>
+<BaseTableRule>
+<Action>
+<ActionType>ReadBaseTable</ActionType>
+<Table>
+<TableId>4</TableId>
+<TableName>Cliente</TableName>
+<Description>Cliente</Description></Table>
+<JoinConditions>
+<Table>
+<TableId>4</TableId>
+<TableName>Cliente</TableName>
+<Description>Cliente</Description></Table>
+<JoinCondition>
+<AttributeTo>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute></AttributeTo>
+<Table></Table>
+<AttributeFrom>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute></AttributeFrom></JoinCondition></JoinConditions>
+<Into>
+<Attribute>
+<AttriId>45</AttriId>
+<AttriName>ClienteNombre</AttriName>
+<Description>Cliente Nombre</Description></Attribute>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>ClienteEmail</AttriName>
+<Description>Cliente Email</Description></Attribute>
+<Attribute>
+<AttriId>47</AttriId>
+<AttriName>ClienteNombreEmail1</AttriName>
+<Description>Cliente Nombre Email1</Description></Attribute>
+<Attribute>
+<AttriId>48</AttriId>
+<AttriName>ClienteEmail1</AttriName>
+<Description>Cliente Email1</Description></Attribute>
+<Attribute>
+<AttriId>49</AttriId>
+<AttriName>ClienteNombreEmail2</AttriName>
+<Description>Cliente Nombre Email2</Description></Attribute>
+<Attribute>
+<AttriId>50</AttriId>
+<AttriName>ClienteEmail2</AttriName>
+<Description>Cliente Email2</Description></Attribute>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>ClienteEnvio</AttriName>
+<Description>Cliente Envio</Description></Attribute>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>ClienteUsuarioWeb</AttriName>
+<Description>Cliente Usuario Web</Description></Attribute>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>ClienteNombreCelular1</AttriName>
+<Description>Cliente Nombre Celular1</Description></Attribute>
+<Attribute>
+<AttriId>54</AttriId>
+<AttriName>ClienteCelular1</AttriName>
+<Description>Cliente Celular1</Description></Attribute>
+<Attribute>
+<AttriId>55</AttriId>
+<AttriName>ClienteNombreCelular2</AttriName>
+<Description>Cliente Nombre Celular2</Description></Attribute>
+<Attribute>
+<AttriId>56</AttriId>
+<AttriName>ClienteCelular2</AttriName>
+<Description>Cliente Celular2</Description></Attribute>
+<Attribute>
+<AttriId>57</AttriId>
+<AttriName>ClienteCodigoFigaro</AttriName>
+<Description>Cliente Codigo Figaro</Description></Attribute>
+<Attribute>
+<AttriId>58</AttriId>
+<AttriName>ClienteTipoUsuario</AttriName>
+<Description>Cliente Tipo Usuario</Description></Attribute>
+<Attribute>
+<AttriId>59</AttriId>
+<AttriName>ClienteDireccion</AttriName>
+<Description>Cliente Direccion</Description></Attribute>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>ClienteNombreTelefono1</AttriName>
+<Description>Cliente Nombre Telefono1</Description></Attribute>
+<Attribute>
+<AttriId>61</AttriId>
+<AttriName>ClienteTelefono1</AttriName>
+<Description>Cliente Telefono1</Description></Attribute>
+<Attribute>
+<AttriId>62</AttriId>
+<AttriName>ClienteNombreTelefono2</AttriName>
+<Description>Cliente Nombre Telefono2</Description></Attribute>
+<Attribute>
+<AttriId>63</AttriId>
+<AttriName>ClienteTelefono2</AttriName>
+<Description>Cliente Telefono2</Description></Attribute>
+<Attribute>
+<AttriId>64</AttriId>
+<AttriName>ClienteFax</AttriName>
+<Description>Cliente Fax</Description></Attribute>
+<Attribute>
+<AttriId>65</AttriId>
+<AttriName>ClienteDicose</AttriName>
+<Description>Cliente Dicose</Description></Attribute>
+<Attribute>
+<AttriId>66</AttriId>
+<AttriName>ClienteIdDepartamento</AttriName>
+<Description>Cliente Id Departamento</Description></Attribute>
+<Attribute>
+<AttriId>67</AttriId>
+<AttriName>ClienteIdLocalidad</AttriName>
+<Description>Cliente Id Localidad</Description></Attribute>
+<Attribute>
+<AttriId>68</AttriId>
+<AttriName>ClienteTecnico1</AttriName>
+<Description>Cliente Tecnico1</Description></Attribute>
+<Attribute>
+<AttriId>69</AttriId>
+<AttriName>ClienteTecnico2</AttriName>
+<Description>Cliente Tecnico2</Description></Attribute>
+<Attribute>
+<AttriId>70</AttriId>
+<AttriName>ClienteIdAgencia</AttriName>
+<Description>Cliente Id Agencia</Description></Attribute>
+<Attribute>
+<AttriId>71</AttriId>
+<AttriName>ClienteContrato</AttriName>
+<Description>Cliente Contrato</Description></Attribute>
+<Attribute>
+<AttriId>72</AttriId>
+<AttriName>ClienteSocio</AttriName>
+<Description>Cliente Socio</Description></Attribute>
+<Attribute>
+<AttriId>73</AttriId>
+<AttriName>ClienteNoUsar</AttriName>
+<Description>Cliente No Usar</Description></Attribute>
+<Attribute>
+<AttriId>74</AttriId>
+<AttriName>ClienteCodbar</AttriName>
+<Description>Cliente Codbar</Description></Attribute>
+<Attribute>
+<AttriId>75</AttriId>
+<AttriName>ClienteCaravanas</AttriName>
+<Description>Cliente Caravanas</Description></Attribute>
+<Attribute>
+<AttriId>76</AttriId>
+<AttriName>ClienteProlesa</AttriName>
+<Description>Cliente Prolesa</Description></Attribute>
+<Attribute>
+<AttriId>77</AttriId>
+<AttriName>ClienteProlesaSuc</AttriName>
+<Description>Cliente Prolesa Suc</Description></Attribute>
+<Attribute>
+<AttriId>168</AttriId>
+<AttriName>ClienteProlesaMat</AttriName>
+<Description>Cliente Prolesa Mat</Description></Attribute>
+<Attribute>
+<AttriId>78</AttriId>
+<AttriName>ClienteObservaciones</AttriName>
+<Description>Cliente Observaciones</Description></Attribute>
+<Attribute>
+<AttriId>79</AttriId>
+<AttriName>ClienteFacRsocial</AttriName>
+<Description>Cliente Fac Rsocial</Description></Attribute>
+<Attribute>
+<AttriId>80</AttriId>
+<AttriName>ClienteFacCedula</AttriName>
+<Description>Cliente Fac Cedula</Description></Attribute>
+<Attribute>
+<AttriId>81</AttriId>
+<AttriName>ClienteFacRut</AttriName>
+<Description>Cliente Fac Rut</Description></Attribute>
+<Attribute>
+<AttriId>82</AttriId>
+<AttriName>ClienteFacDireccion</AttriName>
+<Description>Cliente Fac Direccion</Description></Attribute>
+<Attribute>
+<AttriId>83</AttriId>
+<AttriName>ClienteFacLocalidad</AttriName>
+<Description>Cliente Fac Localidad</Description></Attribute>
+<Attribute>
+<AttriId>84</AttriId>
+<AttriName>ClienteFacDepartamento</AttriName>
+<Description>Cliente Fac Departamento</Description></Attribute>
+<Attribute>
+<AttriId>85</AttriId>
+<AttriName>ClienteFacCpostal</AttriName>
+<Description>Cliente Fac Cpostal</Description></Attribute>
+<Attribute>
+<AttriId>86</AttriId>
+<AttriName>ClienteFacGiro</AttriName>
+<Description>Cliente Fac Giro</Description></Attribute>
+<Attribute>
+<AttriId>87</AttriId>
+<AttriName>ClienteCobNombreTelefono1</AttriName>
+<Description>Cliente Cob Nombre Telefono1</Description></Attribute>
+<Attribute>
+<AttriId>88</AttriId>
+<AttriName>ClienteFacTelefonos</AttriName>
+<Description>Cliente Fac Telefonos</Description></Attribute>
+<Attribute>
+<AttriId>89</AttriId>
+<AttriName>ClienteCobNombreTelefono2</AttriName>
+<Description>Cliente Cob Nombre Telefono2</Description></Attribute>
+<Attribute>
+<AttriId>90</AttriId>
+<AttriName>ClienteCobTelefono2</AttriName>
+<Description>Cliente Cob Telefono2</Description></Attribute>
+<Attribute>
+<AttriId>91</AttriId>
+<AttriName>ClienteCobNombreCelular1</AttriName>
+<Description>Cliente Cob Nombre Celular1</Description></Attribute>
+<Attribute>
+<AttriId>92</AttriId>
+<AttriName>ClienteCobCelular1</AttriName>
+<Description>Cliente Cob Celular1</Description></Attribute>
+<Attribute>
+<AttriId>93</AttriId>
+<AttriName>ClienteCobNombreCelular2</AttriName>
+<Description>Cliente Cob Nombre Celular2</Description></Attribute>
+<Attribute>
+<AttriId>94</AttriId>
+<AttriName>ClienteCobCelular2</AttriName>
+<Description>Cliente Cob Celular2</Description></Attribute>
+<Attribute>
+<AttriId>95</AttriId>
+<AttriName>ClienteCobNombreEmail1</AttriName>
+<Description>Cliente Cob Nombre Email1</Description></Attribute>
+<Attribute>
+<AttriId>96</AttriId>
+<AttriName>ClienteCobEmail1</AttriName>
+<Description>Cliente Cob Email1</Description></Attribute>
+<Attribute>
+<AttriId>97</AttriId>
+<AttriName>ClienteCobNombreEmail2</AttriName>
+<Description>Cliente Cob Nombre Email2</Description></Attribute>
+<Attribute>
+<AttriId>98</AttriId>
+<AttriName>ClienteCobEmail2</AttriName>
+<Description>Cliente Cob Email2</Description></Attribute>
+<Attribute>
+<AttriId>99</AttriId>
+<AttriName>ClienteFacFax</AttriName>
+<Description>Cliente Fac Fax</Description></Attribute>
+<Attribute>
+<AttriId>100</AttriId>
+<AttriName>ClienteFacEmail</AttriName>
+<Description>Cliente Fac Email</Description></Attribute>
+<Attribute>
+<AttriId>101</AttriId>
+<AttriName>ClienteFacContrato</AttriName>
+<Description>Cliente Fac Contrato</Description></Attribute>
+<Attribute>
+<AttriId>102</AttriId>
+<AttriName>ClienteFacObservaciones</AttriName>
+<Description>Cliente Fac Observaciones</Description></Attribute>
+<Attribute>
+<AttriId>103</AttriId>
+<AttriName>ClienteFacLista</AttriName>
+<Description>Cliente Fac Lista</Description></Attribute>
+<Attribute>
+<AttriId>104</AttriId>
+<AttriName>ClienteFacContado</AttriName>
+<Description>Cliente Fac Contado</Description></Attribute>
+<Attribute>
+<AttriId>105</AttriId>
+<AttriName>ClienteNotEmailFrascos1</AttriName>
+<Description>Cliente Not Email Frascos1</Description></Attribute>
+<Attribute>
+<AttriId>106</AttriId>
+<AttriName>ClienteNotEmailFrascos2</AttriName>
+<Description>Cliente Not Email Frascos2</Description></Attribute>
+<Attribute>
+<AttriId>107</AttriId>
+<AttriName>ClienteNotEmailMuestra1</AttriName>
+<Description>Cliente Not Email Muestra1</Description></Attribute>
+<Attribute>
+<AttriId>108</AttriId>
+<AttriName>ClienteNotEmailMuestra2</AttriName>
+<Description>Cliente Not Email Muestra2</Description></Attribute>
+<Attribute>
+<AttriId>109</AttriId>
+<AttriName>ClienteNotEmailAnalisis1</AttriName>
+<Description>Cliente Not Email Analisis1</Description></Attribute>
+<Attribute>
+<AttriId>110</AttriId>
+<AttriName>ClienteNotEmailAnalisis2</AttriName>
+<Description>Cliente Not Email Analisis2</Description></Attribute>
+<Attribute>
+<AttriId>111</AttriId>
+<AttriName>ClienteNotEmailGeneral1</AttriName>
+<Description>Cliente Not Email General1</Description></Attribute>
+<Attribute>
+<AttriId>112</AttriId>
+<AttriName>ClienteNotEmailGeneral2</AttriName>
+<Description>Cliente Not Email General2</Description></Attribute>
+<Attribute>
+<AttriId>113</AttriId>
+<AttriName>ClienteIncobrable</AttriName>
+<Description>Cliente Incobrable</Description></Attribute></Into></Action></BaseTableRule>
+<StandAloneWithModeRules></StandAloneWithModeRules>
+<Rules></Rules>
+<BeforeConfirmRules></BeforeConfirmRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>4</TableId>
+<TableName>Cliente</TableName>
+<Description>Cliente</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute>
+<Attribute>
+<AttriId>45</AttriId>
+<AttriName>ClienteNombre</AttriName>
+<Description>Cliente Nombre</Description></Attribute>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>ClienteEmail</AttriName>
+<Description>Cliente Email</Description></Attribute>
+<Attribute>
+<AttriId>47</AttriId>
+<AttriName>ClienteNombreEmail1</AttriName>
+<Description>Cliente Nombre Email1</Description></Attribute>
+<Attribute>
+<AttriId>48</AttriId>
+<AttriName>ClienteEmail1</AttriName>
+<Description>Cliente Email1</Description></Attribute>
+<Attribute>
+<AttriId>49</AttriId>
+<AttriName>ClienteNombreEmail2</AttriName>
+<Description>Cliente Nombre Email2</Description></Attribute>
+<Attribute>
+<AttriId>50</AttriId>
+<AttriName>ClienteEmail2</AttriName>
+<Description>Cliente Email2</Description></Attribute>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>ClienteEnvio</AttriName>
+<Description>Cliente Envio</Description></Attribute>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>ClienteUsuarioWeb</AttriName>
+<Description>Cliente Usuario Web</Description></Attribute>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>ClienteNombreCelular1</AttriName>
+<Description>Cliente Nombre Celular1</Description></Attribute>
+<Attribute>
+<AttriId>54</AttriId>
+<AttriName>ClienteCelular1</AttriName>
+<Description>Cliente Celular1</Description></Attribute>
+<Attribute>
+<AttriId>55</AttriId>
+<AttriName>ClienteNombreCelular2</AttriName>
+<Description>Cliente Nombre Celular2</Description></Attribute>
+<Attribute>
+<AttriId>56</AttriId>
+<AttriName>ClienteCelular2</AttriName>
+<Description>Cliente Celular2</Description></Attribute>
+<Attribute>
+<AttriId>57</AttriId>
+<AttriName>ClienteCodigoFigaro</AttriName>
+<Description>Cliente Codigo Figaro</Description></Attribute>
+<Attribute>
+<AttriId>58</AttriId>
+<AttriName>ClienteTipoUsuario</AttriName>
+<Description>Cliente Tipo Usuario</Description></Attribute>
+<Attribute>
+<AttriId>59</AttriId>
+<AttriName>ClienteDireccion</AttriName>
+<Description>Cliente Direccion</Description></Attribute>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>ClienteNombreTelefono1</AttriName>
+<Description>Cliente Nombre Telefono1</Description></Attribute>
+<Attribute>
+<AttriId>61</AttriId>
+<AttriName>ClienteTelefono1</AttriName>
+<Description>Cliente Telefono1</Description></Attribute>
+<Attribute>
+<AttriId>62</AttriId>
+<AttriName>ClienteNombreTelefono2</AttriName>
+<Description>Cliente Nombre Telefono2</Description></Attribute>
+<Attribute>
+<AttriId>63</AttriId>
+<AttriName>ClienteTelefono2</AttriName>
+<Description>Cliente Telefono2</Description></Attribute>
+<Attribute>
+<AttriId>64</AttriId>
+<AttriName>ClienteFax</AttriName>
+<Description>Cliente Fax</Description></Attribute>
+<Attribute>
+<AttriId>65</AttriId>
+<AttriName>ClienteDicose</AttriName>
+<Description>Cliente Dicose</Description></Attribute>
+<Attribute>
+<AttriId>66</AttriId>
+<AttriName>ClienteIdDepartamento</AttriName>
+<Description>Cliente Id Departamento</Description></Attribute>
+<Attribute>
+<AttriId>67</AttriId>
+<AttriName>ClienteIdLocalidad</AttriName>
+<Description>Cliente Id Localidad</Description></Attribute>
+<Attribute>
+<AttriId>68</AttriId>
+<AttriName>ClienteTecnico1</AttriName>
+<Description>Cliente Tecnico1</Description></Attribute>
+<Attribute>
+<AttriId>69</AttriId>
+<AttriName>ClienteTecnico2</AttriName>
+<Description>Cliente Tecnico2</Description></Attribute>
+<Attribute>
+<AttriId>70</AttriId>
+<AttriName>ClienteIdAgencia</AttriName>
+<Description>Cliente Id Agencia</Description></Attribute>
+<Attribute>
+<AttriId>71</AttriId>
+<AttriName>ClienteContrato</AttriName>
+<Description>Cliente Contrato</Description></Attribute>
+<Attribute>
+<AttriId>72</AttriId>
+<AttriName>ClienteSocio</AttriName>
+<Description>Cliente Socio</Description></Attribute>
+<Attribute>
+<AttriId>73</AttriId>
+<AttriName>ClienteNoUsar</AttriName>
+<Description>Cliente No Usar</Description></Attribute>
+<Attribute>
+<AttriId>74</AttriId>
+<AttriName>ClienteCodbar</AttriName>
+<Description>Cliente Codbar</Description></Attribute>
+<Attribute>
+<AttriId>75</AttriId>
+<AttriName>ClienteCaravanas</AttriName>
+<Description>Cliente Caravanas</Description></Attribute>
+<Attribute>
+<AttriId>76</AttriId>
+<AttriName>ClienteProlesa</AttriName>
+<Description>Cliente Prolesa</Description></Attribute>
+<Attribute>
+<AttriId>77</AttriId>
+<AttriName>ClienteProlesaSuc</AttriName>
+<Description>Cliente Prolesa Suc</Description></Attribute>
+<Attribute>
+<AttriId>168</AttriId>
+<AttriName>ClienteProlesaMat</AttriName>
+<Description>Cliente Prolesa Mat</Description></Attribute>
+<Attribute>
+<AttriId>78</AttriId>
+<AttriName>ClienteObservaciones</AttriName>
+<Description>Cliente Observaciones</Description></Attribute>
+<Attribute>
+<AttriId>79</AttriId>
+<AttriName>ClienteFacRsocial</AttriName>
+<Description>Cliente Fac Rsocial</Description></Attribute>
+<Attribute>
+<AttriId>80</AttriId>
+<AttriName>ClienteFacCedula</AttriName>
+<Description>Cliente Fac Cedula</Description></Attribute>
+<Attribute>
+<AttriId>81</AttriId>
+<AttriName>ClienteFacRut</AttriName>
+<Description>Cliente Fac Rut</Description></Attribute>
+<Attribute>
+<AttriId>82</AttriId>
+<AttriName>ClienteFacDireccion</AttriName>
+<Description>Cliente Fac Direccion</Description></Attribute>
+<Attribute>
+<AttriId>83</AttriId>
+<AttriName>ClienteFacLocalidad</AttriName>
+<Description>Cliente Fac Localidad</Description></Attribute>
+<Attribute>
+<AttriId>84</AttriId>
+<AttriName>ClienteFacDepartamento</AttriName>
+<Description>Cliente Fac Departamento</Description></Attribute>
+<Attribute>
+<AttriId>85</AttriId>
+<AttriName>ClienteFacCpostal</AttriName>
+<Description>Cliente Fac Cpostal</Description></Attribute>
+<Attribute>
+<AttriId>86</AttriId>
+<AttriName>ClienteFacGiro</AttriName>
+<Description>Cliente Fac Giro</Description></Attribute>
+<Attribute>
+<AttriId>87</AttriId>
+<AttriName>ClienteCobNombreTelefono1</AttriName>
+<Description>Cliente Cob Nombre Telefono1</Description></Attribute>
+<Attribute>
+<AttriId>88</AttriId>
+<AttriName>ClienteFacTelefonos</AttriName>
+<Description>Cliente Fac Telefonos</Description></Attribute>
+<Attribute>
+<AttriId>89</AttriId>
+<AttriName>ClienteCobNombreTelefono2</AttriName>
+<Description>Cliente Cob Nombre Telefono2</Description></Attribute>
+<Attribute>
+<AttriId>90</AttriId>
+<AttriName>ClienteCobTelefono2</AttriName>
+<Description>Cliente Cob Telefono2</Description></Attribute>
+<Attribute>
+<AttriId>91</AttriId>
+<AttriName>ClienteCobNombreCelular1</AttriName>
+<Description>Cliente Cob Nombre Celular1</Description></Attribute>
+<Attribute>
+<AttriId>92</AttriId>
+<AttriName>ClienteCobCelular1</AttriName>
+<Description>Cliente Cob Celular1</Description></Attribute>
+<Attribute>
+<AttriId>93</AttriId>
+<AttriName>ClienteCobNombreCelular2</AttriName>
+<Description>Cliente Cob Nombre Celular2</Description></Attribute>
+<Attribute>
+<AttriId>94</AttriId>
+<AttriName>ClienteCobCelular2</AttriName>
+<Description>Cliente Cob Celular2</Description></Attribute>
+<Attribute>
+<AttriId>95</AttriId>
+<AttriName>ClienteCobNombreEmail1</AttriName>
+<Description>Cliente Cob Nombre Email1</Description></Attribute>
+<Attribute>
+<AttriId>96</AttriId>
+<AttriName>ClienteCobEmail1</AttriName>
+<Description>Cliente Cob Email1</Description></Attribute>
+<Attribute>
+<AttriId>97</AttriId>
+<AttriName>ClienteCobNombreEmail2</AttriName>
+<Description>Cliente Cob Nombre Email2</Description></Attribute>
+<Attribute>
+<AttriId>98</AttriId>
+<AttriName>ClienteCobEmail2</AttriName>
+<Description>Cliente Cob Email2</Description></Attribute>
+<Attribute>
+<AttriId>99</AttriId>
+<AttriName>ClienteFacFax</AttriName>
+<Description>Cliente Fac Fax</Description></Attribute>
+<Attribute>
+<AttriId>100</AttriId>
+<AttriName>ClienteFacEmail</AttriName>
+<Description>Cliente Fac Email</Description></Attribute>
+<Attribute>
+<AttriId>101</AttriId>
+<AttriName>ClienteFacContrato</AttriName>
+<Description>Cliente Fac Contrato</Description></Attribute>
+<Attribute>
+<AttriId>102</AttriId>
+<AttriName>ClienteFacObservaciones</AttriName>
+<Description>Cliente Fac Observaciones</Description></Attribute>
+<Attribute>
+<AttriId>103</AttriId>
+<AttriName>ClienteFacLista</AttriName>
+<Description>Cliente Fac Lista</Description></Attribute>
+<Attribute>
+<AttriId>104</AttriId>
+<AttriName>ClienteFacContado</AttriName>
+<Description>Cliente Fac Contado</Description></Attribute>
+<Attribute>
+<AttriId>105</AttriId>
+<AttriName>ClienteNotEmailFrascos1</AttriName>
+<Description>Cliente Not Email Frascos1</Description></Attribute>
+<Attribute>
+<AttriId>106</AttriId>
+<AttriName>ClienteNotEmailFrascos2</AttriName>
+<Description>Cliente Not Email Frascos2</Description></Attribute>
+<Attribute>
+<AttriId>107</AttriId>
+<AttriName>ClienteNotEmailMuestra1</AttriName>
+<Description>Cliente Not Email Muestra1</Description></Attribute>
+<Attribute>
+<AttriId>108</AttriId>
+<AttriName>ClienteNotEmailMuestra2</AttriName>
+<Description>Cliente Not Email Muestra2</Description></Attribute>
+<Attribute>
+<AttriId>109</AttriId>
+<AttriName>ClienteNotEmailAnalisis1</AttriName>
+<Description>Cliente Not Email Analisis1</Description></Attribute>
+<Attribute>
+<AttriId>110</AttriId>
+<AttriName>ClienteNotEmailAnalisis2</AttriName>
+<Description>Cliente Not Email Analisis2</Description></Attribute>
+<Attribute>
+<AttriId>111</AttriId>
+<AttriName>ClienteNotEmailGeneral1</AttriName>
+<Description>Cliente Not Email General1</Description></Attribute>
+<Attribute>
+<AttriId>112</AttriId>
+<AttriName>ClienteNotEmailGeneral2</AttriName>
+<Description>Cliente Not Email General2</Description></Attribute>
+<Attribute>
+<AttriId>113</AttriId>
+<AttriName>ClienteIncobrable</AttriName>
+<Description>Cliente Incobrable</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>4</TableId>
+<TableName>Cliente</TableName>
+<Description>Cliente</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>45</AttriId>
+<AttriName>ClienteNombre</AttriName>
+<Description>Cliente Nombre</Description></Attribute>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>ClienteEmail</AttriName>
+<Description>Cliente Email</Description></Attribute>
+<Attribute>
+<AttriId>47</AttriId>
+<AttriName>ClienteNombreEmail1</AttriName>
+<Description>Cliente Nombre Email1</Description></Attribute>
+<Attribute>
+<AttriId>48</AttriId>
+<AttriName>ClienteEmail1</AttriName>
+<Description>Cliente Email1</Description></Attribute>
+<Attribute>
+<AttriId>49</AttriId>
+<AttriName>ClienteNombreEmail2</AttriName>
+<Description>Cliente Nombre Email2</Description></Attribute>
+<Attribute>
+<AttriId>50</AttriId>
+<AttriName>ClienteEmail2</AttriName>
+<Description>Cliente Email2</Description></Attribute>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>ClienteEnvio</AttriName>
+<Description>Cliente Envio</Description></Attribute>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>ClienteUsuarioWeb</AttriName>
+<Description>Cliente Usuario Web</Description></Attribute>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>ClienteNombreCelular1</AttriName>
+<Description>Cliente Nombre Celular1</Description></Attribute>
+<Attribute>
+<AttriId>54</AttriId>
+<AttriName>ClienteCelular1</AttriName>
+<Description>Cliente Celular1</Description></Attribute>
+<Attribute>
+<AttriId>55</AttriId>
+<AttriName>ClienteNombreCelular2</AttriName>
+<Description>Cliente Nombre Celular2</Description></Attribute>
+<Attribute>
+<AttriId>56</AttriId>
+<AttriName>ClienteCelular2</AttriName>
+<Description>Cliente Celular2</Description></Attribute>
+<Attribute>
+<AttriId>57</AttriId>
+<AttriName>ClienteCodigoFigaro</AttriName>
+<Description>Cliente Codigo Figaro</Description></Attribute>
+<Attribute>
+<AttriId>58</AttriId>
+<AttriName>ClienteTipoUsuario</AttriName>
+<Description>Cliente Tipo Usuario</Description></Attribute>
+<Attribute>
+<AttriId>59</AttriId>
+<AttriName>ClienteDireccion</AttriName>
+<Description>Cliente Direccion</Description></Attribute>
+<Attribute>
+<AttriId>60</AttriId>
+<AttriName>ClienteNombreTelefono1</AttriName>
+<Description>Cliente Nombre Telefono1</Description></Attribute>
+<Attribute>
+<AttriId>61</AttriId>
+<AttriName>ClienteTelefono1</AttriName>
+<Description>Cliente Telefono1</Description></Attribute>
+<Attribute>
+<AttriId>62</AttriId>
+<AttriName>ClienteNombreTelefono2</AttriName>
+<Description>Cliente Nombre Telefono2</Description></Attribute>
+<Attribute>
+<AttriId>63</AttriId>
+<AttriName>ClienteTelefono2</AttriName>
+<Description>Cliente Telefono2</Description></Attribute>
+<Attribute>
+<AttriId>64</AttriId>
+<AttriName>ClienteFax</AttriName>
+<Description>Cliente Fax</Description></Attribute>
+<Attribute>
+<AttriId>65</AttriId>
+<AttriName>ClienteDicose</AttriName>
+<Description>Cliente Dicose</Description></Attribute>
+<Attribute>
+<AttriId>66</AttriId>
+<AttriName>ClienteIdDepartamento</AttriName>
+<Description>Cliente Id Departamento</Description></Attribute>
+<Attribute>
+<AttriId>67</AttriId>
+<AttriName>ClienteIdLocalidad</AttriName>
+<Description>Cliente Id Localidad</Description></Attribute>
+<Attribute>
+<AttriId>68</AttriId>
+<AttriName>ClienteTecnico1</AttriName>
+<Description>Cliente Tecnico1</Description></Attribute>
+<Attribute>
+<AttriId>69</AttriId>
+<AttriName>ClienteTecnico2</AttriName>
+<Description>Cliente Tecnico2</Description></Attribute>
+<Attribute>
+<AttriId>70</AttriId>
+<AttriName>ClienteIdAgencia</AttriName>
+<Description>Cliente Id Agencia</Description></Attribute>
+<Attribute>
+<AttriId>71</AttriId>
+<AttriName>ClienteContrato</AttriName>
+<Description>Cliente Contrato</Description></Attribute>
+<Attribute>
+<AttriId>72</AttriId>
+<AttriName>ClienteSocio</AttriName>
+<Description>Cliente Socio</Description></Attribute>
+<Attribute>
+<AttriId>73</AttriId>
+<AttriName>ClienteNoUsar</AttriName>
+<Description>Cliente No Usar</Description></Attribute>
+<Attribute>
+<AttriId>74</AttriId>
+<AttriName>ClienteCodbar</AttriName>
+<Description>Cliente Codbar</Description></Attribute>
+<Attribute>
+<AttriId>75</AttriId>
+<AttriName>ClienteCaravanas</AttriName>
+<Description>Cliente Caravanas</Description></Attribute>
+<Attribute>
+<AttriId>76</AttriId>
+<AttriName>ClienteProlesa</AttriName>
+<Description>Cliente Prolesa</Description></Attribute>
+<Attribute>
+<AttriId>77</AttriId>
+<AttriName>ClienteProlesaSuc</AttriName>
+<Description>Cliente Prolesa Suc</Description></Attribute>
+<Attribute>
+<AttriId>168</AttriId>
+<AttriName>ClienteProlesaMat</AttriName>
+<Description>Cliente Prolesa Mat</Description></Attribute>
+<Attribute>
+<AttriId>78</AttriId>
+<AttriName>ClienteObservaciones</AttriName>
+<Description>Cliente Observaciones</Description></Attribute>
+<Attribute>
+<AttriId>79</AttriId>
+<AttriName>ClienteFacRsocial</AttriName>
+<Description>Cliente Fac Rsocial</Description></Attribute>
+<Attribute>
+<AttriId>80</AttriId>
+<AttriName>ClienteFacCedula</AttriName>
+<Description>Cliente Fac Cedula</Description></Attribute>
+<Attribute>
+<AttriId>81</AttriId>
+<AttriName>ClienteFacRut</AttriName>
+<Description>Cliente Fac Rut</Description></Attribute>
+<Attribute>
+<AttriId>82</AttriId>
+<AttriName>ClienteFacDireccion</AttriName>
+<Description>Cliente Fac Direccion</Description></Attribute>
+<Attribute>
+<AttriId>83</AttriId>
+<AttriName>ClienteFacLocalidad</AttriName>
+<Description>Cliente Fac Localidad</Description></Attribute>
+<Attribute>
+<AttriId>84</AttriId>
+<AttriName>ClienteFacDepartamento</AttriName>
+<Description>Cliente Fac Departamento</Description></Attribute>
+<Attribute>
+<AttriId>85</AttriId>
+<AttriName>ClienteFacCpostal</AttriName>
+<Description>Cliente Fac Cpostal</Description></Attribute>
+<Attribute>
+<AttriId>86</AttriId>
+<AttriName>ClienteFacGiro</AttriName>
+<Description>Cliente Fac Giro</Description></Attribute>
+<Attribute>
+<AttriId>87</AttriId>
+<AttriName>ClienteCobNombreTelefono1</AttriName>
+<Description>Cliente Cob Nombre Telefono1</Description></Attribute>
+<Attribute>
+<AttriId>88</AttriId>
+<AttriName>ClienteFacTelefonos</AttriName>
+<Description>Cliente Fac Telefonos</Description></Attribute>
+<Attribute>
+<AttriId>89</AttriId>
+<AttriName>ClienteCobNombreTelefono2</AttriName>
+<Description>Cliente Cob Nombre Telefono2</Description></Attribute>
+<Attribute>
+<AttriId>90</AttriId>
+<AttriName>ClienteCobTelefono2</AttriName>
+<Description>Cliente Cob Telefono2</Description></Attribute>
+<Attribute>
+<AttriId>91</AttriId>
+<AttriName>ClienteCobNombreCelular1</AttriName>
+<Description>Cliente Cob Nombre Celular1</Description></Attribute>
+<Attribute>
+<AttriId>92</AttriId>
+<AttriName>ClienteCobCelular1</AttriName>
+<Description>Cliente Cob Celular1</Description></Attribute>
+<Attribute>
+<AttriId>93</AttriId>
+<AttriName>ClienteCobNombreCelular2</AttriName>
+<Description>Cliente Cob Nombre Celular2</Description></Attribute>
+<Attribute>
+<AttriId>94</AttriId>
+<AttriName>ClienteCobCelular2</AttriName>
+<Description>Cliente Cob Celular2</Description></Attribute>
+<Attribute>
+<AttriId>95</AttriId>
+<AttriName>ClienteCobNombreEmail1</AttriName>
+<Description>Cliente Cob Nombre Email1</Description></Attribute>
+<Attribute>
+<AttriId>96</AttriId>
+<AttriName>ClienteCobEmail1</AttriName>
+<Description>Cliente Cob Email1</Description></Attribute>
+<Attribute>
+<AttriId>97</AttriId>
+<AttriName>ClienteCobNombreEmail2</AttriName>
+<Description>Cliente Cob Nombre Email2</Description></Attribute>
+<Attribute>
+<AttriId>98</AttriId>
+<AttriName>ClienteCobEmail2</AttriName>
+<Description>Cliente Cob Email2</Description></Attribute>
+<Attribute>
+<AttriId>99</AttriId>
+<AttriName>ClienteFacFax</AttriName>
+<Description>Cliente Fac Fax</Description></Attribute>
+<Attribute>
+<AttriId>100</AttriId>
+<AttriName>ClienteFacEmail</AttriName>
+<Description>Cliente Fac Email</Description></Attribute>
+<Attribute>
+<AttriId>101</AttriId>
+<AttriName>ClienteFacContrato</AttriName>
+<Description>Cliente Fac Contrato</Description></Attribute>
+<Attribute>
+<AttriId>102</AttriId>
+<AttriName>ClienteFacObservaciones</AttriName>
+<Description>Cliente Fac Observaciones</Description></Attribute>
+<Attribute>
+<AttriId>103</AttriId>
+<AttriName>ClienteFacLista</AttriName>
+<Description>Cliente Fac Lista</Description></Attribute>
+<Attribute>
+<AttriId>104</AttriId>
+<AttriName>ClienteFacContado</AttriName>
+<Description>Cliente Fac Contado</Description></Attribute>
+<Attribute>
+<AttriId>105</AttriId>
+<AttriName>ClienteNotEmailFrascos1</AttriName>
+<Description>Cliente Not Email Frascos1</Description></Attribute>
+<Attribute>
+<AttriId>106</AttriId>
+<AttriName>ClienteNotEmailFrascos2</AttriName>
+<Description>Cliente Not Email Frascos2</Description></Attribute>
+<Attribute>
+<AttriId>107</AttriId>
+<AttriName>ClienteNotEmailMuestra1</AttriName>
+<Description>Cliente Not Email Muestra1</Description></Attribute>
+<Attribute>
+<AttriId>108</AttriId>
+<AttriName>ClienteNotEmailMuestra2</AttriName>
+<Description>Cliente Not Email Muestra2</Description></Attribute>
+<Attribute>
+<AttriId>109</AttriId>
+<AttriName>ClienteNotEmailAnalisis1</AttriName>
+<Description>Cliente Not Email Analisis1</Description></Attribute>
+<Attribute>
+<AttriId>110</AttriId>
+<AttriName>ClienteNotEmailAnalisis2</AttriName>
+<Description>Cliente Not Email Analisis2</Description></Attribute>
+<Attribute>
+<AttriId>111</AttriId>
+<AttriName>ClienteNotEmailGeneral1</AttriName>
+<Description>Cliente Not Email General1</Description></Attribute>
+<Attribute>
+<AttriId>112</AttriId>
+<AttriName>ClienteNotEmailGeneral2</AttriName>
+<Description>Cliente Not Email General2</Description></Attribute>
+<Attribute>
+<AttriId>113</AttriId>
+<AttriName>ClienteIncobrable</AttriName>
+<Description>Cliente Incobrable</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>4</TableId>
+<TableName>Cliente</TableName>
+<Description>Cliente</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<BeforeInsertRules></BeforeInsertRules>
+<AfterInsertRules></AfterInsertRules>
+<BeforeUpdateRules></BeforeUpdateRules>
+<AfterUpdateRules></AfterUpdateRules>
+<BeforeDeleteRules></BeforeDeleteRules>
+<AfterDeleteRules></AfterDeleteRules>
+<AfterDisplayRules></AfterDisplayRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<BeforeTrnRules></BeforeTrnRules>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules>
+<Formulas>
+<AggSelFormulas></AggSelFormulas></Formulas></Level></Levels>
+<Suggests></Suggests></ObjectSpec>

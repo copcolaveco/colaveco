@@ -1,0 +1,208 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_7-156546</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>6</ObjId>
+<ObjName>Notificaciones_BC</ObjName>
+<ObjDesc>Notificaciones</ObjDesc>
+<ObjPgmName>Notificaciones_BC</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>6</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>6</TableId>
+<TableName>Notificaciones</TableName>
+<Description>Notificaciones</Description></Table></BaseTable>
+<StandAloneRules></StandAloneRules>
+<BaseTableRule>
+<Action>
+<ActionType>ReadBaseTable</ActionType>
+<Table>
+<TableId>6</TableId>
+<TableName>Notificaciones</TableName>
+<Description>Notificaciones</Description></Table>
+<JoinConditions>
+<Table>
+<TableId>6</TableId>
+<TableName>Notificaciones</TableName>
+<Description>Notificaciones</Description></Table>
+<JoinCondition>
+<AttributeTo>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>NotificacionesId</AttriName>
+<Description>Notificaciones Id</Description></Attribute></AttributeTo>
+<Table></Table>
+<AttributeFrom>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>NotificacionesId</AttriName>
+<Description>Notificaciones Id</Description></Attribute></AttributeFrom></JoinCondition></JoinConditions>
+<Into>
+<Attribute>
+<AttriId>169</AttriId>
+<AttriName>NotificacionesFecha</AttriName>
+<Description>Notificaciones Fecha</Description></Attribute>
+<Attribute>
+<AttriId>170</AttriId>
+<AttriName>NotificacionesTipo</AttriName>
+<Description>Notificaciones Tipo</Description></Attribute>
+<Attribute>
+<AttriId>171</AttriId>
+<AttriName>NotificacionesMensaje</AttriName>
+<Description>Notificaciones Mensaje</Description></Attribute>
+<Attribute>
+<AttriId>172</AttriId>
+<AttriName>NotificacionesIdNetUsuario</AttriName>
+<Description>Notificaciones Id Net Usuario</Description></Attribute>
+<Attribute>
+<AttriId>173</AttriId>
+<AttriName>NotificacionesDetalle</AttriName>
+<Description>Notificaciones Detalle</Description></Attribute></Into></Action></BaseTableRule>
+<StandAloneWithModeRules></StandAloneWithModeRules>
+<Rules>
+<Action>
+<ActionType>BusinessRule</ActionType>
+<RuleType>ErrorRule</RuleType>
+<Expression>
+<Token>&quot;Field Notificaciones Fecha is out of range&quot;</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>OutOfRange</Token></Expression>
+<Condition>
+<Token>not</Token>
+<Token>(</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>169</AttriId>
+<AttriName>NotificacionesFecha</AttriName>
+<Description>Notificaciones Fecha</Description></Attribute>
+<Token>.</Token>
+<Token>isempty(</Token>
+<Token>)</Token>
+<Sp></Sp>
+<Token>or</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>169</AttriId>
+<AttriName>NotificacionesFecha</AttriName>
+<Description>Notificaciones Fecha</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Token>ymdhmstot(</Token>
+<Sp></Sp>
+<Token>1000</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>01</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>01</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>00</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>00</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>00</Token>
+<Token>)</Token>
+<Token>)</Token></Condition></Action></Rules>
+<BeforeConfirmRules></BeforeConfirmRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>6</TableId>
+<TableName>Notificaciones</TableName>
+<Description>Notificaciones</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>NotificacionesId</AttriName>
+<Description>Notificaciones Id</Description></Attribute>
+<Attribute>
+<AttriId>169</AttriId>
+<AttriName>NotificacionesFecha</AttriName>
+<Description>Notificaciones Fecha</Description></Attribute>
+<Attribute>
+<AttriId>170</AttriId>
+<AttriName>NotificacionesTipo</AttriName>
+<Description>Notificaciones Tipo</Description></Attribute>
+<Attribute>
+<AttriId>171</AttriId>
+<AttriName>NotificacionesMensaje</AttriName>
+<Description>Notificaciones Mensaje</Description></Attribute>
+<Attribute>
+<AttriId>172</AttriId>
+<AttriName>NotificacionesIdNetUsuario</AttriName>
+<Description>Notificaciones Id Net Usuario</Description></Attribute>
+<Attribute>
+<AttriId>173</AttriId>
+<AttriName>NotificacionesDetalle</AttriName>
+<Description>Notificaciones Detalle</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>6</TableId>
+<TableName>Notificaciones</TableName>
+<Description>Notificaciones</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>169</AttriId>
+<AttriName>NotificacionesFecha</AttriName>
+<Description>Notificaciones Fecha</Description></Attribute>
+<Attribute>
+<AttriId>170</AttriId>
+<AttriName>NotificacionesTipo</AttriName>
+<Description>Notificaciones Tipo</Description></Attribute>
+<Attribute>
+<AttriId>171</AttriId>
+<AttriName>NotificacionesMensaje</AttriName>
+<Description>Notificaciones Mensaje</Description></Attribute>
+<Attribute>
+<AttriId>172</AttriId>
+<AttriName>NotificacionesIdNetUsuario</AttriName>
+<Description>Notificaciones Id Net Usuario</Description></Attribute>
+<Attribute>
+<AttriId>173</AttriId>
+<AttriName>NotificacionesDetalle</AttriName>
+<Description>Notificaciones Detalle</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>6</TableId>
+<TableName>Notificaciones</TableName>
+<Description>Notificaciones</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<BeforeInsertRules></BeforeInsertRules>
+<AfterInsertRules></AfterInsertRules>
+<BeforeUpdateRules></BeforeUpdateRules>
+<AfterUpdateRules></AfterUpdateRules>
+<BeforeDeleteRules></BeforeDeleteRules>
+<AfterDeleteRules></AfterDeleteRules>
+<AfterDisplayRules></AfterDisplayRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<BeforeTrnRules></BeforeTrnRules>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules>
+<Formulas>
+<AggSelFormulas></AggSelFormulas></Formulas></Level></Levels>
+<Suggests></Suggests></ObjectSpec>

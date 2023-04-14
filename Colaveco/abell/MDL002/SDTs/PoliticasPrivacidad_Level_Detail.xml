@@ -1,0 +1,133 @@
+
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>PoliticasPrivacidad_Level_DetailSdt</name>
+<camelname>PoliticasPrivacidad_Level_DetailSdt</camelname>
+<camelnameex>PoliticasPrivacidad_Level_DetailSdt</camelnameex>
+<collection>False</collection>
+<wwsd_sdt>True</wwsd_sdt>
+<modified>yes</modified>
+<fullname>PoliticasPrivacidad_Level_DetailSdt</fullname>
+<members>
+<member>
+<name>Politicasprivacidad</name>
+<camelname>Politicasprivacidad</camelname>
+<type>[ 13,40,0 ]</type>
+<length>40</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Body1</name>
+<camelname>Body1</camelname>
+<type>[ 13,500,0 ]</type>
+<length>500</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Body2</name>
+<camelname>Body2</camelname>
+<type>[ 13,500,0 ]</type>
+<length>500</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Body3</name>
+<camelname>Body3</camelname>
+<type>[ 13,500,0 ]</type>
+<length>500</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Body4</name>
+<camelname>Body4</camelname>
+<type>[ 13,500,0 ]</type>
+<length>500</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Body5</name>
+<camelname>Body5</camelname>
+<type>[ 13,500,0 ]</type>
+<length>500</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Body6</name>
+<camelname>Body6</camelname>
+<type>[ 13,500,0 ]</type>
+<length>500</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Body7link</name>
+<camelname>Body7link</camelname>
+<type>[ 13,500,0 ]</type>
+<length>500</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Body8</name>
+<camelname>Body8</camelname>
+<type>[ 13,500,0 ]</type>
+<length>500</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Body9</name>
+<camelname>Body9</camelname>
+<type>[ 13,500,0 ]</type>
+<length>500</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Body10</name>
+<camelname>Body10</camelname>
+<type>[ 13,500,0 ]</type>
+<length>500</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Body11</name>
+<camelname>Body11</camelname>
+<type>[ 13,500,0 ]</type>
+<length>500</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Body12</name>
+<camelname>Body12</camelname>
+<type>[ 13,500,0 ]</type>
+<length>500</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member></members></Level>
+<Prompts></Prompts>
+<TableAccess></TableAccess>
+<XRef></XRef></SdtSpec>

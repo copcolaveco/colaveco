@@ -1,0 +1,55 @@
+
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>ResultadoList_Level_DetailSdt</name>
+<camelname>ResultadoList_Level_DetailSdt</camelname>
+<camelnameex>ResultadoList_Level_DetailSdt</camelnameex>
+<collection>False</collection>
+<wwsd_sdt>True</wwsd_sdt>
+<modified>yes</modified>
+<fullname>ResultadoList_Level_DetailSdt</fullname>
+<members>
+<member>
+<name>Tipoinformeid</name>
+<camelname>Tipoinformeid</camelname>
+<type>[ 4,18,0 ]</type>
+<length>18</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Externalid</name>
+<camelname>Externalid</camelname>
+<type>[ 4,18,0 ]</type>
+<length>18</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Gxdynprop</name>
+<camelname>Gxdynprop</camelname>
+<type>[ 5,2,0 ]</type>
+<length>2</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member></members></Level>
+<Prompts></Prompts>
+<TableAccess></TableAccess>
+<XRef>
+<Object>
+<Class>1</Class>
+<Id>42</Id>
+<Guid>82c30e0c-698f-41e0-b7f8-ddbb1c2ad92b</Guid></Object>
+<Object>
+<Class>33</Class>
+<Id>7</Id>
+<Guid>d89108de-69ec-45ed-b0f3-c1594be780e7</Guid></Object>
+<Object>
+<Class>33</Class>
+<Id>6</Id>
+<Guid>b13a6d39-85d4-4d64-b672-1aaba921f508</Guid></Object></XRef></SdtSpec>

@@ -1,0 +1,10 @@
+﻿<ConnectionInformation>
+	<DBName>GX_KB_Colaveco</DBName>
+	<IntegratedSecurity>True</IntegratedSecurity>
+	<ServerInstance>DESKTOP-25EKC1J</ServerInstance>
+	<CreateDbInKbFolder>True</CreateDbInKbFolder>
+	<Directory>C:\Code\ColavecoGX\Colaveco</Directory>
+	<DataFile>GX_KB_Colaveco.mdf</DataFile>
+	<LogFile>GX_KB_Colaveco_log.ldf</LogFile>
+	<HostName>DESKTOP-25EKC1J</HostName>
+</ConnectionInformation>

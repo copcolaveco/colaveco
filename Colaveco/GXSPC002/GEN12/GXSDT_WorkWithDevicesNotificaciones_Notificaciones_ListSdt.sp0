@@ -1,0 +1,19 @@
+ 
+spec_i([ sdt,[ 26,1000000,0 ],'WorkWithDevicesNotificaciones_Notificaciones_ListSdt','WorkWithDevicesNotificaciones_Notificaciones_ListSdt',0,eng,'17_0_7-156546' ]).
+ 
+struct_dt_i([ 26,1000000,0 ],name,'WorkWithDevicesNotificaciones_Notificaciones_ListSdt').
+struct_dt_i([ 26,1000000,0 ],camelname,'WorkWithDevicesNotificaciones_Notificaciones_ListSdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'WorkWithDevicesNotificaciones_Notificaciones_ListSdt').
+struct_dt_i([ 26,1000000,0 ],collection,'False').
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],modified,yes).
+struct_dt_i([ 26,1000000,0 ],fullname,'WorkWithDevicesNotificaciones_Notificaciones_ListSdt').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\SD','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\SD','PackageName','GeneXus.jar').

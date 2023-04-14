@@ -1,0 +1,811 @@
+ 
+spec_i([ sdt,[ 0,4,0 ],'Cliente','Cliente',0,eng,'17_0_7-156546' ]).
+ 
+struct_dt_i([ 0,4,0 ],name,'Cliente').
+struct_dt_i([ 0,4,0 ],namespace,'Colaveco').
+struct_dt_i([ 0,4,0 ],significantName,'Cliente').
+struct_dt_i([ 0,4,0 ],'ObjName','Cliente').
+struct_dt_i([ 0,4,0 ],'ObjDesc','Cliente').
+struct_dt_i([ 0,4,0 ],'ExternalName','Cliente').
+struct_dt_i([ 0,4,0 ],'ExternalNamespace','Colaveco').
+struct_dt_i([ 0,4,0 ],key,[ 4 ]).
+struct_dt_i([ 0,4,0 ],lvl,4).
+struct_dt_i([ 0,4,0 ],fullname,'Cliente').
+ 
+struct_dt_elem_i([ 0,4,0 ],1,name,'Clienteid').
+struct_dt_elem_i([ 0,4,0 ],1,camelname,'ClienteId').
+struct_dt_elem_i([ 0,4,0 ],1,basedon,83).
+struct_dt_elem_i([ 0,4,0 ],1,length,18).
+struct_dt_elem_i([ 0,4,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],1,sign,0).
+struct_dt_elem_i([ 0,4,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,4,0 ],1,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],1,attributeid,'4').
+struct_dt_elem_i([ 0,4,0 ],1,'ExternalName','ClienteId').
+struct_dt_elem_i([ 0,4,0 ],1,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],2,name,'Clientenombre').
+struct_dt_elem_i([ 0,4,0 ],2,camelname,'ClienteNombre').
+struct_dt_elem_i([ 0,4,0 ],2,basedon,85).
+struct_dt_elem_i([ 0,4,0 ],2,length,100).
+struct_dt_elem_i([ 0,4,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],2,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],2,pic,'').
+struct_dt_elem_i([ 0,4,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],2,attributeid,'45').
+struct_dt_elem_i([ 0,4,0 ],2,'ExternalName','ClienteNombre').
+struct_dt_elem_i([ 0,4,0 ],2,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],3,name,'Clienteemail').
+struct_dt_elem_i([ 0,4,0 ],3,camelname,'ClienteEmail').
+struct_dt_elem_i([ 0,4,0 ],3,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],3,length,100).
+struct_dt_elem_i([ 0,4,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],3,pic,'').
+struct_dt_elem_i([ 0,4,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],3,attributeid,'46').
+struct_dt_elem_i([ 0,4,0 ],3,'ExternalName','ClienteEmail').
+struct_dt_elem_i([ 0,4,0 ],3,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],4,name,'Clientenombreemail1').
+struct_dt_elem_i([ 0,4,0 ],4,camelname,'ClienteNombreEmail1').
+struct_dt_elem_i([ 0,4,0 ],4,basedon,85).
+struct_dt_elem_i([ 0,4,0 ],4,length,100).
+struct_dt_elem_i([ 0,4,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],4,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],4,pic,'').
+struct_dt_elem_i([ 0,4,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],4,attributeid,'47').
+struct_dt_elem_i([ 0,4,0 ],4,'ExternalName','ClienteNombreEmail1').
+struct_dt_elem_i([ 0,4,0 ],4,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],5,name,'Clienteemail1').
+struct_dt_elem_i([ 0,4,0 ],5,camelname,'ClienteEmail1').
+struct_dt_elem_i([ 0,4,0 ],5,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],5,length,100).
+struct_dt_elem_i([ 0,4,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],5,pic,'').
+struct_dt_elem_i([ 0,4,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],5,attributeid,'48').
+struct_dt_elem_i([ 0,4,0 ],5,'ExternalName','ClienteEmail1').
+struct_dt_elem_i([ 0,4,0 ],5,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],6,name,'Clientenombreemail2').
+struct_dt_elem_i([ 0,4,0 ],6,camelname,'ClienteNombreEmail2').
+struct_dt_elem_i([ 0,4,0 ],6,basedon,85).
+struct_dt_elem_i([ 0,4,0 ],6,length,100).
+struct_dt_elem_i([ 0,4,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],6,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],6,pic,'').
+struct_dt_elem_i([ 0,4,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],6,attributeid,'49').
+struct_dt_elem_i([ 0,4,0 ],6,'ExternalName','ClienteNombreEmail2').
+struct_dt_elem_i([ 0,4,0 ],6,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],7,name,'Clienteemail2').
+struct_dt_elem_i([ 0,4,0 ],7,camelname,'ClienteEmail2').
+struct_dt_elem_i([ 0,4,0 ],7,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],7,length,100).
+struct_dt_elem_i([ 0,4,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],7,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],7,pic,'').
+struct_dt_elem_i([ 0,4,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],7,attributeid,'50').
+struct_dt_elem_i([ 0,4,0 ],7,'ExternalName','ClienteEmail2').
+struct_dt_elem_i([ 0,4,0 ],7,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],8,name,'Clienteenvio').
+struct_dt_elem_i([ 0,4,0 ],8,camelname,'ClienteEnvio').
+struct_dt_elem_i([ 0,4,0 ],8,length,200).
+struct_dt_elem_i([ 0,4,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],8,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,4,0 ],8,pic,'').
+struct_dt_elem_i([ 0,4,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],8,attributeid,'51').
+struct_dt_elem_i([ 0,4,0 ],8,'ExternalName','ClienteEnvio').
+struct_dt_elem_i([ 0,4,0 ],8,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],9,name,'Clienteusuarioweb').
+struct_dt_elem_i([ 0,4,0 ],9,camelname,'ClienteUsuarioWeb').
+struct_dt_elem_i([ 0,4,0 ],9,length,100).
+struct_dt_elem_i([ 0,4,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],9,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],9,pic,'').
+struct_dt_elem_i([ 0,4,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],9,attributeid,'52').
+struct_dt_elem_i([ 0,4,0 ],9,'ExternalName','ClienteUsuarioWeb').
+struct_dt_elem_i([ 0,4,0 ],9,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],10,name,'Clientenombrecelular1').
+struct_dt_elem_i([ 0,4,0 ],10,camelname,'ClienteNombreCelular1').
+struct_dt_elem_i([ 0,4,0 ],10,basedon,85).
+struct_dt_elem_i([ 0,4,0 ],10,length,100).
+struct_dt_elem_i([ 0,4,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],10,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],10,pic,'').
+struct_dt_elem_i([ 0,4,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],10,attributeid,'53').
+struct_dt_elem_i([ 0,4,0 ],10,'ExternalName','ClienteNombreCelular1').
+struct_dt_elem_i([ 0,4,0 ],10,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],11,name,'Clientecelular1').
+struct_dt_elem_i([ 0,4,0 ],11,camelname,'ClienteCelular1').
+struct_dt_elem_i([ 0,4,0 ],11,basedon,87).
+struct_dt_elem_i([ 0,4,0 ],11,length,100).
+struct_dt_elem_i([ 0,4,0 ],11,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],11,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],11,pic,'').
+struct_dt_elem_i([ 0,4,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],11,attributeid,'54').
+struct_dt_elem_i([ 0,4,0 ],11,'ExternalName','ClienteCelular1').
+struct_dt_elem_i([ 0,4,0 ],11,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],12,name,'Clientenombrecelular2').
+struct_dt_elem_i([ 0,4,0 ],12,camelname,'ClienteNombreCelular2').
+struct_dt_elem_i([ 0,4,0 ],12,basedon,85).
+struct_dt_elem_i([ 0,4,0 ],12,length,100).
+struct_dt_elem_i([ 0,4,0 ],12,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],12,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],12,pic,'').
+struct_dt_elem_i([ 0,4,0 ],12,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],12,attributeid,'55').
+struct_dt_elem_i([ 0,4,0 ],12,'ExternalName','ClienteNombreCelular2').
+struct_dt_elem_i([ 0,4,0 ],12,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],13,name,'Clientecelular2').
+struct_dt_elem_i([ 0,4,0 ],13,camelname,'ClienteCelular2').
+struct_dt_elem_i([ 0,4,0 ],13,basedon,87).
+struct_dt_elem_i([ 0,4,0 ],13,length,100).
+struct_dt_elem_i([ 0,4,0 ],13,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],13,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],13,pic,'').
+struct_dt_elem_i([ 0,4,0 ],13,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],13,attributeid,'56').
+struct_dt_elem_i([ 0,4,0 ],13,'ExternalName','ClienteCelular2').
+struct_dt_elem_i([ 0,4,0 ],13,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],14,name,'Clientecodigofigaro').
+struct_dt_elem_i([ 0,4,0 ],14,camelname,'ClienteCodigoFigaro').
+struct_dt_elem_i([ 0,4,0 ],14,length,40).
+struct_dt_elem_i([ 0,4,0 ],14,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],14,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,4,0 ],14,pic,'').
+struct_dt_elem_i([ 0,4,0 ],14,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],14,attributeid,'57').
+struct_dt_elem_i([ 0,4,0 ],14,'ExternalName','ClienteCodigoFigaro').
+struct_dt_elem_i([ 0,4,0 ],14,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],15,name,'Clientetipousuario').
+struct_dt_elem_i([ 0,4,0 ],15,camelname,'ClienteTipoUsuario').
+struct_dt_elem_i([ 0,4,0 ],15,length,4).
+struct_dt_elem_i([ 0,4,0 ],15,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],15,sign,0).
+struct_dt_elem_i([ 0,4,0 ],15,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,4,0 ],15,pic,'ZZZ9').
+struct_dt_elem_i([ 0,4,0 ],15,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],15,attributeid,'58').
+struct_dt_elem_i([ 0,4,0 ],15,'ExternalName','ClienteTipoUsuario').
+struct_dt_elem_i([ 0,4,0 ],15,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],16,name,'Clientedireccion').
+struct_dt_elem_i([ 0,4,0 ],16,camelname,'ClienteDireccion').
+struct_dt_elem_i([ 0,4,0 ],16,length,200).
+struct_dt_elem_i([ 0,4,0 ],16,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],16,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,4,0 ],16,pic,'').
+struct_dt_elem_i([ 0,4,0 ],16,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],16,attributeid,'59').
+struct_dt_elem_i([ 0,4,0 ],16,'ExternalName','ClienteDireccion').
+struct_dt_elem_i([ 0,4,0 ],16,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],17,name,'Clientenombretelefono1').
+struct_dt_elem_i([ 0,4,0 ],17,camelname,'ClienteNombreTelefono1').
+struct_dt_elem_i([ 0,4,0 ],17,basedon,85).
+struct_dt_elem_i([ 0,4,0 ],17,length,100).
+struct_dt_elem_i([ 0,4,0 ],17,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],17,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],17,pic,'').
+struct_dt_elem_i([ 0,4,0 ],17,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],17,attributeid,'60').
+struct_dt_elem_i([ 0,4,0 ],17,'ExternalName','ClienteNombreTelefono1').
+struct_dt_elem_i([ 0,4,0 ],17,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],18,name,'Clientetelefono1').
+struct_dt_elem_i([ 0,4,0 ],18,camelname,'ClienteTelefono1').
+struct_dt_elem_i([ 0,4,0 ],18,basedon,87).
+struct_dt_elem_i([ 0,4,0 ],18,length,100).
+struct_dt_elem_i([ 0,4,0 ],18,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],18,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],18,pic,'').
+struct_dt_elem_i([ 0,4,0 ],18,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],18,attributeid,'61').
+struct_dt_elem_i([ 0,4,0 ],18,'ExternalName','ClienteTelefono1').
+struct_dt_elem_i([ 0,4,0 ],18,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],19,name,'Clientenombretelefono2').
+struct_dt_elem_i([ 0,4,0 ],19,camelname,'ClienteNombreTelefono2').
+struct_dt_elem_i([ 0,4,0 ],19,basedon,85).
+struct_dt_elem_i([ 0,4,0 ],19,length,100).
+struct_dt_elem_i([ 0,4,0 ],19,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],19,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],19,pic,'').
+struct_dt_elem_i([ 0,4,0 ],19,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],19,attributeid,'62').
+struct_dt_elem_i([ 0,4,0 ],19,'ExternalName','ClienteNombreTelefono2').
+struct_dt_elem_i([ 0,4,0 ],19,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],20,name,'Clientetelefono2').
+struct_dt_elem_i([ 0,4,0 ],20,camelname,'ClienteTelefono2').
+struct_dt_elem_i([ 0,4,0 ],20,basedon,87).
+struct_dt_elem_i([ 0,4,0 ],20,length,100).
+struct_dt_elem_i([ 0,4,0 ],20,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],20,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],20,pic,'').
+struct_dt_elem_i([ 0,4,0 ],20,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],20,attributeid,'63').
+struct_dt_elem_i([ 0,4,0 ],20,'ExternalName','ClienteTelefono2').
+struct_dt_elem_i([ 0,4,0 ],20,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],21,name,'Clientefax').
+struct_dt_elem_i([ 0,4,0 ],21,camelname,'ClienteFax').
+struct_dt_elem_i([ 0,4,0 ],21,basedon,87).
+struct_dt_elem_i([ 0,4,0 ],21,length,100).
+struct_dt_elem_i([ 0,4,0 ],21,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],21,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],21,pic,'').
+struct_dt_elem_i([ 0,4,0 ],21,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],21,attributeid,'64').
+struct_dt_elem_i([ 0,4,0 ],21,'ExternalName','ClienteFax').
+struct_dt_elem_i([ 0,4,0 ],21,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],22,name,'Clientedicose').
+struct_dt_elem_i([ 0,4,0 ],22,camelname,'ClienteDicose').
+struct_dt_elem_i([ 0,4,0 ],22,basedon,88).
+struct_dt_elem_i([ 0,4,0 ],22,length,40).
+struct_dt_elem_i([ 0,4,0 ],22,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],22,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,4,0 ],22,pic,'').
+struct_dt_elem_i([ 0,4,0 ],22,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],22,attributeid,'65').
+struct_dt_elem_i([ 0,4,0 ],22,'ExternalName','ClienteDicose').
+struct_dt_elem_i([ 0,4,0 ],22,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],23,name,'Clienteiddepartamento').
+struct_dt_elem_i([ 0,4,0 ],23,camelname,'ClienteIdDepartamento').
+struct_dt_elem_i([ 0,4,0 ],23,basedon,83).
+struct_dt_elem_i([ 0,4,0 ],23,length,18).
+struct_dt_elem_i([ 0,4,0 ],23,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],23,sign,0).
+struct_dt_elem_i([ 0,4,0 ],23,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,4,0 ],23,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],23,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],23,attributeid,'66').
+struct_dt_elem_i([ 0,4,0 ],23,'ExternalName','ClienteIdDepartamento').
+struct_dt_elem_i([ 0,4,0 ],23,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],24,name,'Clienteidlocalidad').
+struct_dt_elem_i([ 0,4,0 ],24,camelname,'ClienteIdLocalidad').
+struct_dt_elem_i([ 0,4,0 ],24,basedon,83).
+struct_dt_elem_i([ 0,4,0 ],24,length,18).
+struct_dt_elem_i([ 0,4,0 ],24,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],24,sign,0).
+struct_dt_elem_i([ 0,4,0 ],24,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,4,0 ],24,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],24,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],24,attributeid,'67').
+struct_dt_elem_i([ 0,4,0 ],24,'ExternalName','ClienteIdLocalidad').
+struct_dt_elem_i([ 0,4,0 ],24,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],25,name,'Clientetecnico1').
+struct_dt_elem_i([ 0,4,0 ],25,camelname,'ClienteTecnico1').
+struct_dt_elem_i([ 0,4,0 ],25,basedon,83).
+struct_dt_elem_i([ 0,4,0 ],25,length,18).
+struct_dt_elem_i([ 0,4,0 ],25,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],25,sign,0).
+struct_dt_elem_i([ 0,4,0 ],25,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,4,0 ],25,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],25,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],25,attributeid,'68').
+struct_dt_elem_i([ 0,4,0 ],25,'ExternalName','ClienteTecnico1').
+struct_dt_elem_i([ 0,4,0 ],25,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],26,name,'Clientetecnico2').
+struct_dt_elem_i([ 0,4,0 ],26,camelname,'ClienteTecnico2').
+struct_dt_elem_i([ 0,4,0 ],26,basedon,83).
+struct_dt_elem_i([ 0,4,0 ],26,length,18).
+struct_dt_elem_i([ 0,4,0 ],26,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],26,sign,0).
+struct_dt_elem_i([ 0,4,0 ],26,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,4,0 ],26,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],26,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],26,attributeid,'69').
+struct_dt_elem_i([ 0,4,0 ],26,'ExternalName','ClienteTecnico2').
+struct_dt_elem_i([ 0,4,0 ],26,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],27,name,'Clienteidagencia').
+struct_dt_elem_i([ 0,4,0 ],27,camelname,'ClienteIdAgencia').
+struct_dt_elem_i([ 0,4,0 ],27,basedon,83).
+struct_dt_elem_i([ 0,4,0 ],27,length,18).
+struct_dt_elem_i([ 0,4,0 ],27,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],27,sign,0).
+struct_dt_elem_i([ 0,4,0 ],27,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,4,0 ],27,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],27,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],27,attributeid,'70').
+struct_dt_elem_i([ 0,4,0 ],27,'ExternalName','ClienteIdAgencia').
+struct_dt_elem_i([ 0,4,0 ],27,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],28,name,'Clientecontrato').
+struct_dt_elem_i([ 0,4,0 ],28,camelname,'ClienteContrato').
+struct_dt_elem_i([ 0,4,0 ],28,length,4).
+struct_dt_elem_i([ 0,4,0 ],28,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],28,sign,0).
+struct_dt_elem_i([ 0,4,0 ],28,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,4,0 ],28,pic,'ZZZ9').
+struct_dt_elem_i([ 0,4,0 ],28,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],28,attributeid,'71').
+struct_dt_elem_i([ 0,4,0 ],28,'ExternalName','ClienteContrato').
+struct_dt_elem_i([ 0,4,0 ],28,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],29,name,'Clientesocio').
+struct_dt_elem_i([ 0,4,0 ],29,camelname,'ClienteSocio').
+struct_dt_elem_i([ 0,4,0 ],29,length,4).
+struct_dt_elem_i([ 0,4,0 ],29,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],29,sign,0).
+struct_dt_elem_i([ 0,4,0 ],29,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,4,0 ],29,pic,'ZZZ9').
+struct_dt_elem_i([ 0,4,0 ],29,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],29,attributeid,'72').
+struct_dt_elem_i([ 0,4,0 ],29,'ExternalName','ClienteSocio').
+struct_dt_elem_i([ 0,4,0 ],29,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],30,name,'Clientenousar').
+struct_dt_elem_i([ 0,4,0 ],30,camelname,'ClienteNoUsar').
+struct_dt_elem_i([ 0,4,0 ],30,length,4).
+struct_dt_elem_i([ 0,4,0 ],30,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],30,sign,0).
+struct_dt_elem_i([ 0,4,0 ],30,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,4,0 ],30,pic,'ZZZ9').
+struct_dt_elem_i([ 0,4,0 ],30,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],30,attributeid,'73').
+struct_dt_elem_i([ 0,4,0 ],30,'ExternalName','ClienteNoUsar').
+struct_dt_elem_i([ 0,4,0 ],30,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],31,name,'Clientecodbar').
+struct_dt_elem_i([ 0,4,0 ],31,camelname,'ClienteCodbar').
+struct_dt_elem_i([ 0,4,0 ],31,length,4).
+struct_dt_elem_i([ 0,4,0 ],31,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],31,sign,0).
+struct_dt_elem_i([ 0,4,0 ],31,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,4,0 ],31,pic,'ZZZ9').
+struct_dt_elem_i([ 0,4,0 ],31,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],31,attributeid,'74').
+struct_dt_elem_i([ 0,4,0 ],31,'ExternalName','ClienteCodbar').
+struct_dt_elem_i([ 0,4,0 ],31,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],32,name,'Clientecaravanas').
+struct_dt_elem_i([ 0,4,0 ],32,camelname,'ClienteCaravanas').
+struct_dt_elem_i([ 0,4,0 ],32,length,4).
+struct_dt_elem_i([ 0,4,0 ],32,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],32,sign,0).
+struct_dt_elem_i([ 0,4,0 ],32,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,4,0 ],32,pic,'ZZZ9').
+struct_dt_elem_i([ 0,4,0 ],32,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],32,attributeid,'75').
+struct_dt_elem_i([ 0,4,0 ],32,'ExternalName','ClienteCaravanas').
+struct_dt_elem_i([ 0,4,0 ],32,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],33,name,'Clienteprolesa').
+struct_dt_elem_i([ 0,4,0 ],33,camelname,'ClienteProlesa').
+struct_dt_elem_i([ 0,4,0 ],33,length,4).
+struct_dt_elem_i([ 0,4,0 ],33,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],33,sign,0).
+struct_dt_elem_i([ 0,4,0 ],33,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,4,0 ],33,pic,'ZZZ9').
+struct_dt_elem_i([ 0,4,0 ],33,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],33,attributeid,'76').
+struct_dt_elem_i([ 0,4,0 ],33,'ExternalName','ClienteProlesa').
+struct_dt_elem_i([ 0,4,0 ],33,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],34,name,'Clienteprolesasuc').
+struct_dt_elem_i([ 0,4,0 ],34,camelname,'ClienteProlesaSuc').
+struct_dt_elem_i([ 0,4,0 ],34,length,18).
+struct_dt_elem_i([ 0,4,0 ],34,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],34,sign,0).
+struct_dt_elem_i([ 0,4,0 ],34,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,4,0 ],34,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],34,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],34,attributeid,'77').
+struct_dt_elem_i([ 0,4,0 ],34,'ExternalName','ClienteProlesaSuc').
+struct_dt_elem_i([ 0,4,0 ],34,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],35,name,'Clienteprolesamat').
+struct_dt_elem_i([ 0,4,0 ],35,camelname,'ClienteProlesaMat').
+struct_dt_elem_i([ 0,4,0 ],35,length,18).
+struct_dt_elem_i([ 0,4,0 ],35,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],35,sign,0).
+struct_dt_elem_i([ 0,4,0 ],35,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,4,0 ],35,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],35,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],35,attributeid,'168').
+struct_dt_elem_i([ 0,4,0 ],35,'ExternalName','ClienteProlesaMat').
+struct_dt_elem_i([ 0,4,0 ],35,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],36,name,'Clienteobservaciones').
+struct_dt_elem_i([ 0,4,0 ],36,camelname,'ClienteObservaciones').
+struct_dt_elem_i([ 0,4,0 ],36,length,200).
+struct_dt_elem_i([ 0,4,0 ],36,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],36,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,4,0 ],36,pic,'').
+struct_dt_elem_i([ 0,4,0 ],36,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],36,attributeid,'78').
+struct_dt_elem_i([ 0,4,0 ],36,'ExternalName','ClienteObservaciones').
+struct_dt_elem_i([ 0,4,0 ],36,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],37,name,'Clientefacrsocial').
+struct_dt_elem_i([ 0,4,0 ],37,camelname,'ClienteFacRsocial').
+struct_dt_elem_i([ 0,4,0 ],37,length,100).
+struct_dt_elem_i([ 0,4,0 ],37,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],37,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],37,pic,'').
+struct_dt_elem_i([ 0,4,0 ],37,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],37,attributeid,'79').
+struct_dt_elem_i([ 0,4,0 ],37,'ExternalName','ClienteFacRsocial').
+struct_dt_elem_i([ 0,4,0 ],37,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],38,name,'Clientefaccedula').
+struct_dt_elem_i([ 0,4,0 ],38,camelname,'ClienteFacCedula').
+struct_dt_elem_i([ 0,4,0 ],38,length,40).
+struct_dt_elem_i([ 0,4,0 ],38,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],38,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,4,0 ],38,pic,'').
+struct_dt_elem_i([ 0,4,0 ],38,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],38,attributeid,'80').
+struct_dt_elem_i([ 0,4,0 ],38,'ExternalName','ClienteFacCedula').
+struct_dt_elem_i([ 0,4,0 ],38,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],39,name,'Clientefacrut').
+struct_dt_elem_i([ 0,4,0 ],39,camelname,'ClienteFacRut').
+struct_dt_elem_i([ 0,4,0 ],39,length,40).
+struct_dt_elem_i([ 0,4,0 ],39,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],39,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,4,0 ],39,pic,'').
+struct_dt_elem_i([ 0,4,0 ],39,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],39,attributeid,'81').
+struct_dt_elem_i([ 0,4,0 ],39,'ExternalName','ClienteFacRut').
+struct_dt_elem_i([ 0,4,0 ],39,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],40,name,'Clientefacdireccion').
+struct_dt_elem_i([ 0,4,0 ],40,camelname,'ClienteFacDireccion').
+struct_dt_elem_i([ 0,4,0 ],40,length,200).
+struct_dt_elem_i([ 0,4,0 ],40,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],40,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,4,0 ],40,pic,'').
+struct_dt_elem_i([ 0,4,0 ],40,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],40,attributeid,'82').
+struct_dt_elem_i([ 0,4,0 ],40,'ExternalName','ClienteFacDireccion').
+struct_dt_elem_i([ 0,4,0 ],40,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],41,name,'Clientefaclocalidad').
+struct_dt_elem_i([ 0,4,0 ],41,camelname,'ClienteFacLocalidad').
+struct_dt_elem_i([ 0,4,0 ],41,length,40).
+struct_dt_elem_i([ 0,4,0 ],41,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],41,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,4,0 ],41,pic,'').
+struct_dt_elem_i([ 0,4,0 ],41,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],41,attributeid,'83').
+struct_dt_elem_i([ 0,4,0 ],41,'ExternalName','ClienteFacLocalidad').
+struct_dt_elem_i([ 0,4,0 ],41,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],42,name,'Clientefacdepartamento').
+struct_dt_elem_i([ 0,4,0 ],42,camelname,'ClienteFacDepartamento').
+struct_dt_elem_i([ 0,4,0 ],42,basedon,83).
+struct_dt_elem_i([ 0,4,0 ],42,length,18).
+struct_dt_elem_i([ 0,4,0 ],42,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],42,sign,0).
+struct_dt_elem_i([ 0,4,0 ],42,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,4,0 ],42,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],42,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],42,attributeid,'84').
+struct_dt_elem_i([ 0,4,0 ],42,'ExternalName','ClienteFacDepartamento').
+struct_dt_elem_i([ 0,4,0 ],42,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],43,name,'Clientefaccpostal').
+struct_dt_elem_i([ 0,4,0 ],43,camelname,'ClienteFacCpostal').
+struct_dt_elem_i([ 0,4,0 ],43,length,40).
+struct_dt_elem_i([ 0,4,0 ],43,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],43,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,4,0 ],43,pic,'').
+struct_dt_elem_i([ 0,4,0 ],43,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],43,attributeid,'85').
+struct_dt_elem_i([ 0,4,0 ],43,'ExternalName','ClienteFacCpostal').
+struct_dt_elem_i([ 0,4,0 ],43,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],44,name,'Clientefacgiro').
+struct_dt_elem_i([ 0,4,0 ],44,camelname,'ClienteFacGiro').
+struct_dt_elem_i([ 0,4,0 ],44,length,18).
+struct_dt_elem_i([ 0,4,0 ],44,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],44,sign,0).
+struct_dt_elem_i([ 0,4,0 ],44,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,4,0 ],44,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],44,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],44,attributeid,'86').
+struct_dt_elem_i([ 0,4,0 ],44,'ExternalName','ClienteFacGiro').
+struct_dt_elem_i([ 0,4,0 ],44,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],45,name,'Clientecobnombretelefono1').
+struct_dt_elem_i([ 0,4,0 ],45,camelname,'ClienteCobNombreTelefono1').
+struct_dt_elem_i([ 0,4,0 ],45,basedon,85).
+struct_dt_elem_i([ 0,4,0 ],45,length,100).
+struct_dt_elem_i([ 0,4,0 ],45,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],45,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],45,pic,'').
+struct_dt_elem_i([ 0,4,0 ],45,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],45,attributeid,'87').
+struct_dt_elem_i([ 0,4,0 ],45,'ExternalName','ClienteCobNombreTelefono1').
+struct_dt_elem_i([ 0,4,0 ],45,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],46,name,'Clientefactelefonos').
+struct_dt_elem_i([ 0,4,0 ],46,camelname,'ClienteFacTelefonos').
+struct_dt_elem_i([ 0,4,0 ],46,basedon,87).
+struct_dt_elem_i([ 0,4,0 ],46,length,100).
+struct_dt_elem_i([ 0,4,0 ],46,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],46,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],46,pic,'').
+struct_dt_elem_i([ 0,4,0 ],46,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],46,attributeid,'88').
+struct_dt_elem_i([ 0,4,0 ],46,'ExternalName','ClienteFacTelefonos').
+struct_dt_elem_i([ 0,4,0 ],46,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],47,name,'Clientecobnombretelefono2').
+struct_dt_elem_i([ 0,4,0 ],47,camelname,'ClienteCobNombreTelefono2').
+struct_dt_elem_i([ 0,4,0 ],47,basedon,85).
+struct_dt_elem_i([ 0,4,0 ],47,length,100).
+struct_dt_elem_i([ 0,4,0 ],47,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],47,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],47,pic,'').
+struct_dt_elem_i([ 0,4,0 ],47,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],47,attributeid,'89').
+struct_dt_elem_i([ 0,4,0 ],47,'ExternalName','ClienteCobNombreTelefono2').
+struct_dt_elem_i([ 0,4,0 ],47,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],48,name,'Clientecobtelefono2').
+struct_dt_elem_i([ 0,4,0 ],48,camelname,'ClienteCobTelefono2').
+struct_dt_elem_i([ 0,4,0 ],48,basedon,87).
+struct_dt_elem_i([ 0,4,0 ],48,length,100).
+struct_dt_elem_i([ 0,4,0 ],48,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],48,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],48,pic,'').
+struct_dt_elem_i([ 0,4,0 ],48,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],48,attributeid,'90').
+struct_dt_elem_i([ 0,4,0 ],48,'ExternalName','ClienteCobTelefono2').
+struct_dt_elem_i([ 0,4,0 ],48,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],49,name,'Clientecobnombrecelular1').
+struct_dt_elem_i([ 0,4,0 ],49,camelname,'ClienteCobNombreCelular1').
+struct_dt_elem_i([ 0,4,0 ],49,basedon,85).
+struct_dt_elem_i([ 0,4,0 ],49,length,100).
+struct_dt_elem_i([ 0,4,0 ],49,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],49,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],49,pic,'').
+struct_dt_elem_i([ 0,4,0 ],49,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],49,attributeid,'91').
+struct_dt_elem_i([ 0,4,0 ],49,'ExternalName','ClienteCobNombreCelular1').
+struct_dt_elem_i([ 0,4,0 ],49,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],50,name,'Clientecobcelular1').
+struct_dt_elem_i([ 0,4,0 ],50,camelname,'ClienteCobCelular1').
+struct_dt_elem_i([ 0,4,0 ],50,basedon,87).
+struct_dt_elem_i([ 0,4,0 ],50,length,100).
+struct_dt_elem_i([ 0,4,0 ],50,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],50,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],50,pic,'').
+struct_dt_elem_i([ 0,4,0 ],50,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],50,attributeid,'92').
+struct_dt_elem_i([ 0,4,0 ],50,'ExternalName','ClienteCobCelular1').
+struct_dt_elem_i([ 0,4,0 ],50,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],51,name,'Clientecobnombrecelular2').
+struct_dt_elem_i([ 0,4,0 ],51,camelname,'ClienteCobNombreCelular2').
+struct_dt_elem_i([ 0,4,0 ],51,basedon,85).
+struct_dt_elem_i([ 0,4,0 ],51,length,100).
+struct_dt_elem_i([ 0,4,0 ],51,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],51,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],51,pic,'').
+struct_dt_elem_i([ 0,4,0 ],51,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],51,attributeid,'93').
+struct_dt_elem_i([ 0,4,0 ],51,'ExternalName','ClienteCobNombreCelular2').
+struct_dt_elem_i([ 0,4,0 ],51,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],52,name,'Clientecobcelular2').
+struct_dt_elem_i([ 0,4,0 ],52,camelname,'ClienteCobCelular2').
+struct_dt_elem_i([ 0,4,0 ],52,basedon,87).
+struct_dt_elem_i([ 0,4,0 ],52,length,100).
+struct_dt_elem_i([ 0,4,0 ],52,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],52,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],52,pic,'').
+struct_dt_elem_i([ 0,4,0 ],52,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],52,attributeid,'94').
+struct_dt_elem_i([ 0,4,0 ],52,'ExternalName','ClienteCobCelular2').
+struct_dt_elem_i([ 0,4,0 ],52,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],53,name,'Clientecobnombreemail1').
+struct_dt_elem_i([ 0,4,0 ],53,camelname,'ClienteCobNombreEmail1').
+struct_dt_elem_i([ 0,4,0 ],53,basedon,85).
+struct_dt_elem_i([ 0,4,0 ],53,length,100).
+struct_dt_elem_i([ 0,4,0 ],53,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],53,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],53,pic,'').
+struct_dt_elem_i([ 0,4,0 ],53,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],53,attributeid,'95').
+struct_dt_elem_i([ 0,4,0 ],53,'ExternalName','ClienteCobNombreEmail1').
+struct_dt_elem_i([ 0,4,0 ],53,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],54,name,'Clientecobemail1').
+struct_dt_elem_i([ 0,4,0 ],54,camelname,'ClienteCobEmail1').
+struct_dt_elem_i([ 0,4,0 ],54,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],54,length,100).
+struct_dt_elem_i([ 0,4,0 ],54,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],54,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],54,pic,'').
+struct_dt_elem_i([ 0,4,0 ],54,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],54,attributeid,'96').
+struct_dt_elem_i([ 0,4,0 ],54,'ExternalName','ClienteCobEmail1').
+struct_dt_elem_i([ 0,4,0 ],54,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],55,name,'Clientecobnombreemail2').
+struct_dt_elem_i([ 0,4,0 ],55,camelname,'ClienteCobNombreEmail2').
+struct_dt_elem_i([ 0,4,0 ],55,basedon,85).
+struct_dt_elem_i([ 0,4,0 ],55,length,100).
+struct_dt_elem_i([ 0,4,0 ],55,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],55,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],55,pic,'').
+struct_dt_elem_i([ 0,4,0 ],55,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],55,attributeid,'97').
+struct_dt_elem_i([ 0,4,0 ],55,'ExternalName','ClienteCobNombreEmail2').
+struct_dt_elem_i([ 0,4,0 ],55,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],56,name,'Clientecobemail2').
+struct_dt_elem_i([ 0,4,0 ],56,camelname,'ClienteCobEmail2').
+struct_dt_elem_i([ 0,4,0 ],56,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],56,length,100).
+struct_dt_elem_i([ 0,4,0 ],56,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],56,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],56,pic,'').
+struct_dt_elem_i([ 0,4,0 ],56,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],56,attributeid,'98').
+struct_dt_elem_i([ 0,4,0 ],56,'ExternalName','ClienteCobEmail2').
+struct_dt_elem_i([ 0,4,0 ],56,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],57,name,'Clientefacfax').
+struct_dt_elem_i([ 0,4,0 ],57,camelname,'ClienteFacFax').
+struct_dt_elem_i([ 0,4,0 ],57,basedon,87).
+struct_dt_elem_i([ 0,4,0 ],57,length,100).
+struct_dt_elem_i([ 0,4,0 ],57,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],57,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],57,pic,'').
+struct_dt_elem_i([ 0,4,0 ],57,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],57,attributeid,'99').
+struct_dt_elem_i([ 0,4,0 ],57,'ExternalName','ClienteFacFax').
+struct_dt_elem_i([ 0,4,0 ],57,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],58,name,'Clientefacemail').
+struct_dt_elem_i([ 0,4,0 ],58,camelname,'ClienteFacEmail').
+struct_dt_elem_i([ 0,4,0 ],58,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],58,length,100).
+struct_dt_elem_i([ 0,4,0 ],58,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],58,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],58,pic,'').
+struct_dt_elem_i([ 0,4,0 ],58,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],58,attributeid,'100').
+struct_dt_elem_i([ 0,4,0 ],58,'ExternalName','ClienteFacEmail').
+struct_dt_elem_i([ 0,4,0 ],58,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],59,name,'Clientefaccontrato').
+struct_dt_elem_i([ 0,4,0 ],59,camelname,'ClienteFacContrato').
+struct_dt_elem_i([ 0,4,0 ],59,length,80).
+struct_dt_elem_i([ 0,4,0 ],59,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],59,type,[ 13,80,0 ]).
+struct_dt_elem_i([ 0,4,0 ],59,pic,'').
+struct_dt_elem_i([ 0,4,0 ],59,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],59,attributeid,'101').
+struct_dt_elem_i([ 0,4,0 ],59,'ExternalName','ClienteFacContrato').
+struct_dt_elem_i([ 0,4,0 ],59,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],60,name,'Clientefacobservaciones').
+struct_dt_elem_i([ 0,4,0 ],60,camelname,'ClienteFacObservaciones').
+struct_dt_elem_i([ 0,4,0 ],60,length,200).
+struct_dt_elem_i([ 0,4,0 ],60,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],60,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,4,0 ],60,pic,'').
+struct_dt_elem_i([ 0,4,0 ],60,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],60,attributeid,'102').
+struct_dt_elem_i([ 0,4,0 ],60,'ExternalName','ClienteFacObservaciones').
+struct_dt_elem_i([ 0,4,0 ],60,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],61,name,'Clientefaclista').
+struct_dt_elem_i([ 0,4,0 ],61,camelname,'ClienteFacLista').
+struct_dt_elem_i([ 0,4,0 ],61,length,18).
+struct_dt_elem_i([ 0,4,0 ],61,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],61,sign,0).
+struct_dt_elem_i([ 0,4,0 ],61,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,4,0 ],61,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],61,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],61,attributeid,'103').
+struct_dt_elem_i([ 0,4,0 ],61,'ExternalName','ClienteFacLista').
+struct_dt_elem_i([ 0,4,0 ],61,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],62,name,'Clientefaccontado').
+struct_dt_elem_i([ 0,4,0 ],62,camelname,'ClienteFacContado').
+struct_dt_elem_i([ 0,4,0 ],62,length,4).
+struct_dt_elem_i([ 0,4,0 ],62,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],62,sign,0).
+struct_dt_elem_i([ 0,4,0 ],62,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,4,0 ],62,pic,'ZZZ9').
+struct_dt_elem_i([ 0,4,0 ],62,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],62,attributeid,'104').
+struct_dt_elem_i([ 0,4,0 ],62,'ExternalName','ClienteFacContado').
+struct_dt_elem_i([ 0,4,0 ],62,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],63,name,'Clientenotemailfrascos1').
+struct_dt_elem_i([ 0,4,0 ],63,camelname,'ClienteNotEmailFrascos1').
+struct_dt_elem_i([ 0,4,0 ],63,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],63,length,100).
+struct_dt_elem_i([ 0,4,0 ],63,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],63,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],63,pic,'').
+struct_dt_elem_i([ 0,4,0 ],63,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],63,attributeid,'105').
+struct_dt_elem_i([ 0,4,0 ],63,'ExternalName','ClienteNotEmailFrascos1').
+struct_dt_elem_i([ 0,4,0 ],63,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],64,name,'Clientenotemailfrascos2').
+struct_dt_elem_i([ 0,4,0 ],64,camelname,'ClienteNotEmailFrascos2').
+struct_dt_elem_i([ 0,4,0 ],64,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],64,length,100).
+struct_dt_elem_i([ 0,4,0 ],64,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],64,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],64,pic,'').
+struct_dt_elem_i([ 0,4,0 ],64,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],64,attributeid,'106').
+struct_dt_elem_i([ 0,4,0 ],64,'ExternalName','ClienteNotEmailFrascos2').
+struct_dt_elem_i([ 0,4,0 ],64,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],65,name,'Clientenotemailmuestra1').
+struct_dt_elem_i([ 0,4,0 ],65,camelname,'ClienteNotEmailMuestra1').
+struct_dt_elem_i([ 0,4,0 ],65,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],65,length,100).
+struct_dt_elem_i([ 0,4,0 ],65,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],65,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],65,pic,'').
+struct_dt_elem_i([ 0,4,0 ],65,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],65,attributeid,'107').
+struct_dt_elem_i([ 0,4,0 ],65,'ExternalName','ClienteNotEmailMuestra1').
+struct_dt_elem_i([ 0,4,0 ],65,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],66,name,'Clientenotemailmuestra2').
+struct_dt_elem_i([ 0,4,0 ],66,camelname,'ClienteNotEmailMuestra2').
+struct_dt_elem_i([ 0,4,0 ],66,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],66,length,100).
+struct_dt_elem_i([ 0,4,0 ],66,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],66,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],66,pic,'').
+struct_dt_elem_i([ 0,4,0 ],66,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],66,attributeid,'108').
+struct_dt_elem_i([ 0,4,0 ],66,'ExternalName','ClienteNotEmailMuestra2').
+struct_dt_elem_i([ 0,4,0 ],66,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],67,name,'Clientenotemailanalisis1').
+struct_dt_elem_i([ 0,4,0 ],67,camelname,'ClienteNotEmailAnalisis1').
+struct_dt_elem_i([ 0,4,0 ],67,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],67,length,100).
+struct_dt_elem_i([ 0,4,0 ],67,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],67,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],67,pic,'').
+struct_dt_elem_i([ 0,4,0 ],67,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],67,attributeid,'109').
+struct_dt_elem_i([ 0,4,0 ],67,'ExternalName','ClienteNotEmailAnalisis1').
+struct_dt_elem_i([ 0,4,0 ],67,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],68,name,'Clientenotemailanalisis2').
+struct_dt_elem_i([ 0,4,0 ],68,camelname,'ClienteNotEmailAnalisis2').
+struct_dt_elem_i([ 0,4,0 ],68,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],68,length,100).
+struct_dt_elem_i([ 0,4,0 ],68,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],68,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],68,pic,'').
+struct_dt_elem_i([ 0,4,0 ],68,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],68,attributeid,'110').
+struct_dt_elem_i([ 0,4,0 ],68,'ExternalName','ClienteNotEmailAnalisis2').
+struct_dt_elem_i([ 0,4,0 ],68,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],69,name,'Clientenotemailgeneral1').
+struct_dt_elem_i([ 0,4,0 ],69,camelname,'ClienteNotEmailGeneral1').
+struct_dt_elem_i([ 0,4,0 ],69,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],69,length,100).
+struct_dt_elem_i([ 0,4,0 ],69,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],69,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],69,pic,'').
+struct_dt_elem_i([ 0,4,0 ],69,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],69,attributeid,'111').
+struct_dt_elem_i([ 0,4,0 ],69,'ExternalName','ClienteNotEmailGeneral1').
+struct_dt_elem_i([ 0,4,0 ],69,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],70,name,'Clientenotemailgeneral2').
+struct_dt_elem_i([ 0,4,0 ],70,camelname,'ClienteNotEmailGeneral2').
+struct_dt_elem_i([ 0,4,0 ],70,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],70,length,100).
+struct_dt_elem_i([ 0,4,0 ],70,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],70,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],70,pic,'').
+struct_dt_elem_i([ 0,4,0 ],70,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],70,attributeid,'112').
+struct_dt_elem_i([ 0,4,0 ],70,'ExternalName','ClienteNotEmailGeneral2').
+struct_dt_elem_i([ 0,4,0 ],70,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],71,name,'Clienteincobrable').
+struct_dt_elem_i([ 0,4,0 ],71,camelname,'ClienteIncobrable').
+struct_dt_elem_i([ 0,4,0 ],71,length,4).
+struct_dt_elem_i([ 0,4,0 ],71,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],71,sign,0).
+struct_dt_elem_i([ 0,4,0 ],71,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,4,0 ],71,pic,'ZZZ9').
+struct_dt_elem_i([ 0,4,0 ],71,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],71,attributeid,'113').
+struct_dt_elem_i([ 0,4,0 ],71,'ExternalName','ClienteIncobrable').
+struct_dt_elem_i([ 0,4,0 ],71,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],3,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],5,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],7,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],54,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],56,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],58,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],63,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],64,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],65,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],66,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],67,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],68,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],69,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],70,pic,'ZZZZZZZZZZZZZZZZZ9').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\Common','PackageName','GeneXus.jar').

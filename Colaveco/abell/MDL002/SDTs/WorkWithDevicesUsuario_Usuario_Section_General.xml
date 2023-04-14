@@ -1,0 +1,556 @@
+
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>WorkWithDevicesUsuario_Usuario_Section_GeneralSdt</name>
+<camelname>WorkWithDevicesUsuario_Usuario_Section_GeneralSdt</camelname>
+<camelnameex>WorkWithDevicesUsuario_Usuario_Section_GeneralSdt</camelnameex>
+<collection>False</collection>
+<wwsd_sdt>True</wwsd_sdt>
+<panel>[ 'Usuario.Section.General' ]</panel>
+<key>[ 5,[ 5 ],[ 5,1,'Usuario' ] ]</key>
+<modified>yes</modified>
+<fullname>WorkWithDevicesUsuario_Usuario_Section_GeneralSdt</fullname>
+<members>
+<member>
+<name>Usuarioid</name>
+<camelname>UsuarioId</camelname>
+<type>[ 4,18,0 ]</type>
+<length>18</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>5</attributeid></member>
+<member>
+<name>Usuarioemail</name>
+<camelname>UsuarioEmail</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>114</attributeid></member>
+<member>
+<name>Usuariousuarioweb</name>
+<camelname>UsuarioUsuarioWeb</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>115</attributeid></member>
+<member>
+<name>Usuarionombre</name>
+<camelname>UsuarioNombre</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>116</attributeid></member>
+<member>
+<name>Usuariodicose</name>
+<camelname>UsuarioDicose</camelname>
+<type>[ 13,40,0 ]</type>
+<length>40</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>117</attributeid></member>
+<member>
+<name>Usuariorazonsocial</name>
+<camelname>UsuarioRazonSocial</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>118</attributeid></member>
+<member>
+<name>Usuariorut</name>
+<camelname>UsuarioRut</camelname>
+<type>[ 13,40,0 ]</type>
+<length>40</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>119</attributeid></member>
+<member>
+<name>Usuarioidnet</name>
+<camelname>UsuarioIdNet</camelname>
+<type>[ 4,18,0 ]</type>
+<length>18</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>120</attributeid></member>
+<member>
+<name>Usuariodireccion</name>
+<camelname>UsuarioDireccion</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>121</attributeid></member>
+<member>
+<name>Usuariotipousuario</name>
+<camelname>UsuarioTipousuario</camelname>
+<type>[ 4,4,0 ]</type>
+<length>4</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>122</attributeid></member>
+<member>
+<name>Usuarioidtecnico1</name>
+<camelname>UsuarioIdTecnico1</camelname>
+<type>[ 4,18,0 ]</type>
+<length>18</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>123</attributeid></member>
+<member>
+<name>Usuarioidtecnico2</name>
+<camelname>UsuarioIdTecnico2</camelname>
+<type>[ 4,18,0 ]</type>
+<length>18</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>124</attributeid></member>
+<member>
+<name>Usuarioidtecnico3</name>
+<camelname>UsuarioIdTecnico3</camelname>
+<type>[ 4,18,0 ]</type>
+<length>18</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>125</attributeid></member>
+<member>
+<name>Usuariodireccionfrasco</name>
+<camelname>UsuarioDireccionFrasco</camelname>
+<type>[ 13,300,0 ]</type>
+<length>300</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>126</attributeid></member>
+<member>
+<name>Usuarioagenciafrasco</name>
+<camelname>UsuarioAgenciaFrasco</camelname>
+<type>[ 4,4,0 ]</type>
+<length>4</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>127</attributeid></member>
+<member>
+<name>Usuarionotificacionfrasco1</name>
+<camelname>UsuarioNotificacionFrasco1</camelname>
+<type>[ 13,40,0 ]</type>
+<length>40</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>128</attributeid></member>
+<member>
+<name>Usuarionotificacionfrasco2</name>
+<camelname>UsuarioNotificacionFrasco2</camelname>
+<type>[ 13,40,0 ]</type>
+<length>40</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>129</attributeid></member>
+<member>
+<name>Usuarionotificacionsolicitud1</name>
+<camelname>UsuarioNotificacionSolicitud1</camelname>
+<type>[ 13,40,0 ]</type>
+<length>40</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>130</attributeid></member>
+<member>
+<name>Usuarionotificacionsolicitud2</name>
+<camelname>UsuarioNotificacionSolicitud2</camelname>
+<type>[ 13,40,0 ]</type>
+<length>40</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>131</attributeid></member>
+<member>
+<name>Usuarionotificacionresultado1</name>
+<camelname>UsuarioNotificacionResultado1</camelname>
+<type>[ 13,40,0 ]</type>
+<length>40</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>132</attributeid></member>
+<member>
+<name>Usuarionotificacionresultado2</name>
+<camelname>UsuarioNotificacionResultado2</camelname>
+<type>[ 13,40,0 ]</type>
+<length>40</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>133</attributeid></member>
+<member>
+<name>Usuarionotificacionavisos1</name>
+<camelname>UsuarioNotificacionAvisos1</camelname>
+<type>[ 13,40,0 ]</type>
+<length>40</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>134</attributeid></member>
+<member>
+<name>Usuarionotificacionavisos2</name>
+<camelname>UsuarioNotificacionAvisos2</camelname>
+<type>[ 13,40,0 ]</type>
+<length>40</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>135</attributeid></member>
+<member>
+<name>Usuariotecnicocelular1</name>
+<camelname>UsuarioTecnicoCelular1</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>136</attributeid></member>
+<member>
+<name>Usuariotecnicocelular2</name>
+<camelname>UsuarioTecnicoCelular2</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>137</attributeid></member>
+<member>
+<name>Usuariotecnicocelularnombre1</name>
+<camelname>UsuarioTecnicoCelularNombre1</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>138</attributeid></member>
+<member>
+<name>Usuariotecnicocelularnombre2</name>
+<camelname>UsuarioTecnicoCelularNombre2</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>139</attributeid></member>
+<member>
+<name>Usuariotecnicotelefono1</name>
+<camelname>UsuarioTecnicoTelefono1</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>140</attributeid></member>
+<member>
+<name>Usuariotecnicotelefono2</name>
+<camelname>UsuarioTecnicoTelefono2</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>141</attributeid></member>
+<member>
+<name>Usuariotecnicotelefononombre1</name>
+<camelname>UsuarioTecnicoTelefonoNombre1</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>142</attributeid></member>
+<member>
+<name>Usuariotecnicotelefononombre2</name>
+<camelname>UsuarioTecnicoTelefonoNombre2</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>143</attributeid></member>
+<member>
+<name>Usuariotecnicoemail1</name>
+<camelname>UsuarioTecnicoEmail1</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>144</attributeid></member>
+<member>
+<name>Usuariotecnicoemail2</name>
+<camelname>UsuarioTecnicoEmail2</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>145</attributeid></member>
+<member>
+<name>Usuariotecnicoemailnombre1</name>
+<camelname>UsuarioTecnicoEmailNombre1</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>146</attributeid></member>
+<member>
+<name>Usuariotecnicoemailnombre2</name>
+<camelname>UsuarioTecnicoEmailNombre2</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>147</attributeid></member>
+<member>
+<name>Usuarioruttipo</name>
+<camelname>UsuarioRutTipo</camelname>
+<type>[ 13,40,0 ]</type>
+<length>40</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>148</attributeid></member>
+<member>
+<name>Usuariofacdireccion</name>
+<camelname>UsuarioFacDireccion</camelname>
+<type>[ 13,200,0 ]</type>
+<length>200</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>149</attributeid></member>
+<member>
+<name>Usuariofaclocalidad</name>
+<camelname>UsuarioFacLocalidad</camelname>
+<type>[ 13,40,0 ]</type>
+<length>40</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>150</attributeid></member>
+<member>
+<name>Usuariofacdepartamento</name>
+<camelname>UsuarioFacDepartamento</camelname>
+<type>[ 13,40,0 ]</type>
+<length>40</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>151</attributeid></member>
+<member>
+<name>Usuariofacemailenvio</name>
+<camelname>UsuarioFacEmailEnvio</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>152</attributeid></member>
+<member>
+<name>Usuariocobranzacelular1</name>
+<camelname>UsuarioCobranzaCelular1</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>153</attributeid></member>
+<member>
+<name>Usuariocobranzacelular2</name>
+<camelname>UsuarioCobranzaCelular2</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>154</attributeid></member>
+<member>
+<name>Usuariocobranzacelularnombre1</name>
+<camelname>UsuarioCobranzaCelularNombre1</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>155</attributeid></member>
+<member>
+<name>Usuariocobranzacelularnombre2</name>
+<camelname>UsuarioCobranzaCelularNombre2</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>156</attributeid></member>
+<member>
+<name>Usuariocobranzatelefono1</name>
+<camelname>UsuarioCobranzaTelefono1</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>157</attributeid></member>
+<member>
+<name>Usuariocobranzatelefono2</name>
+<camelname>UsuarioCobranzaTelefono2</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>158</attributeid></member>
+<member>
+<name>Usuariocobranzatelefononombre1</name>
+<camelname>UsuarioCobranzaTelefonoNombre1</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>159</attributeid></member>
+<member>
+<name>Usuariocobranzatelefononombre2</name>
+<camelname>UsuarioCobranzaTelefonoNombre2</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>160</attributeid></member>
+<member>
+<name>Usuariocobranzaemail1</name>
+<camelname>UsuarioCobranzaEmail1</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>161</attributeid></member>
+<member>
+<name>Usuariocobranzaemail2</name>
+<camelname>UsuarioCobranzaEmail2</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>162</attributeid></member>
+<member>
+<name>Usuariocobranzaemailnombre1</name>
+<camelname>UsuarioCobranzaEmailNombre1</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>163</attributeid></member>
+<member>
+<name>Usuariocobranzaemailnombre2</name>
+<camelname>UsuarioCobranzaEmailNombre2</camelname>
+<type>[ 13,100,0 ]</type>
+<length>100</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>164</attributeid></member>
+<member>
+<name>Usuariocedula</name>
+<camelname>UsuarioCedula</camelname>
+<type>[ 13,40,0 ]</type>
+<length>40</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>165</attributeid></member></members></Level>
+<Prompts></Prompts>
+<TableAccess>
+<Table>
+<Id>5</Id>
+<Name>Usuario</Name>
+<Read>y</Read>
+<Insert>n</Insert>
+<Update>n</Update>
+<Delete>n</Delete>
+<IsBase>y</IsBase></Table></TableAccess>
+<XRef></XRef></SdtSpec>

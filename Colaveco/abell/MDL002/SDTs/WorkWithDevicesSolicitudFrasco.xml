@@ -1,0 +1,14 @@
+
+<WWSDSpec>
+<Section>
+<Name>SolicitudFrasco.Detail</Name>
+<DataProviders>
+<DataProvider>WorkWithDevicesSolicitudFrasco_SolicitudFrasco_Detail</DataProvider></DataProviders></Section>
+<Section>
+<Name>SolicitudFrasco.List</Name>
+<DataProviders>
+<DataProvider>WorkWithDevicesSolicitudFrasco_SolicitudFrasco_List_Grid1</DataProvider></DataProviders></Section>
+<Section>
+<Name>SolicitudFrasco.Section.General</Name>
+<DataProviders>
+<DataProvider>WorkWithDevicesSolicitudFrasco_SolicitudFrasco_Section_General</DataProvider></DataProviders></Section></WWSDSpec>

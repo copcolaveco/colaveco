@@ -1,0 +1,476 @@
+spec_i([ mnproc,10,'DPAnuncios','DPAnuncios',0,eng,'17_0_7-156546' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 9,[ [ 9,many ] ],[],[],[ [ [ 9 ],[ 40000,192,193,194,195,196,197 ] ] ],[ [ [ 9 ],[] ] ],[ 192 ],'IANUNCIO',[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [ [ 9,40000 ],[ 9,192 ],[ 9,193 ],[ 9,194 ],[ 9,195 ],[ 9,196 ],[ 9,197 ] ] ]).
+ 
+las_i(2,[ [ 40000,192,193,194,195,196,197 ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'MYSQL_VERSION','5')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',root)).
+rule_i(0,datastore(2,'USER_ID',root)).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','3308')).
+rule_i(0,datastore(2,'CS_SERVER',localhost)).
+rule_i(0,datastore(2,'CS_DBNAME','ColavecoconGx_Gam')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'ADONET_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.mysql.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','84')).
+rule_i(0,datastore(2,'DBMS',18)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'MYSQL_VERSION','5')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',root)).
+rule_i(0,datastore(1,'USER_ID',root)).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','3308')).
+rule_i(0,datastore(1,'CS_SERVER',localhost)).
+rule_i(0,datastore(1,'CS_DBNAME','ColavecoconGx')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'ADONET_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.mysql.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',18)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','DPAnuncios')).
+rule_i(0,prop('Folder',o(8,'DP'))).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityLow')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('OutputCollectionName','DPAnuncios')).
+rule_i(0,prop('OutputCollection','-1')).
+rule_i(0,prop('OutputSDT',o(26,'SDTAnuncio'))).
+rule_i(0,prop(idINFER_SDT,idINFER_STRUCTURE_NO)).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('Theme',o(25,'Carmine'))).
+rule_i(0,prop(idISWEBSERVICE,'0')).
+rule_i(0,prop('ObjDesc','DPAnuncios')).
+rule_i(0,prop('ObjName','DPAnuncios')).
+rule_i(0,rule([ a(22,[ 'Rfr','"Refresh"','5' ]) ],[],[],[])).
+rule_i(0,maingen(12)).
+rule_i(0,parm([ 'Gxm2rootcol' ],[])).
+rule_i(0,parmio([ [ 'Gxm2rootcol',out ] ])).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,9,[],[ [],'IANUNCIO',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,[]).
+v_i(t,o,2,40000).
+v_i(t,o,2,192).
+v_i(t,o,2,193).
+v_i(t,o,2,194).
+v_i(t,o,2,195).
+v_i(t,o,2,196).
+v_i(t,o,2,197).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i(192,[ 'AnuncioId',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Anuncio Id','',0 ]).
+attri_i(193,[ 'AnuncioTitulo',svchar,40,0,'',0,'Anuncio Titulo','',0 ]).
+attri_i(194,[ 'AnuncioSubTitulo',svchar,40,0,'',0,'Anuncio Sub Titulo','',0 ]).
+attri_i(195,[ 'AnuncioImagen',bits,4,0,'',0,'Anuncio Imagen','',0 ]).
+attri_i(196,[ 'AnuncioPublico',boolean,4,0,'',0,'Anuncio Publico','',0 ]).
+attri_i(197,[ 'AnuncioDescripcion',svchar,256,0,'',0,'Anuncio Descripcion','',0 ]).
+attri_i(40000,[ 'AnuncioImagen_GXI',svchar,2048,0,'',0,'',[],0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',8 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',7 ]).
+attri_i('Gxm1sdtanuncio',[ 'Gxm1sdtanuncio',o('SDTAnuncio'),0,0,'',0,'Gxm1sdtanuncio','',6 ]).
+attri_i('Gxm2rootcol',[ 'Gxm2rootcol',o(objectcollection('SDTAnuncio')),0,0,'',0,'Gxm2rootcol','',5 ]).
+ 
+table_i(9,[ 'Anuncio',[ 192,193,194,195,40000,196,197 ],'Anuncio','Anuncio' ]).
+ 
+index_i(9,[ 'IANUNCIO',u,[ 192 ],'IAnuncio' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+add_att_i(bits,2,40000,195,'AnuncioImagen_GXI',[ svchar,2048,0,0 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(83,[ id ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [ 197,196,195,194,193,192,40000 ],[],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,1).
+b_group_i(1,2,nvg,2,1,1).
+b_group_i(2,1,lit,0,2,4).
+b_group_i(1,3,lit,0,10,0).
+ 
+b_line_i(1,2,1,cmd,2,[ t('',121,1,0) ]).
+b_line_i([ 1,1 ],2,1,cmd,1,[ t('',107,1,0),t('Gxm1sdtanuncio',23,1,0),t(=,10,1,0),t([ 'SDTAnuncio',[ t('(',0,1,0),t(')',4,1,0) ],n ],46,1,0) ]).
+b_line_i([ 1,2 ],2,1,cmd,1,[ t('',107,1,0),t([ t('Gxm2rootcol',23,1,0),t('add(',1,1,0) ],31,1,0),t('Gxm1sdtanuncio',23,1,0),t(')',4,1,0) ]).
+b_line_i(3,2,1,cmd,3,[ t('',107,3,0),t([ t('Gxm1sdtanuncio',23,3,0),t('Anuncioid',3,3,0) ],29,3,0),t(=,10,3,0),t(192,2,3,0) ]).
+b_line_i(4,2,1,cmd,3,[ t('',107,4,0),t([ t('Gxm1sdtanuncio',23,3,0),t('Anunciotitulo',3,3,0) ],29,3,0),t(=,10,3,0),t(193,2,3,0) ]).
+b_line_i(5,2,1,cmd,3,[ t('',107,5,0),t([ t('Gxm1sdtanuncio',23,3,0),t('Anunciosubtitulo',3,3,0) ],29,3,0),t(=,10,3,0),t(194,2,3,0) ]).
+b_line_i(6,2,1,cmd,3,[ t('',107,6,0),t([ t('Gxm1sdtanuncio',23,3,0),t('Anuncioimagen',3,3,0) ],29,3,0),t(=,10,3,0),t(195,2,3,0) ]).
+b_line_i([ 6,1 ],2,1,cmd,3,[ t('',107,6,0),t([ t('Gxm1sdtanuncio',23,3,0),t('Anuncioimagen_gxi',3,3,0) ],29,3,0),t(=,10,3,0),t(40000,2,3,0) ]).
+b_line_i(7,2,1,cmd,4,[ t('',107,7,0),t([ t('Gxm1sdtanuncio',23,4,0),t('Anunciopublico',3,4,0) ],29,4,0),t(=,10,4,0),t(196,2,4,0) ]).
+b_line_i(8,2,1,cmd,4,[ t('',107,8,0),t([ t('Gxm1sdtanuncio',23,4,0),t('Anunciodescripcion',3,4,0) ],29,4,0),t(=,10,4,0),t(197,2,4,0) ]).
+b_line_i(9,2,1,cmd,4,[ t('',128,9,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+calling_main_i(37,14).
+ 
+att_prop_i(2,197,'ExternalName','AnuncioDescripcion',d).
+att_prop_i(2,197,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,197,'EmptyAsNull','Yes',d).
+att_prop_i(2,197,idBasedOn,'',d).
+att_prop_i(2,197,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,197,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,197,'AttRegEx','',d).
+att_prop_i(2,197,'AttValidationFailedMsg','',d).
+att_prop_i(2,197,'DownloadOffline','0',d).
+att_prop_i(2,197,'VarServiceExtName','',d).
+att_prop_i(2,197,'FullName','AnuncioDescripcion',v).
+att_prop_i(2,196,'ExternalName','AnuncioPublico',d).
+att_prop_i(2,196,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,196,'EmptyAsNull','Yes',d).
+att_prop_i(2,196,'ExternalStorage','-1',d).
+att_prop_i(2,196,idBasedOn,'',d).
+att_prop_i(2,196,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,196,'AttRegEx','',d).
+att_prop_i(2,196,'AttValidationFailedMsg','',d).
+att_prop_i(2,196,'DownloadOffline','0',d).
+att_prop_i(2,196,'VarServiceExtName','',d).
+att_prop_i(2,196,'FullName','AnuncioPublico',v).
+att_prop_i(2,195,'ExternalName','AnuncioImagen',d).
+att_prop_i(2,195,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,195,'EmptyAsNull','Yes',d).
+att_prop_i(2,195,'ExternalStorage','-1',d).
+att_prop_i(2,195,idBasedOn,'',d).
+att_prop_i(2,195,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,195,'AttRegEx','',d).
+att_prop_i(2,195,'AttValidationFailedMsg','',d).
+att_prop_i(2,195,'DownloadOffline','0',d).
+att_prop_i(2,195,'VarServiceExtName','',d).
+att_prop_i(2,195,'FullName','AnuncioImagen',v).
+att_prop_i(2,194,'ExternalName','AnuncioSubTitulo',d).
+att_prop_i(2,194,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,194,'EmptyAsNull','Yes',d).
+att_prop_i(2,194,idBasedOn,'',d).
+att_prop_i(2,194,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,194,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,194,'AttRegEx','',d).
+att_prop_i(2,194,'AttValidationFailedMsg','',d).
+att_prop_i(2,194,'DownloadOffline','0',d).
+att_prop_i(2,194,'VarServiceExtName','',d).
+att_prop_i(2,194,'FullName','AnuncioSubTitulo',v).
+att_prop_i(2,193,'ExternalName','AnuncioTitulo',d).
+att_prop_i(2,193,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,193,'EmptyAsNull','Yes',d).
+att_prop_i(2,193,idBasedOn,'',d).
+att_prop_i(2,193,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,193,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,193,'AttRegEx','',d).
+att_prop_i(2,193,'AttValidationFailedMsg','',d).
+att_prop_i(2,193,'DownloadOffline','0',d).
+att_prop_i(2,193,'VarServiceExtName','',d).
+att_prop_i(2,193,'FullName','AnuncioTitulo',v).
+att_prop_i(2,192,'ExternalName','AnuncioId',d).
+att_prop_i(2,192,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,192,'EmptyAsNull','Yes',d).
+att_prop_i(2,192,idBasedOn,83,v).
+att_prop_i(2,192,'AUTONUMBER','-1',v).
+att_prop_i(2,192,'AUTONUMBER_START','1',d).
+att_prop_i(2,192,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,192,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,192,'ATT_INITIAL_VALUE',[ t('1',3) ],v).
+att_prop_i(2,192,'AttRegEx','',d).
+att_prop_i(2,192,'AttValidationFailedMsg','',d).
+att_prop_i(2,192,'DownloadOffline','0',d).
+att_prop_i(2,192,'VarServiceExtName','',d).
+att_prop_i(2,192,'FullName','AnuncioId',v).
+att_prop_i(2,40000,'ExternalName','',d).
+att_prop_i(2,40000,'ExternalNamespace','',d).
+att_prop_i(2,40000,'EmptyAsNull','Yes',d).
+att_prop_i(2,40000,idBasedOn,'',d).
+att_prop_i(2,40000,'AUTONUMBER','0',d).
+att_prop_i(2,40000,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40000,'AttRegEx','',d).
+att_prop_i(2,40000,'AttValidationFailedMsg','',d).
+att_prop_i(2,40000,'FullName','',v).
+ 
+ 
+tbl_att_prop_i(2,9,192,'AllowNulls',n).
+tbl_att_prop_i(2,9,192,'AUTONUMBER',y).
+tbl_att_prop_i(2,9,193,'AllowNulls',n).
+tbl_att_prop_i(2,9,197,'AllowNulls',n).
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,70,0 ],name,'SDTAnuncio').
+struct_dt_i([ 26,70,0 ],namespace,'Colaveco').
+struct_dt_i([ 26,70,0 ],'ObjName','SDTAnuncio').
+struct_dt_i([ 26,70,0 ],'ObjDesc','SDTAnuncio').
+struct_dt_i([ 26,70,0 ],'ExternalName','SDTAnuncio').
+struct_dt_i([ 26,70,0 ],'ExternalNamespace','Colaveco').
+struct_dt_i([ 26,70,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,70,0 ],fullname,'SDTAnuncio').
+struct_dt_i([ 26,70,0 ],camelname,'Sdtanuncio').
+ 
+struct_dt_elem_i([ 26,70,0 ],1,name,'Anuncioid').
+struct_dt_elem_i([ 26,70,0 ],1,camelname,'AnuncioId').
+struct_dt_elem_i([ 26,70,0 ],1,basedon,83).
+struct_dt_elem_i([ 26,70,0 ],1,length,18).
+struct_dt_elem_i([ 26,70,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,70,0 ],1,sign,0).
+struct_dt_elem_i([ 26,70,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,70,0 ],1,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 26,70,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,70,0 ],1,'ExternalName','AnuncioId').
+struct_dt_elem_i([ 26,70,0 ],1,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,70,0 ],1,'ATT_INITIAL_VALUE',[ t('1',3) ]).
+struct_dt_elem_i([ 26,70,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,70,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,70,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,70,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,70,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,70,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,70,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,70,0 ],2,name,'Anunciotitulo').
+struct_dt_elem_i([ 26,70,0 ],2,camelname,'AnuncioTitulo').
+struct_dt_elem_i([ 26,70,0 ],2,length,40).
+struct_dt_elem_i([ 26,70,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,70,0 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,70,0 ],2,pic,'').
+struct_dt_elem_i([ 26,70,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,70,0 ],2,'ExternalName','AnuncioTitulo').
+struct_dt_elem_i([ 26,70,0 ],2,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,70,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,70,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,70,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,70,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,70,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,70,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,70,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,70,0 ],3,name,'Anunciosubtitulo').
+struct_dt_elem_i([ 26,70,0 ],3,camelname,'AnuncioSubTitulo').
+struct_dt_elem_i([ 26,70,0 ],3,length,40).
+struct_dt_elem_i([ 26,70,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,70,0 ],3,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,70,0 ],3,pic,'').
+struct_dt_elem_i([ 26,70,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,70,0 ],3,'ExternalName','AnuncioSubTitulo').
+struct_dt_elem_i([ 26,70,0 ],3,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,70,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,70,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,70,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,70,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,70,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,70,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,70,0 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,70,0 ],4,name,'Anuncioimagen').
+struct_dt_elem_i([ 26,70,0 ],4,camelname,'AnuncioImagen').
+struct_dt_elem_i([ 26,70,0 ],4,length,4).
+struct_dt_elem_i([ 26,70,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,70,0 ],4,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 26,70,0 ],4,pic,'').
+struct_dt_elem_i([ 26,70,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,70,0 ],4,'ExternalName','AnuncioImagen').
+struct_dt_elem_i([ 26,70,0 ],4,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,70,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,70,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,70,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,70,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,70,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,70,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,70,0 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,70,0 ],5,name,'Anuncioimagen_gxi').
+struct_dt_elem_i([ 26,70,0 ],5,camelname,'AnuncioImagen_GXI').
+struct_dt_elem_i([ 26,70,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,70,0 ],5,isadd,'True').
+struct_dt_elem_i([ 26,70,0 ],5,length,2048).
+struct_dt_elem_i([ 26,70,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,70,0 ],5,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,70,0 ],6,name,'Anunciopublico').
+struct_dt_elem_i([ 26,70,0 ],6,camelname,'AnuncioPublico').
+struct_dt_elem_i([ 26,70,0 ],6,length,4).
+struct_dt_elem_i([ 26,70,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,70,0 ],6,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,70,0 ],6,pic,'').
+struct_dt_elem_i([ 26,70,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,70,0 ],6,'ExternalName','AnuncioPublico').
+struct_dt_elem_i([ 26,70,0 ],6,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,70,0 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,70,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,70,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,70,0 ],6,soaptype,'').
+struct_dt_elem_i([ 26,70,0 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,70,0 ],6,'JsonName','').
+struct_dt_elem_i([ 26,70,0 ],6,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,70,0 ],7,name,'Anunciodescripcion').
+struct_dt_elem_i([ 26,70,0 ],7,camelname,'AnuncioDescripcion').
+struct_dt_elem_i([ 26,70,0 ],7,length,256).
+struct_dt_elem_i([ 26,70,0 ],7,decimals,0).
+struct_dt_elem_i([ 26,70,0 ],7,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,70,0 ],7,pic,'').
+struct_dt_elem_i([ 26,70,0 ],7,collection,'False').
+struct_dt_elem_i([ 26,70,0 ],7,'ExternalName','AnuncioDescripcion').
+struct_dt_elem_i([ 26,70,0 ],7,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,70,0 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,70,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,70,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,70,0 ],7,soaptype,'').
+struct_dt_elem_i([ 26,70,0 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,70,0 ],7,'JsonName','').
+struct_dt_elem_i([ 26,70,0 ],7,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(mnproc,10,'DPANUNCIOS','INTERNAL','').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

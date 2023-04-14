@@ -1,0 +1,350 @@
+spec_i([ proc,46,'Download Report','DownloadReport',78,eng,'17_0_7-156546' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'MYSQL_VERSION','5')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',root)).
+rule_i(0,datastore(2,'USER_ID',root)).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','3308')).
+rule_i(0,datastore(2,'CS_SERVER',localhost)).
+rule_i(0,datastore(2,'CS_DBNAME','ColavecoconGx_Gam')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'ADONET_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.mysql.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','84')).
+rule_i(0,datastore(2,'DBMS',18)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'MYSQL_VERSION','5')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',root)).
+rule_i(0,datastore(1,'USER_ID',root)).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','3308')).
+rule_i(0,datastore(1,'CS_SERVER',localhost)).
+rule_i(0,datastore(1,'CS_DBNAME','ColavecoconGx')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'ADONET_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.mysql.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',18)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','DownloadReport')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityLow')).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('AppGenerator','1')).
+rule_i(0,prop('AppLocation','')).
+rule_i(0,prop('AppIcon','')).
+rule_i(0,prop('AppTitle','')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Secure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'Carmine'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','HTTP')).
+rule_i(0,prop('IsMain','-1')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'Procedure'))).
+rule_i(0,prop('ObjDesc','Download Report')).
+rule_i(0,prop('ObjName','DownloadReport')).
+rule_i(0,maingen(12)).
+rule_i(0,prop('PGMTYPE',main)).
+rule_i(0,parm([ 'Resultadopathpdf' ],[])).
+rule_i(0,parmio([ [ 'Resultadopathpdf',in ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',16 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',15 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',14 ]).
+attri_i('Httpresponse',[ 'HttpResponse',o(httpresponse),4,0,'',0,'Http Response','',13 ]).
+attri_i('Resultadopathpdf',[ resultadoPathPdf,svchar,500,0,'',0,'resultado Path Pdf','',11 ]).
+attri_i('Path',[ path,svchar,500,0,'',0,path,'',8 ]).
+attri_i('Mylink',[ 'MyLink',o(objectcollection('LinkList.LinkItem')),0,0,'',0,'My Link','',12 ]).
+attri_i('Httpclient',[ httpclient,o(httpclient),4,0,'',0,httpclient,'',9 ]).
+attri_i('Filepath',[ filepath,svchar,400,0,'',0,filepath,'',10 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(84,[ 'Path' ]).
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[ t('',107,1,0),t('Path',23,0,0),t(=,10,0,0),t('"https://www.colaveco.com.uy/gestor/utils/bajar_archivo.php?archivo="',3,0,0),t(+,5,0,0),t('Resultadopathpdf',23,0,0) ]).
+b_line_i(2,1,1,cmd,0,[]).
+b_line_i(3,1,1,cmd,0,[]).
+b_line_i(4,1,1,cmd,0,[]).
+b_line_i(5,1,1,cmd,0,[]).
+b_line_i(6,1,1,cmd,0,[]).
+b_line_i(7,1,1,cmd,0,[]).
+b_line_i(8,1,1,cmd,0,[]).
+b_line_i(9,1,1,cmd,0,[]).
+b_line_i(10,1,1,cmd,0,[]).
+b_line_i(11,1,1,cmd,0,[]).
+b_line_i(12,1,1,cmd,0,[]).
+b_line_i(13,1,1,cmd,0,[]).
+b_line_i(14,1,1,cmd,0,[ t('',104,14,0),t(o(1,'Loger'),28,0,1),t('"DownloadReport"',3,14,7) ]).
+b_line_i(15,1,1,cmd,0,[ t('',104,15,0),t(o(1,'Loger'),28,0,1),t('Path',23,0,7) ]).
+b_line_i(16,1,1,cmd,0,[ t('',104,16,0),t(o(1,'Loger'),28,0,1),t([ t('Httpresponse',23,16,7),t('Errdescription',3,16,21) ],29,16,21) ]).
+b_line_i(17,1,1,cmd,0,[ t('',104,17,0),t(o(1,'Loger'),28,0,1),t('str(',1,17,29),t([ t('Httpresponse',23,17,7),t('Errcode',3,17,21) ],29,17,21),t(',',7,0,29),t(10,3,0,29),t(',',7,0,29),t(2,3,0,29),t(')',4,0,39) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+calling_main_i(1,46).
+ 
+ 
+ 
+ 
+var_prop_i(2,'Path',idBasedOn,84,v).
+var_prop_i(2,'Resultadopathpdf',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,53,0 ],name,'LinkList').
+struct_dt_i([ 26,53,0 ],namespace,'GeneXus').
+struct_dt_i([ 26,53,0 ],'ObjName','LinkList').
+struct_dt_i([ 26,53,0 ],'ObjDesc','Link List').
+struct_dt_i([ 26,53,0 ],'ExternalName','LinkList').
+struct_dt_i([ 26,53,0 ],'ExternalNamespace','GeneXus').
+struct_dt_i([ 26,53,0 ],collection,'True').
+struct_dt_i([ 26,53,0 ],datatype,[ 26,53,80 ]).
+struct_dt_i([ 26,53,0 ],'CollectionItemName','LinkItem').
+struct_dt_i([ 26,53,0 ],'XmlName','').
+struct_dt_i([ 26,53,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,53,0 ],'XmlNamespace','').
+struct_dt_i([ 26,53,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,53,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,53,0 ],'JsonName','').
+struct_dt_i([ 26,53,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,53,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,53,80 ],name,'LinkItem').
+struct_dt_i([ 26,53,80 ],namespace,'GeneXus.LinkList').
+struct_dt_i([ 26,53,0 ],fullname,'LinkList').
+struct_dt_i([ 26,53,80 ],fullname,'LinkList.LinkItem').
+ 
+struct_dt_elem_i([ 26,53,80 ],1,name,'Caption').
+struct_dt_elem_i([ 26,53,80 ],1,camelname,'Caption').
+struct_dt_elem_i([ 26,53,80 ],1,length,255).
+struct_dt_elem_i([ 26,53,80 ],1,decimals,0).
+struct_dt_elem_i([ 26,53,80 ],1,type,[ 13,255,0 ]).
+struct_dt_elem_i([ 26,53,80 ],1,pic,'').
+struct_dt_elem_i([ 26,53,80 ],1,collection,'False').
+struct_dt_elem_i([ 26,53,80 ],1,'ExternalName','Caption').
+struct_dt_elem_i([ 26,53,80 ],1,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,53,80 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,53,80 ],1,'XmlName','').
+struct_dt_elem_i([ 26,53,80 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,53,80 ],1,soaptype,'').
+struct_dt_elem_i([ 26,53,80 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,53,80 ],1,'JsonName','').
+struct_dt_elem_i([ 26,53,80 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,53,80 ],2,name,'Url').
+struct_dt_elem_i([ 26,53,80 ],2,camelname,'URL').
+struct_dt_elem_i([ 26,53,80 ],2,basedon,29).
+struct_dt_elem_i([ 26,53,80 ],2,length,1000).
+struct_dt_elem_i([ 26,53,80 ],2,decimals,0).
+struct_dt_elem_i([ 26,53,80 ],2,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,53,80 ],2,pic,'').
+struct_dt_elem_i([ 26,53,80 ],2,collection,'False').
+struct_dt_elem_i([ 26,53,80 ],2,'ExternalName','URL').
+struct_dt_elem_i([ 26,53,80 ],2,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,53,80 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,53,80 ],2,'XmlName','').
+struct_dt_elem_i([ 26,53,80 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,53,80 ],2,soaptype,'').
+struct_dt_elem_i([ 26,53,80 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,53,80 ],2,'JsonName','').
+struct_dt_elem_i([ 26,53,80 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,53,80 ],2,pic,'ZZZZZZZZZZZZZZZZZ9').
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,36,'LOGER',[ [ vchar,2097152,0,0 ] ],[ [ 'LogDetalle',in,[] ] ]).
+ 
+pgm_callprotocol_i(proc,46,'DOWNLOADREPORT','HTTP','Secure').
+pgm_callprotocol_i(proc,36,'LOGER','INTERNAL','Secure').
+ 
+ 
+pgm_main_info_i(proc,46,'DOWNLOADREPORT',[ 12,'ADOWNLOADREPORT','Download Report','','','','HTTP' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,385 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_7-156546</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>3</ObjId>
+<ObjName>SolicitudFrasco</ObjName>
+<ObjDesc>Solicitud Frasco</ObjDesc>
+<ObjPgmName>SolicitudFrasco</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>3</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>3</TableId>
+<TableName>SolicitudFrasco</TableName>
+<Description>Solicitud Frasco</Description></Table></BaseTable>
+<StandAloneRules></StandAloneRules>
+<BaseTableRule>
+<Action>
+<ActionType>ReadBaseTable</ActionType>
+<Table>
+<TableId>3</TableId>
+<TableName>SolicitudFrasco</TableName>
+<Description>Solicitud Frasco</Description></Table>
+<JoinConditions>
+<Table>
+<TableId>3</TableId>
+<TableName>SolicitudFrasco</TableName>
+<Description>Solicitud Frasco</Description></Table>
+<JoinCondition>
+<AttributeTo>
+<Attribute>
+<AttriId>3</AttriId>
+<AttriName>SFId</AttriName>
+<Description>SFId</Description></Attribute></AttributeTo>
+<Table></Table>
+<AttributeFrom>
+<Attribute>
+<AttriId>3</AttriId>
+<AttriName>SFId</AttriName>
+<Description>SFId</Description></Attribute></AttributeFrom></JoinCondition></JoinConditions>
+<Into>
+<Attribute>
+<AttriId>32</AttriId>
+<AttriName>SFIdNet</AttriName>
+<Description>SFId Net</Description></Attribute>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>SFNombre</AttriName>
+<Description>SFNombre</Description></Attribute>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>SFDireccion</AttriName>
+<Description>SFDireccion</Description></Attribute>
+<Attribute>
+<AttriId>35</AttriId>
+<AttriName>SFAgencia</AttriName>
+<Description>SFAgencia</Description></Attribute>
+<Attribute>
+<AttriId>36</AttriId>
+<AttriName>SFTelefono</AttriName>
+<Description>SFTelefono</Description></Attribute>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>SFEmail</AttriName>
+<Description>SFEmail</Description></Attribute>
+<Attribute>
+<AttriId>38</AttriId>
+<AttriName>SFFrascosConC</AttriName>
+<Description>SFFrascos Con C</Description></Attribute>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>SFFrascosSinC</AttriName>
+<Description>SFFrascos Sin C</Description></Attribute>
+<Attribute>
+<AttriId>167</AttriId>
+<AttriName>SFFrascosAgua</AttriName>
+<Description>SFFrascos Agua</Description></Attribute>
+<Attribute>
+<AttriId>40</AttriId>
+<AttriName>SFFrascosSangre</AttriName>
+<Description>SFFrascos Sangre</Description></Attribute>
+<Attribute>
+<AttriId>41</AttriId>
+<AttriName>SFObservaciones</AttriName>
+<Description>SFObservaciones</Description></Attribute>
+<Attribute>
+<AttriId>42</AttriId>
+<AttriName>SFFechaCreacion</AttriName>
+<Description>SFFecha Creacion</Description></Attribute>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>SFFechaModificado</AttriName>
+<Description>SFFecha Modificado</Description></Attribute>
+<Attribute>
+<AttriId>44</AttriId>
+<AttriName>SFFrascosIsopo</AttriName>
+<Description>SFFrascos Isopo</Description></Attribute></Into></Action></BaseTableRule>
+<StandAloneWithModeRules></StandAloneWithModeRules>
+<Rules>
+<Action>
+<ActionType>BusinessRule</ActionType>
+<RuleType>ErrorRule</RuleType>
+<Expression>
+<Token>&quot;Field SFFecha Modificado is out of range&quot;</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>OutOfRange</Token></Expression>
+<Condition>
+<Token>not</Token>
+<Token>(</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>SFFechaModificado</AttriName>
+<Description>SFFecha Modificado</Description></Attribute>
+<Token>.</Token>
+<Token>isempty(</Token>
+<Token>)</Token>
+<Sp></Sp>
+<Token>or</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>SFFechaModificado</AttriName>
+<Description>SFFecha Modificado</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Token>ymdhmstot(</Token>
+<Sp></Sp>
+<Token>1000</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>01</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>01</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>00</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>00</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>00</Token>
+<Token>)</Token>
+<Token>)</Token></Condition></Action>
+<Action>
+<ActionType>BusinessRule</ActionType>
+<RuleType>ErrorRule</RuleType>
+<Expression>
+<Token>&quot;Field SFFecha Creacion is out of range&quot;</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>OutOfRange</Token></Expression>
+<Condition>
+<Token>not</Token>
+<Token>(</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>42</AttriId>
+<AttriName>SFFechaCreacion</AttriName>
+<Description>SFFecha Creacion</Description></Attribute>
+<Token>.</Token>
+<Token>isempty(</Token>
+<Token>)</Token>
+<Sp></Sp>
+<Token>or</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>42</AttriId>
+<AttriName>SFFechaCreacion</AttriName>
+<Description>SFFecha Creacion</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Token>ymdhmstot(</Token>
+<Sp></Sp>
+<Token>1000</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>01</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>01</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>00</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>00</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>00</Token>
+<Token>)</Token>
+<Token>)</Token></Condition></Action></Rules>
+<BeforeConfirmRules></BeforeConfirmRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>3</TableId>
+<TableName>SolicitudFrasco</TableName>
+<Description>Solicitud Frasco</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>3</AttriId>
+<AttriName>SFId</AttriName>
+<Description>SFId</Description></Attribute>
+<Attribute>
+<AttriId>32</AttriId>
+<AttriName>SFIdNet</AttriName>
+<Description>SFId Net</Description></Attribute>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>SFNombre</AttriName>
+<Description>SFNombre</Description></Attribute>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>SFDireccion</AttriName>
+<Description>SFDireccion</Description></Attribute>
+<Attribute>
+<AttriId>35</AttriId>
+<AttriName>SFAgencia</AttriName>
+<Description>SFAgencia</Description></Attribute>
+<Attribute>
+<AttriId>36</AttriId>
+<AttriName>SFTelefono</AttriName>
+<Description>SFTelefono</Description></Attribute>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>SFEmail</AttriName>
+<Description>SFEmail</Description></Attribute>
+<Attribute>
+<AttriId>38</AttriId>
+<AttriName>SFFrascosConC</AttriName>
+<Description>SFFrascos Con C</Description></Attribute>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>SFFrascosSinC</AttriName>
+<Description>SFFrascos Sin C</Description></Attribute>
+<Attribute>
+<AttriId>167</AttriId>
+<AttriName>SFFrascosAgua</AttriName>
+<Description>SFFrascos Agua</Description></Attribute>
+<Attribute>
+<AttriId>40</AttriId>
+<AttriName>SFFrascosSangre</AttriName>
+<Description>SFFrascos Sangre</Description></Attribute>
+<Attribute>
+<AttriId>41</AttriId>
+<AttriName>SFObservaciones</AttriName>
+<Description>SFObservaciones</Description></Attribute>
+<Attribute>
+<AttriId>42</AttriId>
+<AttriName>SFFechaCreacion</AttriName>
+<Description>SFFecha Creacion</Description></Attribute>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>SFFechaModificado</AttriName>
+<Description>SFFecha Modificado</Description></Attribute>
+<Attribute>
+<AttriId>44</AttriId>
+<AttriName>SFFrascosIsopo</AttriName>
+<Description>SFFrascos Isopo</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>3</TableId>
+<TableName>SolicitudFrasco</TableName>
+<Description>Solicitud Frasco</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>32</AttriId>
+<AttriName>SFIdNet</AttriName>
+<Description>SFId Net</Description></Attribute>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>SFNombre</AttriName>
+<Description>SFNombre</Description></Attribute>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>SFDireccion</AttriName>
+<Description>SFDireccion</Description></Attribute>
+<Attribute>
+<AttriId>35</AttriId>
+<AttriName>SFAgencia</AttriName>
+<Description>SFAgencia</Description></Attribute>
+<Attribute>
+<AttriId>36</AttriId>
+<AttriName>SFTelefono</AttriName>
+<Description>SFTelefono</Description></Attribute>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>SFEmail</AttriName>
+<Description>SFEmail</Description></Attribute>
+<Attribute>
+<AttriId>38</AttriId>
+<AttriName>SFFrascosConC</AttriName>
+<Description>SFFrascos Con C</Description></Attribute>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>SFFrascosSinC</AttriName>
+<Description>SFFrascos Sin C</Description></Attribute>
+<Attribute>
+<AttriId>167</AttriId>
+<AttriName>SFFrascosAgua</AttriName>
+<Description>SFFrascos Agua</Description></Attribute>
+<Attribute>
+<AttriId>40</AttriId>
+<AttriName>SFFrascosSangre</AttriName>
+<Description>SFFrascos Sangre</Description></Attribute>
+<Attribute>
+<AttriId>41</AttriId>
+<AttriName>SFObservaciones</AttriName>
+<Description>SFObservaciones</Description></Attribute>
+<Attribute>
+<AttriId>42</AttriId>
+<AttriName>SFFechaCreacion</AttriName>
+<Description>SFFecha Creacion</Description></Attribute>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>SFFechaModificado</AttriName>
+<Description>SFFecha Modificado</Description></Attribute>
+<Attribute>
+<AttriId>44</AttriId>
+<AttriName>SFFrascosIsopo</AttriName>
+<Description>SFFrascos Isopo</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>3</TableId>
+<TableName>SolicitudFrasco</TableName>
+<Description>Solicitud Frasco</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<BeforeInsertRules></BeforeInsertRules>
+<AfterInsertRules></AfterInsertRules>
+<BeforeUpdateRules></BeforeUpdateRules>
+<AfterUpdateRules></AfterUpdateRules>
+<BeforeDeleteRules></BeforeDeleteRules>
+<AfterDeleteRules></AfterDeleteRules>
+<AfterDisplayRules></AfterDisplayRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<BeforeTrnRules></BeforeTrnRules>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules>
+<Formulas>
+<AggSelFormulas></AggSelFormulas></Formulas></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>3</TableId>
+<TableName>SolicitudFrasco</TableName>
+<Description>Solicitud Frasco</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>8</ObjId>
+<ObjName>Gx0030</ObjName>
+<ObjPgmName>Gx0030</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>3</AttriId>
+<AttriName>SFId</AttriName>
+<Description>SFId</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

@@ -1,0 +1,138 @@
+ 
+spec_i([ sdt,[ 26,1000000,0 ],'WorkWithDevicesFacturaMovimiento_FacturaMovimiento_Section_GeneralSdt','WorkWithDevicesFacturaMovimiento_FacturaMovimiento_Section_GeneralSdt',0,eng,'17_0_7-156546' ]).
+ 
+struct_dt_i([ 26,1000000,0 ],name,'WorkWithDevicesFacturaMovimiento_FacturaMovimiento_Section_GeneralSdt').
+struct_dt_i([ 26,1000000,0 ],camelname,'WorkWithDevicesFacturaMovimiento_FacturaMovimiento_Section_GeneralSdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'WorkWithDevicesFacturaMovimiento_FacturaMovimiento_Section_GeneralSdt').
+struct_dt_i([ 26,1000000,0 ],collection,'False').
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],panel,[ 'FacturaMovimiento.Section.General' ]).
+struct_dt_i([ 26,1000000,0 ],key,[ 2,[ 2 ],[ 2,1,'FacturaMovimiento' ] ]).
+struct_dt_i([ 26,1000000,0 ],modified,yes).
+struct_dt_i([ 26,1000000,0 ],fullname,'WorkWithDevicesFacturaMovimiento_FacturaMovimiento_Section_GeneralSdt').
+ 
+struct_dt_elem_i([ 26,1000000,0 ],1,name,'Fmid').
+struct_dt_elem_i([ 26,1000000,0 ],1,camelname,'FMId').
+struct_dt_elem_i([ 26,1000000,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],1,length,18).
+struct_dt_elem_i([ 26,1000000,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],1,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],2,name,'Fmidnetmovimiento').
+struct_dt_elem_i([ 26,1000000,0 ],2,camelname,'FMIdNetMovimiento').
+struct_dt_elem_i([ 26,1000000,0 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],2,length,18).
+struct_dt_elem_i([ 26,1000000,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],2,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],2,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],3,name,'Fmfechaemision').
+struct_dt_elem_i([ 26,1000000,0 ],3,camelname,'FMFechaEmision').
+struct_dt_elem_i([ 26,1000000,0 ],3,type,[ 12,8,5 ]).
+struct_dt_elem_i([ 26,1000000,0 ],3,length,8).
+struct_dt_elem_i([ 26,1000000,0 ],3,decimals,5).
+struct_dt_elem_i([ 26,1000000,0 ],3,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],3,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],4,name,'Fmfechavencimiento').
+struct_dt_elem_i([ 26,1000000,0 ],4,camelname,'FMFechaVencimiento').
+struct_dt_elem_i([ 26,1000000,0 ],4,type,[ 12,8,5 ]).
+struct_dt_elem_i([ 26,1000000,0 ],4,length,8).
+struct_dt_elem_i([ 26,1000000,0 ],4,decimals,5).
+struct_dt_elem_i([ 26,1000000,0 ],4,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],4,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],5,name,'Fmtipo').
+struct_dt_elem_i([ 26,1000000,0 ],5,camelname,'FMTipo').
+struct_dt_elem_i([ 26,1000000,0 ],5,type,[ 13,45,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],5,length,45).
+struct_dt_elem_i([ 26,1000000,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],5,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],5,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],6,name,'Fmnumero').
+struct_dt_elem_i([ 26,1000000,0 ],6,camelname,'FMNumero').
+struct_dt_elem_i([ 26,1000000,0 ],6,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],6,length,18).
+struct_dt_elem_i([ 26,1000000,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],6,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],6,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],7,name,'Fmdetalle').
+struct_dt_elem_i([ 26,1000000,0 ],7,camelname,'FMDetalle').
+struct_dt_elem_i([ 26,1000000,0 ],7,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],7,length,200).
+struct_dt_elem_i([ 26,1000000,0 ],7,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],7,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],7,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],7,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],8,name,'Fmimporte').
+struct_dt_elem_i([ 26,1000000,0 ],8,camelname,'FMImporte').
+struct_dt_elem_i([ 26,1000000,0 ],8,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],8,length,18).
+struct_dt_elem_i([ 26,1000000,0 ],8,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],8,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],8,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],8,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],9,name,'Fmidusuarionet').
+struct_dt_elem_i([ 26,1000000,0 ],9,camelname,'FMIdUsuarioNet').
+struct_dt_elem_i([ 26,1000000,0 ],9,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],9,length,18).
+struct_dt_elem_i([ 26,1000000,0 ],9,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],9,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],9,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],9,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],10,name,'Fmtipomovimiento').
+struct_dt_elem_i([ 26,1000000,0 ],10,camelname,'FMTipoMovimiento').
+struct_dt_elem_i([ 26,1000000,0 ],10,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],10,length,18).
+struct_dt_elem_i([ 26,1000000,0 ],10,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],10,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],10,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],10,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],11,name,'Fmimportepago').
+struct_dt_elem_i([ 26,1000000,0 ],11,camelname,'FMImportePago').
+struct_dt_elem_i([ 26,1000000,0 ],11,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],11,length,18).
+struct_dt_elem_i([ 26,1000000,0 ],11,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],11,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],11,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],11,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],12,name,'Fmsaldoactual').
+struct_dt_elem_i([ 26,1000000,0 ],12,camelname,'FMSaldoActual').
+struct_dt_elem_i([ 26,1000000,0 ],12,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],12,length,18).
+struct_dt_elem_i([ 26,1000000,0 ],12,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],12,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],12,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],12,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],13,name,'Fmpathpdf').
+struct_dt_elem_i([ 26,1000000,0 ],13,camelname,'FMPathPdf').
+struct_dt_elem_i([ 26,1000000,0 ],13,type,[ 13,500,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],13,length,500).
+struct_dt_elem_i([ 26,1000000,0 ],13,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],13,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],13,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],13,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],1,attributeid,'2').
+struct_dt_elem_i([ 26,1000000,0 ],2,attributeid,'21').
+struct_dt_elem_i([ 26,1000000,0 ],3,attributeid,'22').
+struct_dt_elem_i([ 26,1000000,0 ],4,attributeid,'23').
+struct_dt_elem_i([ 26,1000000,0 ],5,attributeid,'24').
+struct_dt_elem_i([ 26,1000000,0 ],6,attributeid,'25').
+struct_dt_elem_i([ 26,1000000,0 ],7,attributeid,'26').
+struct_dt_elem_i([ 26,1000000,0 ],8,attributeid,'27').
+struct_dt_elem_i([ 26,1000000,0 ],9,attributeid,'28').
+struct_dt_elem_i([ 26,1000000,0 ],10,attributeid,'29').
+struct_dt_elem_i([ 26,1000000,0 ],11,attributeid,'30').
+struct_dt_elem_i([ 26,1000000,0 ],12,attributeid,'176').
+struct_dt_elem_i([ 26,1000000,0 ],13,attributeid,'31').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\SD','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\SD','PackageName','GeneXus.jar').

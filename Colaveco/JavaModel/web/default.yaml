@@ -1,0 +1,787 @@
+openapi: 3.0.0
+info:
+  title: "Colaveco"
+  version: "20230126180550"
+servers:
+  - url: http://localhost:8080/ColavecoJavaEnvironment/rest
+paths:
+  /SolicitudFrasco/{SFId}:
+    get:
+      tags:
+        - SolicitudFrasco
+      operationId: "GetSolicitudFrasco"
+      summary: "Gets a SolicitudFrasco"
+      parameters:
+        - name: "SFId"
+          in: "path"
+          description: "SFId"
+          required: true
+          schema:
+            type: "integer"
+            format: "int64"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SolicitudFrasco"
+        404:
+          description: "Data with the specified key could not be found"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        400:
+          description: "Bad request"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        500:
+          description: "Internal server error"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+    post:
+      tags:
+        - SolicitudFrasco
+      operationId: "InsertSolicitudFrasco"
+      summary: "Inserts a SolicitudFrasco"
+      parameters:
+        - name: "SFId"
+          in: "path"
+          description: "SFId"
+          required: true
+          schema:
+            type: "integer"
+            format: "int64"
+      requestBody:
+        description: "SDT of SolicitudFrasco"
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/SolicitudFrasco"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SolicitudFrasco"
+        404:
+          description: "Data with the specified key could not be found"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        400:
+          description: "Bad request"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        500:
+          description: "Internal server error"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        201:
+          description: "Created"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SolicitudFrasco"
+    put:
+      tags:
+        - SolicitudFrasco
+      operationId: "UpdateSolicitudFrasco"
+      summary: "Updates a SolicitudFrasco"
+      parameters:
+        - name: "SFId"
+          in: "path"
+          description: "SFId"
+          required: true
+          schema:
+            type: "integer"
+            format: "int64"
+      requestBody:
+        description: "SDT of SolicitudFrasco"
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/SolicitudFrasco"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SolicitudFrasco"
+        404:
+          description: "Data with the specified key could not be found"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        400:
+          description: "Bad request"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        500:
+          description: "Internal server error"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        409:
+          description: "SolicitudFrasco was changed"
+    delete:
+      tags:
+        - SolicitudFrasco
+      operationId: "DeleteSolicitudFrasco"
+      summary: "Deletes a SolicitudFrasco"
+      parameters:
+        - name: "SFId"
+          in: "path"
+          description: "SFId"
+          required: true
+          schema:
+            type: "integer"
+            format: "int64"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SolicitudFrasco"
+        404:
+          description: "Data with the specified key could not be found"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        400:
+          description: "Bad request"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        500:
+          description: "Internal server error"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        204:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SolicitudFrasco"
+  /Usuario/{UsuarioId}:
+    get:
+      tags:
+        - Usuario
+      operationId: "GetUsuario"
+      summary: "Gets an Usuario"
+      parameters:
+        - name: "UsuarioId"
+          in: "path"
+          description: "Usuario Id"
+          required: true
+          schema:
+            type: "integer"
+            format: "int64"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Usuario"
+        404:
+          description: "Data with the specified key could not be found"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        400:
+          description: "Bad request"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        500:
+          description: "Internal server error"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+    post:
+      tags:
+        - Usuario
+      operationId: "InsertUsuario"
+      summary: "Inserts an Usuario"
+      parameters:
+        - name: "UsuarioId"
+          in: "path"
+          description: "Usuario Id"
+          required: true
+          schema:
+            type: "integer"
+            format: "int64"
+      requestBody:
+        description: "SDT of Usuario"
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Usuario"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Usuario"
+        404:
+          description: "Data with the specified key could not be found"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        400:
+          description: "Bad request"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        500:
+          description: "Internal server error"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        201:
+          description: "Created"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Usuario"
+    put:
+      tags:
+        - Usuario
+      operationId: "UpdateUsuario"
+      summary: "Updates an Usuario"
+      parameters:
+        - name: "UsuarioId"
+          in: "path"
+          description: "Usuario Id"
+          required: true
+          schema:
+            type: "integer"
+            format: "int64"
+      requestBody:
+        description: "SDT of Usuario"
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Usuario"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Usuario"
+        404:
+          description: "Data with the specified key could not be found"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        400:
+          description: "Bad request"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        500:
+          description: "Internal server error"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        409:
+          description: "Usuario was changed"
+    delete:
+      tags:
+        - Usuario
+      operationId: "DeleteUsuario"
+      summary: "Deletes an Usuario"
+      parameters:
+        - name: "UsuarioId"
+          in: "path"
+          description: "Usuario Id"
+          required: true
+          schema:
+            type: "integer"
+            format: "int64"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Usuario"
+        404:
+          description: "Data with the specified key could not be found"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        400:
+          description: "Bad request"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        500:
+          description: "Internal server error"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GxJsonError"
+        204:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Usuario"
+  /oauth/access_token:
+    post:
+      tags:
+        - oauth
+      operationId: "oauth.access_token"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /oauth/logout:
+    post:
+      tags:
+        - oauth
+      operationId: "oauth.logout"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /oauth/userinfo:
+    get:
+      tags:
+        - oauth
+      operationId: "oauth.userinfo"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /gx_valid_service:
+    post:
+      tags:
+        - GXValidService
+      operationId: "gx_valid_service"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /oauth/gam/signin:
+    post:
+      tags:
+        - oauth.gam
+      operationId: "oauth.gam.signin"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /oauth/gam/callback:
+    post:
+      tags:
+        - oauth.gam
+      operationId: "oauth.gam.callback"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /oauth/gam/access_token:
+    post:
+      tags:
+        - oauth.gam
+      operationId: "oauth.gam.access_token"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /oauth/gam/userinfo:
+    post:
+      tags:
+        - oauth.gam
+      operationId: "oauth.gam.userinfo"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /oauth/gam/signout:
+    post:
+      tags:
+        - oauth.gam
+      operationId: "oauth.gam.signout"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /oauth/RequestTokenService:
+    post:
+      tags:
+        - oauth
+      operationId: "oauth.RequestTokenService"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /oauth/QueryAccessToken:
+    post:
+      tags:
+        - oauth
+      operationId: "oauth.QueryAccessToken"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /saml/gam/signout:
+    post:
+      tags:
+        - saml.gam
+      operationId: "saml.gam.signout"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /saml/gam/signin:
+    post:
+      tags:
+        - saml.gam
+      operationId: "saml.gam.signin"
+      summary: "GeneXus GAM Services"
+
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+components:
+  schemas:
+    SolicitudFrasco:
+      properties:
+        SFId:
+          description: SFId
+          type: "integer"
+          format: "int64"
+        SFIdNet:
+          description: SFId Net
+          type: "integer"
+          format: "int64"
+        SFNombre:
+          description: SFNombre
+          type: "string"
+        SFDireccion:
+          description: SFDireccion
+          type: "string"
+        SFAgencia:
+          description: SFAgencia
+          type: "integer"
+          format: "int32"
+        SFTelefono:
+          description: SFTelefono
+          type: "string"
+        SFEmail:
+          description: SFEmail
+          type: "string"
+        SFFrascosConC:
+          description: SFFrascos Con C
+          type: "integer"
+          format: "int32"
+        SFFrascosSinC:
+          description: SFFrascos Sin C
+          type: "integer"
+          format: "int32"
+        SFFrascosAgua:
+          description: SFFrascos Agua
+          type: "integer"
+          format: "int32"
+        SFFrascosSangre:
+          description: SFFrascos Sangre
+          type: "integer"
+          format: "int32"
+        SFObservaciones:
+          description: SFObservaciones
+          type: "string"
+        SFFechaCreacion:
+          description: SFFecha Creacion
+          type: "string"
+          format: "date-time"
+        SFFechaModificado:
+          description: SFFecha Modificado
+          type: "string"
+          format: "date-time"
+        SFFrascosIsopo:
+          description: SFFrascos Isopo
+          type: "integer"
+          format: "int32"
+        gx_md5_hash:
+          description: gx_md5_hash is an identifier for a specific version of a resource, it is used for optimistic concurrency check. It is required for update and delete operations and  ignored on insert.
+          type: "string"
+
+
+      required:
+        - SFId
+
+    Usuario:
+      properties:
+        UsuarioId:
+          description: Usuario Id
+          type: "integer"
+          format: "int64"
+        UsuarioEmail:
+          description: Usuario Email
+          type: "string"
+        UsuarioUsuarioWeb:
+          description: Usuario Usuario Web
+          type: "string"
+        UsuarioNombre:
+          description: Usuario Nombre
+          type: "string"
+        UsuarioDicose:
+          description: Usuario Dicose
+          type: "string"
+        UsuarioRazonSocial:
+          description: Usuario Razon Social
+          type: "string"
+        UsuarioRut:
+          description: Usuario Rut
+          type: "string"
+        UsuarioIdNet:
+          description: Usuario Id Net
+          type: "integer"
+          format: "int64"
+        UsuarioDireccion:
+          description: Usuario Direccion
+          type: "string"
+        UsuarioTipousuario:
+          description: Usuario Tipousuario
+          type: "integer"
+          format: "int32"
+        UsuarioIdTecnico1:
+          description: Usuario Id Tecnico1
+          type: "integer"
+          format: "int64"
+        UsuarioIdTecnico2:
+          description: Usuario Id Tecnico2
+          type: "integer"
+          format: "int64"
+        UsuarioIdTecnico3:
+          description: Usuario Id Tecnico3
+          type: "integer"
+          format: "int64"
+        UsuarioDireccionFrasco:
+          description: Usuario Direccion Frasco
+          type: "string"
+        UsuarioAgenciaFrasco:
+          description: Usuario Agencia Frasco
+          type: "integer"
+          format: "int32"
+        UsuarioNotificacionFrasco1:
+          description: Usuario Notificacion Frasco1
+          type: "string"
+        UsuarioNotificacionFrasco2:
+          description: Usuario Notificacion Frasco2
+          type: "string"
+        UsuarioNotificacionSolicitud1:
+          description: Usuario Notificacion Solicitud1
+          type: "string"
+        UsuarioNotificacionSolicitud2:
+          description: Usuario Notificacion Solicitud2
+          type: "string"
+        UsuarioNotificacionResultado1:
+          description: Usuario Notificacion Resultado1
+          type: "string"
+        UsuarioNotificacionResultado2:
+          description: Usuario Notificacion Resultado2
+          type: "string"
+        UsuarioNotificacionAvisos1:
+          description: Usuario Notificacion Avisos1
+          type: "string"
+        UsuarioNotificacionAvisos2:
+          description: Usuario Notificacion Avisos2
+          type: "string"
+        UsuarioTecnicoCelular1:
+          description: Usuario Tecnico Celular1
+          type: "string"
+        UsuarioTecnicoCelular2:
+          description: Usuario Tecnico Celular2
+          type: "string"
+        UsuarioTecnicoCelularNombre1:
+          description: Usuario Tecnico Celular Nombre1
+          type: "string"
+        UsuarioTecnicoCelularNombre2:
+          description: Usuario Tecnico Celular Nombre2
+          type: "string"
+        UsuarioTecnicoTelefono1:
+          description: Usuario Tecnico Telefono1
+          type: "string"
+        UsuarioTecnicoTelefono2:
+          description: Usuario Tecnico Telefono2
+          type: "string"
+        UsuarioTecnicoTelefonoNombre1:
+          description: Usuario Tecnico Telefono Nombre1
+          type: "string"
+        UsuarioTecnicoTelefonoNombre2:
+          description: Usuario Tecnico Telefono Nombre2
+          type: "string"
+        UsuarioTecnicoEmail1:
+          description: Usuario Tecnico Email1
+          type: "string"
+        UsuarioTecnicoEmail2:
+          description: Usuario Tecnico Email2
+          type: "string"
+        UsuarioTecnicoEmailNombre1:
+          description: Usuario Tecnico Email Nombre1
+          type: "string"
+        UsuarioTecnicoEmailNombre2:
+          description: Usuario Tecnico Email Nombre2
+          type: "string"
+        UsuarioRutTipo:
+          description: Usuario Rut Tipo
+          type: "string"
+        UsuarioFacDireccion:
+          description: Usuario Fac Direccion
+          type: "string"
+        UsuarioFacLocalidad:
+          description: Usuario Fac Localidad
+          type: "string"
+        UsuarioFacDepartamento:
+          description: Usuario Fac Departamento
+          type: "string"
+        UsuarioFacEmailEnvio:
+          description: Usuario Fac Email Envio
+          type: "string"
+        UsuarioCobranzaCelular1:
+          description: Usuario Cobranza Celular1
+          type: "string"
+        UsuarioCobranzaCelular2:
+          description: Usuario Cobranza Celular2
+          type: "string"
+        UsuarioCobranzaCelularNombre1:
+          description: Usuario Cobranza Celular Nombre1
+          type: "string"
+        UsuarioCobranzaCelularNombre2:
+          description: Usuario Cobranza Celular Nombre2
+          type: "string"
+        UsuarioCobranzaTelefono1:
+          description: Usuario Cobranza Telefono1
+          type: "string"
+        UsuarioCobranzaTelefono2:
+          description: Usuario Cobranza Telefono2
+          type: "string"
+        UsuarioCobranzaTelefonoNombre1:
+          description: Usuario Cobranza Telefono Nombre1
+          type: "string"
+        UsuarioCobranzaTelefonoNombre2:
+          description: Usuario Cobranza Telefono Nombre2
+          type: "string"
+        UsuarioCobranzaEmail1:
+          description: Usuario Cobranza Email1
+          type: "string"
+        UsuarioCobranzaEmail2:
+          description: Usuario Cobranza Email2
+          type: "string"
+        UsuarioCobranzaEmailNombre1:
+          description: Usuario Cobranza Email Nombre1
+          type: "string"
+        UsuarioCobranzaEmailNombre2:
+          description: Usuario Cobranza Email Nombre2
+          type: "string"
+        UsuarioCedula:
+          description: Usuario Cedula
+          type: "string"
+        gx_md5_hash:
+          description: gx_md5_hash is an identifier for a specific version of a resource, it is used for optimistic concurrency check. It is required for update and delete operations and  ignored on insert.
+          type: "string"
+
+
+      required:
+        - UsuarioId
+
+
+  
+    GxJsonError:
+      properties:
+        error:
+          $ref: "#/components/schemas/GxJsonError.error"
+
+
+    GxJsonError.error:
+      properties:
+        code:
+          type: "string"
+        message:
+          type: "string"
+
+
+      x-gx-level: "GxJsonError"
+
+

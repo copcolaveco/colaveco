@@ -1,0 +1,20 @@
+[
+  {
+    "Id": "d7e745bc-d8b3-44e8-9ad9-65ae18a8df20",
+    "Type": 1,
+    "EnvironmentGUID": "fa9f2c5d-d6fd-478d-b93f-ae05ffe10ced",
+    "IsNew": false
+  },
+  {
+    "Id": "19b6d3e600d04fcfa22afc1f9bc22d16",
+    "Type": 2,
+    "EnvironmentGUID": "19b6d3e600d04fcfa22afc1f9bc22d16",
+    "IsNew": false
+  },
+  {
+    "Id": "94cd50f6dcfe4537a96e37cec5789d26",
+    "Type": 2,
+    "EnvironmentGUID": "94cd50f6dcfe4537a96e37cec5789d26",
+    "IsNew": false
+  }
+]

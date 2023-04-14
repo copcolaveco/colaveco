@@ -1,0 +1,85 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_7-156546</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>36</ObjId>
+<ObjName>Loger</ObjName>
+<ObjDesc>Loger</ObjDesc>
+<ObjPgmName>Loger</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0060</MsgCode>
+<Message>
+<Token>The program may be called by another program and the Commit on Exit property is set to YES</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Logdetalle</VarId>
+<VarName>&amp;LogDetalle</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<LevelType>New</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>7</TableId>
+<TableName>Log</TableName>
+<Description>Log</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>175</AttriId>
+<AttriName>LogId</AttriName>
+<Description>Log Id</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<NavigationTree>
+<Table>
+<TableId>7</TableId>
+<TableName>Log</TableName>
+<Description>Log</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>175</AttriId>
+<AttriName>LogId</AttriName>
+<Description>Log Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>174</AttriId>
+<AttriName>LogDetalle</AttriName>
+<Description>Log Detalle</Description></Attribute>
+<Attribute>
+<AttriId>175</AttriId>
+<AttriName>LogId</AttriName>
+<Description>Log Id</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>7</TableId>
+<TableName>Log</TableName>
+<Description>Log</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>174</AttriId>
+<AttriName>LogDetalle</AttriName>
+<Description>Log Detalle</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

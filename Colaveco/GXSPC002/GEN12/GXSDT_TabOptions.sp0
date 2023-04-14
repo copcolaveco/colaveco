@@ -1,0 +1,102 @@
+ 
+spec_i([ sdt,[ 26,66,0 ],'TabOptions','TabOptions',0,eng,'17_0_7-156546' ]).
+ 
+struct_dt_i([ 26,66,0 ],name,'TabOptions').
+struct_dt_i([ 26,66,0 ],namespace,'Colaveco').
+struct_dt_i([ 26,66,0 ],'ObjName','TabOptions').
+struct_dt_i([ 26,66,0 ],'ObjDesc','Tab Options').
+struct_dt_i([ 26,66,0 ],'ExternalName','TabOptions').
+struct_dt_i([ 26,66,0 ],'ExternalNamespace','Colaveco').
+struct_dt_i([ 26,66,0 ],collection,'True').
+struct_dt_i([ 26,66,0 ],datatype,[ 26,66,93 ]).
+struct_dt_i([ 26,66,0 ],'CollectionItemName','TabOptionsItem').
+struct_dt_i([ 26,66,0 ],'XmlName','').
+struct_dt_i([ 26,66,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,66,0 ],'XmlNamespace','').
+struct_dt_i([ 26,66,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,66,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,66,0 ],'JsonName','').
+struct_dt_i([ 26,66,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,66,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,66,93 ],name,'TabOptionsItem').
+struct_dt_i([ 26,66,93 ],namespace,'Colaveco.TabOptions').
+struct_dt_i([ 26,66,0 ],fullname,'TabOptions').
+struct_dt_i([ 26,66,93 ],fullname,'TabOptions.TabOptionsItem').
+struct_dt_i([ 26,66,0 ],modified,yes).
+struct_dt_i([ 26,66,93 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,66,93 ],1,name,'Code').
+struct_dt_elem_i([ 26,66,93 ],1,camelname,'Code').
+struct_dt_elem_i([ 26,66,93 ],1,basedon,187).
+struct_dt_elem_i([ 26,66,93 ],1,length,50).
+struct_dt_elem_i([ 26,66,93 ],1,decimals,0).
+struct_dt_elem_i([ 26,66,93 ],1,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 26,66,93 ],1,pic,'').
+struct_dt_elem_i([ 26,66,93 ],1,collection,'False').
+struct_dt_elem_i([ 26,66,93 ],1,'ExternalName','Code').
+struct_dt_elem_i([ 26,66,93 ],1,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,66,93 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,66,93 ],1,'XmlName','').
+struct_dt_elem_i([ 26,66,93 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,66,93 ],1,soaptype,'').
+struct_dt_elem_i([ 26,66,93 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,66,93 ],1,'JsonName','').
+struct_dt_elem_i([ 26,66,93 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,66,93 ],2,name,'Description').
+struct_dt_elem_i([ 26,66,93 ],2,camelname,'Description').
+struct_dt_elem_i([ 26,66,93 ],2,length,255).
+struct_dt_elem_i([ 26,66,93 ],2,decimals,0).
+struct_dt_elem_i([ 26,66,93 ],2,type,[ 13,255,0 ]).
+struct_dt_elem_i([ 26,66,93 ],2,pic,'').
+struct_dt_elem_i([ 26,66,93 ],2,collection,'False').
+struct_dt_elem_i([ 26,66,93 ],2,'ExternalName','Description').
+struct_dt_elem_i([ 26,66,93 ],2,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,66,93 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,66,93 ],2,'XmlName','').
+struct_dt_elem_i([ 26,66,93 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,66,93 ],2,soaptype,'').
+struct_dt_elem_i([ 26,66,93 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,66,93 ],2,'JsonName','').
+struct_dt_elem_i([ 26,66,93 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,66,93 ],3,name,'Link').
+struct_dt_elem_i([ 26,66,93 ],3,camelname,'Link').
+struct_dt_elem_i([ 26,66,93 ],3,basedon,29).
+struct_dt_elem_i([ 26,66,93 ],3,length,1000).
+struct_dt_elem_i([ 26,66,93 ],3,decimals,0).
+struct_dt_elem_i([ 26,66,93 ],3,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,66,93 ],3,pic,'').
+struct_dt_elem_i([ 26,66,93 ],3,collection,'False').
+struct_dt_elem_i([ 26,66,93 ],3,'ExternalName','Link').
+struct_dt_elem_i([ 26,66,93 ],3,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,66,93 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,66,93 ],3,'XmlName','').
+struct_dt_elem_i([ 26,66,93 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,66,93 ],3,soaptype,'').
+struct_dt_elem_i([ 26,66,93 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,66,93 ],3,'JsonName','').
+struct_dt_elem_i([ 26,66,93 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,66,93 ],4,name,'Webcomponent').
+struct_dt_elem_i([ 26,66,93 ],4,camelname,'WebComponent').
+struct_dt_elem_i([ 26,66,93 ],4,basedon,29).
+struct_dt_elem_i([ 26,66,93 ],4,length,1000).
+struct_dt_elem_i([ 26,66,93 ],4,decimals,0).
+struct_dt_elem_i([ 26,66,93 ],4,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,66,93 ],4,pic,'').
+struct_dt_elem_i([ 26,66,93 ],4,collection,'False').
+struct_dt_elem_i([ 26,66,93 ],4,'ExternalName','WebComponent').
+struct_dt_elem_i([ 26,66,93 ],4,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,66,93 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,66,93 ],4,'XmlName','').
+struct_dt_elem_i([ 26,66,93 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,66,93 ],4,soaptype,'').
+struct_dt_elem_i([ 26,66,93 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,66,93 ],4,'JsonName','').
+struct_dt_elem_i([ 26,66,93 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,66,93 ],3,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 26,66,93 ],4,pic,'ZZZZZZZZZZZZZZZZZ9').
+ 
+ 
+ 
+ 
+ 
+ 

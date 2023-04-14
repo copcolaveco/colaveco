@@ -1,0 +1,209 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_7-156546</SpecVersion>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>48</ObjId>
+<ObjName>ResultadoGeneral</ObjName>
+<ObjDesc>Resultado General</ObjDesc>
+<ObjPgmName>ResultadoGeneral</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>resultadoId</AttriName>
+<Description>resultado Id</Description></Attribute></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName>
+<CALL>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>28</ObjId>
+<ObjName>NotAuthorized</ObjName>
+<ObjPgmName>NotAuthorized</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Expression>
+<Variable>
+<VarId>Pgmname</VarId>
+<VarName>&amp;Pgmname</VarName></Variable></Expression>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For First</LevelType>
+<LevelBeginRow>0</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>1</TableId>
+<TableName>Resultado</TableName>
+<Description>Resultado</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>resultadoId</AttriName>
+<Description>resultado Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IRESULTADO</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>resultadoId</AttriName>
+<Description>resultado Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>@resultadoId</AttriName>
+<Description>resultado Id</Description></Attribute></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>resultadoId</AttriName>
+<Description>resultado Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>@resultadoId</AttriName>
+<Description>resultado Id</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>1</TableId>
+<TableName>Resultado</TableName>
+<Description>Resultado</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>resultadoId</AttriName>
+<Description>resultado Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>resultadoAbonado</AttriName>
+<Description>resultado Abonado</Description></Attribute>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>resultadoEliminado</AttriName>
+<Description>resultado Eliminado</Description></Attribute>
+<Attribute>
+<AttriId>166</AttriId>
+<AttriName>resultadoIdNetTipoinforme</AttriName>
+<Description>resultado Id Net Tipoinforme</Description></Attribute>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>resultadoIdLibro</AttriName>
+<Description>resultado Id Libro</Description></Attribute>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>resultadoIdEstado</AttriName>
+<Description>resultado Id Estado</Description></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>resultadoPathCsv</AttriName>
+<Description>resultado Path Csv</Description></Attribute>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>resultadoPathPdf</AttriName>
+<Description>resultado Path Pdf</Description></Attribute>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>resultadoPathExcel</AttriName>
+<Description>resultado Path Excel</Description></Attribute>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>resultadoFechaEmision</AttriName>
+<Description>resultado Fecha Emision</Description></Attribute>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>resultadoFechaCreado</AttriName>
+<Description>resultado Fecha Creado</Description></Attribute>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>resultadoIdNetUsuario</AttriName>
+<Description>resultado Id Net Usuario</Description></Attribute>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>resultadoTypeId</AttriName>
+<Description>resultado Type Id</Description></Attribute>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>resultadoUserId</AttriName>
+<Description>resultado User Id</Description></Attribute>
+<Attribute>
+<AttriId>8</AttriId>
+<AttriName>resultadoComentarios</AttriName>
+<Description>resultado Comentarios</Description></Attribute>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>resultadoFicha</AttriName>
+<Description>resultado Ficha</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>'DoUpdate'</EventName>
+<CALL>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>1</ObjId>
+<ObjName>Resultado</ObjName>
+<ObjPgmName>Resultado</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Expression>
+<Token>TrnMode</Token>
+<Token>.Update</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>resultadoId</AttriName>
+<Description>resultado Id</Description></Attribute></Expression>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>'DoDelete'</EventName>
+<CALL>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>1</ObjId>
+<ObjName>Resultado</ObjName>
+<ObjPgmName>Resultado</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Expression>
+<Token>TrnMode</Token>
+<Token>.Delete</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>resultadoId</AttriName>
+<Description>resultado Id</Description></Attribute></Expression>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>'PREPARETRANSACTION'</EventName>
+<EventType>Subrutine</EventType></Event>
+<Suggests></Suggests></ObjectSpec>

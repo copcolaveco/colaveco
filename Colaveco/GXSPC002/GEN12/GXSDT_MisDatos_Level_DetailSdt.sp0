@@ -1,0 +1,38 @@
+ 
+spec_i([ sdt,[ 26,1000000,0 ],'MisDatos_Level_DetailSdt','MisDatos_Level_DetailSdt',0,eng,'17_0_7-156546' ]).
+ 
+struct_dt_i([ 26,1000000,0 ],name,'MisDatos_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'MisDatos_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],collection,'False').
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],fullname,'MisDatos_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,1000000,0 ],1,name,'Sdtusuario').
+struct_dt_elem_i([ 26,1000000,0 ],1,camelname,'Sdtusuario').
+struct_dt_elem_i([ 26,1000000,0 ],1,type,[ [ 26,61,0 ],0,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],1,length,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],1,islevel,'False').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXusSecurity','PACKAGE','genexus.security.api').
+module_info_i('GeneXusSecurity','PackageName','GeneXusSecurity.jar').
+module_info_i('GeneXus\SD','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\SD','PackageName','GeneXus.jar').
+ 
+struct_dt_i([ 26,61,0 ],name,'SDTUsuario').
+struct_dt_i([ 26,61,0 ],namespace,'Colaveco').
+struct_dt_i([ 26,61,0 ],'ObjName','SDTUsuario').
+struct_dt_i([ 26,61,0 ],'ObjDesc','SDTUsuario').
+struct_dt_i([ 26,61,0 ],'ExternalName','SDTUsuario').
+struct_dt_i([ 26,61,0 ],'ExternalNamespace','Colaveco').
+struct_dt_i([ 26,61,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,61,0 ],fullname,'SDTUsuario').
+struct_dt_i([ 26,61,0 ],modified,yes).

@@ -1,0 +1,195 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_7-156546</SpecVersion>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>43</ObjId>
+<ObjName>WWResultado</ObjName>
+<ObjDesc>Work With Resultado</ObjDesc>
+<ObjPgmName>WWResultado</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0038</MsgCode>
+<Message>
+<Token>There is no index for order </Token>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>resultadoFicha</AttriName>
+<Description>resultado Ficha</Description>
+<AttriOrder>Descending</AttriOrder></Attribute>
+<Token>; poor performance may be noticed</Token>
+<Token> in grid '</Token>
+<Token>Grid</Token>
+<Token>'</Token>
+<Token>.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<Main>Yes</Main>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName>
+<CALL>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>28</ObjId>
+<ObjName>NotAuthorized</ObjName>
+<ObjPgmName>NotAuthorized</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Expression>
+<Variable>
+<VarId>Pgmname</VarId>
+<VarName>&amp;Pgmname</VarName></Variable></Expression>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>Refresh</EventName></Event>
+<Event>
+<EventName>Grid.Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>0</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>1</TableId>
+<TableName>Resultado</TableName>
+<Description>Resultado</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>resultadoFicha</AttriName>
+<Description>resultado Ficha</Description>
+<AttriOrder>Descending</AttriOrder></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<Optimizations>
+<Optimization>
+<Type>ServerPaging</Type></Optimization></Optimizations>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>resultadoIdNetUsuario</AttriName>
+<Description>resultado Id Net Usuario</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Externalid</VarId>
+<VarName>&amp;ExternalId</VarName></Variable></Condition>
+<ConditionalConstraint>
+<Constraint>
+<Attribute>
+<AttriId>166</AttriId>
+<AttriName>resultadoIdNetTipoinforme</AttriName>
+<Description>resultado Id Net Tipoinforme</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Tipoinforme</VarId>
+<VarName>&amp;TipoInforme</VarName></Variable></Constraint>
+<Condition>
+<Variable>
+<VarId>Tipoinforme</VarId>
+<VarName>&amp;TipoInforme</VarName></Variable>
+<Sp></Sp>
+<Token>&lt;&gt;</Token>
+<Sp></Sp>
+<Token>0</Token></Condition></ConditionalConstraint>
+<ConditionalConstraint>
+<Constraint>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>resultadoFicha</AttriName>
+<Description>resultado Ficha</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Resultadoficha</VarId>
+<VarName>&amp;resultadoFicha</VarName></Variable></Constraint>
+<Condition>
+<Token>not</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Resultadoficha</VarId>
+<VarName>&amp;resultadoFicha</VarName></Variable>
+<Token>.</Token>
+<Token>isempty(</Token>
+<Token>)</Token></Condition></ConditionalConstraint></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>1</TableId>
+<TableName>Resultado</TableName>
+<Description>Resultado</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>resultadoId</AttriName>
+<Description>resultado Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>resultadoIdNetUsuario</AttriName>
+<Description>resultado Id Net Usuario</Description></Attribute>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>resultadoIdEstado</AttriName>
+<Description>resultado Id Estado</Description></Attribute>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>resultadoPathExcel</AttriName>
+<Description>resultado Path Excel</Description></Attribute>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>resultadoPathPdf</AttriName>
+<Description>resultado Path Pdf</Description></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>resultadoPathCsv</AttriName>
+<Description>resultado Path Csv</Description></Attribute>
+<Attribute>
+<AttriId>166</AttriId>
+<AttriName>resultadoIdNetTipoinforme</AttriName>
+<Description>resultado Id Net Tipoinforme</Description></Attribute>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>resultadoFechaEmision</AttriName>
+<Description>resultado Fecha Emision</Description></Attribute>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>resultadoFicha</AttriName>
+<Description>resultado Ficha</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>'DoInsert'</EventName></Event>
+<Event>
+<EventName>'PREPARETRANSACTION'</EventName>
+<EventType>Subrutine</EventType></Event>
+<Event>
+<EventName>'DownloadExcel'</EventName></Event>
+<Event>
+<EventName>'DownloadPdf'</EventName></Event>
+<Event>
+<EventName>'DownloadTxt'</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

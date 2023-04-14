@@ -1,0 +1,357 @@
+spec_i([ mnproc,0,'Agencias_Level_Detail_Grid1','Agencias_Level_Detail_Grid1',0,eng,'17_0_7-156546' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'MYSQL_VERSION','5')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',root)).
+rule_i(0,datastore(2,'USER_ID',root)).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','3308')).
+rule_i(0,datastore(2,'CS_SERVER',localhost)).
+rule_i(0,datastore(2,'CS_DBNAME','ColavecoconGx_Gam')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'ADONET_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.mysql.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','84')).
+rule_i(0,datastore(2,'DBMS',18)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'MYSQL_VERSION','5')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',root)).
+rule_i(0,datastore(1,'USER_ID',root)).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','3308')).
+rule_i(0,datastore(1,'CS_SERVER',localhost)).
+rule_i(0,datastore(1,'CS_DBNAME','ColavecoconGx')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'ADONET_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.mysql.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',18)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('FullyQualifiedName','Agencias_Level_Detail_Grid1')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('IntegratedSecurityBlurOnBackground','0')).
+rule_i(0,prop('IntegratedSecurityEnableBiometrics','0')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityLow')).
+rule_i(0,prop('CacheCheckForNewData','CacheCheckForNewDataEveryTime')).
+rule_i(0,prop('CacheEnabled','-1')).
+rule_i(0,prop(autoRefreshTime,'0')).
+rule_i(0,prop(dataSelectorParameters,[])).
+rule_i(0,prop(dataSelector,'')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('DeepLinkName','')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(caption,'Agencias')).
+rule_i(0,prop('MasterPanel','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('Folder',o(8,'Panels'))).
+rule_i(0,prop('Description','Agencias')).
+rule_i(0,prop('Name','Agencias')).
+rule_i(0,rule([ a(22,[ 'Rfr','"Refresh"','5' ]) ],[],[],[])).
+rule_i(0,maingen(12)).
+rule_i(0,prop('DPRV_WSPROTOCOL','REST')).
+rule_i(0,prop(idISWEBSERVICE,'-1')).
+rule_i(0,prop('ObjName','Agencias_Level_Detail_Grid1')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityLow')).
+rule_i(0,prop('SDPanel','True')).
+rule_i(0,parm([ 'Sdtagenciaid','Start','Count','Gxid','GXM3RootCol' ],[])).
+rule_i(0,parmio([ [ 'Sdtagenciaid',in ],[ 'Start',in ],[ 'Count',in ],[ 'Gxid',in ],[ 'GXM3RootCol',out ] ])).
+rule_i(0,prop('OutputSDT',o(26,'Agencias_Level_Detail_Grid1Sdt'))).
+ 
+a_i(3,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,3,[]).
+v_i(f,o,3,'Err').
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('GXV1',[ 'GXV1',int,8,0,'',0,'','',18 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',17 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',16 ]).
+attri_i('GXM2Agencias_Level_Detail_Grid1Sdt',[ 'GXM2Agencias_Level_Detail_Grid1Sdt',o('Agencias_Level_Detail_Grid1Sdt.Item'),0,0,'',0,'GXM2Agencias_Level_Detail_Grid1Sdt','',15 ]).
+attri_i('GXM3RootCol',[ 'GXM3RootCol',o(objectcollection('Agencias_Level_Detail_Grid1Sdt.Item')),0,0,'',0,'GXM3RootCol','',14 ]).
+attri_i('GXV1SkipCount',[ 'GXV1SkipCount',int,8,0,'',1,'GXV1SkipCount','',13 ]).
+attri_i('Count',[ count,int,10,0,'',0,'Count','',12 ]).
+attri_i('Start',[ start,int,10,0,'',0,'Start','',11 ]).
+attri_i('Gxwebsession',[ 'Gxwebsession',o(websession),4,0,'',0,'Gxwebsession','',10 ]).
+attri_i('Gxids',[ 'Gxids',char,20,0,'',0,'Gxids','',9 ]).
+attri_i('Gxid',[ gxid,int,8,0,'',0,'Gxid','',8 ]).
+attri_i('Sdtagenciaid',[ 'SDTAgenciaId',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'SDTAgencia Id','',7 ]).
+attri_i('Agenciasid',[ 'AgenciasId',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Agencias Id','',6 ]).
+attri_i('Sdtagencia',[ 'SDTAgencia',o(objectcollection('SDTAgencia.SDTAgenciaItem')),0,0,'',0,'SDTAgencia','',5 ]).
+ 
+ 
+ 
+ 
+ 
+function_i(1,'Sdtagencia',yes,udp,o(33,'DPAgencia'),[],6,'Sdtagencia',[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(83,[ id ]).
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+ 
+b_line_i(2,1,1,cmd,2,[ t('',107,2,0),t('Gxids',23,2,0),t(=,10,2,0),t('''gxid_''',3,2,0),t(+,5,2,0),t('str(',1,2,0),t('Gxid',23,2,0),t(',',7,2,0),t(8,3,2,0),t(',',7,2,0),t(0,3,2,0),t(')',4,2,0) ]).
+b_line_i(3,1,1,cmd,2,[ t('',107,3,0),t([ t('Sdtagencia',23,3,1),t('fromjson(',1,3,0) ],31,3,1),t([ t('Gxwebsession',23,2,0),t('get(',1,2,0) ],31,3,0),t('Gxids',23,2,0),t(+,5,2,0),t('''gxvar_Sdtagencia''',3,3,0),t(')',4,2,0),t(')',4,2,0) ]).
+b_line_i(4,1,1,cmd,2,[ t('',107,4,0),t('GXV1SkipCount',23,2,0),t(=,10,2,0),t(-,5,2,0),t('(',0,2,0),t('Start',23,2,0),t(')',4,2,0) ]).
+b_line_i([ 4,1 ],1,1,cmd,2,[ t('',107,4,0),t('GXV1SkipCount',23,2,0),t(=,10,2,0),t('GXV1SkipCount',23,2,0),t(+,5,2,0),t(1,3,2,0) ]).
+b_line_i([ 4,2 ],1,1,cmd,2,[ t('',109,4,0),t('GXV1SkipCount',23,2,0),t(>,10,2,0),t(0,3,2,0) ]).
+b_line_i([ 4,3 ],1,1,cmd,2,[ t('',107,4,0),t('GXM2Agencias_Level_Detail_Grid1Sdt',23,2,0),t(=,10,2,0),t([ 'Agencias_Level_Detail_Grid1Sdt.Item',[ t('(',0,4,0),t(')',4,4,0) ],n ],46,2,0) ]).
+b_line_i([ 4,4 ],1,1,cmd,2,[ t('',107,4,0),t([ t('GXM3RootCol',23,4,0),t('add(',1,4,0) ],31,4,0),t('GXM2Agencias_Level_Detail_Grid1Sdt',23,2,0),t(')',4,2,0) ]).
+b_line_i(5,1,1,cmd,3,[ t('',109,5,0),t('Start',23,3,0),t(=,10,3,0),t(0,3,3,0) ]).
+b_line_i(6,1,1,cmd,3,[ t('',107,6,0),t('Sdtagencia',23,3,0),t(=,10,3,0),t('udp(',1,3,0),t('Sdtagencia',3,3,0),t(6,3,3,0),t(')',4,3,0) ]).
+b_line_i(7,1,1,cmd,3,[ t('',111,7,0) ]).
+b_line_i(8,1,1,cmd,3,[ t('',107,8,0),t('GXV1',23,3,0),t(=,10,3,0),t(1,3,3,0) ]).
+b_line_i([ 8,2 ],1,1,cmd,3,[ t('',114,8,0),t('GXV1',23,3,0),t(<=,10,3,0),t([ t('Sdtagencia',23,8,0),t('Count',3,8,0) ],29,8,0) ]).
+b_line_i([ 8,3 ],1,1,cmd,3,[ t('',107,8,0),t([ t('Sdtagencia',23,3,0),t('Currentitem',3,3,0) ],29,3,0),t(=,10,3,0),t([ t('Sdtagencia',23,3,0),t('item(',1,3,0) ],31,3,0),t('GXV1',23,3,0),t(')',4,3,0) ]).
+b_line_i([ 9,1 ],1,1,cmd,4,[ t('',107,9,0),t('GXV1',23,4,0),t(=,10,4,0),t('GXV1',23,4,0),t(+,5,4,0),t(1,3,4,0) ]).
+b_line_i([ 9,2 ],1,1,cmd,4,[ t('',115,9,0) ]).
+b_line_i(10,1,1,cmd,5,[ t('',107,10,0),t([ t('GXM2Agencias_Level_Detail_Grid1Sdt',23,5,0),t('Sdtagencia',3,5,0) ],29,5,0),t(=,10,5,0),t('Sdtagencia',23,5,0) ]).
+b_line_i(11,1,1,cmd,5,[ t('',111,11,0) ]).
+b_line_i(12,1,1,cmd,5,[ t('',107,12,0),t([ t('Gxwebsession',23,12,1),t('set(',1,12,0) ],31,12,1),t('Gxids',23,5,0),t(+,5,5,0),t('''gxvar_Sdtagencia''',3,12,0),t(',',7,5,0),t([ t('Sdtagencia',23,5,0),t('tojson(',1,5,0) ],31,12,0),t(')',4,5,0),t(')',4,5,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+calling_main_i(36,1).
+ 
+ 
+ 
+ 
+var_prop_i(2,'Agenciasid',idBasedOn,83,v).
+var_prop_i(2,'Sdtagenciaid',idBasedOn,83,v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,60,0 ],name,'SDTAgencia').
+struct_dt_i([ 26,60,0 ],namespace,'Colaveco').
+struct_dt_i([ 26,60,0 ],'ObjName','SDTAgencia').
+struct_dt_i([ 26,60,0 ],'ObjDesc','SDTAgencia').
+struct_dt_i([ 26,60,0 ],'ExternalName','SDTAgencia').
+struct_dt_i([ 26,60,0 ],'ExternalNamespace','Colaveco').
+struct_dt_i([ 26,60,0 ],collection,'True').
+struct_dt_i([ 26,60,0 ],datatype,[ 26,60,87 ]).
+struct_dt_i([ 26,60,0 ],'CollectionItemName','SDTAgenciaItem').
+struct_dt_i([ 26,60,0 ],'XmlName','').
+struct_dt_i([ 26,60,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,60,0 ],'XmlNamespace','').
+struct_dt_i([ 26,60,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,60,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,60,0 ],'JsonName','').
+struct_dt_i([ 26,60,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,60,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,60,87 ],name,'SDTAgenciaItem').
+struct_dt_i([ 26,60,87 ],namespace,'Colaveco.SDTAgencia').
+struct_dt_i([ 26,60,0 ],fullname,'SDTAgencia').
+struct_dt_i([ 26,60,87 ],fullname,'SDTAgencia.SDTAgenciaItem').
+struct_dt_i([ 26,60,0 ],camelname,'SDTAgencia').
+struct_dt_i([ 26,60,87 ],camelname,'SDTAgenciaItem').
+struct_dt_i([ 26,1000000,0 ],name,'Agencias_Level_Detail_Grid1Sdt').
+struct_dt_i([ 26,1000000,0 ],camelname,'Agencias_Level_Detail_Grid1Sdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'Agencias_Level_Detail_Grid1Sdt').
+struct_dt_i([ 26,1000000,1 ],name,'Item').
+struct_dt_i([ 26,1000000,1 ],camelname,'Item').
+struct_dt_i([ 26,1000000,1 ],camelnameex,'Item').
+struct_dt_i([ 26,1000000,0 ],collection,'True').
+struct_dt_i([ 26,1000000,0 ],datatype,[ 26,1000000,1 ]).
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],fullname,'Agencias_Level_Detail_Grid1Sdt').
+struct_dt_i([ 26,1000000,1 ],fullname,'Agencias_Level_Detail_Grid1Sdt.Item').
+ 
+struct_dt_elem_i([ 26,60,87 ],1,name,'Sdtagenciaid').
+struct_dt_elem_i([ 26,60,87 ],1,camelname,'SDTAgenciaId').
+struct_dt_elem_i([ 26,60,87 ],1,basedon,83).
+struct_dt_elem_i([ 26,60,87 ],1,length,18).
+struct_dt_elem_i([ 26,60,87 ],1,decimals,0).
+struct_dt_elem_i([ 26,60,87 ],1,sign,0).
+struct_dt_elem_i([ 26,60,87 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,60,87 ],1,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 26,60,87 ],1,collection,'False').
+struct_dt_elem_i([ 26,60,87 ],1,'ExternalName','SDTAgenciaId').
+struct_dt_elem_i([ 26,60,87 ],1,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,60,87 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,60,87 ],1,'XmlName','').
+struct_dt_elem_i([ 26,60,87 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,60,87 ],1,soaptype,'').
+struct_dt_elem_i([ 26,60,87 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,60,87 ],1,'JsonName','').
+struct_dt_elem_i([ 26,60,87 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,60,87 ],2,name,'Sdtagencianombre').
+struct_dt_elem_i([ 26,60,87 ],2,camelname,'SDTAgenciaNombre').
+struct_dt_elem_i([ 26,60,87 ],2,length,40).
+struct_dt_elem_i([ 26,60,87 ],2,decimals,0).
+struct_dt_elem_i([ 26,60,87 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,60,87 ],2,pic,'').
+struct_dt_elem_i([ 26,60,87 ],2,collection,'False').
+struct_dt_elem_i([ 26,60,87 ],2,'ExternalName','SDTAgenciaNombre').
+struct_dt_elem_i([ 26,60,87 ],2,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,60,87 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,60,87 ],2,'XmlName','').
+struct_dt_elem_i([ 26,60,87 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,60,87 ],2,soaptype,'').
+struct_dt_elem_i([ 26,60,87 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,60,87 ],2,'JsonName','').
+struct_dt_elem_i([ 26,60,87 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,1000000,1 ],1,name,'Sdtagencia').
+struct_dt_elem_i([ 26,1000000,1 ],1,camelname,'Sdtagencia').
+struct_dt_elem_i([ 26,1000000,1 ],1,type,[ [ 26,60,0 ],0,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],1,length,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],1,islevel,'False').
+ 
+ 
+ 
+ 
+ 
+sub_info_i(146,'Agencias_Level_Detail_Grid1',0,0,[ [ 'Gxid','Gxwebsession' ],[ 'Gxids','Sdtagencia','GXM2Agencias_Level_Detail_Grid1Sdt','GXM3RootCol','GXV1','Gxwebsession' ] ]).
+ 
+pgm_parm_i(mnproc,2,'DPAGENCIA',[ [ o(objectcollection('SDTAgencia.SDTAgenciaItem')),0,0,0 ] ],[ [ 'ReturnValue',out,[] ] ]).
+ 
+pgm_callprotocol_i(mnproc,0,'AGENCIAS_LEVEL_DETAIL_GRID1','INTERNAL','').
+pgm_callprotocol_i(mnproc,2,'DPAGENCIA','INTERNAL','').
+ 
+ 
+ 
+ 
+ 
+ 
+service_i(input,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,93 @@
+ 
+spec_i([ sdt,[ 0,9,0 ],'Anuncio','Anuncio',0,eng,'17_0_7-156546' ]).
+ 
+struct_dt_i([ 0,9,0 ],name,'Anuncio').
+struct_dt_i([ 0,9,0 ],namespace,'Colaveco').
+struct_dt_i([ 0,9,0 ],significantName,'Anuncio').
+struct_dt_i([ 0,9,0 ],'ObjName','Anuncio').
+struct_dt_i([ 0,9,0 ],'ObjDesc','Anuncio').
+struct_dt_i([ 0,9,0 ],'ExternalName','Anuncio').
+struct_dt_i([ 0,9,0 ],'ExternalNamespace','Colaveco').
+struct_dt_i([ 0,9,0 ],key,[ 192 ]).
+struct_dt_i([ 0,9,0 ],lvl,9).
+struct_dt_i([ 0,9,0 ],fullname,'Anuncio').
+ 
+struct_dt_elem_i([ 0,9,0 ],1,name,'Anuncioid').
+struct_dt_elem_i([ 0,9,0 ],1,camelname,'AnuncioId').
+struct_dt_elem_i([ 0,9,0 ],1,basedon,83).
+struct_dt_elem_i([ 0,9,0 ],1,length,18).
+struct_dt_elem_i([ 0,9,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],1,sign,0).
+struct_dt_elem_i([ 0,9,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,9,0 ],1,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,9,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],1,attributeid,'192').
+struct_dt_elem_i([ 0,9,0 ],1,'ExternalName','AnuncioId').
+struct_dt_elem_i([ 0,9,0 ],1,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,9,0 ],1,'ATT_INITIAL_VALUE',[ t('1',3) ]).
+struct_dt_elem_i([ 0,9,0 ],2,name,'Anunciotitulo').
+struct_dt_elem_i([ 0,9,0 ],2,camelname,'AnuncioTitulo').
+struct_dt_elem_i([ 0,9,0 ],2,length,40).
+struct_dt_elem_i([ 0,9,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],2,pic,'').
+struct_dt_elem_i([ 0,9,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],2,attributeid,'193').
+struct_dt_elem_i([ 0,9,0 ],2,'ExternalName','AnuncioTitulo').
+struct_dt_elem_i([ 0,9,0 ],2,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,9,0 ],3,name,'Anunciosubtitulo').
+struct_dt_elem_i([ 0,9,0 ],3,camelname,'AnuncioSubTitulo').
+struct_dt_elem_i([ 0,9,0 ],3,length,40).
+struct_dt_elem_i([ 0,9,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],3,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,9,0 ],3,pic,'').
+struct_dt_elem_i([ 0,9,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],3,attributeid,'194').
+struct_dt_elem_i([ 0,9,0 ],3,'ExternalName','AnuncioSubTitulo').
+struct_dt_elem_i([ 0,9,0 ],3,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,9,0 ],4,name,'Anunciodescripcion').
+struct_dt_elem_i([ 0,9,0 ],4,camelname,'AnuncioDescripcion').
+struct_dt_elem_i([ 0,9,0 ],4,length,256).
+struct_dt_elem_i([ 0,9,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],4,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 0,9,0 ],4,pic,'').
+struct_dt_elem_i([ 0,9,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],4,attributeid,'197').
+struct_dt_elem_i([ 0,9,0 ],4,'ExternalName','AnuncioDescripcion').
+struct_dt_elem_i([ 0,9,0 ],4,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,9,0 ],5,name,'Anuncioimagen').
+struct_dt_elem_i([ 0,9,0 ],5,camelname,'AnuncioImagen').
+struct_dt_elem_i([ 0,9,0 ],5,length,4).
+struct_dt_elem_i([ 0,9,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],5,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 0,9,0 ],5,pic,'').
+struct_dt_elem_i([ 0,9,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],5,attributeid,'195').
+struct_dt_elem_i([ 0,9,0 ],5,'ExternalName','AnuncioImagen').
+struct_dt_elem_i([ 0,9,0 ],5,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,9,0 ],6,name,'Anuncioimagen_gxi').
+struct_dt_elem_i([ 0,9,0 ],6,camelname,'AnuncioImagen_GXI').
+struct_dt_elem_i([ 0,9,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],6,isadd,'True').
+struct_dt_elem_i([ 0,9,0 ],6,length,2048).
+struct_dt_elem_i([ 0,9,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],6,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 0,9,0 ],7,name,'Anunciopublico').
+struct_dt_elem_i([ 0,9,0 ],7,camelname,'AnuncioPublico').
+struct_dt_elem_i([ 0,9,0 ],7,length,4).
+struct_dt_elem_i([ 0,9,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,9,0 ],7,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 0,9,0 ],7,pic,'').
+struct_dt_elem_i([ 0,9,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,9,0 ],7,attributeid,'196').
+struct_dt_elem_i([ 0,9,0 ],7,'ExternalName','AnuncioPublico').
+struct_dt_elem_i([ 0,9,0 ],7,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,9,0 ],6,attributeid,'40000').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\Common','PackageName','GeneXus.jar').

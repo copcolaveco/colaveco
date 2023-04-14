@@ -1,0 +1,297 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_7-156546</SpecVersion>
+<Object>
+<ObjClsGuid>2a9e9aba-d2de-4801-ae7f-5e3819222daf</ObjClsGuid>
+<ObjCls>33</ObjCls>
+<ObjId>3</ObjId>
+<ObjName>DPUsuario</ObjName>
+<ObjDesc>DPUsuario</ObjDesc>
+<ObjPgmName>DPUsuario</ObjPgmName>
+<ObjClsName>DataProvider</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Externalid</VarId>
+<VarName>&amp;ExternalId</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Token>SDTUsuario</Token></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>5</TableId>
+<TableName>Usuario</TableName>
+<Description>Usuario</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>UsuarioId</AttriName>
+<Description>Usuario Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IUSUARIO</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>120</AttriId>
+<AttriName>UsuarioIdNet</AttriName>
+<Description>Usuario Id Net</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Externalid</VarId>
+<VarName>&amp;ExternalId</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>5</TableId>
+<TableName>Usuario</TableName>
+<Description>Usuario</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>UsuarioId</AttriName>
+<Description>Usuario Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>120</AttriId>
+<AttriName>UsuarioIdNet</AttriName>
+<Description>Usuario Id Net</Description></Attribute>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>UsuarioId</AttriName>
+<Description>Usuario Id</Description></Attribute>
+<Attribute>
+<AttriId>114</AttriId>
+<AttriName>UsuarioEmail</AttriName>
+<Description>Usuario Email</Description></Attribute>
+<Attribute>
+<AttriId>115</AttriId>
+<AttriName>UsuarioUsuarioWeb</AttriName>
+<Description>Usuario Usuario Web</Description></Attribute>
+<Attribute>
+<AttriId>116</AttriId>
+<AttriName>UsuarioNombre</AttriName>
+<Description>Usuario Nombre</Description></Attribute>
+<Attribute>
+<AttriId>117</AttriId>
+<AttriName>UsuarioDicose</AttriName>
+<Description>Usuario Dicose</Description></Attribute>
+<Attribute>
+<AttriId>118</AttriId>
+<AttriName>UsuarioRazonSocial</AttriName>
+<Description>Usuario Razon Social</Description></Attribute>
+<Attribute>
+<AttriId>119</AttriId>
+<AttriName>UsuarioRut</AttriName>
+<Description>Usuario Rut</Description></Attribute>
+<Attribute>
+<AttriId>121</AttriId>
+<AttriName>UsuarioDireccion</AttriName>
+<Description>Usuario Direccion</Description></Attribute>
+<Attribute>
+<AttriId>122</AttriId>
+<AttriName>UsuarioTipousuario</AttriName>
+<Description>Usuario Tipousuario</Description></Attribute>
+<Attribute>
+<AttriId>123</AttriId>
+<AttriName>UsuarioIdTecnico1</AttriName>
+<Description>Usuario Id Tecnico1</Description></Attribute>
+<Attribute>
+<AttriId>124</AttriId>
+<AttriName>UsuarioIdTecnico2</AttriName>
+<Description>Usuario Id Tecnico2</Description></Attribute>
+<Attribute>
+<AttriId>125</AttriId>
+<AttriName>UsuarioIdTecnico3</AttriName>
+<Description>Usuario Id Tecnico3</Description></Attribute>
+<Attribute>
+<AttriId>126</AttriId>
+<AttriName>UsuarioDireccionFrasco</AttriName>
+<Description>Usuario Direccion Frasco</Description></Attribute>
+<Attribute>
+<AttriId>127</AttriId>
+<AttriName>UsuarioAgenciaFrasco</AttriName>
+<Description>Usuario Agencia Frasco</Description></Attribute>
+<Attribute>
+<AttriId>128</AttriId>
+<AttriName>UsuarioNotificacionFrasco1</AttriName>
+<Description>Usuario Notificacion Frasco1</Description></Attribute>
+<Attribute>
+<AttriId>129</AttriId>
+<AttriName>UsuarioNotificacionFrasco2</AttriName>
+<Description>Usuario Notificacion Frasco2</Description></Attribute>
+<Attribute>
+<AttriId>130</AttriId>
+<AttriName>UsuarioNotificacionSolicitud1</AttriName>
+<Description>Usuario Notificacion Solicitud1</Description></Attribute>
+<Attribute>
+<AttriId>131</AttriId>
+<AttriName>UsuarioNotificacionSolicitud2</AttriName>
+<Description>Usuario Notificacion Solicitud2</Description></Attribute>
+<Attribute>
+<AttriId>132</AttriId>
+<AttriName>UsuarioNotificacionResultado1</AttriName>
+<Description>Usuario Notificacion Resultado1</Description></Attribute>
+<Attribute>
+<AttriId>133</AttriId>
+<AttriName>UsuarioNotificacionResultado2</AttriName>
+<Description>Usuario Notificacion Resultado2</Description></Attribute>
+<Attribute>
+<AttriId>134</AttriId>
+<AttriName>UsuarioNotificacionAvisos1</AttriName>
+<Description>Usuario Notificacion Avisos1</Description></Attribute>
+<Attribute>
+<AttriId>135</AttriId>
+<AttriName>UsuarioNotificacionAvisos2</AttriName>
+<Description>Usuario Notificacion Avisos2</Description></Attribute>
+<Attribute>
+<AttriId>136</AttriId>
+<AttriName>UsuarioTecnicoCelular1</AttriName>
+<Description>Usuario Tecnico Celular1</Description></Attribute>
+<Attribute>
+<AttriId>137</AttriId>
+<AttriName>UsuarioTecnicoCelular2</AttriName>
+<Description>Usuario Tecnico Celular2</Description></Attribute>
+<Attribute>
+<AttriId>138</AttriId>
+<AttriName>UsuarioTecnicoCelularNombre1</AttriName>
+<Description>Usuario Tecnico Celular Nombre1</Description></Attribute>
+<Attribute>
+<AttriId>139</AttriId>
+<AttriName>UsuarioTecnicoCelularNombre2</AttriName>
+<Description>Usuario Tecnico Celular Nombre2</Description></Attribute>
+<Attribute>
+<AttriId>140</AttriId>
+<AttriName>UsuarioTecnicoTelefono1</AttriName>
+<Description>Usuario Tecnico Telefono1</Description></Attribute>
+<Attribute>
+<AttriId>141</AttriId>
+<AttriName>UsuarioTecnicoTelefono2</AttriName>
+<Description>Usuario Tecnico Telefono2</Description></Attribute>
+<Attribute>
+<AttriId>142</AttriId>
+<AttriName>UsuarioTecnicoTelefonoNombre1</AttriName>
+<Description>Usuario Tecnico Telefono Nombre1</Description></Attribute>
+<Attribute>
+<AttriId>143</AttriId>
+<AttriName>UsuarioTecnicoTelefonoNombre2</AttriName>
+<Description>Usuario Tecnico Telefono Nombre2</Description></Attribute>
+<Attribute>
+<AttriId>144</AttriId>
+<AttriName>UsuarioTecnicoEmail1</AttriName>
+<Description>Usuario Tecnico Email1</Description></Attribute>
+<Attribute>
+<AttriId>145</AttriId>
+<AttriName>UsuarioTecnicoEmail2</AttriName>
+<Description>Usuario Tecnico Email2</Description></Attribute>
+<Attribute>
+<AttriId>146</AttriId>
+<AttriName>UsuarioTecnicoEmailNombre1</AttriName>
+<Description>Usuario Tecnico Email Nombre1</Description></Attribute>
+<Attribute>
+<AttriId>147</AttriId>
+<AttriName>UsuarioTecnicoEmailNombre2</AttriName>
+<Description>Usuario Tecnico Email Nombre2</Description></Attribute>
+<Attribute>
+<AttriId>148</AttriId>
+<AttriName>UsuarioRutTipo</AttriName>
+<Description>Usuario Rut Tipo</Description></Attribute>
+<Attribute>
+<AttriId>149</AttriId>
+<AttriName>UsuarioFacDireccion</AttriName>
+<Description>Usuario Fac Direccion</Description></Attribute>
+<Attribute>
+<AttriId>150</AttriId>
+<AttriName>UsuarioFacLocalidad</AttriName>
+<Description>Usuario Fac Localidad</Description></Attribute>
+<Attribute>
+<AttriId>151</AttriId>
+<AttriName>UsuarioFacDepartamento</AttriName>
+<Description>Usuario Fac Departamento</Description></Attribute>
+<Attribute>
+<AttriId>152</AttriId>
+<AttriName>UsuarioFacEmailEnvio</AttriName>
+<Description>Usuario Fac Email Envio</Description></Attribute>
+<Attribute>
+<AttriId>153</AttriId>
+<AttriName>UsuarioCobranzaCelular1</AttriName>
+<Description>Usuario Cobranza Celular1</Description></Attribute>
+<Attribute>
+<AttriId>154</AttriId>
+<AttriName>UsuarioCobranzaCelular2</AttriName>
+<Description>Usuario Cobranza Celular2</Description></Attribute>
+<Attribute>
+<AttriId>155</AttriId>
+<AttriName>UsuarioCobranzaCelularNombre1</AttriName>
+<Description>Usuario Cobranza Celular Nombre1</Description></Attribute>
+<Attribute>
+<AttriId>156</AttriId>
+<AttriName>UsuarioCobranzaCelularNombre2</AttriName>
+<Description>Usuario Cobranza Celular Nombre2</Description></Attribute>
+<Attribute>
+<AttriId>157</AttriId>
+<AttriName>UsuarioCobranzaTelefono1</AttriName>
+<Description>Usuario Cobranza Telefono1</Description></Attribute>
+<Attribute>
+<AttriId>158</AttriId>
+<AttriName>UsuarioCobranzaTelefono2</AttriName>
+<Description>Usuario Cobranza Telefono2</Description></Attribute>
+<Attribute>
+<AttriId>159</AttriId>
+<AttriName>UsuarioCobranzaTelefonoNombre1</AttriName>
+<Description>Usuario Cobranza Telefono Nombre1</Description></Attribute>
+<Attribute>
+<AttriId>160</AttriId>
+<AttriName>UsuarioCobranzaTelefonoNombre2</AttriName>
+<Description>Usuario Cobranza Telefono Nombre2</Description></Attribute>
+<Attribute>
+<AttriId>161</AttriId>
+<AttriName>UsuarioCobranzaEmail1</AttriName>
+<Description>Usuario Cobranza Email1</Description></Attribute>
+<Attribute>
+<AttriId>162</AttriId>
+<AttriName>UsuarioCobranzaEmail2</AttriName>
+<Description>Usuario Cobranza Email2</Description></Attribute>
+<Attribute>
+<AttriId>163</AttriId>
+<AttriName>UsuarioCobranzaEmailNombre1</AttriName>
+<Description>Usuario Cobranza Email Nombre1</Description></Attribute>
+<Attribute>
+<AttriId>164</AttriId>
+<AttriName>UsuarioCobranzaEmailNombre2</AttriName>
+<Description>Usuario Cobranza Email Nombre2</Description></Attribute>
+<Attribute>
+<AttriId>165</AttriId>
+<AttriName>UsuarioCedula</AttriName>
+<Description>Usuario Cedula</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

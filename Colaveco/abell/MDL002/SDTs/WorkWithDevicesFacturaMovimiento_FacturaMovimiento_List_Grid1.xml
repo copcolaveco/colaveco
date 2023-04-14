@@ -1,0 +1,114 @@
+
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>WorkWithDevicesFacturaMovimiento_FacturaMovimiento_List_Grid1Sdt</name>
+<camelname>WorkWithDevicesFacturaMovimiento_FacturaMovimiento_List_Grid1Sdt</camelname>
+<camelnameex>WorkWithDevicesFacturaMovimiento_FacturaMovimiento_List_Grid1Sdt</camelnameex>
+<collection>True</collection>
+<datatype>[ 26,1000000,1 ]</datatype>
+<wwsd_sdt>True</wwsd_sdt>
+<panel>[ 'FacturaMovimiento.List' ]</panel>
+<key>[ 2,[ 2 ],[ 2,1,'FacturaMovimiento' ] ]</key>
+<modified>yes</modified>
+<fullname>WorkWithDevicesFacturaMovimiento_FacturaMovimiento_List_Grid1Sdt</fullname></Level>
+<Level>
+<id>[ 26,1000000,1 ]</id>
+<name>Item</name>
+<camelname>Item</camelname>
+<camelnameex>Item</camelnameex>
+<modified>yes</modified>
+<fullname>WorkWithDevicesFacturaMovimiento_FacturaMovimiento_List_Grid1Sdt.Item</fullname>
+<members>
+<member>
+<name>Fmid</name>
+<camelname>FMId</camelname>
+<type>[ 4,18,0 ]</type>
+<length>18</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>2</attributeid></member>
+<member>
+<name>Fmfechaemision</name>
+<camelname>FMFechaEmision</camelname>
+<type>[ 12,8,5 ]</type>
+<length>8</length>
+<decimals>5</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>22</attributeid></member>
+<member>
+<name>Fmfechavencimiento</name>
+<camelname>FMFechaVencimiento</camelname>
+<type>[ 12,8,5 ]</type>
+<length>8</length>
+<decimals>5</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>23</attributeid></member>
+<member>
+<name>Fmtipo</name>
+<camelname>FMTipo</camelname>
+<type>[ 13,45,0 ]</type>
+<length>45</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>24</attributeid></member>
+<member>
+<name>Fmimporte</name>
+<camelname>FMImporte</camelname>
+<type>[ 4,18,0 ]</type>
+<length>18</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>27</attributeid></member>
+<member>
+<name>Fmdetalle</name>
+<camelname>FMDetalle</camelname>
+<type>[ 13,200,0 ]</type>
+<length>200</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>26</attributeid></member>
+<member>
+<name>Fmnumero</name>
+<camelname>FMNumero</camelname>
+<type>[ 4,18,0 ]</type>
+<length>18</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>25</attributeid></member>
+<member>
+<name>Fmpathpdf</name>
+<camelname>FMPathPdf</camelname>
+<type>[ 13,500,0 ]</type>
+<length>500</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>31</attributeid></member></members></Level>
+<Prompts></Prompts>
+<TableAccess>
+<Table>
+<Id>2</Id>
+<Name>FacturaMovimiento</Name>
+<Read>y</Read>
+<Insert>n</Insert>
+<Update>n</Update>
+<Delete>n</Delete>
+<IsBase>y</IsBase></Table></TableAccess>
+<XRef></XRef></SdtSpec>

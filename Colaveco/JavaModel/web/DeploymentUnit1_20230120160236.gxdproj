@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="CreatePackage">
+
+	<!-- Model Properties -->
+	<PropertyGroup>
+		<ModelId>2</ModelId>
+		<Generator>Java</Generator>
+		<CacheExpiration>36</CacheExpiration>
+		<OpenAPI>false</OpenAPI>
+		<StaticDir>static</StaticDir>
+		<NationalLanguageSupport>true</NationalLanguageSupport>
+		<WebNotifProvider>GeneXus</WebNotifProvider>
+		<CloudServices>true</CloudServices>
+		<OfflineSupport>false</OfflineSupport>
+		<Https>false</Https>
+		<JavaPath>C:\Program Files\Java\jdk1.8.0_77\bin</JavaPath>
+		<PackageName>com.colaveco</PackageName>
+		<UseNativeSoap>false</UseNativeSoap>
+		<Searchable>false</Searchable>
+		<JDBCDrivers>com.mysql.jdbc.Driver;com.mysql.jdbc.Driver</JDBCDrivers>
+		<MySQL>true</MySQL>
+		<IntegratedSecurity>true</IntegratedSecurity>
+		<GAMDBMSType>18</GAMDBMSType>
+	</PropertyGroup>
+
+	<!-- Deploy Properties -->
+	<PropertyGroup>
+		<ApplicationKey>270375AD06628B5F934C328E39772DA33F2A96A8CE09DB42ADBCE11192875FBC</ApplicationKey>
+		<ApplicationServer>Tomcat 8.x</ApplicationServer>
+		<ApplicationServerMSBuild>C:\Program Files (x86)\GeneXus\GeneXus17\ApplicationServers\Templates\JavaWeb\msbuild\TomcatContextSettings.msbuild</ApplicationServerMSBuild>
+		<ApplicationServerTemplate>C:\Program Files (x86)\GeneXus\GeneXus17\ApplicationServers\Templates\JavaWeb\Generic_Servlet_v3_1.stg</ApplicationServerTemplate>
+		<AppName>Colaveco</AppName>
+		<AppUpdate>NONE</AppUpdate>
+		<DeploymentUnit>DeploymentUnit1</DeploymentUnit>
+		<DeployTarget>LOCAL</DeployTarget>
+		<EnableKBN>False</EnableKBN>
+		<ImagesInvolved>true</ImagesInvolved>
+		<IncludeGAMBackend>True</IncludeGAMBackend>
+		<IsCMD>false</IsCMD>
+		<KBPath>C:\Code\ColavecoGX\Colaveco</KBPath>
+		<Namespace>com.colaveco</Namespace>
+		<PackageFormat>Automatic</PackageFormat>
+		<ProjectName>DeploymentUnit1_20230120160236</ProjectName>
+		<RestSpecFolder>C:\Code\ColavecoGX\Colaveco\GXRESTSPC\Colaveco</RestSpecFolder>
+		<SourcePath>C:\Code\ColavecoGX\Colaveco\JavaModel</SourcePath>
+		<TargetJRE>9</TargetJRE>
+		<TimeStamp>20230120160236</TimeStamp>
+		<UseAppServerDataSource>False</UseAppServerDataSource>
+	</PropertyGroup>
+
+	<!-- General Properties -->
+	<PropertyGroup>
+		<GX_PROGRAM_DIR Condition=" '$(GX_PROGRAM_DIR)' == '' ">C:\Program Files (x86)\GeneXus\GeneXus17</GX_PROGRAM_DIR>
+		<AdditionalItems Condition=" '$(AdditionalItems)' == ''">$(DeploymentUnit)_user.gxdproj</AdditionalItems>
+	</PropertyGroup>
+
+	<!-- Destination paths -->
+	<PropertyGroup>
+		<DeployFileFullPath>$(SourcePath)\Deploy\$(DeployTarget)</DeployFileFullPath>
+		<DeployFullPath>$(DeployFileFullPath)\$(DeploymentUnit)\$(TimeStamp)</DeployFullPath>
+	</PropertyGroup>
+
+	<!-- Languages -->
+	<ItemGroup> 
+		<Language Include="English">
+			<QualifiedName>English</QualifiedName>
+			<Description>English</Description>
+			<Code>en</Code>
+			<MessageCode>eng</MessageCode>
+		</Language>
+	</ItemGroup>
+
+	<!-- Files -->
+	<ItemGroup> 
+		<ExternalFile Include="modules\GeneXusSecurity.jar"/>
+	</ItemGroup>
+
+	<!-- Objects -->
+	<ItemGroup> 
+		<Object Include="gpxMenuColaveco">
+			<Type>DataProvider</Type>
+			<QualifiedName>gpxMenuColaveco</QualifiedName>
+			<Description>gpx Menu Colaveco</Description>
+			<Generate>true</Generate>
+			<GenOpenAPI>false</GenOpenAPI>
+			<Online>true</Online>
+		</Object>
+		<Object Include="gpxMenuGestor">
+			<Type>DataProvider</Type>
+			<QualifiedName>gpxMenuGestor</QualifiedName>
+			<Description>gpx Menu Gestor</Description>
+			<Generate>true</Generate>
+			<GenOpenAPI>false</GenOpenAPI>
+			<Online>true</Online>
+		</Object>
+		<Object Include="RwdMasterPage">
+			<Type>MasterPage</Type>
+			<QualifiedName>RwdMasterPage</QualifiedName>
+			<Description>Responsive Master Page</Description>
+			<Generate>true</Generate>
+			<WebApplication>idDefault</WebApplication>
+		</Object>
+		<Object Include="GAMCheckUserActivationMethod">
+			<Type>Procedure</Type>
+			<QualifiedName>GAMCheckUserActivationMethod</QualifiedName>
+			<Description>Check User Activation Method</Description>
+			<Generate>true</Generate>
+			<GenOpenAPI>false</GenOpenAPI>
+			<CallProtocol>INTERNAL</CallProtocol>
+			<Online>true</Online>
+		</Object>
+		<Object Include="GAMConvertErrorsToMessages">
+			<Type>Procedure</Type>
+			<QualifiedName>GAMConvertErrorsToMessages</QualifiedName>
+			<Description>GAMConvert Errors To Messages</Description>
+			<Generate>true</Generate>
+			<GenOpenAPI>false</GenOpenAPI>
+			<CallProtocol>INTERNAL</CallProtocol>
+			<Online>true</Online>
+		</Object>
+		<Object Include="IsAuthorized">
+			<Type>Procedure</Type>
+			<QualifiedName>IsAuthorized</QualifiedName>
+			<Description>Is Authorized</Description>
+			<Generate>true</Generate>
+			<GenOpenAPI>false</GenOpenAPI>
+			<CallProtocol>INTERNAL</CallProtocol>
+			<Online>true</Online>
+		</Object>
+		<Object Include="gpxMenuItems_gpxMenuItem">
+			<Type>SDT</Type>
+			<QualifiedName>gpxMenuItems</QualifiedName>
+			<Description>gpx Menu Items</Description>
+			<Collection>true</Collection>
+		</Object>
+		<Object Include="GridState">
+			<Type>SDT</Type>
+			<QualifiedName>GeneXus.Common.GridState</QualifiedName>
+			<Description>Grid State</Description>
+			<Module>GeneXus.Common</Module>
+			<Collection>false</Collection>
+			<IsInterface>true</IsInterface>
+		</Object>
+		<Object Include="LinkList_LinkItem">
+			<Type>SDT</Type>
+			<QualifiedName>LinkList</QualifiedName>
+			<Description>Link List</Description>
+			<Collection>true</Collection>
+		</Object>
+		<Object Include="Messages_Message">
+			<Type>SDT</Type>
+			<QualifiedName>GeneXus.Common.Messages</QualifiedName>
+			<Description>Messages</Description>
+			<Module>GeneXus.Common</Module>
+			<Collection>true</Collection>
+			<IsInterface>true</IsInterface>
+		</Object>
+		<Object Include="TabOptions_TabOptionsItem">
+			<Type>SDT</Type>
+			<QualifiedName>TabOptions</QualifiedName>
+			<Description>Tab Options</Description>
+			<Collection>true</Collection>
+		</Object>
+		<Object Include="TransactionContext">
+			<Type>SDT</Type>
+			<QualifiedName>TransactionContext</QualifiedName>
+			<Description>Transaction Context</Description>
+			<Collection>false</Collection>
+		</Object>
+		<Object Include="Carmine">
+			<Type>ThemeForWeb</Type>
+			<QualifiedName>Carmine</QualifiedName>
+			<Description>Carmine</Description>
+		</Object>
+		<Object Include="Anuncio">
+			<Type>Transaction</Type>
+			<QualifiedName>Anuncio</QualifiedName>
+			<Description>Anuncio</Description>
+			<Generate>true</Generate>
+			<GenOpenAPI>false</GenOpenAPI>
+			<IsRest>true</IsRest>
+			<BC>true</BC>
+			<Online>true</Online>
+		</Object>
+		<Object Include="AnuncioGeneral">
+			<Type>WebComponent</Type>
+			<QualifiedName>AnuncioGeneral</QualifiedName>
+			<Description>Anuncio General</Description>
+			<Generate>true</Generate>
+			<WebApplication>idDefault</WebApplication>
+		</Object>
+		<Object Include="RecentLinks">
+			<Type>WebComponent</Type>
+			<QualifiedName>RecentLinks</QualifiedName>
+			<Description>Recent Links web component</Description>
+			<Generate>true</Generate>
+			<WebApplication>idDefault</WebApplication>
+		</Object>
+		<Object Include="GAMExampleActivateUserAccount">
+			<Type>WebPanel</Type>
+			<QualifiedName>GAMExampleActivateUserAccount</QualifiedName>
+			<Description>GAM_Activate User Account</Description>
+			<Generate>true</Generate>
+			<WebApplication>idDefault</WebApplication>
+		</Object>
+		<Object Include="GAMExampleChangePassword">
+			<Type>WebPanel</Type>
+			<QualifiedName>GAMExampleChangePassword</QualifiedName>
+			<Description>Change password</Description>
+			<Generate>true</Generate>
+			<WebApplication>idDefault</WebApplication>
+		</Object>
+		<Object Include="GAMExampleLogin">
+			<Type>WebPanel</Type>
+			<QualifiedName>GAMExampleLogin</QualifiedName>
+			<Description>Login</Description>
+			<Generate>true</Generate>
+			<WebApplication>idDefault</WebApplication>
+		</Object>
+		<Object Include="GAMExampleNotAuthorized">
+			<Type>WebPanel</Type>
+			<QualifiedName>GAMExampleNotAuthorized</QualifiedName>
+			<Description>Not Authorized</Description>
+			<Generate>true</Generate>
+			<WebApplication>idDefault</WebApplication>
+		</Object>
+		<Object Include="GAMExampleOTPAuthentication">
+			<Type>WebPanel</Type>
+			<QualifiedName>GAMExampleOTPAuthentication</QualifiedName>
+			<Description>GAM_Auth OTP</Description>
+			<Generate>true</Generate>
+			<WebApplication>idDefault</WebApplication>
+		</Object>
+		<Object Include="GAMExampleRecoverPasswordStep1">
+			<Type>WebPanel</Type>
+			<QualifiedName>GAMExampleRecoverPasswordStep1</QualifiedName>
+			<Description>Recover Password</Description>
+			<Generate>true</Generate>
+			<WebApplication>idDefault</WebApplication>
+		</Object>
+		<Object Include="GAMExampleRecoverPasswordStep2">
+			<Type>WebPanel</Type>
+			<QualifiedName>GAMExampleRecoverPasswordStep2</QualifiedName>
+			<Description>Recover Password</Description>
+			<Generate>true</Generate>
+			<WebApplication>idDefault</WebApplication>
+		</Object>
+		<Object Include="GAMExampleRegisterUser">
+			<Type>WebPanel</Type>
+			<QualifiedName>GAMExampleRegisterUser</QualifiedName>
+			<Description>Register user</Description>
+			<Generate>true</Generate>
+			<WebApplication>idDefault</WebApplication>
+		</Object>
+		<Object Include="GAMExampleUpdateRegisterUser">
+			<Type>WebPanel</Type>
+			<QualifiedName>GAMExampleUpdateRegisterUser</QualifiedName>
+			<Description>Update register user</Description>
+			<Generate>true</Generate>
+			<WebApplication>idDefault</WebApplication>
+		</Object>
+		<Object Include="GAMHome">
+			<Type>WebPanel</Type>
+			<QualifiedName>GAMHome</QualifiedName>
+			<Description>GAM Home</Description>
+			<Generate>true</Generate>
+			<WebApplication>idDefault</WebApplication>
+		</Object>
+		<Object Include="GAMRemoteLogin">
+			<Type>WebPanel</Type>
+			<QualifiedName>GAMRemoteLogin</QualifiedName>
+			<Description>Remote Login</Description>
+			<Generate>true</Generate>
+			<WebApplication>idDefault</WebApplication>
+		</Object>
+		<Object Include="InicioColaveco">
+			<Type>WebPanel</Type>
+			<QualifiedName>InicioColaveco</QualifiedName>
+			<Description>Inicio Colaveco</Description>
+			<Generate>true</Generate>
+			<WebApplication>idDefault</WebApplication>
+		</Object>
+		<Object Include="InicioGestor">
+			<Type>WebPanel</Type>
+			<QualifiedName>InicioGestor</QualifiedName>
+			<Description>Inicio Gestor</Description>
+			<Main>true</Main>
+			<Generate>true</Generate>
+			<WebApplication>idDefault</WebApplication>
+			<Selected>true</Selected>
+		</Object>
+		<Object Include="NotAuthorized">
+			<Type>WebPanel</Type>
+			<QualifiedName>NotAuthorized</QualifiedName>
+			<Description>Not Authorized web panel</Description>
+			<Generate>true</Generate>
+			<WebApplication>idDefault</WebApplication>
+		</Object>
+		<Object Include="ViewAnuncio">
+			<Type>WebPanel</Type>
+			<QualifiedName>ViewAnuncio</QualifiedName>
+			<Description>View Anuncio</Description>
+			<Generate>true</Generate>
+			<WebApplication>idDefault</WebApplication>
+		</Object>
+		<Object Include="WWAnuncio">
+			<Type>WebPanel</Type>
+			<QualifiedName>WWAnuncio</QualifiedName>
+			<Description>Anuncios</Description>
+			<Generate>true</Generate>
+			<WebApplication>idDefault</WebApplication>
+		</Object>
+		<Object Include="WWResultado">
+			<Type>WebPanel</Type>
+			<QualifiedName>WWResultado</QualifiedName>
+			<Description>Resultadoes</Description>
+			<Generate>true</Generate>
+			<WebApplication>idDefault</WebApplication>
+		</Object>
+	</ItemGroup>
+
+	<!-- Selected Objects -->
+	<ItemGroup> 
+		<SelectedObject Include="InicioGestor">
+			<Type>WebPanel</Type>
+			<QualifiedName>InicioGestor</QualifiedName>
+			<Description>Inicio Gestor</Description>
+		</SelectedObject>
+	</ItemGroup>
+
+	<Target Name="ValidateDeployment">
+		<!-- overrideable on custom targets -->
+
+	</Target>
+
+	<Import Project="$(GX_PROGRAM_DIR)\Imports.targets"/>
+	<Import Project="$(AdditionalItems)" Condition="'$(AdditionalItems)'!='' and Exists('$(AdditionalItems)')" />
+
+</Project>
+

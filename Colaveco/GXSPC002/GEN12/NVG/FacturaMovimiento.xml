@@ -1,0 +1,364 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_7-156546</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>2</ObjId>
+<ObjName>FacturaMovimiento</ObjName>
+<ObjDesc>Factura Movimiento</ObjDesc>
+<ObjPgmName>FacturaMovimiento</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>2</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>2</TableId>
+<TableName>FacturaMovimiento</TableName>
+<Description>Factura Movimiento</Description></Table></BaseTable>
+<StandAloneRules></StandAloneRules>
+<BaseTableRule>
+<Action>
+<ActionType>ReadBaseTable</ActionType>
+<Table>
+<TableId>2</TableId>
+<TableName>FacturaMovimiento</TableName>
+<Description>Factura Movimiento</Description></Table>
+<JoinConditions>
+<Table>
+<TableId>2</TableId>
+<TableName>FacturaMovimiento</TableName>
+<Description>Factura Movimiento</Description></Table>
+<JoinCondition>
+<AttributeTo>
+<Attribute>
+<AttriId>2</AttriId>
+<AttriName>FMId</AttriName>
+<Description>FMId</Description></Attribute></AttributeTo>
+<Table></Table>
+<AttributeFrom>
+<Attribute>
+<AttriId>2</AttriId>
+<AttriName>FMId</AttriName>
+<Description>FMId</Description></Attribute></AttributeFrom></JoinCondition></JoinConditions>
+<Into>
+<Attribute>
+<AttriId>21</AttriId>
+<AttriName>FMIdNetMovimiento</AttriName>
+<Description>FMId Net Movimiento</Description></Attribute>
+<Attribute>
+<AttriId>22</AttriId>
+<AttriName>FMFechaEmision</AttriName>
+<Description>FMFecha Emision</Description></Attribute>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>FMFechaVencimiento</AttriName>
+<Description>FMFecha Vencimiento</Description></Attribute>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>FMTipo</AttriName>
+<Description>FMTipo</Description></Attribute>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>FMNumero</AttriName>
+<Description>FMNumero</Description></Attribute>
+<Attribute>
+<AttriId>26</AttriId>
+<AttriName>FMDetalle</AttriName>
+<Description>FMDetalle</Description></Attribute>
+<Attribute>
+<AttriId>27</AttriId>
+<AttriName>FMImporte</AttriName>
+<Description>FMImporte</Description></Attribute>
+<Attribute>
+<AttriId>28</AttriId>
+<AttriName>FMIdUsuarioNet</AttriName>
+<Description>FMId Usuario Net</Description></Attribute>
+<Attribute>
+<AttriId>29</AttriId>
+<AttriName>FMTipoMovimiento</AttriName>
+<Description>FMTipo Movimiento</Description></Attribute>
+<Attribute>
+<AttriId>30</AttriId>
+<AttriName>FMImportePago</AttriName>
+<Description>FMImporte Pago</Description></Attribute>
+<Attribute>
+<AttriId>31</AttriId>
+<AttriName>FMPathPdf</AttriName>
+<Description>FMPath Pdf</Description></Attribute></Into></Action></BaseTableRule>
+<StandAloneWithModeRules></StandAloneWithModeRules>
+<Rules>
+<Action>
+<ActionType>Formula</ActionType>
+<FormulaName>
+<Attribute>
+<AttriId>176</AttriId>
+<AttriName>FMSaldoActual</AttriName>
+<Description>FMSaldo Actual</Description></Attribute></FormulaName>
+<FormulaExpression>
+<Token>CalcularSaldoActual</Token>
+<Token>(</Token>
+<Attribute>
+<AttriId>2</AttriId>
+<AttriName>FMId</AttriName>
+<Description>FMId</Description></Attribute>
+<Token>)</Token></FormulaExpression></Action>
+<Action>
+<ActionType>BusinessRule</ActionType>
+<RuleType>ErrorRule</RuleType>
+<Expression>
+<Token>&quot;Field FMFecha Vencimiento is out of range&quot;</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>OutOfRange</Token></Expression>
+<Condition>
+<Token>not</Token>
+<Token>(</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>FMFechaVencimiento</AttriName>
+<Description>FMFecha Vencimiento</Description></Attribute>
+<Token>.</Token>
+<Token>isempty(</Token>
+<Token>)</Token>
+<Sp></Sp>
+<Token>or</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>FMFechaVencimiento</AttriName>
+<Description>FMFecha Vencimiento</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Token>ymdhmstot(</Token>
+<Sp></Sp>
+<Token>1000</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>01</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>01</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>00</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>00</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>00</Token>
+<Token>)</Token>
+<Token>)</Token></Condition></Action>
+<Action>
+<ActionType>BusinessRule</ActionType>
+<RuleType>ErrorRule</RuleType>
+<Expression>
+<Token>&quot;Field FMFecha Emision is out of range&quot;</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>OutOfRange</Token></Expression>
+<Condition>
+<Token>not</Token>
+<Token>(</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>22</AttriId>
+<AttriName>FMFechaEmision</AttriName>
+<Description>FMFecha Emision</Description></Attribute>
+<Token>.</Token>
+<Token>isempty(</Token>
+<Token>)</Token>
+<Sp></Sp>
+<Token>or</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>22</AttriId>
+<AttriName>FMFechaEmision</AttriName>
+<Description>FMFecha Emision</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Token>ymdhmstot(</Token>
+<Sp></Sp>
+<Token>1000</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>01</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>01</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>00</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>00</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>00</Token>
+<Token>)</Token>
+<Token>)</Token></Condition></Action></Rules>
+<BeforeConfirmRules></BeforeConfirmRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>2</TableId>
+<TableName>FacturaMovimiento</TableName>
+<Description>Factura Movimiento</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>2</AttriId>
+<AttriName>FMId</AttriName>
+<Description>FMId</Description></Attribute>
+<Attribute>
+<AttriId>21</AttriId>
+<AttriName>FMIdNetMovimiento</AttriName>
+<Description>FMId Net Movimiento</Description></Attribute>
+<Attribute>
+<AttriId>22</AttriId>
+<AttriName>FMFechaEmision</AttriName>
+<Description>FMFecha Emision</Description></Attribute>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>FMFechaVencimiento</AttriName>
+<Description>FMFecha Vencimiento</Description></Attribute>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>FMTipo</AttriName>
+<Description>FMTipo</Description></Attribute>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>FMNumero</AttriName>
+<Description>FMNumero</Description></Attribute>
+<Attribute>
+<AttriId>26</AttriId>
+<AttriName>FMDetalle</AttriName>
+<Description>FMDetalle</Description></Attribute>
+<Attribute>
+<AttriId>27</AttriId>
+<AttriName>FMImporte</AttriName>
+<Description>FMImporte</Description></Attribute>
+<Attribute>
+<AttriId>28</AttriId>
+<AttriName>FMIdUsuarioNet</AttriName>
+<Description>FMId Usuario Net</Description></Attribute>
+<Attribute>
+<AttriId>29</AttriId>
+<AttriName>FMTipoMovimiento</AttriName>
+<Description>FMTipo Movimiento</Description></Attribute>
+<Attribute>
+<AttriId>30</AttriId>
+<AttriName>FMImportePago</AttriName>
+<Description>FMImporte Pago</Description></Attribute>
+<Attribute>
+<AttriId>31</AttriId>
+<AttriName>FMPathPdf</AttriName>
+<Description>FMPath Pdf</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>2</TableId>
+<TableName>FacturaMovimiento</TableName>
+<Description>Factura Movimiento</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>21</AttriId>
+<AttriName>FMIdNetMovimiento</AttriName>
+<Description>FMId Net Movimiento</Description></Attribute>
+<Attribute>
+<AttriId>22</AttriId>
+<AttriName>FMFechaEmision</AttriName>
+<Description>FMFecha Emision</Description></Attribute>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>FMFechaVencimiento</AttriName>
+<Description>FMFecha Vencimiento</Description></Attribute>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>FMTipo</AttriName>
+<Description>FMTipo</Description></Attribute>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>FMNumero</AttriName>
+<Description>FMNumero</Description></Attribute>
+<Attribute>
+<AttriId>26</AttriId>
+<AttriName>FMDetalle</AttriName>
+<Description>FMDetalle</Description></Attribute>
+<Attribute>
+<AttriId>27</AttriId>
+<AttriName>FMImporte</AttriName>
+<Description>FMImporte</Description></Attribute>
+<Attribute>
+<AttriId>28</AttriId>
+<AttriName>FMIdUsuarioNet</AttriName>
+<Description>FMId Usuario Net</Description></Attribute>
+<Attribute>
+<AttriId>29</AttriId>
+<AttriName>FMTipoMovimiento</AttriName>
+<Description>FMTipo Movimiento</Description></Attribute>
+<Attribute>
+<AttriId>30</AttriId>
+<AttriName>FMImportePago</AttriName>
+<Description>FMImporte Pago</Description></Attribute>
+<Attribute>
+<AttriId>31</AttriId>
+<AttriName>FMPathPdf</AttriName>
+<Description>FMPath Pdf</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>2</TableId>
+<TableName>FacturaMovimiento</TableName>
+<Description>Factura Movimiento</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<BeforeInsertRules></BeforeInsertRules>
+<AfterInsertRules></AfterInsertRules>
+<BeforeUpdateRules></BeforeUpdateRules>
+<AfterUpdateRules></AfterUpdateRules>
+<BeforeDeleteRules></BeforeDeleteRules>
+<AfterDeleteRules></AfterDeleteRules>
+<AfterDisplayRules></AfterDisplayRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<BeforeTrnRules></BeforeTrnRules>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules>
+<Formulas>
+<AggSelFormulas></AggSelFormulas></Formulas></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>2</TableId>
+<TableName>FacturaMovimiento</TableName>
+<Description>Factura Movimiento</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>10</ObjId>
+<ObjName>Gx0020</ObjName>
+<ObjPgmName>Gx0020</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>2</AttriId>
+<AttriName>FMId</AttriName>
+<Description>FMId</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

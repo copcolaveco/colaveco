@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>GXstd_version</key>
+    <string>17_0_7-156546</string>
+    <key>GXyear_limit</key>
+    <string>40</string>
+    <key>GXlog_level</key>
+    <string>NONE</string>
+    <key>GXgx_build_number</key>
+    <string>156546</string>
+    <key>GXlanguage</key>
+    <string>eng</string>
+    <key>GXlang_name</key>
+    <string>English</string>
+    <key>GXCommitment</key>
+    <string>true</string>
+    <key>GXlike_escape_char</key>
+    <string> </string>
+    <key>GXLanguajesData</key>
+    <array>
+        <dict>
+            <key>GXLanguajeSection</key>
+            <string>English</string>
+            <key>GXLanguajeCode</key>
+            <string>eng</string>
+            <key>GXTimeFormat</key>
+            <string>12</string>
+            <key>GXDecimalPoint</key>
+            <string>.</string>
+            <key>GXThousandSep</key>
+            <string>,</string>
+            <key>GXDateFormat</key>
+            <string>MDY</string>
+            <key>GXCulture</key>
+            <string>en-US</string>
+        </dict>
+    </array>
+</dict>
+</plist>

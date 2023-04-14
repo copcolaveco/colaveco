@@ -1,0 +1,29 @@
+
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>MisDatos_Level_DetailSdt</name>
+<camelname>MisDatos_Level_DetailSdt</camelname>
+<camelnameex>MisDatos_Level_DetailSdt</camelnameex>
+<collection>False</collection>
+<wwsd_sdt>True</wwsd_sdt>
+<modified>yes</modified>
+<fullname>MisDatos_Level_DetailSdt</fullname>
+<members>
+<member>
+<name>Sdtusuario</name>
+<camelname>Sdtusuario</camelname>
+<type>[ [ 26,61,0 ],0,0 ]</type>
+<length>0</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member></members></Level>
+<Prompts></Prompts>
+<TableAccess></TableAccess>
+<XRef>
+<Object>
+<Class>33</Class>
+<Id>3</Id>
+<Guid>a22f0fec-6874-48d9-8f8a-d146f298815f</Guid></Object></XRef></SdtSpec>

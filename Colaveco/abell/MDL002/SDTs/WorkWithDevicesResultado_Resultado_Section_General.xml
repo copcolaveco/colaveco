@@ -1,0 +1,186 @@
+
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>WorkWithDevicesResultado_Resultado_Section_GeneralSdt</name>
+<camelname>WorkWithDevicesResultado_Resultado_Section_GeneralSdt</camelname>
+<camelnameex>WorkWithDevicesResultado_Resultado_Section_GeneralSdt</camelnameex>
+<collection>False</collection>
+<wwsd_sdt>True</wwsd_sdt>
+<panel>[ 'Resultado.Section.General' ]</panel>
+<key>[ 1,[ 1 ],[ 1,1,'Resultado' ] ]</key>
+<modified>yes</modified>
+<fullname>WorkWithDevicesResultado_Resultado_Section_GeneralSdt</fullname>
+<members>
+<member>
+<name>Resultadoid</name>
+<camelname>resultadoId</camelname>
+<type>[ 4,18,0 ]</type>
+<length>18</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>1</attributeid></member>
+<member>
+<name>Resultadoficha</name>
+<camelname>resultadoFicha</camelname>
+<type>[ 4,18,0 ]</type>
+<length>18</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>7</attributeid></member>
+<member>
+<name>Resultadoidnetusuario</name>
+<camelname>resultadoIdNetUsuario</camelname>
+<type>[ 4,18,0 ]</type>
+<length>18</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>11</attributeid></member>
+<member>
+<name>Resultadofechacreado</name>
+<camelname>resultadoFechaCreado</camelname>
+<type>[ 6,8,0 ]</type>
+<length>8</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>12</attributeid></member>
+<member>
+<name>Resultadofechaemision</name>
+<camelname>resultadoFechaEmision</camelname>
+<type>[ 6,8,0 ]</type>
+<length>8</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>13</attributeid></member>
+<member>
+<name>Resultadocomentarios</name>
+<camelname>resultadoComentarios</camelname>
+<type>[ 13,45,0 ]</type>
+<length>45</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>8</attributeid></member>
+<member>
+<name>Resultadouserid</name>
+<camelname>resultadoUserId</camelname>
+<type>[ 4,18,0 ]</type>
+<length>18</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>9</attributeid></member>
+<member>
+<name>Resultadotypeid</name>
+<camelname>resultadoTypeId</camelname>
+<type>[ 4,18,0 ]</type>
+<length>18</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>10</attributeid></member>
+<member>
+<name>Resultadopathexcel</name>
+<camelname>resultadoPathExcel</camelname>
+<type>[ 13,500,0 ]</type>
+<length>500</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>14</attributeid></member>
+<member>
+<name>Resultadopathpdf</name>
+<camelname>resultadoPathPdf</camelname>
+<type>[ 13,500,0 ]</type>
+<length>500</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>15</attributeid></member>
+<member>
+<name>Resultadopathcsv</name>
+<camelname>resultadoPathCsv</camelname>
+<type>[ 13,500,0 ]</type>
+<length>500</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>16</attributeid></member>
+<member>
+<name>Resultadoidestado</name>
+<camelname>resultadoIdEstado</camelname>
+<type>[ 4,18,0 ]</type>
+<length>18</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>17</attributeid></member>
+<member>
+<name>Resultadoidlibro</name>
+<camelname>resultadoIdLibro</camelname>
+<type>[ 4,18,0 ]</type>
+<length>18</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>18</attributeid></member>
+<member>
+<name>Resultadoidnettipoinforme</name>
+<camelname>resultadoIdNetTipoinforme</camelname>
+<type>[ 4,18,0 ]</type>
+<length>18</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>166</attributeid></member>
+<member>
+<name>Resultadoeliminado</name>
+<camelname>resultadoEliminado</camelname>
+<type>[ 4,1,0 ]</type>
+<length>1</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>19</attributeid></member>
+<member>
+<name>Resultadoabonado</name>
+<camelname>resultadoAbonado</camelname>
+<type>[ 4,18,0 ]</type>
+<length>18</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>20</attributeid></member></members></Level>
+<Prompts></Prompts>
+<TableAccess>
+<Table>
+<Id>1</Id>
+<Name>Resultado</Name>
+<Read>y</Read>
+<Insert>n</Insert>
+<Update>n</Update>
+<Delete>n</Delete>
+<IsBase>y</IsBase></Table></TableAccess>
+<XRef></XRef></SdtSpec>

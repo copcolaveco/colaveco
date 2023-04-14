@@ -1,0 +1,182 @@
+ 
+spec_i([ sdt,[ 0,3,0 ],'SolicitudFrasco','SolicitudFrasco',0,eng,'17_0_7-156546' ]).
+ 
+struct_dt_i([ 0,3,0 ],name,'SolicitudFrasco').
+struct_dt_i([ 0,3,0 ],namespace,'Colaveco').
+struct_dt_i([ 0,3,0 ],significantName,'SolicitudFrasco').
+struct_dt_i([ 0,3,0 ],'ObjName','SolicitudFrasco').
+struct_dt_i([ 0,3,0 ],'ObjDesc','Solicitud Frasco').
+struct_dt_i([ 0,3,0 ],'ExternalName','SolicitudFrasco').
+struct_dt_i([ 0,3,0 ],'ExternalNamespace','Colaveco').
+struct_dt_i([ 0,3,0 ],key,[ 3 ]).
+struct_dt_i([ 0,3,0 ],lvl,3).
+struct_dt_i([ 0,3,0 ],fullname,'SolicitudFrasco').
+ 
+struct_dt_elem_i([ 0,3,0 ],1,name,'Sfid').
+struct_dt_elem_i([ 0,3,0 ],1,camelname,'SFId').
+struct_dt_elem_i([ 0,3,0 ],1,basedon,83).
+struct_dt_elem_i([ 0,3,0 ],1,length,18).
+struct_dt_elem_i([ 0,3,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],1,sign,0).
+struct_dt_elem_i([ 0,3,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,3,0 ],1,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,3,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],1,attributeid,'3').
+struct_dt_elem_i([ 0,3,0 ],1,'ExternalName','SFId').
+struct_dt_elem_i([ 0,3,0 ],1,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],2,name,'Sfidnet').
+struct_dt_elem_i([ 0,3,0 ],2,camelname,'SFIdNet').
+struct_dt_elem_i([ 0,3,0 ],2,basedon,83).
+struct_dt_elem_i([ 0,3,0 ],2,length,18).
+struct_dt_elem_i([ 0,3,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],2,sign,0).
+struct_dt_elem_i([ 0,3,0 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,3,0 ],2,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,3,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],2,attributeid,'32').
+struct_dt_elem_i([ 0,3,0 ],2,'ExternalName','SFIdNet').
+struct_dt_elem_i([ 0,3,0 ],2,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],3,name,'Sfnombre').
+struct_dt_elem_i([ 0,3,0 ],3,camelname,'SFNombre').
+struct_dt_elem_i([ 0,3,0 ],3,length,100).
+struct_dt_elem_i([ 0,3,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,3,0 ],3,pic,'').
+struct_dt_elem_i([ 0,3,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],3,attributeid,'33').
+struct_dt_elem_i([ 0,3,0 ],3,'ExternalName','SFNombre').
+struct_dt_elem_i([ 0,3,0 ],3,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],4,name,'Sfdireccion').
+struct_dt_elem_i([ 0,3,0 ],4,camelname,'SFDireccion').
+struct_dt_elem_i([ 0,3,0 ],4,length,100).
+struct_dt_elem_i([ 0,3,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],4,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,3,0 ],4,pic,'').
+struct_dt_elem_i([ 0,3,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],4,attributeid,'34').
+struct_dt_elem_i([ 0,3,0 ],4,'ExternalName','SFDireccion').
+struct_dt_elem_i([ 0,3,0 ],4,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],5,name,'Sfagencia').
+struct_dt_elem_i([ 0,3,0 ],5,camelname,'SFAgencia').
+struct_dt_elem_i([ 0,3,0 ],5,length,4).
+struct_dt_elem_i([ 0,3,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],5,sign,0).
+struct_dt_elem_i([ 0,3,0 ],5,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,3,0 ],5,pic,'ZZZ9').
+struct_dt_elem_i([ 0,3,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],5,attributeid,'35').
+struct_dt_elem_i([ 0,3,0 ],5,'ExternalName','SFAgencia').
+struct_dt_elem_i([ 0,3,0 ],5,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],6,name,'Sftelefono').
+struct_dt_elem_i([ 0,3,0 ],6,camelname,'SFTelefono').
+struct_dt_elem_i([ 0,3,0 ],6,length,50).
+struct_dt_elem_i([ 0,3,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],6,type,[ 13,50,0 ]).
+struct_dt_elem_i([ 0,3,0 ],6,pic,'').
+struct_dt_elem_i([ 0,3,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],6,attributeid,'36').
+struct_dt_elem_i([ 0,3,0 ],6,'ExternalName','SFTelefono').
+struct_dt_elem_i([ 0,3,0 ],6,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],7,name,'Sfemail').
+struct_dt_elem_i([ 0,3,0 ],7,camelname,'SFEmail').
+struct_dt_elem_i([ 0,3,0 ],7,length,100).
+struct_dt_elem_i([ 0,3,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],7,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,3,0 ],7,pic,'').
+struct_dt_elem_i([ 0,3,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],7,attributeid,'37').
+struct_dt_elem_i([ 0,3,0 ],7,'ExternalName','SFEmail').
+struct_dt_elem_i([ 0,3,0 ],7,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],8,name,'Sffrascosconc').
+struct_dt_elem_i([ 0,3,0 ],8,camelname,'SFFrascosConC').
+struct_dt_elem_i([ 0,3,0 ],8,length,4).
+struct_dt_elem_i([ 0,3,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],8,sign,0).
+struct_dt_elem_i([ 0,3,0 ],8,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,3,0 ],8,pic,'ZZZ9').
+struct_dt_elem_i([ 0,3,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],8,attributeid,'38').
+struct_dt_elem_i([ 0,3,0 ],8,'ExternalName','SFFrascosConC').
+struct_dt_elem_i([ 0,3,0 ],8,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],9,name,'Sffrascossinc').
+struct_dt_elem_i([ 0,3,0 ],9,camelname,'SFFrascosSinC').
+struct_dt_elem_i([ 0,3,0 ],9,length,4).
+struct_dt_elem_i([ 0,3,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],9,sign,0).
+struct_dt_elem_i([ 0,3,0 ],9,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,3,0 ],9,pic,'ZZZ9').
+struct_dt_elem_i([ 0,3,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],9,attributeid,'39').
+struct_dt_elem_i([ 0,3,0 ],9,'ExternalName','SFFrascosSinC').
+struct_dt_elem_i([ 0,3,0 ],9,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],10,name,'Sffrascosagua').
+struct_dt_elem_i([ 0,3,0 ],10,camelname,'SFFrascosAgua').
+struct_dt_elem_i([ 0,3,0 ],10,length,4).
+struct_dt_elem_i([ 0,3,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],10,sign,0).
+struct_dt_elem_i([ 0,3,0 ],10,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,3,0 ],10,pic,'ZZZ9').
+struct_dt_elem_i([ 0,3,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],10,attributeid,'167').
+struct_dt_elem_i([ 0,3,0 ],10,'ExternalName','SFFrascosAgua').
+struct_dt_elem_i([ 0,3,0 ],10,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],11,name,'Sffrascossangre').
+struct_dt_elem_i([ 0,3,0 ],11,camelname,'SFFrascosSangre').
+struct_dt_elem_i([ 0,3,0 ],11,length,4).
+struct_dt_elem_i([ 0,3,0 ],11,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],11,sign,0).
+struct_dt_elem_i([ 0,3,0 ],11,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,3,0 ],11,pic,'ZZZ9').
+struct_dt_elem_i([ 0,3,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],11,attributeid,'40').
+struct_dt_elem_i([ 0,3,0 ],11,'ExternalName','SFFrascosSangre').
+struct_dt_elem_i([ 0,3,0 ],11,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],12,name,'Sfobservaciones').
+struct_dt_elem_i([ 0,3,0 ],12,camelname,'SFObservaciones').
+struct_dt_elem_i([ 0,3,0 ],12,length,200).
+struct_dt_elem_i([ 0,3,0 ],12,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],12,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,3,0 ],12,pic,'').
+struct_dt_elem_i([ 0,3,0 ],12,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],12,attributeid,'41').
+struct_dt_elem_i([ 0,3,0 ],12,'ExternalName','SFObservaciones').
+struct_dt_elem_i([ 0,3,0 ],12,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],13,name,'Sffechacreacion').
+struct_dt_elem_i([ 0,3,0 ],13,camelname,'SFFechaCreacion').
+struct_dt_elem_i([ 0,3,0 ],13,length,8).
+struct_dt_elem_i([ 0,3,0 ],13,decimals,5).
+struct_dt_elem_i([ 0,3,0 ],13,type,[ 12,8,5 ]).
+struct_dt_elem_i([ 0,3,0 ],13,pic,'99/99/99 99:99').
+struct_dt_elem_i([ 0,3,0 ],13,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],13,attributeid,'42').
+struct_dt_elem_i([ 0,3,0 ],13,'ExternalName','SFFechaCreacion').
+struct_dt_elem_i([ 0,3,0 ],13,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],14,name,'Sffechamodificado').
+struct_dt_elem_i([ 0,3,0 ],14,camelname,'SFFechaModificado').
+struct_dt_elem_i([ 0,3,0 ],14,length,8).
+struct_dt_elem_i([ 0,3,0 ],14,decimals,5).
+struct_dt_elem_i([ 0,3,0 ],14,type,[ 12,8,5 ]).
+struct_dt_elem_i([ 0,3,0 ],14,pic,'99/99/99 99:99').
+struct_dt_elem_i([ 0,3,0 ],14,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],14,attributeid,'43').
+struct_dt_elem_i([ 0,3,0 ],14,'ExternalName','SFFechaModificado').
+struct_dt_elem_i([ 0,3,0 ],14,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],15,name,'Sffrascosisopo').
+struct_dt_elem_i([ 0,3,0 ],15,camelname,'SFFrascosIsopo').
+struct_dt_elem_i([ 0,3,0 ],15,length,4).
+struct_dt_elem_i([ 0,3,0 ],15,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],15,sign,0).
+struct_dt_elem_i([ 0,3,0 ],15,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,3,0 ],15,pic,'ZZZ9').
+struct_dt_elem_i([ 0,3,0 ],15,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],15,attributeid,'44').
+struct_dt_elem_i([ 0,3,0 ],15,'ExternalName','SFFrascosIsopo').
+struct_dt_elem_i([ 0,3,0 ],15,'ExternalNamespace','Colaveco').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\Common','PackageName','GeneXus.jar').

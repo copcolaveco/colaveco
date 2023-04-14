@@ -1,0 +1,37 @@
+
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>Agencias_Level_Detail_Grid1Sdt</name>
+<camelname>Agencias_Level_Detail_Grid1Sdt</camelname>
+<camelnameex>Agencias_Level_Detail_Grid1Sdt</camelnameex>
+<collection>True</collection>
+<datatype>[ 26,1000000,1 ]</datatype>
+<wwsd_sdt>True</wwsd_sdt>
+<modified>yes</modified>
+<fullname>Agencias_Level_Detail_Grid1Sdt</fullname></Level>
+<Level>
+<id>[ 26,1000000,1 ]</id>
+<name>Item</name>
+<camelname>Item</camelname>
+<camelnameex>Item</camelnameex>
+<modified>yes</modified>
+<fullname>Agencias_Level_Detail_Grid1Sdt.Item</fullname>
+<members>
+<member>
+<name>Sdtagencia</name>
+<camelname>Sdtagencia</camelname>
+<type>[ [ 26,60,0 ],0,0 ]</type>
+<length>0</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member></members></Level>
+<Prompts></Prompts>
+<TableAccess></TableAccess>
+<XRef>
+<Object>
+<Class>33</Class>
+<Id>2</Id>
+<Guid>185df3fc-b321-493b-b40c-244c83622a69</Guid></Object></XRef></SdtSpec>

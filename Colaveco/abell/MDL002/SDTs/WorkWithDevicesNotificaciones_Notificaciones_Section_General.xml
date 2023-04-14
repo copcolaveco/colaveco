@@ -1,0 +1,86 @@
+
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>WorkWithDevicesNotificaciones_Notificaciones_Section_GeneralSdt</name>
+<camelname>WorkWithDevicesNotificaciones_Notificaciones_Section_GeneralSdt</camelname>
+<camelnameex>WorkWithDevicesNotificaciones_Notificaciones_Section_GeneralSdt</camelnameex>
+<collection>False</collection>
+<wwsd_sdt>True</wwsd_sdt>
+<panel>[ 'Notificaciones.Section.General' ]</panel>
+<key>[ 6,[ 6 ],[ 6,1,'Notificaciones' ] ]</key>
+<modified>yes</modified>
+<fullname>WorkWithDevicesNotificaciones_Notificaciones_Section_GeneralSdt</fullname>
+<members>
+<member>
+<name>Notificacionesid</name>
+<camelname>NotificacionesId</camelname>
+<type>[ 4,18,0 ]</type>
+<length>18</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>6</attributeid></member>
+<member>
+<name>Notificacionesfecha</name>
+<camelname>NotificacionesFecha</camelname>
+<type>[ 12,8,5 ]</type>
+<length>8</length>
+<decimals>5</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>169</attributeid></member>
+<member>
+<name>Notificacionestipo</name>
+<camelname>NotificacionesTipo</camelname>
+<type>[ 13,40,0 ]</type>
+<length>40</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>170</attributeid></member>
+<member>
+<name>Notificacionesmensaje</name>
+<camelname>NotificacionesMensaje</camelname>
+<type>[ 13,256,0 ]</type>
+<length>256</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>171</attributeid></member>
+<member>
+<name>Notificacionesidnetusuario</name>
+<camelname>NotificacionesIdNetUsuario</camelname>
+<type>[ 4,18,0 ]</type>
+<length>18</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>172</attributeid></member>
+<member>
+<name>Notificacionesdetalle</name>
+<camelname>NotificacionesDetalle</camelname>
+<type>[ 13,40,0 ]</type>
+<length>40</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel>
+<attributeid>173</attributeid></member></members></Level>
+<Prompts></Prompts>
+<TableAccess>
+<Table>
+<Id>6</Id>
+<Name>Notificaciones</Name>
+<Read>y</Read>
+<Insert>n</Insert>
+<Update>n</Update>
+<Delete>n</Delete>
+<IsBase>y</IsBase></Table></TableAccess>
+<XRef></XRef></SdtSpec>

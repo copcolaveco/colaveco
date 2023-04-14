@@ -1,0 +1,241 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_7-156546</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>9</ObjId>
+<ObjName>Anuncio</ObjName>
+<ObjDesc>Anuncio</ObjDesc>
+<ObjPgmName>Anuncio</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Mode</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Anuncioid</VarId>
+<VarName>&amp;AnuncioId</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>9</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>9</TableId>
+<TableName>Anuncio</TableName>
+<Description>Anuncio</Description></Table></BaseTable>
+<StandAloneRules>
+<Action>
+<ActionType>Formula</ActionType>
+<FormulaName>
+<Attribute>
+<AttriId>192</AttriId>
+<AttriName>AnuncioId</AttriName>
+<Description>Anuncio Id</Description></Attribute>
+<Token>.</Token>
+<Token>Enabled</Token></FormulaName>
+<FormulaExpression>
+<Token>0</Token>
+<Token>;</Token></FormulaExpression></Action>
+<Action>
+<ActionType>Formula</ActionType>
+<FormulaName>
+<Variable>
+<VarId>GxBScreen</VarId>
+<VarName>&amp;Gxbscreen</VarName></Variable></FormulaName>
+<FormulaExpression>
+<Token>0</Token></FormulaExpression></Action>
+<Action>
+<ActionType>Formula</ActionType>
+<FormulaName>
+<Variable>
+<VarId>Pgmname</VarId>
+<VarName>&amp;Pgmname</VarName></Variable></FormulaName>
+<FormulaExpression>
+<Token>&quot;Anuncio&quot;</Token></FormulaExpression></Action>
+<Action>
+<ActionType>Formula</ActionType>
+<FormulaName>
+<Attribute>
+<AttriId>192</AttriId>
+<AttriName>AnuncioId</AttriName>
+<Description>Anuncio Id</Description></Attribute></FormulaName>
+<FormulaExpression>
+<Variable>
+<VarId>Anuncioid</VarId>
+<VarName>&amp;AnuncioId</VarName></Variable>
+<Token>IF</Token>
+<Token>not</Token>
+<Variable>
+<VarId>Anuncioid</VarId>
+<VarName>&amp;AnuncioId</VarName></Variable>
+<Token>.</Token>
+<Token>isempty(</Token>
+<Token>)</Token>
+<Token>;</Token>
+<Token>1</Token>
+<Token>IF</Token>
+<Token>insert</Token>
+<Token>and</Token>
+<Token>null1(</Token>
+<Attribute>
+<AttriId>192</AttriId>
+<AttriName>AnuncioId</AttriName>
+<Description>Anuncio Id</Description></Attribute>
+<Token>)</Token>
+<Token>and</Token>
+<Variable>
+<VarId>GxBScreen</VarId>
+<VarName>&amp;Gxbscreen</VarName></Variable>
+<Token>=</Token>
+<Token>0</Token>
+<Token>;</Token></FormulaExpression></Action></StandAloneRules>
+<BaseTableRule>
+<Action>
+<ActionType>ReadBaseTable</ActionType>
+<Table>
+<TableId>9</TableId>
+<TableName>Anuncio</TableName>
+<Description>Anuncio</Description></Table>
+<JoinConditions>
+<Table>
+<TableId>9</TableId>
+<TableName>Anuncio</TableName>
+<Description>Anuncio</Description></Table>
+<JoinCondition>
+<AttributeTo>
+<Attribute>
+<AttriId>192</AttriId>
+<AttriName>AnuncioId</AttriName>
+<Description>Anuncio Id</Description></Attribute></AttributeTo>
+<Table></Table>
+<AttributeFrom>
+<Attribute>
+<AttriId>192</AttriId>
+<AttriName>AnuncioId</AttriName>
+<Description>Anuncio Id</Description></Attribute></AttributeFrom></JoinCondition></JoinConditions>
+<Into>
+<Attribute>
+<AttriId>193</AttriId>
+<AttriName>AnuncioTitulo</AttriName>
+<Description>Anuncio Titulo</Description></Attribute>
+<Attribute>
+<AttriId>194</AttriId>
+<AttriName>AnuncioSubTitulo</AttriName>
+<Description>Anuncio Sub Titulo</Description></Attribute>
+<Attribute>
+<AttriId>197</AttriId>
+<AttriName>AnuncioDescripcion</AttriName>
+<Description>Anuncio Descripcion</Description></Attribute>
+<Attribute>
+<AttriId>195</AttriId>
+<AttriName>AnuncioImagen</AttriName>
+<Description>Anuncio Imagen</Description></Attribute>
+<Attribute>
+<AttriId>40000</AttriId>
+<AttriName>AnuncioImagen.Uri  </AttriName>
+<Description></Description></Attribute>
+<Attribute>
+<AttriId>196</AttriId>
+<AttriName>AnuncioPublico</AttriName>
+<Description>Anuncio Publico</Description></Attribute></Into></Action></BaseTableRule>
+<Rules></Rules>
+<BeforeConfirmRules></BeforeConfirmRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>9</TableId>
+<TableName>Anuncio</TableName>
+<Description>Anuncio</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>193</AttriId>
+<AttriName>AnuncioTitulo</AttriName>
+<Description>Anuncio Titulo</Description></Attribute>
+<Attribute>
+<AttriId>194</AttriId>
+<AttriName>AnuncioSubTitulo</AttriName>
+<Description>Anuncio Sub Titulo</Description></Attribute>
+<Attribute>
+<AttriId>197</AttriId>
+<AttriName>AnuncioDescripcion</AttriName>
+<Description>Anuncio Descripcion</Description></Attribute>
+<Attribute>
+<AttriId>195</AttriId>
+<AttriName>AnuncioImagen</AttriName>
+<Description>Anuncio Imagen</Description></Attribute>
+<Attribute>
+<AttriId>40000</AttriId>
+<AttriName>AnuncioImagen.Uri  </AttriName>
+<Description></Description></Attribute>
+<Attribute>
+<AttriId>196</AttriId>
+<AttriName>AnuncioPublico</AttriName>
+<Description>Anuncio Publico</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>9</TableId>
+<TableName>Anuncio</TableName>
+<Description>Anuncio</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>193</AttriId>
+<AttriName>AnuncioTitulo</AttriName>
+<Description>Anuncio Titulo</Description></Attribute>
+<Attribute>
+<AttriId>194</AttriId>
+<AttriName>AnuncioSubTitulo</AttriName>
+<Description>Anuncio Sub Titulo</Description></Attribute>
+<Attribute>
+<AttriId>197</AttriId>
+<AttriName>AnuncioDescripcion</AttriName>
+<Description>Anuncio Descripcion</Description></Attribute>
+<Attribute>
+<AttriId>195</AttriId>
+<AttriName>AnuncioImagen</AttriName>
+<Description>Anuncio Imagen</Description></Attribute>
+<Attribute>
+<AttriId>40000</AttriId>
+<AttriName>AnuncioImagen.Uri  </AttriName>
+<Description></Description></Attribute>
+<Attribute>
+<AttriId>196</AttriId>
+<AttriName>AnuncioPublico</AttriName>
+<Description>Anuncio Publico</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>9</TableId>
+<TableName>Anuncio</TableName>
+<Description>Anuncio</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<BeforeInsertRules></BeforeInsertRules>
+<AfterInsertRules></AfterInsertRules>
+<BeforeUpdateRules></BeforeUpdateRules>
+<AfterUpdateRules></AfterUpdateRules>
+<BeforeDeleteRules></BeforeDeleteRules>
+<AfterDeleteRules></AfterDeleteRules>
+<AfterDisplayRules></AfterDisplayRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<BeforeTrnRules></BeforeTrnRules>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules>
+<Formulas>
+<AggSelFormulas></AggSelFormulas></Formulas></Level></Levels>
+<Suggests></Suggests></ObjectSpec>

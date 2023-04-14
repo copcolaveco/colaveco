@@ -1,0 +1,54 @@
+ 
+spec_i([ sdt,[ 26,1000000,0 ],'Agencias_Level_Detail_Grid1Sdt','Agencias_Level_Detail_Grid1Sdt',0,eng,'17_0_7-156546' ]).
+ 
+struct_dt_i([ 26,1000000,0 ],name,'Agencias_Level_Detail_Grid1Sdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'Agencias_Level_Detail_Grid1Sdt').
+struct_dt_i([ 26,1000000,1 ],name,'Item').
+struct_dt_i([ 26,1000000,1 ],camelnameex,'Item').
+struct_dt_i([ 26,1000000,0 ],collection,'True').
+struct_dt_i([ 26,1000000,0 ],datatype,[ 26,1000000,1 ]).
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],fullname,'Agencias_Level_Detail_Grid1Sdt').
+struct_dt_i([ 26,1000000,1 ],fullname,'Agencias_Level_Detail_Grid1Sdt.Item').
+struct_dt_i([ 26,1000000,0 ],modified,yes).
+struct_dt_i([ 26,1000000,1 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,1000000,1 ],1,name,'Sdtagencia').
+struct_dt_elem_i([ 26,1000000,1 ],1,camelname,'Sdtagencia').
+struct_dt_elem_i([ 26,1000000,1 ],1,type,[ [ 26,60,0 ],0,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],1,length,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],1,islevel,'False').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,60,0 ],name,'SDTAgencia').
+struct_dt_i([ 26,60,0 ],namespace,'Colaveco').
+struct_dt_i([ 26,60,0 ],'ObjName','SDTAgencia').
+struct_dt_i([ 26,60,0 ],'ObjDesc','SDTAgencia').
+struct_dt_i([ 26,60,0 ],'ExternalName','SDTAgencia').
+struct_dt_i([ 26,60,0 ],'ExternalNamespace','Colaveco').
+struct_dt_i([ 26,60,0 ],collection,'True').
+struct_dt_i([ 26,60,0 ],datatype,[ 26,60,87 ]).
+struct_dt_i([ 26,60,0 ],'CollectionItemName','SDTAgenciaItem').
+struct_dt_i([ 26,60,0 ],'XmlName','').
+struct_dt_i([ 26,60,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,60,0 ],'XmlNamespace','').
+struct_dt_i([ 26,60,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,60,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,60,0 ],'JsonName','').
+struct_dt_i([ 26,60,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,60,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,60,0 ],fullname,'SDTAgencia').
+struct_dt_i([ 26,60,0 ],modified,yes).
+ 
+struct_dt_i([ 26,60,87 ],name,'SDTAgenciaItem').
+struct_dt_i([ 26,60,87 ],namespace,'Colaveco.SDTAgencia').
+struct_dt_i([ 26,60,87 ],fullname,'SDTAgencia.SDTAgenciaItem').
+struct_dt_i([ 26,60,87 ],modified,yes).

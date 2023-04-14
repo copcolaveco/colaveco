@@ -1,0 +1,15 @@
+
+<WWSDSpec>
+<Section>
+<Name>FacturaMovimiento.Detail</Name>
+<DataProviders>
+<DataProvider>WorkWithDevicesFacturaMovimiento_FacturaMovimiento_Detail</DataProvider></DataProviders></Section>
+<Section>
+<Name>FacturaMovimiento.List</Name>
+<DataProviders>
+<DataProvider>WorkWithDevicesFacturaMovimiento_FacturaMovimiento_List_Grid1</DataProvider>
+<DataProvider>WorkWithDevicesFacturaMovimiento_FacturaMovimiento_List</DataProvider></DataProviders></Section>
+<Section>
+<Name>FacturaMovimiento.Section.General</Name>
+<DataProviders>
+<DataProvider>WorkWithDevicesFacturaMovimiento_FacturaMovimiento_Section_General</DataProvider></DataProviders></Section></WWSDSpec>

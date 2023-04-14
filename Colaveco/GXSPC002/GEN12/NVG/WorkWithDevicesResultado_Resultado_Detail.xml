@@ -1,0 +1,104 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_7-156546</SpecVersion>
+<Object>
+<ObjClsGuid>2a9e9aba-d2de-4801-ae7f-5e3819222daf</ObjClsGuid>
+<ObjCls>33</ObjCls>
+<ObjId>0</ObjId>
+<ObjName>WorkWithDevicesResultado_Resultado_Detail</ObjName>
+<ObjDesc>WorkWithDevicesResultado_Resultado_Detail</ObjDesc>
+<ObjPgmName>WorkWithDevicesResultado_Resultado_Detail</ObjPgmName>
+<ObjClsName>DataProvider</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>resultadoId</AttriName>
+<Description>resultado Id</Description></Attribute></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Gxid</VarId>
+<VarName>&amp;gxid</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Token>WorkWithDevicesResultado_Resultado_DetailSdt</Token></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>3</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>1</TableId>
+<TableName>Resultado</TableName>
+<Description>Resultado</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>resultadoId</AttriName>
+<Description>resultado Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IRESULTADO</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>resultadoId</AttriName>
+<Description>resultado Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>@resultadoId</AttriName>
+<Description>resultado Id</Description></Attribute></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>resultadoId</AttriName>
+<Description>resultado Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>@resultadoId</AttriName>
+<Description>resultado Id</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>1</TableId>
+<TableName>Resultado</TableName>
+<Description>Resultado</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>resultadoId</AttriName>
+<Description>resultado Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>resultadoFicha</AttriName>
+<Description>resultado Ficha</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

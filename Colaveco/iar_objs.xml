@@ -1,0 +1,15 @@
+
+<Object>
+<ReorgCls>c</ReorgCls>
+<Mod>1</Mod>
+<OldMod>2</OldMod>
+<Table>
+<TableId>9</TableId>
+<TableName>Anuncio</TableName>
+<Description>Anuncio</Description></Table>
+<Table>
+<TableId>9</TableId>
+<TableName>Anuncio</TableName>
+<Description>Anuncio</Description></Table>
+<ReorgAction>!</ReorgAction>
+<ObjNavig>abell\MDL002\GEN12\AnuncioConversion.xml</ObjNavig></Object>

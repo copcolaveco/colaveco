@@ -1,0 +1,7 @@
+
+<WWSDSpec>
+<Section>
+<Name>Level.Detail</Name>
+<DataProviders>
+<DataProvider>HomeColaveco_Level_Detail_Grid1</DataProvider>
+<DataProvider>HomeColaveco_Level_Detail</DataProvider></DataProviders></Section></WWSDSpec>

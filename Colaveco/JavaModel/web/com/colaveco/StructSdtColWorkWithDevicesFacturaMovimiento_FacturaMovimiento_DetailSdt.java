@@ -1,0 +1,45 @@
+package com.colaveco ;
+import com.genexus.*;
+
+@javax.xml.bind.annotation.XmlType(name = "ColWorkWithDevicesFacturaMovimiento_FacturaMovimiento_DetailSdt", namespace ="http://tempuri.org/")
+public final  class StructSdtColWorkWithDevicesFacturaMovimiento_FacturaMovimiento_DetailSdt implements Cloneable, java.io.Serializable
+{
+   public StructSdtColWorkWithDevicesFacturaMovimiento_FacturaMovimiento_DetailSdt( )
+   {
+      this( -1, new ModelContext( StructSdtColWorkWithDevicesFacturaMovimiento_FacturaMovimiento_DetailSdt.class ));
+   }
+
+   public StructSdtColWorkWithDevicesFacturaMovimiento_FacturaMovimiento_DetailSdt( int remoteHandle ,
+                                                                                    ModelContext context )
+   {
+   }
+
+   public  StructSdtColWorkWithDevicesFacturaMovimiento_FacturaMovimiento_DetailSdt( java.util.Vector<StructSdtWorkWithDevicesFacturaMovimiento_FacturaMovimiento_DetailSdt> value )
+   {
+      item = value;
+   }
+
+   public Object clone()
+   {
+      Object cloned = null;
+      try
+      {
+         cloned = super.clone();
+      }catch (CloneNotSupportedException e){ ; }
+      return cloned;
+   }
+
+   @javax.xml.bind.annotation.XmlElement(name="WorkWithDevicesFacturaMovimiento_FacturaMovimiento_DetailSdt",namespace="http://tempuri.org/")
+   public java.util.Vector<StructSdtWorkWithDevicesFacturaMovimiento_FacturaMovimiento_DetailSdt> getItem( )
+   {
+      return item;
+   }
+
+   public void setItem( java.util.Vector<StructSdtWorkWithDevicesFacturaMovimiento_FacturaMovimiento_DetailSdt> value )
+   {
+      item = value;
+   }
+
+   protected  java.util.Vector<StructSdtWorkWithDevicesFacturaMovimiento_FacturaMovimiento_DetailSdt> item = new java.util.Vector<>();
+}
+

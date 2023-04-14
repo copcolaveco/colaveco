@@ -1,0 +1,427 @@
+spec_i([ mnproc,11,'gpx Menu Gestor',gpxMenuGestor,0,eng,'17_0_7-156546' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'MYSQL_VERSION','5')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',root)).
+rule_i(0,datastore(2,'USER_ID',root)).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','3308')).
+rule_i(0,datastore(2,'CS_SERVER',localhost)).
+rule_i(0,datastore(2,'CS_DBNAME','ColavecoconGx_Gam')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'ADONET_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.mysql.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','84')).
+rule_i(0,datastore(2,'DBMS',18)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'MYSQL_VERSION','5')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',root)).
+rule_i(0,datastore(1,'USER_ID',root)).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','3308')).
+rule_i(0,datastore(1,'CS_SERVER',localhost)).
+rule_i(0,datastore(1,'CS_DBNAME','ColavecoconGx')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'ADONET_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.mysql.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',18)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName',gpxMenuGestor)).
+rule_i(0,prop('Folder',o(8,gpxMenu))).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityLow')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('OutputCollectionName',gpxMenuGestor)).
+rule_i(0,prop('OutputCollection','0')).
+rule_i(0,prop('OutputSDT',o(26,gpxMenuItems))).
+rule_i(0,prop(idINFER_SDT,idINFER_STRUCTURE_NO)).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('Theme',o(25,'Carmine'))).
+rule_i(0,prop(idISWEBSERVICE,'0')).
+rule_i(0,prop('ObjDesc','gpx Menu Gestor')).
+rule_i(0,prop('ObjName',gpxMenuGestor)).
+rule_i(0,rule([ a(22,[ 'Rfr','"Refresh"','5' ]) ],[],[],[])).
+rule_i(0,maingen(12)).
+rule_i(0,parm([ 'Gxm2rootcol' ],[])).
+rule_i(0,parmio([ [ 'Gxm2rootcol',out ] ])).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',8 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',7 ]).
+attri_i('Gxm1gpxmenuitems',[ 'Gxm1gpxmenuitems',o('gpxMenuItems.gpxMenuItem'),0,0,'',0,'Gxm1gpxmenuitems','',6 ]).
+attri_i('Gxm2rootcol',[ 'Gxm2rootcol',o(objectcollection('gpxMenuItems.gpxMenuItem')),0,0,'',0,'Gxm2rootcol','',5 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+ 
+b_line_i(3,1,1,cmd,3,[ t('',107,3,0),t('Gxm1gpxmenuitems',23,3,0),t(=,10,3,0),t([ 'gpxMenuItems.gpxMenuItem',[ t('(',0,3,0),t(')',4,3,0) ],n ],46,3,0) ]).
+b_line_i([ 3,1 ],1,1,cmd,3,[ t('',107,3,0),t([ t('Gxm2rootcol',23,3,0),t('add(',1,3,0) ],31,3,0),t('Gxm1gpxmenuitems',23,3,0),t(')',4,3,0) ]).
+b_line_i(5,1,1,cmd,5,[ t('',107,4,13),t([ t('Gxm1gpxmenuitems',23,5,0),t('Title',3,5,0) ],29,5,0),t(=,10,5,0),t('"Inicio"',3,5,0) ]).
+b_line_i(6,1,1,cmd,5,[ t('',107,5,0),t([ t('Gxm1gpxmenuitems',23,5,0),t('Url',3,5,0) ],29,5,0),t(=,10,5,0),t('link(',1,5,0),t(o(13,'InicioGestor'),28,5,0),t(')',4,5,0) ]).
+b_line_i(8,1,1,cmd,5,[ t('',107,7,0),t('Gxm1gpxmenuitems',23,5,0),t(=,10,5,0),t([ 'gpxMenuItems.gpxMenuItem',[ t('(',0,8,0),t(')',4,8,0) ],n ],46,5,0) ]).
+b_line_i([ 8,1 ],1,1,cmd,5,[ t('',107,7,0),t([ t('Gxm2rootcol',23,8,0),t('add(',1,8,0) ],31,8,0),t('Gxm1gpxmenuitems',23,5,0),t(')',4,5,0) ]).
+b_line_i(10,1,1,cmd,7,[ t('',107,8,13),t([ t('Gxm1gpxmenuitems',23,7,0),t('Title',3,7,0) ],29,7,0),t(=,10,7,0),t('"Resultados"',3,7,0) ]).
+b_line_i(11,1,1,cmd,7,[ t('',107,9,0),t([ t('Gxm1gpxmenuitems',23,7,0),t('Url',3,7,0) ],29,7,0),t(=,10,7,0),t('link(',1,7,0),t(o(13,'WWResultado'),28,7,0),t(')',4,7,0) ]).
+b_line_i(13,1,1,cmd,7,[ t('',107,11,0),t('Gxm1gpxmenuitems',23,7,0),t(=,10,7,0),t([ 'gpxMenuItems.gpxMenuItem',[ t('(',0,13,0),t(')',4,13,0) ],n ],46,7,0) ]).
+b_line_i([ 13,1 ],1,1,cmd,7,[ t('',107,11,0),t([ t('Gxm2rootcol',23,13,0),t('add(',1,13,0) ],31,13,0),t('Gxm1gpxmenuitems',23,7,0),t(')',4,7,0) ]).
+b_line_i(15,1,1,cmd,9,[ t('',107,12,13),t([ t('Gxm1gpxmenuitems',23,9,0),t('Title',3,9,0) ],29,9,0),t(=,10,9,0),t('"Resultados2"',3,9,0) ]).
+b_line_i(16,1,1,cmd,9,[ t('',107,13,0),t([ t('Gxm1gpxmenuitems',23,9,0),t('Url',3,9,0) ],29,9,0),t(=,10,9,0),t('link(',1,9,0),t(o(13,'GestorResultado'),28,9,0),t(')',4,9,0) ]).
+b_line_i(18,1,1,cmd,9,[ t('',107,15,0),t('Gxm1gpxmenuitems',23,9,0),t(=,10,9,0),t([ 'gpxMenuItems.gpxMenuItem',[ t('(',0,18,0),t(')',4,18,0) ],n ],46,9,0) ]).
+b_line_i([ 18,1 ],1,1,cmd,9,[ t('',107,15,0),t([ t('Gxm2rootcol',23,18,0),t('add(',1,18,0) ],31,18,0),t('Gxm1gpxmenuitems',23,9,0),t(')',4,9,0) ]).
+b_line_i(20,1,1,cmd,11,[ t('',107,16,13),t([ t('Gxm1gpxmenuitems',23,11,0),t('Title',3,11,0) ],29,11,0),t(=,10,11,0),t('"Pedido de Frascos"',3,11,0) ]).
+b_line_i(21,1,1,cmd,11,[ t('',107,17,0),t([ t('Gxm1gpxmenuitems',23,11,0),t('Url',3,11,0) ],29,11,0),t(=,10,11,0),t('link(',1,11,0),t(o(13,'WWNotificaciones'),28,11,0),t(')',4,11,0) ]).
+b_line_i(22,1,1,cmd,11,[ t('',107,18,0),t([ t('Gxm1gpxmenuitems',23,11,0),t('Description',3,11,0) ],29,11,0),t(=,10,11,0),t('"Cerraste Seción!"',3,11,0) ]).
+b_line_i(24,1,1,cmd,11,[ t('',107,20,0),t('Gxm1gpxmenuitems',23,11,0),t(=,10,11,0),t([ 'gpxMenuItems.gpxMenuItem',[ t('(',0,24,0),t(')',4,24,0) ],n ],46,11,0) ]).
+b_line_i([ 24,1 ],1,1,cmd,11,[ t('',107,20,0),t([ t('Gxm2rootcol',23,24,0),t('add(',1,24,0) ],31,24,0),t('Gxm1gpxmenuitems',23,11,0),t(')',4,11,0) ]).
+b_line_i(26,1,1,cmd,13,[ t('',107,21,13),t([ t('Gxm1gpxmenuitems',23,13,0),t('Title',3,13,0) ],29,13,0),t(=,10,13,0),t('"Mis Datos"',3,13,0) ]).
+b_line_i(27,1,1,cmd,13,[ t('',107,22,0),t([ t('Gxm1gpxmenuitems',23,13,0),t('Url',3,13,0) ],29,13,0),t(=,10,13,0),t('link(',1,13,0),t(o(13,'GAMRemoteLogin'),28,13,0),t(')',4,13,0) ]).
+b_line_i(28,1,1,cmd,13,[ t('',107,23,0),t([ t('Gxm1gpxmenuitems',23,13,0),t('Description',3,13,0) ],29,13,0),t(=,10,13,0),t('"Cerraste Seción!"',3,13,0) ]).
+b_line_i(30,1,1,cmd,13,[ t('',107,25,0),t('Gxm1gpxmenuitems',23,13,0),t(=,10,13,0),t([ 'gpxMenuItems.gpxMenuItem',[ t('(',0,30,0),t(')',4,30,0) ],n ],46,13,0) ]).
+b_line_i([ 30,1 ],1,1,cmd,13,[ t('',107,25,0),t([ t('Gxm2rootcol',23,30,0),t('add(',1,30,0) ],31,30,0),t('Gxm1gpxmenuitems',23,13,0),t(')',4,13,0) ]).
+b_line_i(32,1,1,cmd,15,[ t('',107,26,13),t([ t('Gxm1gpxmenuitems',23,15,0),t('Title',3,15,0) ],29,15,0),t(=,10,15,0),t('"Alertas"',3,15,0) ]).
+b_line_i(33,1,1,cmd,15,[ t('',107,27,0),t([ t('Gxm1gpxmenuitems',23,15,0),t('Url',3,15,0) ],29,15,0),t(=,10,15,0),t('link(',1,15,0),t(o(13,'GAMRemoteLogin'),28,15,0),t(')',4,15,0) ]).
+b_line_i(34,1,1,cmd,15,[ t('',107,28,0),t([ t('Gxm1gpxmenuitems',23,15,0),t('Description',3,15,0) ],29,15,0),t(=,10,15,0),t('"Cerraste Seción!"',3,15,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+warn_gen_i(msg(events(27,[]),spc0024,[ 'Not enough parameters ',linking,' ','GAMRemoteLogin','.' ])).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,69,0 ],name,gpxMenuItems).
+struct_dt_i([ 26,69,0 ],namespace,'Colaveco').
+struct_dt_i([ 26,69,0 ],'ObjName',gpxMenuItems).
+struct_dt_i([ 26,69,0 ],'ObjDesc','gpx Menu Items').
+struct_dt_i([ 26,69,0 ],'ExternalName',gpxMenuItems).
+struct_dt_i([ 26,69,0 ],'ExternalNamespace','Colaveco').
+struct_dt_i([ 26,69,0 ],collection,'True').
+struct_dt_i([ 26,69,0 ],datatype,[ 26,69,97 ]).
+struct_dt_i([ 26,69,0 ],'CollectionItemName',gpxMenuItem).
+struct_dt_i([ 26,69,0 ],'XmlName','').
+struct_dt_i([ 26,69,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,69,0 ],'XmlNamespace','').
+struct_dt_i([ 26,69,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,69,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,69,0 ],'JsonName','').
+struct_dt_i([ 26,69,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,69,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,69,97 ],name,gpxMenuItem).
+struct_dt_i([ 26,69,97 ],namespace,'Colaveco.gpxMenuItems').
+struct_dt_i([ 26,69,0 ],fullname,gpxMenuItems).
+struct_dt_i([ 26,69,97 ],fullname,'gpxMenuItems.gpxMenuItem').
+struct_dt_i([ 26,69,0 ],camelname,'Gpxmenuitems').
+struct_dt_i([ 26,69,97 ],camelname,'Gpxmenuitem').
+ 
+struct_dt_elem_i([ 26,69,97 ],1,name,'Code').
+struct_dt_elem_i([ 26,69,97 ],1,camelname,'Code').
+struct_dt_elem_i([ 26,69,97 ],1,length,20).
+struct_dt_elem_i([ 26,69,97 ],1,decimals,0).
+struct_dt_elem_i([ 26,69,97 ],1,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,69,97 ],1,pic,'').
+struct_dt_elem_i([ 26,69,97 ],1,collection,'False').
+struct_dt_elem_i([ 26,69,97 ],1,'ExternalName','Code').
+struct_dt_elem_i([ 26,69,97 ],1,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,69,97 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,69,97 ],1,'XmlName','').
+struct_dt_elem_i([ 26,69,97 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,69,97 ],1,soaptype,'').
+struct_dt_elem_i([ 26,69,97 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,69,97 ],1,'JsonName','').
+struct_dt_elem_i([ 26,69,97 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,69,97 ],2,name,'Title').
+struct_dt_elem_i([ 26,69,97 ],2,camelname,'Title').
+struct_dt_elem_i([ 26,69,97 ],2,length,64).
+struct_dt_elem_i([ 26,69,97 ],2,decimals,0).
+struct_dt_elem_i([ 26,69,97 ],2,type,[ 5,64,0 ]).
+struct_dt_elem_i([ 26,69,97 ],2,pic,'').
+struct_dt_elem_i([ 26,69,97 ],2,collection,'False').
+struct_dt_elem_i([ 26,69,97 ],2,'ExternalName','Title').
+struct_dt_elem_i([ 26,69,97 ],2,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,69,97 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,69,97 ],2,'XmlName','').
+struct_dt_elem_i([ 26,69,97 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,69,97 ],2,soaptype,'').
+struct_dt_elem_i([ 26,69,97 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,69,97 ],2,'JsonName','').
+struct_dt_elem_i([ 26,69,97 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,69,97 ],3,name,'Url').
+struct_dt_elem_i([ 26,69,97 ],3,camelname,'URL').
+struct_dt_elem_i([ 26,69,97 ],3,length,256).
+struct_dt_elem_i([ 26,69,97 ],3,decimals,0).
+struct_dt_elem_i([ 26,69,97 ],3,type,[ 5,256,0 ]).
+struct_dt_elem_i([ 26,69,97 ],3,pic,'').
+struct_dt_elem_i([ 26,69,97 ],3,collection,'False').
+struct_dt_elem_i([ 26,69,97 ],3,'ExternalName','URL').
+struct_dt_elem_i([ 26,69,97 ],3,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,69,97 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,69,97 ],3,'XmlName','').
+struct_dt_elem_i([ 26,69,97 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,69,97 ],3,soaptype,'').
+struct_dt_elem_i([ 26,69,97 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,69,97 ],3,'JsonName','').
+struct_dt_elem_i([ 26,69,97 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,69,97 ],4,name,'Linktarget').
+struct_dt_elem_i([ 26,69,97 ],4,camelname,'LinkTarget').
+struct_dt_elem_i([ 26,69,97 ],4,length,20).
+struct_dt_elem_i([ 26,69,97 ],4,decimals,0).
+struct_dt_elem_i([ 26,69,97 ],4,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,69,97 ],4,pic,'').
+struct_dt_elem_i([ 26,69,97 ],4,collection,'False').
+struct_dt_elem_i([ 26,69,97 ],4,'ExternalName','LinkTarget').
+struct_dt_elem_i([ 26,69,97 ],4,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,69,97 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,69,97 ],4,'XmlName','').
+struct_dt_elem_i([ 26,69,97 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,69,97 ],4,soaptype,'').
+struct_dt_elem_i([ 26,69,97 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,69,97 ],4,'JsonName','').
+struct_dt_elem_i([ 26,69,97 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,69,97 ],5,name,'Image').
+struct_dt_elem_i([ 26,69,97 ],5,camelname,'Image').
+struct_dt_elem_i([ 26,69,97 ],5,length,256).
+struct_dt_elem_i([ 26,69,97 ],5,decimals,0).
+struct_dt_elem_i([ 26,69,97 ],5,type,[ 5,256,0 ]).
+struct_dt_elem_i([ 26,69,97 ],5,pic,'').
+struct_dt_elem_i([ 26,69,97 ],5,collection,'False').
+struct_dt_elem_i([ 26,69,97 ],5,'ExternalName','Image').
+struct_dt_elem_i([ 26,69,97 ],5,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,69,97 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,69,97 ],5,'XmlName','').
+struct_dt_elem_i([ 26,69,97 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,69,97 ],5,soaptype,'').
+struct_dt_elem_i([ 26,69,97 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,69,97 ],5,'JsonName','').
+struct_dt_elem_i([ 26,69,97 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,69,97 ],6,name,'Description').
+struct_dt_elem_i([ 26,69,97 ],6,camelname,'Description').
+struct_dt_elem_i([ 26,69,97 ],6,length,64).
+struct_dt_elem_i([ 26,69,97 ],6,decimals,0).
+struct_dt_elem_i([ 26,69,97 ],6,type,[ 5,64,0 ]).
+struct_dt_elem_i([ 26,69,97 ],6,pic,'').
+struct_dt_elem_i([ 26,69,97 ],6,collection,'False').
+struct_dt_elem_i([ 26,69,97 ],6,'ExternalName','Description').
+struct_dt_elem_i([ 26,69,97 ],6,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,69,97 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,69,97 ],6,'XmlName','').
+struct_dt_elem_i([ 26,69,97 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,69,97 ],6,soaptype,'').
+struct_dt_elem_i([ 26,69,97 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,69,97 ],6,'JsonName','').
+struct_dt_elem_i([ 26,69,97 ],6,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,69,97 ],7,name,'Index').
+struct_dt_elem_i([ 26,69,97 ],7,camelname,'Index').
+struct_dt_elem_i([ 26,69,97 ],7,length,4).
+struct_dt_elem_i([ 26,69,97 ],7,decimals,0).
+struct_dt_elem_i([ 26,69,97 ],7,sign,0).
+struct_dt_elem_i([ 26,69,97 ],7,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,69,97 ],7,pic,'ZZZ9').
+struct_dt_elem_i([ 26,69,97 ],7,collection,'False').
+struct_dt_elem_i([ 26,69,97 ],7,'ExternalName','Index').
+struct_dt_elem_i([ 26,69,97 ],7,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,69,97 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,69,97 ],7,'XmlName','').
+struct_dt_elem_i([ 26,69,97 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,69,97 ],7,soaptype,'').
+struct_dt_elem_i([ 26,69,97 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,69,97 ],7,'JsonName','').
+struct_dt_elem_i([ 26,69,97 ],7,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,69,97 ],8,name,'Subitems').
+struct_dt_elem_i([ 26,69,97 ],8,camelname,'SubItems').
+struct_dt_elem_i([ 26,69,97 ],8,length,4).
+struct_dt_elem_i([ 26,69,97 ],8,decimals,0).
+struct_dt_elem_i([ 26,69,97 ],8,type,[ [ 26,69,0 ],4,0 ]).
+struct_dt_elem_i([ 26,69,97 ],8,pic,'').
+struct_dt_elem_i([ 26,69,97 ],8,collection,'False').
+struct_dt_elem_i([ 26,69,97 ],8,'ExternalName','SubItems').
+struct_dt_elem_i([ 26,69,97 ],8,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,69,97 ],8,'XmlName','').
+struct_dt_elem_i([ 26,69,97 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,69,97 ],8,soaptype,'').
+struct_dt_elem_i([ 26,69,97 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,69,97 ],8,'JsonName','').
+struct_dt_elem_i([ 26,69,97 ],8,'JsonInclude',idJsonNoProperty).
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(web,24,'GAMREMOTELOGIN',[ [ char,60,0,0 ] ],[ [ 'IDP_State',inout,[] ] ]).
+pgm_parm_i(web,31,'WWNOTIFICACIONES',[],[]).
+pgm_parm_i(web,45,'GESTORRESULTADO',[],[]).
+pgm_parm_i(web,43,'WWRESULTADO',[],[]).
+pgm_parm_i(web,7,'INICIOGESTOR',[],[]).
+ 
+pgm_callprotocol_i(mnproc,11,'GPXMENUGESTOR','INTERNAL','').
+pgm_callprotocol_i(web,24,'GAMREMOTELOGIN','INTERNAL','Secure').
+pgm_callprotocol_i(web,31,'WWNOTIFICACIONES','INTERNAL','Secure').
+pgm_callprotocol_i(web,45,'GESTORRESULTADO','INTERNAL','Secure').
+pgm_callprotocol_i(web,43,'WWRESULTADO','INTERNAL','Secure').
+pgm_callprotocol_i(web,7,'INICIOGESTOR','INTERNAL','Secure').
+ 
+ 
+pgm_main_info_i(web,7,'INICIOGESTOR',[ 12,'INICIOGESTOR','','','','','INTERNAL' ]).
+pgm_main_info_i(web,43,'WWRESULTADO',[ 12,'WWRESULTADO','','','','','INTERNAL' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

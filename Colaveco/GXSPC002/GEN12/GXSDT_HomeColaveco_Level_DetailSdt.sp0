@@ -1,0 +1,17 @@
+ 
+spec_i([ sdt,[ 26,1000000,0 ],'HomeColaveco_Level_DetailSdt','HomeColaveco_Level_DetailSdt',0,eng,'17_0_7-156546' ]).
+ 
+struct_dt_i([ 26,1000000,0 ],name,'HomeColaveco_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],camelname,'HomeColaveco_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'HomeColaveco_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],collection,'False').
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],modified,yes).
+struct_dt_i([ 26,1000000,0 ],fullname,'HomeColaveco_Level_DetailSdt').
+ 
+ 
+ 
+ 
+ 
+ 
+ 

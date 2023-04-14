@@ -1,0 +1,125 @@
+ 
+spec_i([ sdt,[ 26,70,0 ],'SDTAnuncio','SDTAnuncio',0,eng,'17_0_7-156546' ]).
+ 
+struct_dt_i([ 26,70,0 ],name,'SDTAnuncio').
+struct_dt_i([ 26,70,0 ],namespace,'Colaveco').
+struct_dt_i([ 26,70,0 ],'ObjName','SDTAnuncio').
+struct_dt_i([ 26,70,0 ],'ObjDesc','SDTAnuncio').
+struct_dt_i([ 26,70,0 ],'ExternalName','SDTAnuncio').
+struct_dt_i([ 26,70,0 ],'ExternalNamespace','Colaveco').
+struct_dt_i([ 26,70,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,70,0 ],fullname,'SDTAnuncio').
+struct_dt_i([ 26,70,0 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,70,0 ],1,name,'Anuncioid').
+struct_dt_elem_i([ 26,70,0 ],1,camelname,'AnuncioId').
+struct_dt_elem_i([ 26,70,0 ],1,basedon,83).
+struct_dt_elem_i([ 26,70,0 ],1,length,18).
+struct_dt_elem_i([ 26,70,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,70,0 ],1,sign,0).
+struct_dt_elem_i([ 26,70,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,70,0 ],1,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 26,70,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,70,0 ],1,'ExternalName','AnuncioId').
+struct_dt_elem_i([ 26,70,0 ],1,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,70,0 ],1,'ATT_INITIAL_VALUE',[ t('1',3) ]).
+struct_dt_elem_i([ 26,70,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,70,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,70,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,70,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,70,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,70,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,70,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,70,0 ],2,name,'Anunciotitulo').
+struct_dt_elem_i([ 26,70,0 ],2,camelname,'AnuncioTitulo').
+struct_dt_elem_i([ 26,70,0 ],2,length,40).
+struct_dt_elem_i([ 26,70,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,70,0 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,70,0 ],2,pic,'').
+struct_dt_elem_i([ 26,70,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,70,0 ],2,'ExternalName','AnuncioTitulo').
+struct_dt_elem_i([ 26,70,0 ],2,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,70,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,70,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,70,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,70,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,70,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,70,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,70,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,70,0 ],3,name,'Anunciosubtitulo').
+struct_dt_elem_i([ 26,70,0 ],3,camelname,'AnuncioSubTitulo').
+struct_dt_elem_i([ 26,70,0 ],3,length,40).
+struct_dt_elem_i([ 26,70,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,70,0 ],3,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,70,0 ],3,pic,'').
+struct_dt_elem_i([ 26,70,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,70,0 ],3,'ExternalName','AnuncioSubTitulo').
+struct_dt_elem_i([ 26,70,0 ],3,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,70,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,70,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,70,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,70,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,70,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,70,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,70,0 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,70,0 ],4,name,'Anuncioimagen').
+struct_dt_elem_i([ 26,70,0 ],4,camelname,'AnuncioImagen').
+struct_dt_elem_i([ 26,70,0 ],4,length,4).
+struct_dt_elem_i([ 26,70,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,70,0 ],4,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 26,70,0 ],4,pic,'').
+struct_dt_elem_i([ 26,70,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,70,0 ],4,'ExternalName','AnuncioImagen').
+struct_dt_elem_i([ 26,70,0 ],4,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,70,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,70,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,70,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,70,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,70,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,70,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,70,0 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,70,0 ],5,name,'Anuncioimagen_gxi').
+struct_dt_elem_i([ 26,70,0 ],5,camelname,'AnuncioImagen_GXI').
+struct_dt_elem_i([ 26,70,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,70,0 ],5,isadd,'True').
+struct_dt_elem_i([ 26,70,0 ],5,length,2048).
+struct_dt_elem_i([ 26,70,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,70,0 ],5,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,70,0 ],6,name,'Anunciopublico').
+struct_dt_elem_i([ 26,70,0 ],6,camelname,'AnuncioPublico').
+struct_dt_elem_i([ 26,70,0 ],6,length,4).
+struct_dt_elem_i([ 26,70,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,70,0 ],6,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,70,0 ],6,pic,'').
+struct_dt_elem_i([ 26,70,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,70,0 ],6,'ExternalName','AnuncioPublico').
+struct_dt_elem_i([ 26,70,0 ],6,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,70,0 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,70,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,70,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,70,0 ],6,soaptype,'').
+struct_dt_elem_i([ 26,70,0 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,70,0 ],6,'JsonName','').
+struct_dt_elem_i([ 26,70,0 ],6,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,70,0 ],7,name,'Anunciodescripcion').
+struct_dt_elem_i([ 26,70,0 ],7,camelname,'AnuncioDescripcion').
+struct_dt_elem_i([ 26,70,0 ],7,length,256).
+struct_dt_elem_i([ 26,70,0 ],7,decimals,0).
+struct_dt_elem_i([ 26,70,0 ],7,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,70,0 ],7,pic,'').
+struct_dt_elem_i([ 26,70,0 ],7,collection,'False').
+struct_dt_elem_i([ 26,70,0 ],7,'ExternalName','AnuncioDescripcion').
+struct_dt_elem_i([ 26,70,0 ],7,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,70,0 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,70,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,70,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,70,0 ],7,soaptype,'').
+struct_dt_elem_i([ 26,70,0 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,70,0 ],7,'JsonName','').
+struct_dt_elem_i([ 26,70,0 ],7,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+ 
+ 
+ 

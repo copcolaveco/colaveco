@@ -1,0 +1,8 @@
+com/artech/colaveco/menu/AppEntityService.java
+ com.artech.colaveco.menu.AppEntityService
+com/artech/colaveco/menu/BuildConfig.java
+ com.artech.colaveco.menu.BuildConfig
+com/artech/colaveco/menu/AppEntityDataProvider.java
+ com.artech.colaveco.menu.AppEntityDataProvider
+com/artech/colaveco/menu/MainApplication.java
+ com.artech.colaveco.menu.MainApplication

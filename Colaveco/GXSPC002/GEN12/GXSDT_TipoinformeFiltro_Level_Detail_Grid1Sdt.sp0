@@ -1,0 +1,54 @@
+ 
+spec_i([ sdt,[ 26,1000000,0 ],'TipoinformeFiltro_Level_Detail_Grid1Sdt','TipoinformeFiltro_Level_Detail_Grid1Sdt',0,eng,'17_0_7-156546' ]).
+ 
+struct_dt_i([ 26,1000000,0 ],name,'TipoinformeFiltro_Level_Detail_Grid1Sdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'TipoinformeFiltro_Level_Detail_Grid1Sdt').
+struct_dt_i([ 26,1000000,1 ],name,'Item').
+struct_dt_i([ 26,1000000,1 ],camelnameex,'Item').
+struct_dt_i([ 26,1000000,0 ],collection,'True').
+struct_dt_i([ 26,1000000,0 ],datatype,[ 26,1000000,1 ]).
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],fullname,'TipoinformeFiltro_Level_Detail_Grid1Sdt').
+struct_dt_i([ 26,1000000,1 ],fullname,'TipoinformeFiltro_Level_Detail_Grid1Sdt.Item').
+struct_dt_i([ 26,1000000,0 ],modified,yes).
+struct_dt_i([ 26,1000000,1 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,1000000,1 ],1,name,'Tipoinformelist').
+struct_dt_elem_i([ 26,1000000,1 ],1,camelname,'Tipoinformelist').
+struct_dt_elem_i([ 26,1000000,1 ],1,type,[ [ 26,59,0 ],0,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],1,length,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],1,islevel,'False').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,59,0 ],name,'SDTTipoinforme').
+struct_dt_i([ 26,59,0 ],namespace,'Colaveco').
+struct_dt_i([ 26,59,0 ],'ObjName','SDTTipoinforme').
+struct_dt_i([ 26,59,0 ],'ObjDesc','SDTTipoinforme').
+struct_dt_i([ 26,59,0 ],'ExternalName','SDTTipoinforme').
+struct_dt_i([ 26,59,0 ],'ExternalNamespace','Colaveco').
+struct_dt_i([ 26,59,0 ],collection,'True').
+struct_dt_i([ 26,59,0 ],datatype,[ 26,59,86 ]).
+struct_dt_i([ 26,59,0 ],'CollectionItemName','SDTTipoinformeItem').
+struct_dt_i([ 26,59,0 ],'XmlName','').
+struct_dt_i([ 26,59,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,59,0 ],'XmlNamespace','').
+struct_dt_i([ 26,59,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,59,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,59,0 ],'JsonName','').
+struct_dt_i([ 26,59,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,59,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,59,0 ],fullname,'SDTTipoinforme').
+struct_dt_i([ 26,59,0 ],modified,yes).
+ 
+struct_dt_i([ 26,59,86 ],name,'SDTTipoinformeItem').
+struct_dt_i([ 26,59,86 ],namespace,'Colaveco.SDTTipoinforme').
+struct_dt_i([ 26,59,86 ],fullname,'SDTTipoinforme.SDTTipoinformeItem').
+struct_dt_i([ 26,59,86 ],modified,yes).

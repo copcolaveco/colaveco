@@ -1,0 +1,24 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_7-156546</SpecVersion>
+<Object>
+<ObjClsGuid>15cf49b5-fc38-4899-91b5-395d02d79889</ObjClsGuid>
+<ObjCls>35</ObjCls>
+<ObjId>4</ObjId>
+<ObjName>WorkWithDevicesUsuario</ObjName>
+<ObjDesc>Work With Devices Usuario</ObjDesc>
+<ObjPgmName>WorkWithDevicesUsuario</ObjPgmName>
+<ObjClsName>WorkWith Devices</ObjClsName>
+<Objects></Objects></Object>
+<Result>nogenspc</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0217</MsgCode>
+<Message>
+<Token>Object is unreachable.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters></ObjectSpec>

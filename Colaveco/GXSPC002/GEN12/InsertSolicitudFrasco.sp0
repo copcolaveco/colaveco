@@ -1,0 +1,556 @@
+spec_i([ proc,38,'Insert Solicitud Frasco','InsertSolicitudFrasco',78,eng,'17_0_7-156546' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'MYSQL_VERSION','5')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',root)).
+rule_i(0,datastore(2,'USER_ID',root)).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','3308')).
+rule_i(0,datastore(2,'CS_SERVER',localhost)).
+rule_i(0,datastore(2,'CS_DBNAME','ColavecoconGx_Gam')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'ADONET_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.mysql.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','84')).
+rule_i(0,datastore(2,'DBMS',18)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'MYSQL_VERSION','5')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',root)).
+rule_i(0,datastore(1,'USER_ID',root)).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','3308')).
+rule_i(0,datastore(1,'CS_SERVER',localhost)).
+rule_i(0,datastore(1,'CS_DBNAME','ColavecoconGx')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'ADONET_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.mysql.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',18)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','InsertSolicitudFrasco')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityLow')).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('REST','-1')).
+rule_i(0,prop('SOAP','0')).
+rule_i(0,prop(idISPRCWEBSERVICE,'-1')).
+rule_i(0,prop(idENABLEMTOM,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'Carmine'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'Procedure'))).
+rule_i(0,prop('ObjDesc','Insert Solicitud Frasco')).
+rule_i(0,prop('ObjName','InsertSolicitudFrasco')).
+rule_i(0,maingen(12)).
+rule_i(0,parm([ 'Sdtagenciaid','Sffrascosagua','Sffrascosconc','Sffrascosisopo','Sffrascossangre','Sffrascossinc','Sfobservaciones','Usuariodireccion','Usuarioemail','Usuarioidnet','Usuarionombre','Usuariotecnicotelefono1','Result' ],[])).
+rule_i(0,parmio([ [ 'Sdtagenciaid',in ],[ 'Sffrascosagua',in ],[ 'Sffrascosconc',in ],[ 'Sffrascosisopo',in ],[ 'Sffrascossangre',in ],[ 'Sffrascossinc',in ],[ 'Sfobservaciones',in ],[ 'Usuariodireccion',in ],[ 'Usuarioemail',in ],[ 'Usuarioidnet',in ],[ 'Usuarionombre',in ],[ 'Usuariotecnicotelefono1',in ],[ 'Result',out ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',25 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',24 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',23 ]).
+attri_i('Usuariotecnicotelefono1',[ 'UsuarioTecnicoTelefono1',svchar,100,0,'',0,'Usuario Tecnico Telefono1','',17 ]).
+attri_i('Usuarionombre',[ 'UsuarioNombre',svchar,100,0,'',0,'Usuario Nombre','',16 ]).
+attri_i('Usuarioidnet',[ 'UsuarioIdNet',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Usuario Id Net','',15 ]).
+attri_i('Usuarioemail',[ 'UsuarioEmail',svchar,100,0,'',0,'Usuario Email','',18 ]).
+attri_i('Usuariodireccion',[ 'UsuarioDireccion',svchar,100,0,'',0,'Usuario Direccion','',19 ]).
+attri_i('Solicitudfrasco',[ 'SolicitudFrasco',o('SolicitudFrasco'),0,0,'',0,'Solicitud Frasco','',20 ]).
+attri_i('Sfobservaciones',[ 'SFObservaciones',svchar,200,0,'',0,'SFObservaciones','',13 ]).
+attri_i('Sffrascossinc',[ 'SFFrascosSinC',int,4,0,'ZZZ9',0,'SFFrascos Sin C','',10 ]).
+attri_i('Sffrascossangre',[ 'SFFrascosSangre',int,4,0,'ZZZ9',0,'SFFrascos Sangre','',12 ]).
+attri_i('Sffrascosisopo',[ 'SFFrascosIsopo',int,4,0,'ZZZ9',0,'SFFrascos Isopo','',14 ]).
+attri_i('Sffrascosconc',[ 'SFFrascosConC',int,4,0,'ZZZ9',0,'SFFrascos Con C','',9 ]).
+attri_i('Sffrascosagua',[ 'SFFrascosAgua',int,4,0,'ZZZ9',0,'SFFrascos Agua','',11 ]).
+attri_i('Sdtagenciaid',[ 'SDTAgenciaId',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'SDTAgencia Id','',8 ]).
+attri_i('Result',[ result,boolean,4,0,'',0,result,'',22 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(83,[ id ]).
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[]).
+b_line_i(2,1,1,cmd,0,[ t('',107,2,0),t([ t('Solicitudfrasco',23,0,0),t('Sfidnet',3,0,0) ],29,0,0),t(=,10,0,0),t('Usuarioidnet',23,0,0) ]).
+b_line_i(3,1,1,cmd,0,[ t('',107,3,0),t([ t('Solicitudfrasco',23,0,0),t('Sfnombre',3,0,0) ],29,0,0),t(=,10,0,0),t('Usuarionombre',23,0,0) ]).
+b_line_i(4,1,1,cmd,0,[ t('',107,4,0),t([ t('Solicitudfrasco',23,0,0),t('Sfdireccion',3,0,0) ],29,0,0),t(=,10,0,0),t('Usuariodireccion',23,0,0) ]).
+b_line_i(5,1,1,cmd,0,[ t('',107,5,0),t([ t('Solicitudfrasco',23,0,0),t('Sfagencia',3,0,0) ],29,0,0),t(=,10,0,0),t('Sdtagenciaid',23,0,0) ]).
+b_line_i(6,1,1,cmd,0,[ t('',107,6,0),t([ t('Solicitudfrasco',23,0,0),t('Sftelefono',3,0,0) ],29,0,0),t(=,10,0,0),t('Usuariotecnicotelefono1',23,0,0) ]).
+b_line_i(7,1,1,cmd,0,[ t('',107,7,0),t([ t('Solicitudfrasco',23,0,0),t('Sfemail',3,0,0) ],29,0,0),t(=,10,0,0),t('Usuarioemail',23,0,0) ]).
+b_line_i(8,1,1,cmd,0,[ t('',107,8,0),t([ t('Solicitudfrasco',23,0,0),t('Sffrascosconc',3,0,0) ],29,0,0),t(=,10,0,0),t('Sffrascosconc',23,0,0) ]).
+b_line_i(9,1,1,cmd,0,[ t('',107,9,0),t([ t('Solicitudfrasco',23,0,0),t('Sffrascossinc',3,0,0) ],29,0,0),t(=,10,0,0),t('Sffrascossinc',23,0,0) ]).
+b_line_i(10,1,1,cmd,0,[ t('',107,10,0),t([ t('Solicitudfrasco',23,0,0),t('Sffrascosagua',3,0,0) ],29,0,0),t(=,10,0,0),t('Sffrascosagua',23,0,0) ]).
+b_line_i(11,1,1,cmd,0,[ t('',107,11,0),t([ t('Solicitudfrasco',23,0,0),t('Sffrascossangre',3,0,0) ],29,0,0),t(=,10,0,0),t('Sffrascossangre',23,0,0) ]).
+b_line_i(12,1,1,cmd,0,[ t('',107,12,0),t([ t('Solicitudfrasco',23,0,0),t('Sfobservaciones',3,0,0) ],29,0,0),t(=,10,0,0),t('Sfobservaciones',23,0,0) ]).
+b_line_i(13,1,1,cmd,0,[ t('',107,13,0),t([ t('Solicitudfrasco',23,0,0),t('Sffechacreacion',3,0,0) ],29,0,0),t(=,10,0,0),t([ t('Datetime',36,0,0),t('now(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(14,1,1,cmd,0,[ t('',107,14,0),t([ t('Solicitudfrasco',23,0,0),t('Sffechamodificado',3,0,0) ],29,0,0),t(=,10,0,0),t([ t('Datetime',36,0,0),t('now(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(15,1,1,cmd,0,[ t('',107,15,0),t([ t('Solicitudfrasco',23,0,0),t('Sffrascosisopo',3,0,0) ],29,0,0),t(=,10,0,0),t('Sffrascosisopo',23,0,0) ]).
+b_line_i(16,1,1,cmd,0,[]).
+b_line_i(17,1,1,cmd,0,[ t('',107,17,0),t([ t('Solicitudfrasco',23,17,1),t('save(',1,17,18) ],31,17,1),t(')',4,0,24) ]).
+b_line_i(18,1,1,cmd,0,[]).
+b_line_i(19,1,1,cmd,0,[ t('',109,19,0),t([ t('Solicitudfrasco',23,0,4),t('success(',1,0,21) ],31,19,21),t(')',4,0,30) ]).
+b_line_i(20,1,1,cmd,0,[ t('',132,20,0) ]).
+b_line_i(21,1,1,cmd,0,[ t('',107,21,0),t('Result',23,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(22,1,1,cmd,0,[ t('',110,22,0) ]).
+b_line_i(23,1,1,cmd,0,[ t('',107,23,0),t('Result',23,0,0),t(=,10,0,0),t('FALSE',41,0,0) ]).
+b_line_i(24,1,1,cmd,0,[ t('',111,24,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+calling_main_i(36,1).
+ 
+ 
+ 
+ 
+var_prop_i(2,'Sdtagenciaid',idBasedOn,83,v).
+var_prop_i(2,'Sffrascosagua',idBasedOn,'',v).
+var_prop_i(2,'Sffrascosconc',idBasedOn,'',v).
+var_prop_i(2,'Sffrascosisopo',idBasedOn,'',v).
+var_prop_i(2,'Sffrascossangre',idBasedOn,'',v).
+var_prop_i(2,'Sffrascossinc',idBasedOn,'',v).
+var_prop_i(2,'Sfobservaciones',idBasedOn,'',v).
+var_prop_i(2,'Usuariodireccion',idBasedOn,'',v).
+var_prop_i(2,'Usuarioemail',idBasedOn,'',v).
+var_prop_i(2,'Usuarioidnet',idBasedOn,'',v).
+var_prop_i(2,'Usuarionombre',idBasedOn,'',v).
+var_prop_i(2,'Usuariotecnicotelefono1',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 0,3,0 ],name,'SolicitudFrasco').
+struct_dt_i([ 0,3,0 ],namespace,'Colaveco').
+struct_dt_i([ 0,3,0 ],significantName,'SolicitudFrasco').
+struct_dt_i([ 0,3,0 ],'ObjName','SolicitudFrasco').
+struct_dt_i([ 0,3,0 ],'ObjDesc','Solicitud Frasco').
+struct_dt_i([ 0,3,0 ],'ExternalName','SolicitudFrasco').
+struct_dt_i([ 0,3,0 ],'ExternalNamespace','Colaveco').
+struct_dt_i([ 0,3,0 ],key,[ 3 ]).
+struct_dt_i([ 0,3,0 ],lvl,3).
+struct_dt_i([ 26,13,0 ],name,'GeneXus\Common\Messages').
+struct_dt_i([ 26,13,0 ],namespace,'GeneXus').
+struct_dt_i([ 26,13,0 ],'ObjName','Messages').
+struct_dt_i([ 26,13,0 ],'ObjDesc','Messages').
+struct_dt_i([ 26,13,0 ],'ExternalName','Messages').
+struct_dt_i([ 26,13,0 ],'ExternalNamespace','GeneXus').
+struct_dt_i([ 26,13,0 ],collection,'True').
+struct_dt_i([ 26,13,0 ],datatype,[ 26,13,30 ]).
+struct_dt_i([ 26,13,0 ],'CollectionItemName','Message').
+struct_dt_i([ 26,13,0 ],'XmlName','').
+struct_dt_i([ 26,13,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,13,0 ],'XmlNamespace','').
+struct_dt_i([ 26,13,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,13,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,13,0 ],'JsonName','').
+struct_dt_i([ 26,13,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,13,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,13,0 ],isexternal,'True').
+struct_dt_i([ 26,13,30 ],name,'Message').
+struct_dt_i([ 26,13,30 ],namespace,'GeneXus.Messages').
+struct_dt_i([ 0,3,0 ],fullname,'SolicitudFrasco').
+struct_dt_i([ 26,13,0 ],fullname,'GeneXus\Common\Messages').
+struct_dt_i([ 26,13,30 ],fullname,'GeneXus\Common\Messages.Message').
+ 
+struct_dt_elem_i([ 0,3,0 ],1,name,'Sfid').
+struct_dt_elem_i([ 0,3,0 ],1,camelname,'SFId').
+struct_dt_elem_i([ 0,3,0 ],1,basedon,83).
+struct_dt_elem_i([ 0,3,0 ],1,length,18).
+struct_dt_elem_i([ 0,3,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],1,sign,0).
+struct_dt_elem_i([ 0,3,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,3,0 ],1,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,3,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],1,attributeid,'3').
+struct_dt_elem_i([ 0,3,0 ],1,'ExternalName','SFId').
+struct_dt_elem_i([ 0,3,0 ],1,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],2,name,'Sfidnet').
+struct_dt_elem_i([ 0,3,0 ],2,camelname,'SFIdNet').
+struct_dt_elem_i([ 0,3,0 ],2,basedon,83).
+struct_dt_elem_i([ 0,3,0 ],2,length,18).
+struct_dt_elem_i([ 0,3,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],2,sign,0).
+struct_dt_elem_i([ 0,3,0 ],2,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,3,0 ],2,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,3,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],2,attributeid,'32').
+struct_dt_elem_i([ 0,3,0 ],2,'ExternalName','SFIdNet').
+struct_dt_elem_i([ 0,3,0 ],2,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],3,name,'Sfnombre').
+struct_dt_elem_i([ 0,3,0 ],3,camelname,'SFNombre').
+struct_dt_elem_i([ 0,3,0 ],3,length,100).
+struct_dt_elem_i([ 0,3,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,3,0 ],3,pic,'').
+struct_dt_elem_i([ 0,3,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],3,attributeid,'33').
+struct_dt_elem_i([ 0,3,0 ],3,'ExternalName','SFNombre').
+struct_dt_elem_i([ 0,3,0 ],3,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],4,name,'Sfdireccion').
+struct_dt_elem_i([ 0,3,0 ],4,camelname,'SFDireccion').
+struct_dt_elem_i([ 0,3,0 ],4,length,100).
+struct_dt_elem_i([ 0,3,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],4,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,3,0 ],4,pic,'').
+struct_dt_elem_i([ 0,3,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],4,attributeid,'34').
+struct_dt_elem_i([ 0,3,0 ],4,'ExternalName','SFDireccion').
+struct_dt_elem_i([ 0,3,0 ],4,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],5,name,'Sfagencia').
+struct_dt_elem_i([ 0,3,0 ],5,camelname,'SFAgencia').
+struct_dt_elem_i([ 0,3,0 ],5,length,4).
+struct_dt_elem_i([ 0,3,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],5,sign,0).
+struct_dt_elem_i([ 0,3,0 ],5,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,3,0 ],5,pic,'ZZZ9').
+struct_dt_elem_i([ 0,3,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],5,attributeid,'35').
+struct_dt_elem_i([ 0,3,0 ],5,'ExternalName','SFAgencia').
+struct_dt_elem_i([ 0,3,0 ],5,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],6,name,'Sftelefono').
+struct_dt_elem_i([ 0,3,0 ],6,camelname,'SFTelefono').
+struct_dt_elem_i([ 0,3,0 ],6,length,50).
+struct_dt_elem_i([ 0,3,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],6,type,[ 13,50,0 ]).
+struct_dt_elem_i([ 0,3,0 ],6,pic,'').
+struct_dt_elem_i([ 0,3,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],6,attributeid,'36').
+struct_dt_elem_i([ 0,3,0 ],6,'ExternalName','SFTelefono').
+struct_dt_elem_i([ 0,3,0 ],6,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],7,name,'Sfemail').
+struct_dt_elem_i([ 0,3,0 ],7,camelname,'SFEmail').
+struct_dt_elem_i([ 0,3,0 ],7,length,100).
+struct_dt_elem_i([ 0,3,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],7,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,3,0 ],7,pic,'').
+struct_dt_elem_i([ 0,3,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],7,attributeid,'37').
+struct_dt_elem_i([ 0,3,0 ],7,'ExternalName','SFEmail').
+struct_dt_elem_i([ 0,3,0 ],7,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],8,name,'Sffrascosconc').
+struct_dt_elem_i([ 0,3,0 ],8,camelname,'SFFrascosConC').
+struct_dt_elem_i([ 0,3,0 ],8,length,4).
+struct_dt_elem_i([ 0,3,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],8,sign,0).
+struct_dt_elem_i([ 0,3,0 ],8,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,3,0 ],8,pic,'ZZZ9').
+struct_dt_elem_i([ 0,3,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],8,attributeid,'38').
+struct_dt_elem_i([ 0,3,0 ],8,'ExternalName','SFFrascosConC').
+struct_dt_elem_i([ 0,3,0 ],8,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],9,name,'Sffrascossinc').
+struct_dt_elem_i([ 0,3,0 ],9,camelname,'SFFrascosSinC').
+struct_dt_elem_i([ 0,3,0 ],9,length,4).
+struct_dt_elem_i([ 0,3,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],9,sign,0).
+struct_dt_elem_i([ 0,3,0 ],9,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,3,0 ],9,pic,'ZZZ9').
+struct_dt_elem_i([ 0,3,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],9,attributeid,'39').
+struct_dt_elem_i([ 0,3,0 ],9,'ExternalName','SFFrascosSinC').
+struct_dt_elem_i([ 0,3,0 ],9,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],10,name,'Sffrascosagua').
+struct_dt_elem_i([ 0,3,0 ],10,camelname,'SFFrascosAgua').
+struct_dt_elem_i([ 0,3,0 ],10,length,4).
+struct_dt_elem_i([ 0,3,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],10,sign,0).
+struct_dt_elem_i([ 0,3,0 ],10,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,3,0 ],10,pic,'ZZZ9').
+struct_dt_elem_i([ 0,3,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],10,attributeid,'167').
+struct_dt_elem_i([ 0,3,0 ],10,'ExternalName','SFFrascosAgua').
+struct_dt_elem_i([ 0,3,0 ],10,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],11,name,'Sffrascossangre').
+struct_dt_elem_i([ 0,3,0 ],11,camelname,'SFFrascosSangre').
+struct_dt_elem_i([ 0,3,0 ],11,length,4).
+struct_dt_elem_i([ 0,3,0 ],11,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],11,sign,0).
+struct_dt_elem_i([ 0,3,0 ],11,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,3,0 ],11,pic,'ZZZ9').
+struct_dt_elem_i([ 0,3,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],11,attributeid,'40').
+struct_dt_elem_i([ 0,3,0 ],11,'ExternalName','SFFrascosSangre').
+struct_dt_elem_i([ 0,3,0 ],11,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],12,name,'Sfobservaciones').
+struct_dt_elem_i([ 0,3,0 ],12,camelname,'SFObservaciones').
+struct_dt_elem_i([ 0,3,0 ],12,length,200).
+struct_dt_elem_i([ 0,3,0 ],12,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],12,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,3,0 ],12,pic,'').
+struct_dt_elem_i([ 0,3,0 ],12,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],12,attributeid,'41').
+struct_dt_elem_i([ 0,3,0 ],12,'ExternalName','SFObservaciones').
+struct_dt_elem_i([ 0,3,0 ],12,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],13,name,'Sffechacreacion').
+struct_dt_elem_i([ 0,3,0 ],13,camelname,'SFFechaCreacion').
+struct_dt_elem_i([ 0,3,0 ],13,length,8).
+struct_dt_elem_i([ 0,3,0 ],13,decimals,5).
+struct_dt_elem_i([ 0,3,0 ],13,type,[ 12,8,5 ]).
+struct_dt_elem_i([ 0,3,0 ],13,pic,'99/99/99 99:99').
+struct_dt_elem_i([ 0,3,0 ],13,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],13,attributeid,'42').
+struct_dt_elem_i([ 0,3,0 ],13,'ExternalName','SFFechaCreacion').
+struct_dt_elem_i([ 0,3,0 ],13,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],14,name,'Sffechamodificado').
+struct_dt_elem_i([ 0,3,0 ],14,camelname,'SFFechaModificado').
+struct_dt_elem_i([ 0,3,0 ],14,length,8).
+struct_dt_elem_i([ 0,3,0 ],14,decimals,5).
+struct_dt_elem_i([ 0,3,0 ],14,type,[ 12,8,5 ]).
+struct_dt_elem_i([ 0,3,0 ],14,pic,'99/99/99 99:99').
+struct_dt_elem_i([ 0,3,0 ],14,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],14,attributeid,'43').
+struct_dt_elem_i([ 0,3,0 ],14,'ExternalName','SFFechaModificado').
+struct_dt_elem_i([ 0,3,0 ],14,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,3,0 ],15,name,'Sffrascosisopo').
+struct_dt_elem_i([ 0,3,0 ],15,camelname,'SFFrascosIsopo').
+struct_dt_elem_i([ 0,3,0 ],15,length,4).
+struct_dt_elem_i([ 0,3,0 ],15,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],15,sign,0).
+struct_dt_elem_i([ 0,3,0 ],15,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,3,0 ],15,pic,'ZZZ9').
+struct_dt_elem_i([ 0,3,0 ],15,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],15,attributeid,'44').
+struct_dt_elem_i([ 0,3,0 ],15,'ExternalName','SFFrascosIsopo').
+struct_dt_elem_i([ 0,3,0 ],15,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,13,30 ],1,name,'Id').
+struct_dt_elem_i([ 26,13,30 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,13,30 ],1,length,128).
+struct_dt_elem_i([ 26,13,30 ],1,decimals,0).
+struct_dt_elem_i([ 26,13,30 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,13,30 ],1,pic,'').
+struct_dt_elem_i([ 26,13,30 ],1,collection,'False').
+struct_dt_elem_i([ 26,13,30 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,13,30 ],1,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlName','').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,30 ],1,soaptype,'').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,30 ],1,'JsonName','').
+struct_dt_elem_i([ 26,13,30 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,13,30 ],2,name,'Type').
+struct_dt_elem_i([ 26,13,30 ],2,camelname,'Type').
+struct_dt_elem_i([ 26,13,30 ],2,basedon,47).
+struct_dt_elem_i([ 26,13,30 ],2,length,2).
+struct_dt_elem_i([ 26,13,30 ],2,decimals,0).
+struct_dt_elem_i([ 26,13,30 ],2,sign,0).
+struct_dt_elem_i([ 26,13,30 ],2,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,13,30 ],2,pic,'Z9').
+struct_dt_elem_i([ 26,13,30 ],2,collection,'False').
+struct_dt_elem_i([ 26,13,30 ],2,'ExternalName','Type').
+struct_dt_elem_i([ 26,13,30 ],2,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlName','').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,30 ],2,soaptype,'').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,30 ],2,'JsonName','').
+struct_dt_elem_i([ 26,13,30 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,13,30 ],3,name,'Description').
+struct_dt_elem_i([ 26,13,30 ],3,camelname,'Description').
+struct_dt_elem_i([ 26,13,30 ],3,length,256).
+struct_dt_elem_i([ 26,13,30 ],3,decimals,0).
+struct_dt_elem_i([ 26,13,30 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,13,30 ],3,pic,'').
+struct_dt_elem_i([ 26,13,30 ],3,collection,'False').
+struct_dt_elem_i([ 26,13,30 ],3,'ExternalName','Description').
+struct_dt_elem_i([ 26,13,30 ],3,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlName','').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,30 ],3,soaptype,'').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,30 ],3,'JsonName','').
+struct_dt_elem_i([ 26,13,30 ],3,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,38,'INSERTSOLICITUDFRASCO','INTERNAL','Secure').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\Common','PackageName','GeneXus.jar').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

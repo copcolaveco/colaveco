@@ -1,0 +1,8 @@
+com/artech/colaveco/homecolaveco/AppEntityDataProvider.java
+ com.artech.colaveco.homecolaveco.AppEntityDataProvider
+com/artech/colaveco/homecolaveco/BuildConfig.java
+ com.artech.colaveco.homecolaveco.BuildConfig
+com/artech/colaveco/homecolaveco/AppEntityService.java
+ com.artech.colaveco.homecolaveco.AppEntityService
+com/artech/colaveco/homecolaveco/MainApplication.java
+ com.artech.colaveco.homecolaveco.MainApplication

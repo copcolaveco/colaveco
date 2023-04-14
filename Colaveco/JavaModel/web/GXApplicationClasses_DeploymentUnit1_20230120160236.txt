@@ -1,0 +1,1 @@
+com.colaveco.anuncio_bc_services_rest

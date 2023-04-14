@@ -1,0 +1,239 @@
+ 
+ 
+ 
+pgm_main_i(sdp,14,'HOMECOLAVECO',[ 12,'HOMECOLAVECO','Colaveco','','','','' ]).
+pgm_main_i(proc,25,'NOTIFICATIONSREGISTRATIONHANDLER',[ 12,'ANOTIFICATIONSREGISTRATIONHANDLER','Notifications Registration Handler','','','','INTERNAL' ]).
+pgm_main_i(web,7,'INICIOGESTOR',[ 12,'INICIOGESTOR','Inicio Gestor','','','','' ]).
+pgm_main_i(web,13,'HOME',[ 12,'HOME','Home','','','','' ]).
+pgm_main_i(web,43,'WWRESULTADO',[ 12,'WWRESULTADO','Work With Resultado','','','','' ]).
+pgm_main_i(proc,46,'DOWNLOADREPORT',[ 12,'ADOWNLOADREPORT','Download Report','','','','HTTP' ]).
+ 
+pgm_prop_i(mnproc,5,'DPRESULTADO','OutputSDT',o(26,'SDTResultado')).
+pgm_prop_i(web,36,'PUBLICIDADGENERAL','WEB_COMP','Yes').
+pgm_prop_i(web,36,'PUBLICIDADGENERAL','URLAccess','No').
+pgm_prop_i(web,44,'RESULTADOGENERAL','WEB_COMP','Yes').
+pgm_prop_i(web,44,'RESULTADOGENERAL','URLAccess','No').
+pgm_prop_i(web,46,'RESULTADOGENERAL','WEB_COMP','Yes').
+pgm_prop_i(web,46,'RESULTADOGENERAL','URLAccess','No').
+pgm_prop_i(web,2,'RECENTLINKS','WEB_COMP','Yes').
+pgm_prop_i(web,2,'RECENTLINKS','URLAccess','No').
+pgm_prop_i(web,29,'TABBEDVIEW','WEB_COMP','Yes').
+pgm_prop_i(web,29,'TABBEDVIEW','URLAccess','No').
+pgm_prop_i(web,5,'RWDRECENTLINKS','WEB_COMP','Yes').
+pgm_prop_i(web,5,'RWDRECENTLINKS','URLAccess','No').
+pgm_prop_i(sdp,3,'GAMSDREGISTER','EVENTS',[ [ [ 'Level','Detail' ] - [] ] ]).
+pgm_prop_i(sdp,3,'GAMSDREGISTER','SECTIONS',[ '',[] ]).
+pgm_prop_i(sdp,3,'GAMSDREGISTER','GENS',[ 12 ]).
+pgm_prop_i(sdp,2,'GAMSDLOGIN','EVENTS',[ [ [ 'Level','Detail' ] - [] ] ]).
+pgm_prop_i(sdp,2,'GAMSDLOGIN','SECTIONS',[ '',[ [ 'Level','Detail' ] ] ]).
+pgm_prop_i(sdp,2,'GAMSDLOGIN','GENS',[ 12 ]).
+pgm_prop_i(sdp,5,'GAMSDNOTAUTHORIZED','EVENTS',[ [ [ 'Level','Detail' ] - [] ] ]).
+pgm_prop_i(sdp,5,'GAMSDNOTAUTHORIZED','SECTIONS',[ '',[ [ 'Level','Detail' ] ] ]).
+pgm_prop_i(sdp,5,'GAMSDNOTAUTHORIZED','GENS',[ 12 ]).
+pgm_prop_i(sdp,6,'TIPOINFORMEFILTRO','EVENTS',[ [ [ 'Level','Detail' ] - [] ] ]).
+pgm_prop_i(sdp,6,'TIPOINFORMEFILTRO','SECTIONS',[ '',[ [ 'Level','Detail' ],[ 'Level','Detail','Grid1' ] ] ]).
+pgm_prop_i(sdp,6,'TIPOINFORMEFILTRO','GENS',[ 12 ]).
+pgm_prop_i(sdp,1,'GAMSDCHANGEPASSWORD','EVENTS',[ [ [ 'Level','Detail' ] - [] ] ]).
+pgm_prop_i(sdp,1,'GAMSDCHANGEPASSWORD','SECTIONS',[ '',[ [ 'Level','Detail' ] ] ]).
+pgm_prop_i(sdp,1,'GAMSDCHANGEPASSWORD','GENS',[ 12 ]).
+pgm_prop_i(sdp,4,'GAMSDUPDATEUSER','EVENTS',[ [ [ 'Level','Detail' ] - [] ] ]).
+pgm_prop_i(sdp,4,'GAMSDUPDATEUSER','SECTIONS',[ '',[ [ 'Level','Detail' ] ] ]).
+pgm_prop_i(sdp,4,'GAMSDUPDATEUSER','GENS',[ 12 ]).
+pgm_prop_i(sdp,9,'SOLICITUDFRASCOINSERT','EVENTS',[ [ [ 'Level','Detail' ] - [] ] ]).
+pgm_prop_i(sdp,9,'SOLICITUDFRASCOINSERT','SECTIONS',[ '',[ [ 'Level','Detail' ] ] ]).
+pgm_prop_i(sdp,9,'SOLICITUDFRASCOINSERT','GENS',[ 12 ]).
+pgm_prop_i(sdp,10,'AGENCIAS','EVENTS',[ [ [ 'Level','Detail' ] - [] ] ]).
+pgm_prop_i(sdp,10,'AGENCIAS','SECTIONS',[ '',[ [ 'Level','Detail' ],[ 'Level','Detail','Grid1' ] ] ]).
+pgm_prop_i(sdp,10,'AGENCIAS','GENS',[ 12 ]).
+pgm_prop_i(sdp,12,'POLITICASPRIVACIDAD','EVENTS',[ [ [ 'Level','Detail' ] - [] ] ]).
+pgm_prop_i(sdp,12,'POLITICASPRIVACIDAD','SECTIONS',[ '',[ [ 'Level','Detail' ] ] ]).
+pgm_prop_i(sdp,12,'POLITICASPRIVACIDAD','GENS',[ 12 ]).
+pgm_prop_i(sdp,15,'MSGPOPUP','EVENTS',[ [ [ 'Level','Detail' ] - [] ] ]).
+pgm_prop_i(sdp,15,'MSGPOPUP','SECTIONS',[ '',[] ]).
+pgm_prop_i(sdp,15,'MSGPOPUP','GENS',[ 12 ]).
+pgm_prop_i(mnproc,1,'DPTIPOINFORME','OutputSDT',o(26,'SDTTipoinforme')).
+pgm_prop_i(sdp,14,'HOMECOLAVECO','EVENTS',[ [ [ 'Level','Detail' ] - [] ] ]).
+pgm_prop_i(sdp,14,'HOMECOLAVECO','SECTIONS',[ '',[ [ 'Level','Detail' ],[ 'Level','Detail','Grid1' ] ] ]).
+pgm_prop_i(sdp,14,'HOMECOLAVECO','GENS',[ 12 ]).
+pgm_prop_i(mnproc,2,'DPAGENCIA','OutputSDT',o(26,'SDTAgencia')).
+pgm_prop_i(mnproc,6,'DPRESULTADOS',idISWEBSERVICE,'-1').
+pgm_prop_i(mnproc,6,'DPRESULTADOS','DPRV_WSPROTOCOL','REST').
+pgm_prop_i(mnproc,6,'DPRESULTADOS','OutputSDT',o(26,'SDTResultado')).
+pgm_prop_i(sdp,11,'MISDATOS','EVENTS',[ [ [ 'Level','Detail' ] - [] ] ]).
+pgm_prop_i(sdp,11,'MISDATOS','SECTIONS',[ '',[ [ 'Level','Detail' ] ] ]).
+pgm_prop_i(sdp,11,'MISDATOS','GENS',[ 12 ]).
+pgm_prop_i(mnproc,10,'DPANUNCIOS','OutputSDT',o(26,'SDTAnuncio')).
+pgm_prop_i(mnproc,7,'DPRESULTADOBYFILTER',idISWEBSERVICE,'-1').
+pgm_prop_i(mnproc,7,'DPRESULTADOBYFILTER','DPRV_WSPROTOCOL','REST').
+pgm_prop_i(mnproc,7,'DPRESULTADOBYFILTER','OutputSDT',o(26,'SDTResultado')).
+pgm_prop_i(mnproc,11,'GPXMENUGESTOR','OutputSDT',o(26,gpxMenuItems)).
+pgm_prop_i(mnproc,3,'DPUSUARIO',idISWEBSERVICE,'-1').
+pgm_prop_i(mnproc,3,'DPUSUARIO','DPRV_WSPROTOCOL','REST').
+pgm_prop_i(mnproc,3,'DPUSUARIO','OutputSDT',o(26,'SDTUsuario')).
+pgm_prop_i(mnproc,12,'GPXMENUCOLAVECO','OutputSDT',o(26,gpxMenuItems)).
+pgm_prop_i(proc,25,'ANOTIFICATIONSREGISTRATIONHANDLER',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,25,'NOTIFICATIONSREGISTRATIONHANDLER',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,25,'ANOTIFICATIONSREGISTRATIONHANDLER','SOAP','0').
+pgm_prop_i(proc,25,'NOTIFICATIONSREGISTRATIONHANDLER','SOAP','0').
+pgm_prop_i(proc,26,'GXAFTEREVENTREPLICATOR',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,27,'GXBEFOREEVENTREPLICATOR',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,28,'GXONPENDINGEVENTFAILED',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,29,'DIRECTIONSSERVICEREQUEST',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,30,'GAMSDREGISTERUSER',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,30,'GAMSDREGISTERUSER','SOAP','0').
+pgm_prop_i(proc,33,'GAMSDCHANGEPASSWORDUSER',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,33,'GAMSDCHANGEPASSWORDUSER','SOAP','0').
+pgm_prop_i(proc,39,'AGENCIASNOMBRES',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,36,'LOGER',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,35,'GAMSDUPDATEREGISTERUSER',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,35,'GAMSDUPDATEREGISTERUSER','SOAP','0').
+pgm_prop_i(proc,42,'REFRESHRESULTADO',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(web,48,'RESULTADOGENERAL','WEB_COMP','Yes').
+pgm_prop_i(web,48,'RESULTADOGENERAL','URLAccess','No').
+pgm_prop_i(wwsd,1,'WORKWITHDEVICESRESULTADO','EVENTS',[ [ [ 'Resultado','Section','General' ] - [],[ 'Resultado','Detail' ] - [],[ 'Resultado','List' ] - [] ] ]).
+pgm_prop_i(wwsd,1,'WORKWITHDEVICESRESULTADO','SECTIONS',[ '',[ [ 'Resultado','Section','General' ],[ 'Resultado','Detail' ],[ 'Resultado','List' ],[ 'Resultado','List','Grid1' ] ] ]).
+pgm_prop_i(wwsd,1,'WORKWITHDEVICESRESULTADO','GENS',[ 12 ]).
+pgm_prop_i(trn,1,'RESULTADO',idISBUSINESSCOMPONENT,'-1').
+pgm_prop_i(trn,1,'RESULTADO',idISBCWEBSERVICE,'-1').
+pgm_prop_i(trn,1,'RESULTADO','WEBSERVICE_PROTOCOL','REST').
+pgm_prop_i(trn,2,'FACTURAMOVIMIENTO',idISBUSINESSCOMPONENT,'-1').
+pgm_prop_i(trn,2,'FACTURAMOVIMIENTO',idISBCWEBSERVICE,'-1').
+pgm_prop_i(trn,2,'FACTURAMOVIMIENTO','WEBSERVICE_PROTOCOL','REST').
+pgm_prop_i(proc,38,'INSERTSOLICITUDFRASCO',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,38,'INSERTSOLICITUDFRASCO','SOAP','0').
+pgm_prop_i(trn,3,'SOLICITUDFRASCO',idISBUSINESSCOMPONENT,'-1').
+pgm_prop_i(trn,3,'SOLICITUDFRASCO',idISBCWEBSERVICE,'-1').
+pgm_prop_i(trn,3,'SOLICITUDFRASCO','WEBSERVICE_PROTOCOL','REST').
+pgm_prop_i(wwsd,2,'WORKWITHDEVICESFACTURAMOVIMIENTO','EVENTS',[ [ [ 'FacturaMovimiento','Section','General' ] - [],[ 'FacturaMovimiento','Detail' ] - [],[ 'FacturaMovimiento','List' ] - [] ] ]).
+pgm_prop_i(wwsd,2,'WORKWITHDEVICESFACTURAMOVIMIENTO','SECTIONS',[ '',[ [ 'FacturaMovimiento','Section','General' ],[ 'FacturaMovimiento','Detail' ],[ 'FacturaMovimiento','List' ],[ 'FacturaMovimiento','List','Grid1' ] ] ]).
+pgm_prop_i(wwsd,2,'WORKWITHDEVICESFACTURAMOVIMIENTO','GENS',[ 12 ]).
+pgm_prop_i(proc,40,'USUARIOUPDATE',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(trn,6,'NOTIFICACIONES',idISBUSINESSCOMPONENT,'-1').
+pgm_prop_i(trn,6,'NOTIFICACIONES',idISBCWEBSERVICE,'-1').
+pgm_prop_i(trn,6,'NOTIFICACIONES','WEBSERVICE_PROTOCOL','REST').
+pgm_prop_i(web,32,'NOTIFICACIONESGENERAL','WEB_COMP','Yes').
+pgm_prop_i(web,32,'NOTIFICACIONESGENERAL','URLAccess','No').
+pgm_prop_i(trn,4,'CLIENTE',idISBUSINESSCOMPONENT,'-1').
+pgm_prop_i(trn,5,'USUARIO',idISBUSINESSCOMPONENT,'-1').
+pgm_prop_i(trn,5,'USUARIO',idISBCWEBSERVICE,'-1').
+pgm_prop_i(trn,5,'USUARIO','WEBSERVICE_PROTOCOL','REST').
+pgm_prop_i(wwsd,5,'WORKWITHDEVICESNOTIFICACIONES','EVENTS',[ [ [ 'Notificaciones','Section','General' ] - [],[ 'Notificaciones','Detail' ] - [],[ 'Notificaciones','List' ] - [] ] ]).
+pgm_prop_i(wwsd,5,'WORKWITHDEVICESNOTIFICACIONES','SECTIONS',[ '',[ [ 'Notificaciones','Section','General' ],[ 'Notificaciones','Detail' ],[ 'Notificaciones','List' ],[ 'Notificaciones','List','Grid1' ] ] ]).
+pgm_prop_i(wwsd,5,'WORKWITHDEVICESNOTIFICACIONES','GENS',[ 12 ]).
+pgm_prop_i(web,40,'ANUNCIOGENERAL','WEB_COMP','Yes').
+pgm_prop_i(web,40,'ANUNCIOGENERAL','URLAccess','No').
+pgm_prop_i(web,3,'PROMPTMASTERPAGE','WEB_COMP','Master').
+pgm_prop_i(web,1,'APPMASTERPAGE','WEB_COMP','Master').
+pgm_prop_i(web,6,'RWDPROMPTMASTERPAGE','WEB_COMP','Master').
+pgm_prop_i(trn,9,'ANUNCIO',idISBUSINESSCOMPONENT,'-1').
+pgm_prop_i(trn,9,'ANUNCIO',idISBCWEBSERVICE,'-1').
+pgm_prop_i(trn,9,'ANUNCIO','WEBSERVICE_PROTOCOL','REST').
+pgm_prop_i(web,4,'RWDMASTERPAGE','WEB_COMP','Master').
+pgm_prop_i(proc,46,'ADOWNLOADREPORT','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,46,'DOWNLOADREPORT','CALL_PROTOCOL','HTTP').
+ 
+model_wrkinfo_i([ 'Java Environment','JavaModel' ]).
+ 
+model_info_i([ 'Design','JavaModel',1 ]).
+ 
+datastore_i(2,'DS_LAST_CHANGE','').
+datastore_i(2,'LOCK_RETRY','10').
+datastore_i(2,'ISOLATION_LEVEL','CR').
+datastore_i(2,'MYSQL_VERSION','5').
+datastore_i(2,'COMMENT_ON','No').
+datastore_i(2,'DCL_REF_INT_DB','Yes').
+datastore_i(2,'PRIMARY_KEY_TYPE','PK').
+datastore_i(2,'RecycleRWMin','30').
+datastore_i(2,'RecycleRWType','1').
+datastore_i(2,'RecycleRW','-1').
+datastore_i(2,'POOL_STARTUP','No').
+datastore_i(2,'POOLSIZE_RW','10').
+datastore_i(2,'UnlimitedRWPool','-1').
+datastore_i(2,'PoolRWEnabled','-1').
+datastore_i(2,'CS_RPCPGML','').
+datastore_i(2,'JDBC_DATASOURCE','').
+datastore_i(2,'USE_JDBC_DATASOURCE','0').
+datastore_i(2,'DS_DBMS_ADDINFO','').
+datastore_i(2,'USER_PASSWORD',root).
+datastore_i(2,'USER_ID',root).
+datastore_i(2,'CS_CNTDLG','2').
+datastore_i(2,'CS_CONNECT','First').
+datastore_i(2,'DBMS_PORT','3308').
+datastore_i(2,'CS_SERVER',localhost).
+datastore_i(2,'CS_DBNAME','ColavecoconGx_Gam').
+datastore_i(2,'CS_FLEDSNAME','').
+datastore_i(2,'CS_DRVNAME','').
+datastore_i(2,'CS_DSNAME','').
+datastore_i(2,'DB_URL','').
+datastore_i(2,'JDBC_CUSTOM_URL','0').
+datastore_i(2,'JDBC_CUSTOM_DRIVER','').
+datastore_i(2,'ADONET_DRIVER','').
+datastore_i(2,'JDBC_DRIVER','com.mysql.jdbc.Driver').
+datastore_i(2,'CONNECT_METHOD','OPSYS').
+datastore_i(2,'ACCESS_TECHNO','JDBC').
+datastore_i(2,'MAIN_DS','-1').
+datastore_i(2,'REORG_GEN','8').
+datastore_i(2,'HelpKeyword','84').
+datastore_i(2,'DBMS',18).
+datastore_i(2,'NAME','GAM').
+datastore_i(1,'DS_LAST_CHANGE','').
+datastore_i(1,'LOCK_RETRY','10').
+datastore_i(1,'ISOLATION_LEVEL','CR').
+datastore_i(1,'MYSQL_VERSION','5').
+datastore_i(1,'COMMENT_ON','No').
+datastore_i(1,'DCL_REF_INT_DB','Yes').
+datastore_i(1,'PRIMARY_KEY_TYPE','PK').
+datastore_i(1,'RecycleRWMin','30').
+datastore_i(1,'RecycleRWType','1').
+datastore_i(1,'RecycleRW','-1').
+datastore_i(1,'POOL_STARTUP','No').
+datastore_i(1,'POOLSIZE_RW','10').
+datastore_i(1,'UnlimitedRWPool','-1').
+datastore_i(1,'PoolRWEnabled','-1').
+datastore_i(1,'CS_RPCPGML','').
+datastore_i(1,'JDBC_DATASOURCE','').
+datastore_i(1,'USE_JDBC_DATASOURCE','0').
+datastore_i(1,'DS_DBMS_ADDINFO','').
+datastore_i(1,'USER_PASSWORD',root).
+datastore_i(1,'USER_ID',root).
+datastore_i(1,'CS_CNTDLG','2').
+datastore_i(1,'CS_CONNECT','First').
+datastore_i(1,'DBMS_PORT','3308').
+datastore_i(1,'CS_SERVER',localhost).
+datastore_i(1,'CS_DBNAME','ColavecoconGx').
+datastore_i(1,'CS_FLEDSNAME','').
+datastore_i(1,'CS_DRVNAME','').
+datastore_i(1,'CS_DSNAME','').
+datastore_i(1,'DB_URL','').
+datastore_i(1,'JDBC_CUSTOM_URL','0').
+datastore_i(1,'JDBC_CUSTOM_DRIVER','').
+datastore_i(1,'ADONET_DRIVER','').
+datastore_i(1,'JDBC_DRIVER','com.mysql.jdbc.Driver').
+datastore_i(1,'CONNECT_METHOD','OPSYS').
+datastore_i(1,'ACCESS_TECHNO','JDBC').
+datastore_i(1,'MAIN_DS','-1').
+datastore_i(1,'REORG_GEN','8').
+datastore_i(1,'HelpKeyword','15').
+datastore_i(1,'DBMS',18).
+datastore_i(1,'NAME','Default').
+ 
+ 
+ 
+culture_id_i(eng).
+ 
+lng_i(1,[ 'English','English',eng ]).
+ 
+lng_prop_i(1,'IsRightToLeft','0',d).
+lng_prop_i(1,'ISOLangCode','EN',v).
+lng_prop_i(1,'ISOCountryCode','US',v).
+lng_prop_i(1,'Codepage','1252',v).
+lng_prop_i(1,'LanguageLocalization','',d).
+lng_prop_i(1,'LangDateFormat','ENG',v).
+lng_prop_i(1,'LangTimeFormat','12',v).
+lng_prop_i(1,'LangDecimalPoint','.',v).
+lng_prop_i(1,'FullyQualifiedName','English',d).
+ 
+ver_stamp('20230117.133702').
+ 
+ver_stamp(date(2023,1,17),time(10,40,0,14)).
+ 

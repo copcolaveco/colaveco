@@ -1,0 +1,15 @@
+
+<WWSDSpec>
+<Section>
+<Name>Resultado.Detail</Name>
+<DataProviders>
+<DataProvider>WorkWithDevicesResultado_Resultado_Detail</DataProvider></DataProviders></Section>
+<Section>
+<Name>Resultado.List</Name>
+<DataProviders>
+<DataProvider>WorkWithDevicesResultado_Resultado_List_Grid1</DataProvider>
+<DataProvider>WorkWithDevicesResultado_Resultado_List</DataProvider></DataProviders></Section>
+<Section>
+<Name>Resultado.Section.General</Name>
+<DataProviders>
+<DataProvider>WorkWithDevicesResultado_Resultado_Section_General</DataProvider></DataProviders></Section></WWSDSpec>

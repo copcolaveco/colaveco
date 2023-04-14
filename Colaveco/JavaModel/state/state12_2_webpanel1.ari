@@ -1,0 +1,33 @@
+current_obj_i(2,web,7).
+ 
+current_guid('75cc0d49-7bda-4fd5-af93-6f3820524620').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_main_object(webpanel1,'Web Panel1','','""','',default).
+ 
+ 
+ 
+ 
+ij_object_dependency(webpanel1,[],[ webpanel1_impl ],[ 'GxWebStd' ],7).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

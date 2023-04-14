@@ -1,0 +1,2171 @@
+spec_i([ trn,4,'Cliente','Cliente_BC',[],eng,'17_0_7-156546' ]).
+ 
+struct_i(4,0,[],[]).
+ 
+level_i(4,[ 4,[ [ 4,many ] ],[ 4 ],[],[],[],[ 4 ],'ICLIENTE',[ 4,[] ],[] ]).
+ 
+tw_i(4,[]).
+ 
+lwi_i(4,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(4,[ [ [ 4,4 ],[ 4,45 ],[ 4,46 ],[ 4,47 ],[ 4,48 ],[ 4,49 ],[ 4,50 ],[ 4,51 ],[ 4,52 ],[ 4,53 ],[ 4,54 ],[ 4,55 ],[ 4,56 ],[ 4,57 ],[ 4,58 ],[ 4,59 ],[ 4,60 ],[ 4,61 ],[ 4,62 ],[ 4,63 ],[ 4,64 ],[ 4,65 ],[ 4,66 ],[ 4,67 ],[ 4,68 ],[ 4,69 ],[ 4,70 ],[ 4,71 ],[ 4,72 ],[ 4,73 ],[ 4,74 ],[ 4,75 ],[ 4,76 ],[ 4,77 ],[ 4,168 ],[ 4,78 ],[ 4,79 ],[ 4,80 ],[ 4,81 ],[ 4,82 ],[ 4,83 ],[ 4,84 ],[ 4,85 ],[ 4,86 ],[ 4,87 ],[ 4,88 ],[ 4,89 ],[ 4,90 ],[ 4,91 ],[ 4,92 ],[ 4,93 ],[ 4,94 ],[ 4,95 ],[ 4,96 ],[ 4,97 ],[ 4,98 ],[ 4,99 ],[ 4,100 ],[ 4,101 ],[ 4,102 ],[ 4,103 ],[ 4,104 ],[ 4,105 ],[ 4,106 ],[ 4,107 ],[ 4,108 ],[ 4,109 ],[ 4,110 ],[ 4,111 ],[ 4,112 ],[ 4,113 ] ] ]).
+ 
+las_i(4,[ [ 4,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,168,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113 ] ]).
+ 
+lac_i(4,[ [ 4,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,168,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113 ] ]).
+ 
+ 
+ 
+cls_i([ 25,80 ],[ 0,0 ]).
+ 
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'MYSQL_VERSION','5')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',root)).
+rule_i(0,datastore(2,'USER_ID',root)).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','3308')).
+rule_i(0,datastore(2,'CS_SERVER',localhost)).
+rule_i(0,datastore(2,'CS_DBNAME','ColavecoconGx_Gam')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'ADONET_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.mysql.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','84')).
+rule_i(0,datastore(2,'DBMS',18)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'MYSQL_VERSION','5')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',root)).
+rule_i(0,datastore(1,'USER_ID',root)).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','3308')).
+rule_i(0,datastore(1,'CS_SERVER',localhost)).
+rule_i(0,datastore(1,'CS_DBNAME','ColavecoconGx')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'ADONET_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.mysql.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',18)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PKSupFKs',[])).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','Cliente')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('SEARCH_VIEWER','')).
+rule_i(0,prop('SEARCHABLE','UMPV')).
+rule_i(0,prop('MTIER_OPT','Yes')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('KEY_MOREKEYS','UMPV')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_LAST','UMPV')).
+rule_i(0,prop('KEY_FIRST','UMPV')).
+rule_i(0,prop('KEY_SELECT','UMPV')).
+rule_i(0,prop('KEY_DISPLAY','UMPV')).
+rule_i(0,prop('KEY_DELETE','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_UPDATE','UMPV')).
+rule_i(0,prop('KEY_MENU','UMPV')).
+rule_i(0,prop('KEY_RETRIEVE','UMPV')).
+rule_i(0,prop('KEY_NEXT','UMPV')).
+rule_i(0,prop('KEY_PREVIOUS','UMPV')).
+rule_i(0,prop('KEY_INSERT','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_PROMPT','UMPV')).
+rule_i(0,prop('KEY_EXIT','UMPV')).
+rule_i(0,prop('KEY_CHECK','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebFormDefaults','0')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('FIELD_TO_FIELD','UMPV')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('CFMTRN','No')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('IsDwhTrn','0')).
+rule_i(0,prop(idDynTrnUpdatePolicy,idDynTrnUpdatePolicy_UPDATABLE)).
+rule_i(0,prop(idIsDynTrn,'0')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Secure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'RwdMasterPage'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'Carmine'))).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('WS_Delete','-1')).
+rule_i(0,prop('WS_Update','-1')).
+rule_i(0,prop('WS_Insert','-1')).
+rule_i(0,prop('WS_View','-1')).
+rule_i(0,prop(idISBCWEBSERVICE,'0')).
+rule_i(0,prop('ExternalNamespace','Colaveco')).
+rule_i(0,prop('ExternalName','Cliente')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityLow')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop(idISBUSINESSCOMPONENT,'-1')).
+rule_i(0,prop('Folder',o(8,'Transactions'))).
+rule_i(0,prop('ObjDesc','Cliente')).
+rule_i(0,prop('ObjName','Cliente')).
+rule_i(0,rule([ a(22,[ 'Dlt','"Delete"','' ]) ],[],[],[])).
+rule_i(0,maingen(12)).
+ 
+a_i(1,4,t,4,[],[ [ [ [],4,4 ] ],'ICLIENTE',[] ]).
+ 
+v_i(t,i,1,4).
+v_i(t,o,1,45).
+v_i(t,o,1,46).
+v_i(t,o,1,47).
+v_i(t,o,1,48).
+v_i(t,o,1,49).
+v_i(t,o,1,50).
+v_i(t,o,1,51).
+v_i(t,o,1,52).
+v_i(t,o,1,53).
+v_i(t,o,1,54).
+v_i(t,o,1,55).
+v_i(t,o,1,56).
+v_i(t,o,1,57).
+v_i(t,o,1,58).
+v_i(t,o,1,59).
+v_i(t,o,1,60).
+v_i(t,o,1,61).
+v_i(t,o,1,62).
+v_i(t,o,1,63).
+v_i(t,o,1,64).
+v_i(t,o,1,65).
+v_i(t,o,1,66).
+v_i(t,o,1,67).
+v_i(t,o,1,68).
+v_i(t,o,1,69).
+v_i(t,o,1,70).
+v_i(t,o,1,71).
+v_i(t,o,1,72).
+v_i(t,o,1,73).
+v_i(t,o,1,74).
+v_i(t,o,1,75).
+v_i(t,o,1,76).
+v_i(t,o,1,77).
+v_i(t,o,1,168).
+v_i(t,o,1,78).
+v_i(t,o,1,79).
+v_i(t,o,1,80).
+v_i(t,o,1,81).
+v_i(t,o,1,82).
+v_i(t,o,1,83).
+v_i(t,o,1,84).
+v_i(t,o,1,85).
+v_i(t,o,1,86).
+v_i(t,o,1,87).
+v_i(t,o,1,88).
+v_i(t,o,1,89).
+v_i(t,o,1,90).
+v_i(t,o,1,91).
+v_i(t,o,1,92).
+v_i(t,o,1,93).
+v_i(t,o,1,94).
+v_i(t,o,1,95).
+v_i(t,o,1,96).
+v_i(t,o,1,97).
+v_i(t,o,1,98).
+v_i(t,o,1,99).
+v_i(t,o,1,100).
+v_i(t,o,1,101).
+v_i(t,o,1,102).
+v_i(t,o,1,103).
+v_i(t,o,1,104).
+v_i(t,o,1,105).
+v_i(t,o,1,106).
+v_i(t,o,1,107).
+v_i(t,o,1,108).
+v_i(t,o,1,109).
+v_i(t,o,1,110).
+v_i(t,o,1,111).
+v_i(t,o,1,112).
+v_i(t,o,1,113).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i(113,[ 'ClienteIncobrable',int,4,0,'ZZZ9',0,'Cliente Incobrable','',0 ]).
+attri_i(112,[ 'ClienteNotEmailGeneral2',svchar,100,0,'',0,'Cliente Not Email General2','',0 ]).
+attri_i(111,[ 'ClienteNotEmailGeneral1',svchar,100,0,'',0,'Cliente Not Email General1','',0 ]).
+attri_i(110,[ 'ClienteNotEmailAnalisis2',svchar,100,0,'',0,'Cliente Not Email Analisis2','',0 ]).
+attri_i(109,[ 'ClienteNotEmailAnalisis1',svchar,100,0,'',0,'Cliente Not Email Analisis1','',0 ]).
+attri_i(108,[ 'ClienteNotEmailMuestra2',svchar,100,0,'',0,'Cliente Not Email Muestra2','',0 ]).
+attri_i(107,[ 'ClienteNotEmailMuestra1',svchar,100,0,'',0,'Cliente Not Email Muestra1','',0 ]).
+attri_i(106,[ 'ClienteNotEmailFrascos2',svchar,100,0,'',0,'Cliente Not Email Frascos2','',0 ]).
+attri_i(105,[ 'ClienteNotEmailFrascos1',svchar,100,0,'',0,'Cliente Not Email Frascos1','',0 ]).
+attri_i(104,[ 'ClienteFacContado',int,4,0,'ZZZ9',0,'Cliente Fac Contado','',0 ]).
+attri_i(103,[ 'ClienteFacLista',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Cliente Fac Lista','',0 ]).
+attri_i(102,[ 'ClienteFacObservaciones',svchar,200,0,'',0,'Cliente Fac Observaciones','',0 ]).
+attri_i(101,[ 'ClienteFacContrato',svchar,80,0,'',0,'Cliente Fac Contrato','',0 ]).
+attri_i(100,[ 'ClienteFacEmail',svchar,100,0,'',0,'Cliente Fac Email','',0 ]).
+attri_i(99,[ 'ClienteFacFax',svchar,100,0,'',0,'Cliente Fac Fax','',0 ]).
+attri_i(98,[ 'ClienteCobEmail2',svchar,100,0,'',0,'Cliente Cob Email2','',0 ]).
+attri_i(97,[ 'ClienteCobNombreEmail2',svchar,100,0,'',0,'Cliente Cob Nombre Email2','',0 ]).
+attri_i(96,[ 'ClienteCobEmail1',svchar,100,0,'',0,'Cliente Cob Email1','',0 ]).
+attri_i(95,[ 'ClienteCobNombreEmail1',svchar,100,0,'',0,'Cliente Cob Nombre Email1','',0 ]).
+attri_i(94,[ 'ClienteCobCelular2',svchar,100,0,'',0,'Cliente Cob Celular2','',0 ]).
+attri_i(93,[ 'ClienteCobNombreCelular2',svchar,100,0,'',0,'Cliente Cob Nombre Celular2','',0 ]).
+attri_i(92,[ 'ClienteCobCelular1',svchar,100,0,'',0,'Cliente Cob Celular1','',0 ]).
+attri_i(91,[ 'ClienteCobNombreCelular1',svchar,100,0,'',0,'Cliente Cob Nombre Celular1','',0 ]).
+attri_i(90,[ 'ClienteCobTelefono2',svchar,100,0,'',0,'Cliente Cob Telefono2','',0 ]).
+attri_i(89,[ 'ClienteCobNombreTelefono2',svchar,100,0,'',0,'Cliente Cob Nombre Telefono2','',0 ]).
+attri_i(88,[ 'ClienteFacTelefonos',svchar,100,0,'',0,'Cliente Fac Telefonos','',0 ]).
+attri_i(87,[ 'ClienteCobNombreTelefono1',svchar,100,0,'',0,'Cliente Cob Nombre Telefono1','',0 ]).
+attri_i(86,[ 'ClienteFacGiro',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Cliente Fac Giro','',0 ]).
+attri_i(85,[ 'ClienteFacCpostal',svchar,40,0,'',0,'Cliente Fac Cpostal','',0 ]).
+attri_i(84,[ 'ClienteFacDepartamento',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Cliente Fac Departamento','',0 ]).
+attri_i(83,[ 'ClienteFacLocalidad',svchar,40,0,'',0,'Cliente Fac Localidad','',0 ]).
+attri_i(82,[ 'ClienteFacDireccion',svchar,200,0,'',0,'Cliente Fac Direccion','',0 ]).
+attri_i(81,[ 'ClienteFacRut',svchar,40,0,'',0,'Cliente Fac Rut','',0 ]).
+attri_i(80,[ 'ClienteFacCedula',svchar,40,0,'',0,'Cliente Fac Cedula','',0 ]).
+attri_i(79,[ 'ClienteFacRsocial',svchar,100,0,'',0,'Cliente Fac Rsocial','',0 ]).
+attri_i(78,[ 'ClienteObservaciones',svchar,200,0,'',0,'Cliente Observaciones','',0 ]).
+attri_i(168,[ 'ClienteProlesaMat',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Cliente Prolesa Mat','',0 ]).
+attri_i(77,[ 'ClienteProlesaSuc',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Cliente Prolesa Suc','',0 ]).
+attri_i(76,[ 'ClienteProlesa',int,4,0,'ZZZ9',0,'Cliente Prolesa','',0 ]).
+attri_i(75,[ 'ClienteCaravanas',int,4,0,'ZZZ9',0,'Cliente Caravanas','',0 ]).
+attri_i(74,[ 'ClienteCodbar',int,4,0,'ZZZ9',0,'Cliente Codbar','',0 ]).
+attri_i(73,[ 'ClienteNoUsar',int,4,0,'ZZZ9',0,'Cliente No Usar','',0 ]).
+attri_i(72,[ 'ClienteSocio',int,4,0,'ZZZ9',0,'Cliente Socio','',0 ]).
+attri_i(71,[ 'ClienteContrato',int,4,0,'ZZZ9',0,'Cliente Contrato','',0 ]).
+attri_i(70,[ 'ClienteIdAgencia',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Cliente Id Agencia','',0 ]).
+attri_i(69,[ 'ClienteTecnico2',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Cliente Tecnico2','',0 ]).
+attri_i(68,[ 'ClienteTecnico1',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Cliente Tecnico1','',0 ]).
+attri_i(67,[ 'ClienteIdLocalidad',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Cliente Id Localidad','',0 ]).
+attri_i(66,[ 'ClienteIdDepartamento',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Cliente Id Departamento','',0 ]).
+attri_i(65,[ 'ClienteDicose',svchar,40,0,'',0,'Cliente Dicose','',0 ]).
+attri_i(64,[ 'ClienteFax',svchar,100,0,'',0,'Cliente Fax','',0 ]).
+attri_i(63,[ 'ClienteTelefono2',svchar,100,0,'',0,'Cliente Telefono2','',0 ]).
+attri_i(62,[ 'ClienteNombreTelefono2',svchar,100,0,'',0,'Cliente Nombre Telefono2','',0 ]).
+attri_i(61,[ 'ClienteTelefono1',svchar,100,0,'',0,'Cliente Telefono1','',0 ]).
+attri_i(60,[ 'ClienteNombreTelefono1',svchar,100,0,'',0,'Cliente Nombre Telefono1','',0 ]).
+attri_i(59,[ 'ClienteDireccion',svchar,200,0,'',0,'Cliente Direccion','',0 ]).
+attri_i(58,[ 'ClienteTipoUsuario',int,4,0,'ZZZ9',0,'Cliente Tipo Usuario','',0 ]).
+attri_i(57,[ 'ClienteCodigoFigaro',svchar,40,0,'',0,'Cliente Codigo Figaro','',0 ]).
+attri_i(56,[ 'ClienteCelular2',svchar,100,0,'',0,'Cliente Celular2','',0 ]).
+attri_i(55,[ 'ClienteNombreCelular2',svchar,100,0,'',0,'Cliente Nombre Celular2','',0 ]).
+attri_i(54,[ 'ClienteCelular1',svchar,100,0,'',0,'Cliente Celular1','',0 ]).
+attri_i(53,[ 'ClienteNombreCelular1',svchar,100,0,'',0,'Cliente Nombre Celular1','',0 ]).
+attri_i(52,[ 'ClienteUsuarioWeb',svchar,100,0,'',0,'Cliente Usuario Web','',0 ]).
+attri_i(51,[ 'ClienteEnvio',svchar,200,0,'',0,'Cliente Envio','',0 ]).
+attri_i(50,[ 'ClienteEmail2',svchar,100,0,'',0,'Cliente Email2','',0 ]).
+attri_i(49,[ 'ClienteNombreEmail2',svchar,100,0,'',0,'Cliente Nombre Email2','',0 ]).
+attri_i(48,[ 'ClienteEmail1',svchar,100,0,'',0,'Cliente Email1','',0 ]).
+attri_i(47,[ 'ClienteNombreEmail1',svchar,100,0,'',0,'Cliente Nombre Email1','',0 ]).
+attri_i(46,[ 'ClienteEmail',svchar,100,0,'',0,'Cliente Email','',0 ]).
+attri_i(45,[ 'ClienteNombre',svchar,100,0,'',0,'Cliente Nombre','',0 ]).
+attri_i(4,[ 'ClienteId',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Cliente Id','',0 ]).
+attri_i('Gxremove',[ 'GxRemove',int,1,0,'9',0,'Gx Remove','',5 ]).
+attri_i('Mode',[ 'Gx_mode',char,3,0,'@!',1,'','',2 ]).
+ 
+table_i(4,[ 'Cliente',[ 4,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,168,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113 ],'Cliente','Cliente' ]).
+ 
+index_i(4,[ 'ICLIENTE',u,[ 4 ],'ICliente' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+upd_i(4,4,i,[ [ 4,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,168,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113 ],[],'ICLIENTE',[ [ [],4,4 ] ] ]).
+upd_i(4,4,u,[ [ 45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,168,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113 ],[],'ICLIENTE',[] ]).
+upd_i(4,4,d,[ [],[],'ICLIENTE',[] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(83,[ id ]).
+dom_info_i(85,[ nombres ]).
+dom_info_i(86,[ email ]).
+dom_info_i(87,[ celular ]).
+dom_info_i(88,[ dicose ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,0).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+att_prop_i(2,4,'HORIZONTAL_DESCRIPTION','Cliente Id',d).
+att_prop_i(2,4,'ExternalName','ClienteId',d).
+att_prop_i(2,4,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,4,'EmptyAsNull','Yes',d).
+att_prop_i(2,4,idBasedOn,83,v).
+att_prop_i(2,4,'AUTONUMBER','0',d).
+att_prop_i(2,4,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,4,'AttRegEx','',d).
+att_prop_i(2,4,'AttValidationFailedMsg','',d).
+att_prop_i(2,4,'DownloadOffline','0',d).
+att_prop_i(2,4,'VarServiceExtName','',d).
+att_prop_i(2,4,'FullName','ClienteId',v).
+att_prop_i(2,45,'HORIZONTAL_DESCRIPTION','Cliente Nombre',d).
+att_prop_i(2,45,'ExternalName','ClienteNombre',d).
+att_prop_i(2,45,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,45,'EmptyAsNull','Yes',d).
+att_prop_i(2,45,idBasedOn,85,v).
+att_prop_i(2,45,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,45,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,45,'AttRegEx','',d).
+att_prop_i(2,45,'AttValidationFailedMsg','',d).
+att_prop_i(2,45,'DownloadOffline','0',d).
+att_prop_i(2,45,'VarServiceExtName','',d).
+att_prop_i(2,45,'FullName','ClienteNombre',v).
+att_prop_i(2,46,'HORIZONTAL_DESCRIPTION','Cliente Email',d).
+att_prop_i(2,46,'ExternalName','ClienteEmail',d).
+att_prop_i(2,46,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,46,'EmptyAsNull','Yes',d).
+att_prop_i(2,46,idBasedOn,86,v).
+att_prop_i(2,46,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,46,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,46,'AttRegEx','',d).
+att_prop_i(2,46,'AttValidationFailedMsg','',d).
+att_prop_i(2,46,'DownloadOffline','0',d).
+att_prop_i(2,46,'VarServiceExtName','',d).
+att_prop_i(2,46,'FullName','ClienteEmail',v).
+att_prop_i(2,47,'HORIZONTAL_DESCRIPTION','Cliente Nombre Email1',d).
+att_prop_i(2,47,'ExternalName','ClienteNombreEmail1',d).
+att_prop_i(2,47,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,47,'EmptyAsNull','Yes',d).
+att_prop_i(2,47,idBasedOn,85,v).
+att_prop_i(2,47,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,47,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,47,'AttRegEx','',d).
+att_prop_i(2,47,'AttValidationFailedMsg','',d).
+att_prop_i(2,47,'DownloadOffline','0',d).
+att_prop_i(2,47,'VarServiceExtName','',d).
+att_prop_i(2,47,'FullName','ClienteNombreEmail1',v).
+att_prop_i(2,48,'HORIZONTAL_DESCRIPTION','Cliente Email1',d).
+att_prop_i(2,48,'ExternalName','ClienteEmail1',d).
+att_prop_i(2,48,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,48,'EmptyAsNull','Yes',d).
+att_prop_i(2,48,idBasedOn,86,v).
+att_prop_i(2,48,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,48,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,48,'AttRegEx','',d).
+att_prop_i(2,48,'AttValidationFailedMsg','',d).
+att_prop_i(2,48,'DownloadOffline','0',d).
+att_prop_i(2,48,'VarServiceExtName','',d).
+att_prop_i(2,48,'FullName','ClienteEmail1',v).
+att_prop_i(2,49,'HORIZONTAL_DESCRIPTION','Cliente Nombre Email2',d).
+att_prop_i(2,49,'ExternalName','ClienteNombreEmail2',d).
+att_prop_i(2,49,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,49,'EmptyAsNull','Yes',d).
+att_prop_i(2,49,idBasedOn,85,v).
+att_prop_i(2,49,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,49,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,49,'AttRegEx','',d).
+att_prop_i(2,49,'AttValidationFailedMsg','',d).
+att_prop_i(2,49,'DownloadOffline','0',d).
+att_prop_i(2,49,'VarServiceExtName','',d).
+att_prop_i(2,49,'FullName','ClienteNombreEmail2',v).
+att_prop_i(2,50,'HORIZONTAL_DESCRIPTION','Cliente Email2',d).
+att_prop_i(2,50,'ExternalName','ClienteEmail2',d).
+att_prop_i(2,50,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,50,'EmptyAsNull','Yes',d).
+att_prop_i(2,50,idBasedOn,86,v).
+att_prop_i(2,50,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,50,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,50,'AttRegEx','',d).
+att_prop_i(2,50,'AttValidationFailedMsg','',d).
+att_prop_i(2,50,'DownloadOffline','0',d).
+att_prop_i(2,50,'VarServiceExtName','',d).
+att_prop_i(2,50,'FullName','ClienteEmail2',v).
+att_prop_i(2,51,'HORIZONTAL_DESCRIPTION','Cliente Envio',d).
+att_prop_i(2,51,'ExternalName','ClienteEnvio',d).
+att_prop_i(2,51,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,51,'EmptyAsNull','Yes',d).
+att_prop_i(2,51,idBasedOn,'',d).
+att_prop_i(2,51,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,51,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,51,'AttRegEx','',d).
+att_prop_i(2,51,'AttValidationFailedMsg','',d).
+att_prop_i(2,51,'DownloadOffline','0',d).
+att_prop_i(2,51,'VarServiceExtName','',d).
+att_prop_i(2,51,'FullName','ClienteEnvio',v).
+att_prop_i(2,52,'HORIZONTAL_DESCRIPTION','Cliente Usuario Web',d).
+att_prop_i(2,52,'ExternalName','ClienteUsuarioWeb',d).
+att_prop_i(2,52,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,52,'EmptyAsNull','Yes',d).
+att_prop_i(2,52,idBasedOn,'',d).
+att_prop_i(2,52,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,52,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,52,'AttRegEx','',d).
+att_prop_i(2,52,'AttValidationFailedMsg','',d).
+att_prop_i(2,52,'DownloadOffline','0',d).
+att_prop_i(2,52,'VarServiceExtName','',d).
+att_prop_i(2,52,'FullName','ClienteUsuarioWeb',v).
+att_prop_i(2,53,'HORIZONTAL_DESCRIPTION','Cliente Nombre Celular1',d).
+att_prop_i(2,53,'ExternalName','ClienteNombreCelular1',d).
+att_prop_i(2,53,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,53,'EmptyAsNull','Yes',d).
+att_prop_i(2,53,idBasedOn,85,v).
+att_prop_i(2,53,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,53,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,53,'AttRegEx','',d).
+att_prop_i(2,53,'AttValidationFailedMsg','',d).
+att_prop_i(2,53,'DownloadOffline','0',d).
+att_prop_i(2,53,'VarServiceExtName','',d).
+att_prop_i(2,53,'FullName','ClienteNombreCelular1',v).
+att_prop_i(2,54,'HORIZONTAL_DESCRIPTION','Cliente Celular1',d).
+att_prop_i(2,54,'ExternalName','ClienteCelular1',d).
+att_prop_i(2,54,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,54,'EmptyAsNull','Yes',d).
+att_prop_i(2,54,idBasedOn,87,v).
+att_prop_i(2,54,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,54,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,54,'AttRegEx','',d).
+att_prop_i(2,54,'AttValidationFailedMsg','',d).
+att_prop_i(2,54,'DownloadOffline','0',d).
+att_prop_i(2,54,'VarServiceExtName','',d).
+att_prop_i(2,54,'FullName','ClienteCelular1',v).
+att_prop_i(2,55,'HORIZONTAL_DESCRIPTION','Cliente Nombre Celular2',d).
+att_prop_i(2,55,'ExternalName','ClienteNombreCelular2',d).
+att_prop_i(2,55,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,55,'EmptyAsNull','Yes',d).
+att_prop_i(2,55,idBasedOn,85,v).
+att_prop_i(2,55,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,55,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,55,'AttRegEx','',d).
+att_prop_i(2,55,'AttValidationFailedMsg','',d).
+att_prop_i(2,55,'DownloadOffline','0',d).
+att_prop_i(2,55,'VarServiceExtName','',d).
+att_prop_i(2,55,'FullName','ClienteNombreCelular2',v).
+att_prop_i(2,56,'HORIZONTAL_DESCRIPTION','Cliente Celular2',d).
+att_prop_i(2,56,'ExternalName','ClienteCelular2',d).
+att_prop_i(2,56,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,56,'EmptyAsNull','Yes',d).
+att_prop_i(2,56,idBasedOn,87,v).
+att_prop_i(2,56,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,56,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,56,'AttRegEx','',d).
+att_prop_i(2,56,'AttValidationFailedMsg','',d).
+att_prop_i(2,56,'DownloadOffline','0',d).
+att_prop_i(2,56,'VarServiceExtName','',d).
+att_prop_i(2,56,'FullName','ClienteCelular2',v).
+att_prop_i(2,57,'HORIZONTAL_DESCRIPTION','Cliente Codigo Figaro',d).
+att_prop_i(2,57,'ExternalName','ClienteCodigoFigaro',d).
+att_prop_i(2,57,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,57,'EmptyAsNull','Yes',d).
+att_prop_i(2,57,idBasedOn,'',d).
+att_prop_i(2,57,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,57,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,57,'AttRegEx','',d).
+att_prop_i(2,57,'AttValidationFailedMsg','',d).
+att_prop_i(2,57,'DownloadOffline','0',d).
+att_prop_i(2,57,'VarServiceExtName','',d).
+att_prop_i(2,57,'FullName','ClienteCodigoFigaro',v).
+att_prop_i(2,58,'HORIZONTAL_DESCRIPTION','Cliente Tipo Usuario',d).
+att_prop_i(2,58,'ExternalName','ClienteTipoUsuario',d).
+att_prop_i(2,58,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,58,'EmptyAsNull','Yes',d).
+att_prop_i(2,58,idBasedOn,'',d).
+att_prop_i(2,58,'AUTONUMBER','0',d).
+att_prop_i(2,58,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,58,'AttRegEx','',d).
+att_prop_i(2,58,'AttValidationFailedMsg','',d).
+att_prop_i(2,58,'DownloadOffline','0',d).
+att_prop_i(2,58,'VarServiceExtName','',d).
+att_prop_i(2,58,'FullName','ClienteTipoUsuario',v).
+att_prop_i(2,59,'HORIZONTAL_DESCRIPTION','Cliente Direccion',d).
+att_prop_i(2,59,'ExternalName','ClienteDireccion',d).
+att_prop_i(2,59,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,59,'EmptyAsNull','Yes',d).
+att_prop_i(2,59,idBasedOn,'',d).
+att_prop_i(2,59,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,59,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,59,'AttRegEx','',d).
+att_prop_i(2,59,'AttValidationFailedMsg','',d).
+att_prop_i(2,59,'DownloadOffline','0',d).
+att_prop_i(2,59,'VarServiceExtName','',d).
+att_prop_i(2,59,'FullName','ClienteDireccion',v).
+att_prop_i(2,60,'HORIZONTAL_DESCRIPTION','Cliente Nombre Telefono1',d).
+att_prop_i(2,60,'ExternalName','ClienteNombreTelefono1',d).
+att_prop_i(2,60,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,60,'EmptyAsNull','Yes',d).
+att_prop_i(2,60,idBasedOn,85,v).
+att_prop_i(2,60,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,60,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,60,'AttRegEx','',d).
+att_prop_i(2,60,'AttValidationFailedMsg','',d).
+att_prop_i(2,60,'DownloadOffline','0',d).
+att_prop_i(2,60,'VarServiceExtName','',d).
+att_prop_i(2,60,'FullName','ClienteNombreTelefono1',v).
+att_prop_i(2,61,'HORIZONTAL_DESCRIPTION','Cliente Telefono1',d).
+att_prop_i(2,61,'ExternalName','ClienteTelefono1',d).
+att_prop_i(2,61,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,61,'EmptyAsNull','Yes',d).
+att_prop_i(2,61,idBasedOn,87,v).
+att_prop_i(2,61,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,61,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,61,'AttRegEx','',d).
+att_prop_i(2,61,'AttValidationFailedMsg','',d).
+att_prop_i(2,61,'DownloadOffline','0',d).
+att_prop_i(2,61,'VarServiceExtName','',d).
+att_prop_i(2,61,'FullName','ClienteTelefono1',v).
+att_prop_i(2,62,'HORIZONTAL_DESCRIPTION','Cliente Nombre Telefono2',d).
+att_prop_i(2,62,'ExternalName','ClienteNombreTelefono2',d).
+att_prop_i(2,62,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,62,'EmptyAsNull','Yes',d).
+att_prop_i(2,62,idBasedOn,85,v).
+att_prop_i(2,62,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,62,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,62,'AttRegEx','',d).
+att_prop_i(2,62,'AttValidationFailedMsg','',d).
+att_prop_i(2,62,'DownloadOffline','0',d).
+att_prop_i(2,62,'VarServiceExtName','',d).
+att_prop_i(2,62,'FullName','ClienteNombreTelefono2',v).
+att_prop_i(2,63,'HORIZONTAL_DESCRIPTION','Cliente Telefono2',d).
+att_prop_i(2,63,'ExternalName','ClienteTelefono2',d).
+att_prop_i(2,63,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,63,'EmptyAsNull','Yes',d).
+att_prop_i(2,63,idBasedOn,87,v).
+att_prop_i(2,63,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,63,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,63,'AttRegEx','',d).
+att_prop_i(2,63,'AttValidationFailedMsg','',d).
+att_prop_i(2,63,'DownloadOffline','0',d).
+att_prop_i(2,63,'VarServiceExtName','',d).
+att_prop_i(2,63,'FullName','ClienteTelefono2',v).
+att_prop_i(2,64,'HORIZONTAL_DESCRIPTION','Cliente Fax',d).
+att_prop_i(2,64,'ExternalName','ClienteFax',d).
+att_prop_i(2,64,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,64,'EmptyAsNull','Yes',d).
+att_prop_i(2,64,idBasedOn,87,v).
+att_prop_i(2,64,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,64,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,64,'AttRegEx','',d).
+att_prop_i(2,64,'AttValidationFailedMsg','',d).
+att_prop_i(2,64,'DownloadOffline','0',d).
+att_prop_i(2,64,'VarServiceExtName','',d).
+att_prop_i(2,64,'FullName','ClienteFax',v).
+att_prop_i(2,65,'HORIZONTAL_DESCRIPTION','Cliente Dicose',d).
+att_prop_i(2,65,'ExternalName','ClienteDicose',d).
+att_prop_i(2,65,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,65,'EmptyAsNull','Yes',d).
+att_prop_i(2,65,idBasedOn,88,v).
+att_prop_i(2,65,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,65,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,65,'AttRegEx','',d).
+att_prop_i(2,65,'AttValidationFailedMsg','',d).
+att_prop_i(2,65,'DownloadOffline','0',d).
+att_prop_i(2,65,'VarServiceExtName','',d).
+att_prop_i(2,65,'FullName','ClienteDicose',v).
+att_prop_i(2,66,'HORIZONTAL_DESCRIPTION','Cliente Id Departamento',d).
+att_prop_i(2,66,'ExternalName','ClienteIdDepartamento',d).
+att_prop_i(2,66,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,66,'EmptyAsNull','Yes',d).
+att_prop_i(2,66,idBasedOn,83,v).
+att_prop_i(2,66,'AUTONUMBER','0',d).
+att_prop_i(2,66,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,66,'AttRegEx','',d).
+att_prop_i(2,66,'AttValidationFailedMsg','',d).
+att_prop_i(2,66,'DownloadOffline','0',d).
+att_prop_i(2,66,'VarServiceExtName','',d).
+att_prop_i(2,66,'FullName','ClienteIdDepartamento',v).
+att_prop_i(2,67,'HORIZONTAL_DESCRIPTION','Cliente Id Localidad',d).
+att_prop_i(2,67,'ExternalName','ClienteIdLocalidad',d).
+att_prop_i(2,67,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,67,'EmptyAsNull','Yes',d).
+att_prop_i(2,67,idBasedOn,83,v).
+att_prop_i(2,67,'AUTONUMBER','0',d).
+att_prop_i(2,67,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,67,'AttRegEx','',d).
+att_prop_i(2,67,'AttValidationFailedMsg','',d).
+att_prop_i(2,67,'DownloadOffline','0',d).
+att_prop_i(2,67,'VarServiceExtName','',d).
+att_prop_i(2,67,'FullName','ClienteIdLocalidad',v).
+att_prop_i(2,68,'HORIZONTAL_DESCRIPTION','Cliente Tecnico1',d).
+att_prop_i(2,68,'ExternalName','ClienteTecnico1',d).
+att_prop_i(2,68,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,68,'EmptyAsNull','Yes',d).
+att_prop_i(2,68,idBasedOn,83,v).
+att_prop_i(2,68,'AUTONUMBER','0',d).
+att_prop_i(2,68,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,68,'AttRegEx','',d).
+att_prop_i(2,68,'AttValidationFailedMsg','',d).
+att_prop_i(2,68,'DownloadOffline','0',d).
+att_prop_i(2,68,'VarServiceExtName','',d).
+att_prop_i(2,68,'FullName','ClienteTecnico1',v).
+att_prop_i(2,69,'HORIZONTAL_DESCRIPTION','Cliente Tecnico2',d).
+att_prop_i(2,69,'ExternalName','ClienteTecnico2',d).
+att_prop_i(2,69,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,69,'EmptyAsNull','Yes',d).
+att_prop_i(2,69,idBasedOn,83,v).
+att_prop_i(2,69,'AUTONUMBER','0',d).
+att_prop_i(2,69,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,69,'AttRegEx','',d).
+att_prop_i(2,69,'AttValidationFailedMsg','',d).
+att_prop_i(2,69,'DownloadOffline','0',d).
+att_prop_i(2,69,'VarServiceExtName','',d).
+att_prop_i(2,69,'FullName','ClienteTecnico2',v).
+att_prop_i(2,70,'HORIZONTAL_DESCRIPTION','Cliente Id Agencia',d).
+att_prop_i(2,70,'ExternalName','ClienteIdAgencia',d).
+att_prop_i(2,70,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,70,'EmptyAsNull','Yes',d).
+att_prop_i(2,70,idBasedOn,83,v).
+att_prop_i(2,70,'AUTONUMBER','0',d).
+att_prop_i(2,70,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,70,'AttRegEx','',d).
+att_prop_i(2,70,'AttValidationFailedMsg','',d).
+att_prop_i(2,70,'DownloadOffline','0',d).
+att_prop_i(2,70,'VarServiceExtName','',d).
+att_prop_i(2,70,'FullName','ClienteIdAgencia',v).
+att_prop_i(2,71,'HORIZONTAL_DESCRIPTION','Cliente Contrato',d).
+att_prop_i(2,71,'ExternalName','ClienteContrato',d).
+att_prop_i(2,71,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,71,'EmptyAsNull','Yes',d).
+att_prop_i(2,71,idBasedOn,'',d).
+att_prop_i(2,71,'AUTONUMBER','0',d).
+att_prop_i(2,71,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,71,'AttRegEx','',d).
+att_prop_i(2,71,'AttValidationFailedMsg','',d).
+att_prop_i(2,71,'DownloadOffline','0',d).
+att_prop_i(2,71,'VarServiceExtName','',d).
+att_prop_i(2,71,'FullName','ClienteContrato',v).
+att_prop_i(2,72,'HORIZONTAL_DESCRIPTION','Cliente Socio',d).
+att_prop_i(2,72,'ExternalName','ClienteSocio',d).
+att_prop_i(2,72,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,72,'EmptyAsNull','Yes',d).
+att_prop_i(2,72,idBasedOn,'',d).
+att_prop_i(2,72,'AUTONUMBER','0',d).
+att_prop_i(2,72,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,72,'AttRegEx','',d).
+att_prop_i(2,72,'AttValidationFailedMsg','',d).
+att_prop_i(2,72,'DownloadOffline','0',d).
+att_prop_i(2,72,'VarServiceExtName','',d).
+att_prop_i(2,72,'FullName','ClienteSocio',v).
+att_prop_i(2,73,'HORIZONTAL_DESCRIPTION','Cliente No Usar',d).
+att_prop_i(2,73,'ExternalName','ClienteNoUsar',d).
+att_prop_i(2,73,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,73,'EmptyAsNull','Yes',d).
+att_prop_i(2,73,idBasedOn,'',d).
+att_prop_i(2,73,'AUTONUMBER','0',d).
+att_prop_i(2,73,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,73,'AttRegEx','',d).
+att_prop_i(2,73,'AttValidationFailedMsg','',d).
+att_prop_i(2,73,'DownloadOffline','0',d).
+att_prop_i(2,73,'VarServiceExtName','',d).
+att_prop_i(2,73,'FullName','ClienteNoUsar',v).
+att_prop_i(2,74,'HORIZONTAL_DESCRIPTION','Cliente Codbar',d).
+att_prop_i(2,74,'ExternalName','ClienteCodbar',d).
+att_prop_i(2,74,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,74,'EmptyAsNull','Yes',d).
+att_prop_i(2,74,idBasedOn,'',d).
+att_prop_i(2,74,'AUTONUMBER','0',d).
+att_prop_i(2,74,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,74,'AttRegEx','',d).
+att_prop_i(2,74,'AttValidationFailedMsg','',d).
+att_prop_i(2,74,'DownloadOffline','0',d).
+att_prop_i(2,74,'VarServiceExtName','',d).
+att_prop_i(2,74,'FullName','ClienteCodbar',v).
+att_prop_i(2,75,'HORIZONTAL_DESCRIPTION','Cliente Caravanas',d).
+att_prop_i(2,75,'ExternalName','ClienteCaravanas',d).
+att_prop_i(2,75,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,75,'EmptyAsNull','Yes',d).
+att_prop_i(2,75,idBasedOn,'',d).
+att_prop_i(2,75,'AUTONUMBER','0',d).
+att_prop_i(2,75,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,75,'AttRegEx','',d).
+att_prop_i(2,75,'AttValidationFailedMsg','',d).
+att_prop_i(2,75,'DownloadOffline','0',d).
+att_prop_i(2,75,'VarServiceExtName','',d).
+att_prop_i(2,75,'FullName','ClienteCaravanas',v).
+att_prop_i(2,76,'HORIZONTAL_DESCRIPTION','Cliente Prolesa',d).
+att_prop_i(2,76,'ExternalName','ClienteProlesa',d).
+att_prop_i(2,76,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,76,'EmptyAsNull','Yes',d).
+att_prop_i(2,76,idBasedOn,'',d).
+att_prop_i(2,76,'AUTONUMBER','0',d).
+att_prop_i(2,76,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,76,'AttRegEx','',d).
+att_prop_i(2,76,'AttValidationFailedMsg','',d).
+att_prop_i(2,76,'DownloadOffline','0',d).
+att_prop_i(2,76,'VarServiceExtName','',d).
+att_prop_i(2,76,'FullName','ClienteProlesa',v).
+att_prop_i(2,77,'HORIZONTAL_DESCRIPTION','Cliente Prolesa Suc',d).
+att_prop_i(2,77,'ExternalName','ClienteProlesaSuc',d).
+att_prop_i(2,77,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,77,'EmptyAsNull','Yes',d).
+att_prop_i(2,77,idBasedOn,'',d).
+att_prop_i(2,77,'AUTONUMBER','0',d).
+att_prop_i(2,77,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,77,'AttRegEx','',d).
+att_prop_i(2,77,'AttValidationFailedMsg','',d).
+att_prop_i(2,77,'DownloadOffline','0',d).
+att_prop_i(2,77,'VarServiceExtName','',d).
+att_prop_i(2,77,'FullName','ClienteProlesaSuc',v).
+att_prop_i(2,168,'HORIZONTAL_DESCRIPTION','Cliente Prolesa Mat',d).
+att_prop_i(2,168,'ExternalName','ClienteProlesaMat',d).
+att_prop_i(2,168,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,168,'EmptyAsNull','Yes',d).
+att_prop_i(2,168,idBasedOn,'',d).
+att_prop_i(2,168,'AUTONUMBER','0',d).
+att_prop_i(2,168,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,168,'AttRegEx','',d).
+att_prop_i(2,168,'AttValidationFailedMsg','',d).
+att_prop_i(2,168,'DownloadOffline','0',d).
+att_prop_i(2,168,'VarServiceExtName','',d).
+att_prop_i(2,168,'FullName','ClienteProlesaMat',v).
+att_prop_i(2,78,'HORIZONTAL_DESCRIPTION','Cliente Observaciones',d).
+att_prop_i(2,78,'ExternalName','ClienteObservaciones',d).
+att_prop_i(2,78,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,78,'EmptyAsNull','Yes',d).
+att_prop_i(2,78,idBasedOn,'',d).
+att_prop_i(2,78,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,78,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,78,'AttRegEx','',d).
+att_prop_i(2,78,'AttValidationFailedMsg','',d).
+att_prop_i(2,78,'DownloadOffline','0',d).
+att_prop_i(2,78,'VarServiceExtName','',d).
+att_prop_i(2,78,'FullName','ClienteObservaciones',v).
+att_prop_i(2,79,'HORIZONTAL_DESCRIPTION','Cliente Fac Rsocial',d).
+att_prop_i(2,79,'ExternalName','ClienteFacRsocial',d).
+att_prop_i(2,79,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,79,'EmptyAsNull','Yes',d).
+att_prop_i(2,79,idBasedOn,'',d).
+att_prop_i(2,79,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,79,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,79,'AttRegEx','',d).
+att_prop_i(2,79,'AttValidationFailedMsg','',d).
+att_prop_i(2,79,'DownloadOffline','0',d).
+att_prop_i(2,79,'VarServiceExtName','',d).
+att_prop_i(2,79,'FullName','ClienteFacRsocial',v).
+att_prop_i(2,80,'HORIZONTAL_DESCRIPTION','Cliente Fac Cedula',d).
+att_prop_i(2,80,'ExternalName','ClienteFacCedula',d).
+att_prop_i(2,80,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,80,'EmptyAsNull','Yes',d).
+att_prop_i(2,80,idBasedOn,'',d).
+att_prop_i(2,80,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,80,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,80,'AttRegEx','',d).
+att_prop_i(2,80,'AttValidationFailedMsg','',d).
+att_prop_i(2,80,'DownloadOffline','0',d).
+att_prop_i(2,80,'VarServiceExtName','',d).
+att_prop_i(2,80,'FullName','ClienteFacCedula',v).
+att_prop_i(2,81,'HORIZONTAL_DESCRIPTION','Cliente Fac Rut',d).
+att_prop_i(2,81,'ExternalName','ClienteFacRut',d).
+att_prop_i(2,81,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,81,'EmptyAsNull','Yes',d).
+att_prop_i(2,81,idBasedOn,'',d).
+att_prop_i(2,81,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,81,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,81,'AttRegEx','',d).
+att_prop_i(2,81,'AttValidationFailedMsg','',d).
+att_prop_i(2,81,'DownloadOffline','0',d).
+att_prop_i(2,81,'VarServiceExtName','',d).
+att_prop_i(2,81,'FullName','ClienteFacRut',v).
+att_prop_i(2,82,'HORIZONTAL_DESCRIPTION','Cliente Fac Direccion',d).
+att_prop_i(2,82,'ExternalName','ClienteFacDireccion',d).
+att_prop_i(2,82,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,82,'EmptyAsNull','Yes',d).
+att_prop_i(2,82,idBasedOn,'',d).
+att_prop_i(2,82,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,82,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,82,'AttRegEx','',d).
+att_prop_i(2,82,'AttValidationFailedMsg','',d).
+att_prop_i(2,82,'DownloadOffline','0',d).
+att_prop_i(2,82,'VarServiceExtName','',d).
+att_prop_i(2,82,'FullName','ClienteFacDireccion',v).
+att_prop_i(2,83,'HORIZONTAL_DESCRIPTION','Cliente Fac Localidad',d).
+att_prop_i(2,83,'ExternalName','ClienteFacLocalidad',d).
+att_prop_i(2,83,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,83,'EmptyAsNull','Yes',d).
+att_prop_i(2,83,idBasedOn,'',d).
+att_prop_i(2,83,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,83,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,83,'AttRegEx','',d).
+att_prop_i(2,83,'AttValidationFailedMsg','',d).
+att_prop_i(2,83,'DownloadOffline','0',d).
+att_prop_i(2,83,'VarServiceExtName','',d).
+att_prop_i(2,83,'FullName','ClienteFacLocalidad',v).
+att_prop_i(2,84,'HORIZONTAL_DESCRIPTION','Cliente Fac Departamento',d).
+att_prop_i(2,84,'ExternalName','ClienteFacDepartamento',d).
+att_prop_i(2,84,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,84,'EmptyAsNull','Yes',d).
+att_prop_i(2,84,idBasedOn,83,v).
+att_prop_i(2,84,'AUTONUMBER','0',d).
+att_prop_i(2,84,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,84,'AttRegEx','',d).
+att_prop_i(2,84,'AttValidationFailedMsg','',d).
+att_prop_i(2,84,'DownloadOffline','0',d).
+att_prop_i(2,84,'VarServiceExtName','',d).
+att_prop_i(2,84,'FullName','ClienteFacDepartamento',v).
+att_prop_i(2,85,'HORIZONTAL_DESCRIPTION','Cliente Fac Cpostal',d).
+att_prop_i(2,85,'ExternalName','ClienteFacCpostal',d).
+att_prop_i(2,85,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,85,'EmptyAsNull','Yes',d).
+att_prop_i(2,85,idBasedOn,'',d).
+att_prop_i(2,85,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,85,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,85,'AttRegEx','',d).
+att_prop_i(2,85,'AttValidationFailedMsg','',d).
+att_prop_i(2,85,'DownloadOffline','0',d).
+att_prop_i(2,85,'VarServiceExtName','',d).
+att_prop_i(2,85,'FullName','ClienteFacCpostal',v).
+att_prop_i(2,86,'HORIZONTAL_DESCRIPTION','Cliente Fac Giro',d).
+att_prop_i(2,86,'ExternalName','ClienteFacGiro',d).
+att_prop_i(2,86,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,86,'EmptyAsNull','Yes',d).
+att_prop_i(2,86,idBasedOn,'',d).
+att_prop_i(2,86,'AUTONUMBER','0',d).
+att_prop_i(2,86,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,86,'AttRegEx','',d).
+att_prop_i(2,86,'AttValidationFailedMsg','',d).
+att_prop_i(2,86,'DownloadOffline','0',d).
+att_prop_i(2,86,'VarServiceExtName','',d).
+att_prop_i(2,86,'FullName','ClienteFacGiro',v).
+att_prop_i(2,87,'HORIZONTAL_DESCRIPTION','Cliente Cob Nombre Telefono1',d).
+att_prop_i(2,87,'ExternalName','ClienteCobNombreTelefono1',d).
+att_prop_i(2,87,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,87,'EmptyAsNull','Yes',d).
+att_prop_i(2,87,idBasedOn,85,v).
+att_prop_i(2,87,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,87,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,87,'AttRegEx','',d).
+att_prop_i(2,87,'AttValidationFailedMsg','',d).
+att_prop_i(2,87,'DownloadOffline','0',d).
+att_prop_i(2,87,'VarServiceExtName','',d).
+att_prop_i(2,87,'FullName','ClienteCobNombreTelefono1',v).
+att_prop_i(2,88,'HORIZONTAL_DESCRIPTION','Cliente Fac Telefonos',d).
+att_prop_i(2,88,'ExternalName','ClienteFacTelefonos',d).
+att_prop_i(2,88,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,88,'EmptyAsNull','Yes',d).
+att_prop_i(2,88,idBasedOn,87,v).
+att_prop_i(2,88,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,88,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,88,'AttRegEx','',d).
+att_prop_i(2,88,'AttValidationFailedMsg','',d).
+att_prop_i(2,88,'DownloadOffline','0',d).
+att_prop_i(2,88,'VarServiceExtName','',d).
+att_prop_i(2,88,'FullName','ClienteFacTelefonos',v).
+att_prop_i(2,89,'HORIZONTAL_DESCRIPTION','Cliente Cob Nombre Telefono2',d).
+att_prop_i(2,89,'ExternalName','ClienteCobNombreTelefono2',d).
+att_prop_i(2,89,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,89,'EmptyAsNull','Yes',d).
+att_prop_i(2,89,idBasedOn,85,v).
+att_prop_i(2,89,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,89,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,89,'AttRegEx','',d).
+att_prop_i(2,89,'AttValidationFailedMsg','',d).
+att_prop_i(2,89,'DownloadOffline','0',d).
+att_prop_i(2,89,'VarServiceExtName','',d).
+att_prop_i(2,89,'FullName','ClienteCobNombreTelefono2',v).
+att_prop_i(2,90,'HORIZONTAL_DESCRIPTION','Cliente Cob Telefono2',d).
+att_prop_i(2,90,'ExternalName','ClienteCobTelefono2',d).
+att_prop_i(2,90,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,90,'EmptyAsNull','Yes',d).
+att_prop_i(2,90,idBasedOn,87,v).
+att_prop_i(2,90,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,90,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,90,'AttRegEx','',d).
+att_prop_i(2,90,'AttValidationFailedMsg','',d).
+att_prop_i(2,90,'DownloadOffline','0',d).
+att_prop_i(2,90,'VarServiceExtName','',d).
+att_prop_i(2,90,'FullName','ClienteCobTelefono2',v).
+att_prop_i(2,91,'HORIZONTAL_DESCRIPTION','Cliente Cob Nombre Celular1',d).
+att_prop_i(2,91,'ExternalName','ClienteCobNombreCelular1',d).
+att_prop_i(2,91,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,91,'EmptyAsNull','Yes',d).
+att_prop_i(2,91,idBasedOn,85,v).
+att_prop_i(2,91,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,91,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,91,'AttRegEx','',d).
+att_prop_i(2,91,'AttValidationFailedMsg','',d).
+att_prop_i(2,91,'DownloadOffline','0',d).
+att_prop_i(2,91,'VarServiceExtName','',d).
+att_prop_i(2,91,'FullName','ClienteCobNombreCelular1',v).
+att_prop_i(2,92,'HORIZONTAL_DESCRIPTION','Cliente Cob Celular1',d).
+att_prop_i(2,92,'ExternalName','ClienteCobCelular1',d).
+att_prop_i(2,92,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,92,'EmptyAsNull','Yes',d).
+att_prop_i(2,92,idBasedOn,87,v).
+att_prop_i(2,92,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,92,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,92,'AttRegEx','',d).
+att_prop_i(2,92,'AttValidationFailedMsg','',d).
+att_prop_i(2,92,'DownloadOffline','0',d).
+att_prop_i(2,92,'VarServiceExtName','',d).
+att_prop_i(2,92,'FullName','ClienteCobCelular1',v).
+att_prop_i(2,93,'HORIZONTAL_DESCRIPTION','Cliente Cob Nombre Celular2',d).
+att_prop_i(2,93,'ExternalName','ClienteCobNombreCelular2',d).
+att_prop_i(2,93,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,93,'EmptyAsNull','Yes',d).
+att_prop_i(2,93,idBasedOn,85,v).
+att_prop_i(2,93,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,93,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,93,'AttRegEx','',d).
+att_prop_i(2,93,'AttValidationFailedMsg','',d).
+att_prop_i(2,93,'DownloadOffline','0',d).
+att_prop_i(2,93,'VarServiceExtName','',d).
+att_prop_i(2,93,'FullName','ClienteCobNombreCelular2',v).
+att_prop_i(2,94,'HORIZONTAL_DESCRIPTION','Cliente Cob Celular2',d).
+att_prop_i(2,94,'ExternalName','ClienteCobCelular2',d).
+att_prop_i(2,94,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,94,'EmptyAsNull','Yes',d).
+att_prop_i(2,94,idBasedOn,87,v).
+att_prop_i(2,94,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,94,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,94,'AttRegEx','',d).
+att_prop_i(2,94,'AttValidationFailedMsg','',d).
+att_prop_i(2,94,'DownloadOffline','0',d).
+att_prop_i(2,94,'VarServiceExtName','',d).
+att_prop_i(2,94,'FullName','ClienteCobCelular2',v).
+att_prop_i(2,95,'HORIZONTAL_DESCRIPTION','Cliente Cob Nombre Email1',d).
+att_prop_i(2,95,'ExternalName','ClienteCobNombreEmail1',d).
+att_prop_i(2,95,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,95,'EmptyAsNull','Yes',d).
+att_prop_i(2,95,idBasedOn,85,v).
+att_prop_i(2,95,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,95,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,95,'AttRegEx','',d).
+att_prop_i(2,95,'AttValidationFailedMsg','',d).
+att_prop_i(2,95,'DownloadOffline','0',d).
+att_prop_i(2,95,'VarServiceExtName','',d).
+att_prop_i(2,95,'FullName','ClienteCobNombreEmail1',v).
+att_prop_i(2,96,'HORIZONTAL_DESCRIPTION','Cliente Cob Email1',d).
+att_prop_i(2,96,'ExternalName','ClienteCobEmail1',d).
+att_prop_i(2,96,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,96,'EmptyAsNull','Yes',d).
+att_prop_i(2,96,idBasedOn,86,v).
+att_prop_i(2,96,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,96,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,96,'AttRegEx','',d).
+att_prop_i(2,96,'AttValidationFailedMsg','',d).
+att_prop_i(2,96,'DownloadOffline','0',d).
+att_prop_i(2,96,'VarServiceExtName','',d).
+att_prop_i(2,96,'FullName','ClienteCobEmail1',v).
+att_prop_i(2,97,'HORIZONTAL_DESCRIPTION','Cliente Cob Nombre Email2',d).
+att_prop_i(2,97,'ExternalName','ClienteCobNombreEmail2',d).
+att_prop_i(2,97,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,97,'EmptyAsNull','Yes',d).
+att_prop_i(2,97,idBasedOn,85,v).
+att_prop_i(2,97,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,97,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,97,'AttRegEx','',d).
+att_prop_i(2,97,'AttValidationFailedMsg','',d).
+att_prop_i(2,97,'DownloadOffline','0',d).
+att_prop_i(2,97,'VarServiceExtName','',d).
+att_prop_i(2,97,'FullName','ClienteCobNombreEmail2',v).
+att_prop_i(2,98,'HORIZONTAL_DESCRIPTION','Cliente Cob Email2',d).
+att_prop_i(2,98,'ExternalName','ClienteCobEmail2',d).
+att_prop_i(2,98,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,98,'EmptyAsNull','Yes',d).
+att_prop_i(2,98,idBasedOn,86,v).
+att_prop_i(2,98,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,98,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,98,'AttRegEx','',d).
+att_prop_i(2,98,'AttValidationFailedMsg','',d).
+att_prop_i(2,98,'DownloadOffline','0',d).
+att_prop_i(2,98,'VarServiceExtName','',d).
+att_prop_i(2,98,'FullName','ClienteCobEmail2',v).
+att_prop_i(2,99,'HORIZONTAL_DESCRIPTION','Cliente Fac Fax',d).
+att_prop_i(2,99,'ExternalName','ClienteFacFax',d).
+att_prop_i(2,99,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,99,'EmptyAsNull','Yes',d).
+att_prop_i(2,99,idBasedOn,87,v).
+att_prop_i(2,99,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,99,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,99,'AttRegEx','',d).
+att_prop_i(2,99,'AttValidationFailedMsg','',d).
+att_prop_i(2,99,'DownloadOffline','0',d).
+att_prop_i(2,99,'VarServiceExtName','',d).
+att_prop_i(2,99,'FullName','ClienteFacFax',v).
+att_prop_i(2,100,'HORIZONTAL_DESCRIPTION','Cliente Fac Email',d).
+att_prop_i(2,100,'ExternalName','ClienteFacEmail',d).
+att_prop_i(2,100,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,100,'EmptyAsNull','Yes',d).
+att_prop_i(2,100,idBasedOn,86,v).
+att_prop_i(2,100,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,100,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,100,'AttRegEx','',d).
+att_prop_i(2,100,'AttValidationFailedMsg','',d).
+att_prop_i(2,100,'DownloadOffline','0',d).
+att_prop_i(2,100,'VarServiceExtName','',d).
+att_prop_i(2,100,'FullName','ClienteFacEmail',v).
+att_prop_i(2,101,'HORIZONTAL_DESCRIPTION','Cliente Fac Contrato',d).
+att_prop_i(2,101,'ExternalName','ClienteFacContrato',d).
+att_prop_i(2,101,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,101,'EmptyAsNull','Yes',d).
+att_prop_i(2,101,idBasedOn,'',d).
+att_prop_i(2,101,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,101,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,101,'AttRegEx','',d).
+att_prop_i(2,101,'AttValidationFailedMsg','',d).
+att_prop_i(2,101,'DownloadOffline','0',d).
+att_prop_i(2,101,'VarServiceExtName','',d).
+att_prop_i(2,101,'FullName','ClienteFacContrato',v).
+att_prop_i(2,102,'HORIZONTAL_DESCRIPTION','Cliente Fac Observaciones',d).
+att_prop_i(2,102,'ExternalName','ClienteFacObservaciones',d).
+att_prop_i(2,102,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,102,'EmptyAsNull','Yes',d).
+att_prop_i(2,102,idBasedOn,'',d).
+att_prop_i(2,102,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,102,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,102,'AttRegEx','',d).
+att_prop_i(2,102,'AttValidationFailedMsg','',d).
+att_prop_i(2,102,'DownloadOffline','0',d).
+att_prop_i(2,102,'VarServiceExtName','',d).
+att_prop_i(2,102,'FullName','ClienteFacObservaciones',v).
+att_prop_i(2,103,'HORIZONTAL_DESCRIPTION','Cliente Fac Lista',d).
+att_prop_i(2,103,'ExternalName','ClienteFacLista',d).
+att_prop_i(2,103,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,103,'EmptyAsNull','Yes',d).
+att_prop_i(2,103,idBasedOn,'',d).
+att_prop_i(2,103,'AUTONUMBER','0',d).
+att_prop_i(2,103,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,103,'AttRegEx','',d).
+att_prop_i(2,103,'AttValidationFailedMsg','',d).
+att_prop_i(2,103,'DownloadOffline','0',d).
+att_prop_i(2,103,'VarServiceExtName','',d).
+att_prop_i(2,103,'FullName','ClienteFacLista',v).
+att_prop_i(2,104,'HORIZONTAL_DESCRIPTION','Cliente Fac Contado',d).
+att_prop_i(2,104,'ExternalName','ClienteFacContado',d).
+att_prop_i(2,104,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,104,'EmptyAsNull','Yes',d).
+att_prop_i(2,104,idBasedOn,'',d).
+att_prop_i(2,104,'AUTONUMBER','0',d).
+att_prop_i(2,104,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,104,'AttRegEx','',d).
+att_prop_i(2,104,'AttValidationFailedMsg','',d).
+att_prop_i(2,104,'DownloadOffline','0',d).
+att_prop_i(2,104,'VarServiceExtName','',d).
+att_prop_i(2,104,'FullName','ClienteFacContado',v).
+att_prop_i(2,105,'HORIZONTAL_DESCRIPTION','Cliente Not Email Frascos1',d).
+att_prop_i(2,105,'ExternalName','ClienteNotEmailFrascos1',d).
+att_prop_i(2,105,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,105,'EmptyAsNull','Yes',d).
+att_prop_i(2,105,idBasedOn,86,v).
+att_prop_i(2,105,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,105,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,105,'AttRegEx','',d).
+att_prop_i(2,105,'AttValidationFailedMsg','',d).
+att_prop_i(2,105,'DownloadOffline','0',d).
+att_prop_i(2,105,'VarServiceExtName','',d).
+att_prop_i(2,105,'FullName','ClienteNotEmailFrascos1',v).
+att_prop_i(2,106,'HORIZONTAL_DESCRIPTION','Cliente Not Email Frascos2',d).
+att_prop_i(2,106,'ExternalName','ClienteNotEmailFrascos2',d).
+att_prop_i(2,106,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,106,'EmptyAsNull','Yes',d).
+att_prop_i(2,106,idBasedOn,86,v).
+att_prop_i(2,106,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,106,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,106,'AttRegEx','',d).
+att_prop_i(2,106,'AttValidationFailedMsg','',d).
+att_prop_i(2,106,'DownloadOffline','0',d).
+att_prop_i(2,106,'VarServiceExtName','',d).
+att_prop_i(2,106,'FullName','ClienteNotEmailFrascos2',v).
+att_prop_i(2,107,'HORIZONTAL_DESCRIPTION','Cliente Not Email Muestra1',d).
+att_prop_i(2,107,'ExternalName','ClienteNotEmailMuestra1',d).
+att_prop_i(2,107,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,107,'EmptyAsNull','Yes',d).
+att_prop_i(2,107,idBasedOn,86,v).
+att_prop_i(2,107,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,107,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,107,'AttRegEx','',d).
+att_prop_i(2,107,'AttValidationFailedMsg','',d).
+att_prop_i(2,107,'DownloadOffline','0',d).
+att_prop_i(2,107,'VarServiceExtName','',d).
+att_prop_i(2,107,'FullName','ClienteNotEmailMuestra1',v).
+att_prop_i(2,108,'HORIZONTAL_DESCRIPTION','Cliente Not Email Muestra2',d).
+att_prop_i(2,108,'ExternalName','ClienteNotEmailMuestra2',d).
+att_prop_i(2,108,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,108,'EmptyAsNull','Yes',d).
+att_prop_i(2,108,idBasedOn,86,v).
+att_prop_i(2,108,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,108,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,108,'AttRegEx','',d).
+att_prop_i(2,108,'AttValidationFailedMsg','',d).
+att_prop_i(2,108,'DownloadOffline','0',d).
+att_prop_i(2,108,'VarServiceExtName','',d).
+att_prop_i(2,108,'FullName','ClienteNotEmailMuestra2',v).
+att_prop_i(2,109,'HORIZONTAL_DESCRIPTION','Cliente Not Email Analisis1',d).
+att_prop_i(2,109,'ExternalName','ClienteNotEmailAnalisis1',d).
+att_prop_i(2,109,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,109,'EmptyAsNull','Yes',d).
+att_prop_i(2,109,idBasedOn,86,v).
+att_prop_i(2,109,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,109,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,109,'AttRegEx','',d).
+att_prop_i(2,109,'AttValidationFailedMsg','',d).
+att_prop_i(2,109,'DownloadOffline','0',d).
+att_prop_i(2,109,'VarServiceExtName','',d).
+att_prop_i(2,109,'FullName','ClienteNotEmailAnalisis1',v).
+att_prop_i(2,110,'HORIZONTAL_DESCRIPTION','Cliente Not Email Analisis2',d).
+att_prop_i(2,110,'ExternalName','ClienteNotEmailAnalisis2',d).
+att_prop_i(2,110,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,110,'EmptyAsNull','Yes',d).
+att_prop_i(2,110,idBasedOn,86,v).
+att_prop_i(2,110,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,110,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,110,'AttRegEx','',d).
+att_prop_i(2,110,'AttValidationFailedMsg','',d).
+att_prop_i(2,110,'DownloadOffline','0',d).
+att_prop_i(2,110,'VarServiceExtName','',d).
+att_prop_i(2,110,'FullName','ClienteNotEmailAnalisis2',v).
+att_prop_i(2,111,'HORIZONTAL_DESCRIPTION','Cliente Not Email General1',d).
+att_prop_i(2,111,'ExternalName','ClienteNotEmailGeneral1',d).
+att_prop_i(2,111,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,111,'EmptyAsNull','Yes',d).
+att_prop_i(2,111,idBasedOn,86,v).
+att_prop_i(2,111,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,111,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,111,'AttRegEx','',d).
+att_prop_i(2,111,'AttValidationFailedMsg','',d).
+att_prop_i(2,111,'DownloadOffline','0',d).
+att_prop_i(2,111,'VarServiceExtName','',d).
+att_prop_i(2,111,'FullName','ClienteNotEmailGeneral1',v).
+att_prop_i(2,112,'HORIZONTAL_DESCRIPTION','Cliente Not Email General2',d).
+att_prop_i(2,112,'ExternalName','ClienteNotEmailGeneral2',d).
+att_prop_i(2,112,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,112,'EmptyAsNull','Yes',d).
+att_prop_i(2,112,idBasedOn,86,v).
+att_prop_i(2,112,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,112,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,112,'AttRegEx','',d).
+att_prop_i(2,112,'AttValidationFailedMsg','',d).
+att_prop_i(2,112,'DownloadOffline','0',d).
+att_prop_i(2,112,'VarServiceExtName','',d).
+att_prop_i(2,112,'FullName','ClienteNotEmailGeneral2',v).
+att_prop_i(2,113,'HORIZONTAL_DESCRIPTION','Cliente Incobrable',d).
+att_prop_i(2,113,'ExternalName','ClienteIncobrable',d).
+att_prop_i(2,113,'ExternalNamespace','Colaveco',d).
+att_prop_i(2,113,'EmptyAsNull','Yes',d).
+att_prop_i(2,113,idBasedOn,'',d).
+att_prop_i(2,113,'AUTONUMBER','0',d).
+att_prop_i(2,113,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,113,'AttRegEx','',d).
+att_prop_i(2,113,'AttValidationFailedMsg','',d).
+att_prop_i(2,113,'DownloadOffline','0',d).
+att_prop_i(2,113,'VarServiceExtName','',d).
+att_prop_i(2,113,'FullName','ClienteIncobrable',v).
+ 
+ 
+tbl_att_prop_i(2,4,4,'AllowNulls',n).
+tbl_att_prop_i(2,4,168,'AllowNulls',n).
+ 
+ 
+i_tbl_best_trn(4,[ 4,1,'Cliente','Cliente',[] ]).
+ 
+ 
+ 
+trn_level_i(4,[ [ 4,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,168,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113 ],'Cliente','Cliente','Cliente','',45 ]).
+ 
+struct_dt_i([ 0,4,0 ],name,'Cliente').
+struct_dt_i([ 0,4,0 ],namespace,'Colaveco').
+struct_dt_i([ 0,4,0 ],significantName,'Cliente').
+struct_dt_i([ 0,4,0 ],'ObjName','Cliente').
+struct_dt_i([ 0,4,0 ],'ObjDesc','Cliente').
+struct_dt_i([ 0,4,0 ],'ExternalName','Cliente').
+struct_dt_i([ 0,4,0 ],'ExternalNamespace','Colaveco').
+struct_dt_i([ 0,4,0 ],key,[ 4 ]).
+struct_dt_i([ 0,4,0 ],lvl,4).
+struct_dt_i([ 26,13,0 ],name,'GeneXus\Common\Messages').
+struct_dt_i([ 26,13,0 ],namespace,'GeneXus').
+struct_dt_i([ 26,13,0 ],'ObjName','Messages').
+struct_dt_i([ 26,13,0 ],'ObjDesc','Messages').
+struct_dt_i([ 26,13,0 ],'ExternalName','Messages').
+struct_dt_i([ 26,13,0 ],'ExternalNamespace','GeneXus').
+struct_dt_i([ 26,13,0 ],collection,'True').
+struct_dt_i([ 26,13,0 ],datatype,[ 26,13,30 ]).
+struct_dt_i([ 26,13,0 ],'CollectionItemName','Message').
+struct_dt_i([ 26,13,0 ],'XmlName','').
+struct_dt_i([ 26,13,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,13,0 ],'XmlNamespace','').
+struct_dt_i([ 26,13,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,13,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,13,0 ],'JsonName','').
+struct_dt_i([ 26,13,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,13,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,13,0 ],isexternal,'True').
+struct_dt_i([ 26,13,30 ],name,'Message').
+struct_dt_i([ 26,13,30 ],namespace,'GeneXus.Messages').
+struct_dt_i([ 0,4,0 ],fullname,'Cliente').
+struct_dt_i([ 26,13,0 ],fullname,'GeneXus\Common\Messages').
+struct_dt_i([ 26,13,30 ],fullname,'GeneXus\Common\Messages.Message').
+ 
+struct_dt_elem_i([ 0,4,0 ],1,name,'Clienteid').
+struct_dt_elem_i([ 0,4,0 ],1,camelname,'ClienteId').
+struct_dt_elem_i([ 0,4,0 ],1,basedon,83).
+struct_dt_elem_i([ 0,4,0 ],1,length,18).
+struct_dt_elem_i([ 0,4,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],1,sign,0).
+struct_dt_elem_i([ 0,4,0 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,4,0 ],1,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],1,attributeid,'4').
+struct_dt_elem_i([ 0,4,0 ],1,'ExternalName','ClienteId').
+struct_dt_elem_i([ 0,4,0 ],1,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],2,name,'Clientenombre').
+struct_dt_elem_i([ 0,4,0 ],2,camelname,'ClienteNombre').
+struct_dt_elem_i([ 0,4,0 ],2,basedon,85).
+struct_dt_elem_i([ 0,4,0 ],2,length,100).
+struct_dt_elem_i([ 0,4,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],2,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],2,pic,'').
+struct_dt_elem_i([ 0,4,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],2,attributeid,'45').
+struct_dt_elem_i([ 0,4,0 ],2,'ExternalName','ClienteNombre').
+struct_dt_elem_i([ 0,4,0 ],2,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],3,name,'Clienteemail').
+struct_dt_elem_i([ 0,4,0 ],3,camelname,'ClienteEmail').
+struct_dt_elem_i([ 0,4,0 ],3,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],3,length,100).
+struct_dt_elem_i([ 0,4,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],3,pic,'').
+struct_dt_elem_i([ 0,4,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],3,attributeid,'46').
+struct_dt_elem_i([ 0,4,0 ],3,'ExternalName','ClienteEmail').
+struct_dt_elem_i([ 0,4,0 ],3,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],4,name,'Clientenombreemail1').
+struct_dt_elem_i([ 0,4,0 ],4,camelname,'ClienteNombreEmail1').
+struct_dt_elem_i([ 0,4,0 ],4,basedon,85).
+struct_dt_elem_i([ 0,4,0 ],4,length,100).
+struct_dt_elem_i([ 0,4,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],4,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],4,pic,'').
+struct_dt_elem_i([ 0,4,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],4,attributeid,'47').
+struct_dt_elem_i([ 0,4,0 ],4,'ExternalName','ClienteNombreEmail1').
+struct_dt_elem_i([ 0,4,0 ],4,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],5,name,'Clienteemail1').
+struct_dt_elem_i([ 0,4,0 ],5,camelname,'ClienteEmail1').
+struct_dt_elem_i([ 0,4,0 ],5,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],5,length,100).
+struct_dt_elem_i([ 0,4,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],5,pic,'').
+struct_dt_elem_i([ 0,4,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],5,attributeid,'48').
+struct_dt_elem_i([ 0,4,0 ],5,'ExternalName','ClienteEmail1').
+struct_dt_elem_i([ 0,4,0 ],5,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],6,name,'Clientenombreemail2').
+struct_dt_elem_i([ 0,4,0 ],6,camelname,'ClienteNombreEmail2').
+struct_dt_elem_i([ 0,4,0 ],6,basedon,85).
+struct_dt_elem_i([ 0,4,0 ],6,length,100).
+struct_dt_elem_i([ 0,4,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],6,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],6,pic,'').
+struct_dt_elem_i([ 0,4,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],6,attributeid,'49').
+struct_dt_elem_i([ 0,4,0 ],6,'ExternalName','ClienteNombreEmail2').
+struct_dt_elem_i([ 0,4,0 ],6,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],7,name,'Clienteemail2').
+struct_dt_elem_i([ 0,4,0 ],7,camelname,'ClienteEmail2').
+struct_dt_elem_i([ 0,4,0 ],7,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],7,length,100).
+struct_dt_elem_i([ 0,4,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],7,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],7,pic,'').
+struct_dt_elem_i([ 0,4,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],7,attributeid,'50').
+struct_dt_elem_i([ 0,4,0 ],7,'ExternalName','ClienteEmail2').
+struct_dt_elem_i([ 0,4,0 ],7,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],8,name,'Clienteenvio').
+struct_dt_elem_i([ 0,4,0 ],8,camelname,'ClienteEnvio').
+struct_dt_elem_i([ 0,4,0 ],8,length,200).
+struct_dt_elem_i([ 0,4,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],8,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,4,0 ],8,pic,'').
+struct_dt_elem_i([ 0,4,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],8,attributeid,'51').
+struct_dt_elem_i([ 0,4,0 ],8,'ExternalName','ClienteEnvio').
+struct_dt_elem_i([ 0,4,0 ],8,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],9,name,'Clienteusuarioweb').
+struct_dt_elem_i([ 0,4,0 ],9,camelname,'ClienteUsuarioWeb').
+struct_dt_elem_i([ 0,4,0 ],9,length,100).
+struct_dt_elem_i([ 0,4,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],9,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],9,pic,'').
+struct_dt_elem_i([ 0,4,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],9,attributeid,'52').
+struct_dt_elem_i([ 0,4,0 ],9,'ExternalName','ClienteUsuarioWeb').
+struct_dt_elem_i([ 0,4,0 ],9,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],10,name,'Clientenombrecelular1').
+struct_dt_elem_i([ 0,4,0 ],10,camelname,'ClienteNombreCelular1').
+struct_dt_elem_i([ 0,4,0 ],10,basedon,85).
+struct_dt_elem_i([ 0,4,0 ],10,length,100).
+struct_dt_elem_i([ 0,4,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],10,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],10,pic,'').
+struct_dt_elem_i([ 0,4,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],10,attributeid,'53').
+struct_dt_elem_i([ 0,4,0 ],10,'ExternalName','ClienteNombreCelular1').
+struct_dt_elem_i([ 0,4,0 ],10,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],11,name,'Clientecelular1').
+struct_dt_elem_i([ 0,4,0 ],11,camelname,'ClienteCelular1').
+struct_dt_elem_i([ 0,4,0 ],11,basedon,87).
+struct_dt_elem_i([ 0,4,0 ],11,length,100).
+struct_dt_elem_i([ 0,4,0 ],11,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],11,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],11,pic,'').
+struct_dt_elem_i([ 0,4,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],11,attributeid,'54').
+struct_dt_elem_i([ 0,4,0 ],11,'ExternalName','ClienteCelular1').
+struct_dt_elem_i([ 0,4,0 ],11,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],12,name,'Clientenombrecelular2').
+struct_dt_elem_i([ 0,4,0 ],12,camelname,'ClienteNombreCelular2').
+struct_dt_elem_i([ 0,4,0 ],12,basedon,85).
+struct_dt_elem_i([ 0,4,0 ],12,length,100).
+struct_dt_elem_i([ 0,4,0 ],12,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],12,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],12,pic,'').
+struct_dt_elem_i([ 0,4,0 ],12,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],12,attributeid,'55').
+struct_dt_elem_i([ 0,4,0 ],12,'ExternalName','ClienteNombreCelular2').
+struct_dt_elem_i([ 0,4,0 ],12,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],13,name,'Clientecelular2').
+struct_dt_elem_i([ 0,4,0 ],13,camelname,'ClienteCelular2').
+struct_dt_elem_i([ 0,4,0 ],13,basedon,87).
+struct_dt_elem_i([ 0,4,0 ],13,length,100).
+struct_dt_elem_i([ 0,4,0 ],13,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],13,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],13,pic,'').
+struct_dt_elem_i([ 0,4,0 ],13,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],13,attributeid,'56').
+struct_dt_elem_i([ 0,4,0 ],13,'ExternalName','ClienteCelular2').
+struct_dt_elem_i([ 0,4,0 ],13,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],14,name,'Clientecodigofigaro').
+struct_dt_elem_i([ 0,4,0 ],14,camelname,'ClienteCodigoFigaro').
+struct_dt_elem_i([ 0,4,0 ],14,length,40).
+struct_dt_elem_i([ 0,4,0 ],14,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],14,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,4,0 ],14,pic,'').
+struct_dt_elem_i([ 0,4,0 ],14,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],14,attributeid,'57').
+struct_dt_elem_i([ 0,4,0 ],14,'ExternalName','ClienteCodigoFigaro').
+struct_dt_elem_i([ 0,4,0 ],14,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],15,name,'Clientetipousuario').
+struct_dt_elem_i([ 0,4,0 ],15,camelname,'ClienteTipoUsuario').
+struct_dt_elem_i([ 0,4,0 ],15,length,4).
+struct_dt_elem_i([ 0,4,0 ],15,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],15,sign,0).
+struct_dt_elem_i([ 0,4,0 ],15,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,4,0 ],15,pic,'ZZZ9').
+struct_dt_elem_i([ 0,4,0 ],15,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],15,attributeid,'58').
+struct_dt_elem_i([ 0,4,0 ],15,'ExternalName','ClienteTipoUsuario').
+struct_dt_elem_i([ 0,4,0 ],15,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],16,name,'Clientedireccion').
+struct_dt_elem_i([ 0,4,0 ],16,camelname,'ClienteDireccion').
+struct_dt_elem_i([ 0,4,0 ],16,length,200).
+struct_dt_elem_i([ 0,4,0 ],16,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],16,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,4,0 ],16,pic,'').
+struct_dt_elem_i([ 0,4,0 ],16,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],16,attributeid,'59').
+struct_dt_elem_i([ 0,4,0 ],16,'ExternalName','ClienteDireccion').
+struct_dt_elem_i([ 0,4,0 ],16,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],17,name,'Clientenombretelefono1').
+struct_dt_elem_i([ 0,4,0 ],17,camelname,'ClienteNombreTelefono1').
+struct_dt_elem_i([ 0,4,0 ],17,basedon,85).
+struct_dt_elem_i([ 0,4,0 ],17,length,100).
+struct_dt_elem_i([ 0,4,0 ],17,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],17,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],17,pic,'').
+struct_dt_elem_i([ 0,4,0 ],17,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],17,attributeid,'60').
+struct_dt_elem_i([ 0,4,0 ],17,'ExternalName','ClienteNombreTelefono1').
+struct_dt_elem_i([ 0,4,0 ],17,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],18,name,'Clientetelefono1').
+struct_dt_elem_i([ 0,4,0 ],18,camelname,'ClienteTelefono1').
+struct_dt_elem_i([ 0,4,0 ],18,basedon,87).
+struct_dt_elem_i([ 0,4,0 ],18,length,100).
+struct_dt_elem_i([ 0,4,0 ],18,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],18,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],18,pic,'').
+struct_dt_elem_i([ 0,4,0 ],18,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],18,attributeid,'61').
+struct_dt_elem_i([ 0,4,0 ],18,'ExternalName','ClienteTelefono1').
+struct_dt_elem_i([ 0,4,0 ],18,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],19,name,'Clientenombretelefono2').
+struct_dt_elem_i([ 0,4,0 ],19,camelname,'ClienteNombreTelefono2').
+struct_dt_elem_i([ 0,4,0 ],19,basedon,85).
+struct_dt_elem_i([ 0,4,0 ],19,length,100).
+struct_dt_elem_i([ 0,4,0 ],19,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],19,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],19,pic,'').
+struct_dt_elem_i([ 0,4,0 ],19,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],19,attributeid,'62').
+struct_dt_elem_i([ 0,4,0 ],19,'ExternalName','ClienteNombreTelefono2').
+struct_dt_elem_i([ 0,4,0 ],19,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],20,name,'Clientetelefono2').
+struct_dt_elem_i([ 0,4,0 ],20,camelname,'ClienteTelefono2').
+struct_dt_elem_i([ 0,4,0 ],20,basedon,87).
+struct_dt_elem_i([ 0,4,0 ],20,length,100).
+struct_dt_elem_i([ 0,4,0 ],20,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],20,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],20,pic,'').
+struct_dt_elem_i([ 0,4,0 ],20,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],20,attributeid,'63').
+struct_dt_elem_i([ 0,4,0 ],20,'ExternalName','ClienteTelefono2').
+struct_dt_elem_i([ 0,4,0 ],20,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],21,name,'Clientefax').
+struct_dt_elem_i([ 0,4,0 ],21,camelname,'ClienteFax').
+struct_dt_elem_i([ 0,4,0 ],21,basedon,87).
+struct_dt_elem_i([ 0,4,0 ],21,length,100).
+struct_dt_elem_i([ 0,4,0 ],21,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],21,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],21,pic,'').
+struct_dt_elem_i([ 0,4,0 ],21,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],21,attributeid,'64').
+struct_dt_elem_i([ 0,4,0 ],21,'ExternalName','ClienteFax').
+struct_dt_elem_i([ 0,4,0 ],21,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],22,name,'Clientedicose').
+struct_dt_elem_i([ 0,4,0 ],22,camelname,'ClienteDicose').
+struct_dt_elem_i([ 0,4,0 ],22,basedon,88).
+struct_dt_elem_i([ 0,4,0 ],22,length,40).
+struct_dt_elem_i([ 0,4,0 ],22,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],22,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,4,0 ],22,pic,'').
+struct_dt_elem_i([ 0,4,0 ],22,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],22,attributeid,'65').
+struct_dt_elem_i([ 0,4,0 ],22,'ExternalName','ClienteDicose').
+struct_dt_elem_i([ 0,4,0 ],22,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],23,name,'Clienteiddepartamento').
+struct_dt_elem_i([ 0,4,0 ],23,camelname,'ClienteIdDepartamento').
+struct_dt_elem_i([ 0,4,0 ],23,basedon,83).
+struct_dt_elem_i([ 0,4,0 ],23,length,18).
+struct_dt_elem_i([ 0,4,0 ],23,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],23,sign,0).
+struct_dt_elem_i([ 0,4,0 ],23,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,4,0 ],23,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],23,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],23,attributeid,'66').
+struct_dt_elem_i([ 0,4,0 ],23,'ExternalName','ClienteIdDepartamento').
+struct_dt_elem_i([ 0,4,0 ],23,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],24,name,'Clienteidlocalidad').
+struct_dt_elem_i([ 0,4,0 ],24,camelname,'ClienteIdLocalidad').
+struct_dt_elem_i([ 0,4,0 ],24,basedon,83).
+struct_dt_elem_i([ 0,4,0 ],24,length,18).
+struct_dt_elem_i([ 0,4,0 ],24,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],24,sign,0).
+struct_dt_elem_i([ 0,4,0 ],24,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,4,0 ],24,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],24,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],24,attributeid,'67').
+struct_dt_elem_i([ 0,4,0 ],24,'ExternalName','ClienteIdLocalidad').
+struct_dt_elem_i([ 0,4,0 ],24,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],25,name,'Clientetecnico1').
+struct_dt_elem_i([ 0,4,0 ],25,camelname,'ClienteTecnico1').
+struct_dt_elem_i([ 0,4,0 ],25,basedon,83).
+struct_dt_elem_i([ 0,4,0 ],25,length,18).
+struct_dt_elem_i([ 0,4,0 ],25,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],25,sign,0).
+struct_dt_elem_i([ 0,4,0 ],25,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,4,0 ],25,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],25,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],25,attributeid,'68').
+struct_dt_elem_i([ 0,4,0 ],25,'ExternalName','ClienteTecnico1').
+struct_dt_elem_i([ 0,4,0 ],25,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],26,name,'Clientetecnico2').
+struct_dt_elem_i([ 0,4,0 ],26,camelname,'ClienteTecnico2').
+struct_dt_elem_i([ 0,4,0 ],26,basedon,83).
+struct_dt_elem_i([ 0,4,0 ],26,length,18).
+struct_dt_elem_i([ 0,4,0 ],26,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],26,sign,0).
+struct_dt_elem_i([ 0,4,0 ],26,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,4,0 ],26,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],26,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],26,attributeid,'69').
+struct_dt_elem_i([ 0,4,0 ],26,'ExternalName','ClienteTecnico2').
+struct_dt_elem_i([ 0,4,0 ],26,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],27,name,'Clienteidagencia').
+struct_dt_elem_i([ 0,4,0 ],27,camelname,'ClienteIdAgencia').
+struct_dt_elem_i([ 0,4,0 ],27,basedon,83).
+struct_dt_elem_i([ 0,4,0 ],27,length,18).
+struct_dt_elem_i([ 0,4,0 ],27,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],27,sign,0).
+struct_dt_elem_i([ 0,4,0 ],27,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,4,0 ],27,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],27,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],27,attributeid,'70').
+struct_dt_elem_i([ 0,4,0 ],27,'ExternalName','ClienteIdAgencia').
+struct_dt_elem_i([ 0,4,0 ],27,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],28,name,'Clientecontrato').
+struct_dt_elem_i([ 0,4,0 ],28,camelname,'ClienteContrato').
+struct_dt_elem_i([ 0,4,0 ],28,length,4).
+struct_dt_elem_i([ 0,4,0 ],28,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],28,sign,0).
+struct_dt_elem_i([ 0,4,0 ],28,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,4,0 ],28,pic,'ZZZ9').
+struct_dt_elem_i([ 0,4,0 ],28,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],28,attributeid,'71').
+struct_dt_elem_i([ 0,4,0 ],28,'ExternalName','ClienteContrato').
+struct_dt_elem_i([ 0,4,0 ],28,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],29,name,'Clientesocio').
+struct_dt_elem_i([ 0,4,0 ],29,camelname,'ClienteSocio').
+struct_dt_elem_i([ 0,4,0 ],29,length,4).
+struct_dt_elem_i([ 0,4,0 ],29,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],29,sign,0).
+struct_dt_elem_i([ 0,4,0 ],29,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,4,0 ],29,pic,'ZZZ9').
+struct_dt_elem_i([ 0,4,0 ],29,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],29,attributeid,'72').
+struct_dt_elem_i([ 0,4,0 ],29,'ExternalName','ClienteSocio').
+struct_dt_elem_i([ 0,4,0 ],29,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],30,name,'Clientenousar').
+struct_dt_elem_i([ 0,4,0 ],30,camelname,'ClienteNoUsar').
+struct_dt_elem_i([ 0,4,0 ],30,length,4).
+struct_dt_elem_i([ 0,4,0 ],30,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],30,sign,0).
+struct_dt_elem_i([ 0,4,0 ],30,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,4,0 ],30,pic,'ZZZ9').
+struct_dt_elem_i([ 0,4,0 ],30,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],30,attributeid,'73').
+struct_dt_elem_i([ 0,4,0 ],30,'ExternalName','ClienteNoUsar').
+struct_dt_elem_i([ 0,4,0 ],30,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],31,name,'Clientecodbar').
+struct_dt_elem_i([ 0,4,0 ],31,camelname,'ClienteCodbar').
+struct_dt_elem_i([ 0,4,0 ],31,length,4).
+struct_dt_elem_i([ 0,4,0 ],31,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],31,sign,0).
+struct_dt_elem_i([ 0,4,0 ],31,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,4,0 ],31,pic,'ZZZ9').
+struct_dt_elem_i([ 0,4,0 ],31,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],31,attributeid,'74').
+struct_dt_elem_i([ 0,4,0 ],31,'ExternalName','ClienteCodbar').
+struct_dt_elem_i([ 0,4,0 ],31,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],32,name,'Clientecaravanas').
+struct_dt_elem_i([ 0,4,0 ],32,camelname,'ClienteCaravanas').
+struct_dt_elem_i([ 0,4,0 ],32,length,4).
+struct_dt_elem_i([ 0,4,0 ],32,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],32,sign,0).
+struct_dt_elem_i([ 0,4,0 ],32,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,4,0 ],32,pic,'ZZZ9').
+struct_dt_elem_i([ 0,4,0 ],32,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],32,attributeid,'75').
+struct_dt_elem_i([ 0,4,0 ],32,'ExternalName','ClienteCaravanas').
+struct_dt_elem_i([ 0,4,0 ],32,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],33,name,'Clienteprolesa').
+struct_dt_elem_i([ 0,4,0 ],33,camelname,'ClienteProlesa').
+struct_dt_elem_i([ 0,4,0 ],33,length,4).
+struct_dt_elem_i([ 0,4,0 ],33,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],33,sign,0).
+struct_dt_elem_i([ 0,4,0 ],33,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,4,0 ],33,pic,'ZZZ9').
+struct_dt_elem_i([ 0,4,0 ],33,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],33,attributeid,'76').
+struct_dt_elem_i([ 0,4,0 ],33,'ExternalName','ClienteProlesa').
+struct_dt_elem_i([ 0,4,0 ],33,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],34,name,'Clienteprolesasuc').
+struct_dt_elem_i([ 0,4,0 ],34,camelname,'ClienteProlesaSuc').
+struct_dt_elem_i([ 0,4,0 ],34,length,18).
+struct_dt_elem_i([ 0,4,0 ],34,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],34,sign,0).
+struct_dt_elem_i([ 0,4,0 ],34,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,4,0 ],34,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],34,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],34,attributeid,'77').
+struct_dt_elem_i([ 0,4,0 ],34,'ExternalName','ClienteProlesaSuc').
+struct_dt_elem_i([ 0,4,0 ],34,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],35,name,'Clienteprolesamat').
+struct_dt_elem_i([ 0,4,0 ],35,camelname,'ClienteProlesaMat').
+struct_dt_elem_i([ 0,4,0 ],35,length,18).
+struct_dt_elem_i([ 0,4,0 ],35,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],35,sign,0).
+struct_dt_elem_i([ 0,4,0 ],35,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,4,0 ],35,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],35,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],35,attributeid,'168').
+struct_dt_elem_i([ 0,4,0 ],35,'ExternalName','ClienteProlesaMat').
+struct_dt_elem_i([ 0,4,0 ],35,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],36,name,'Clienteobservaciones').
+struct_dt_elem_i([ 0,4,0 ],36,camelname,'ClienteObservaciones').
+struct_dt_elem_i([ 0,4,0 ],36,length,200).
+struct_dt_elem_i([ 0,4,0 ],36,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],36,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,4,0 ],36,pic,'').
+struct_dt_elem_i([ 0,4,0 ],36,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],36,attributeid,'78').
+struct_dt_elem_i([ 0,4,0 ],36,'ExternalName','ClienteObservaciones').
+struct_dt_elem_i([ 0,4,0 ],36,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],37,name,'Clientefacrsocial').
+struct_dt_elem_i([ 0,4,0 ],37,camelname,'ClienteFacRsocial').
+struct_dt_elem_i([ 0,4,0 ],37,length,100).
+struct_dt_elem_i([ 0,4,0 ],37,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],37,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],37,pic,'').
+struct_dt_elem_i([ 0,4,0 ],37,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],37,attributeid,'79').
+struct_dt_elem_i([ 0,4,0 ],37,'ExternalName','ClienteFacRsocial').
+struct_dt_elem_i([ 0,4,0 ],37,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],38,name,'Clientefaccedula').
+struct_dt_elem_i([ 0,4,0 ],38,camelname,'ClienteFacCedula').
+struct_dt_elem_i([ 0,4,0 ],38,length,40).
+struct_dt_elem_i([ 0,4,0 ],38,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],38,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,4,0 ],38,pic,'').
+struct_dt_elem_i([ 0,4,0 ],38,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],38,attributeid,'80').
+struct_dt_elem_i([ 0,4,0 ],38,'ExternalName','ClienteFacCedula').
+struct_dt_elem_i([ 0,4,0 ],38,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],39,name,'Clientefacrut').
+struct_dt_elem_i([ 0,4,0 ],39,camelname,'ClienteFacRut').
+struct_dt_elem_i([ 0,4,0 ],39,length,40).
+struct_dt_elem_i([ 0,4,0 ],39,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],39,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,4,0 ],39,pic,'').
+struct_dt_elem_i([ 0,4,0 ],39,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],39,attributeid,'81').
+struct_dt_elem_i([ 0,4,0 ],39,'ExternalName','ClienteFacRut').
+struct_dt_elem_i([ 0,4,0 ],39,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],40,name,'Clientefacdireccion').
+struct_dt_elem_i([ 0,4,0 ],40,camelname,'ClienteFacDireccion').
+struct_dt_elem_i([ 0,4,0 ],40,length,200).
+struct_dt_elem_i([ 0,4,0 ],40,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],40,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,4,0 ],40,pic,'').
+struct_dt_elem_i([ 0,4,0 ],40,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],40,attributeid,'82').
+struct_dt_elem_i([ 0,4,0 ],40,'ExternalName','ClienteFacDireccion').
+struct_dt_elem_i([ 0,4,0 ],40,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],41,name,'Clientefaclocalidad').
+struct_dt_elem_i([ 0,4,0 ],41,camelname,'ClienteFacLocalidad').
+struct_dt_elem_i([ 0,4,0 ],41,length,40).
+struct_dt_elem_i([ 0,4,0 ],41,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],41,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,4,0 ],41,pic,'').
+struct_dt_elem_i([ 0,4,0 ],41,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],41,attributeid,'83').
+struct_dt_elem_i([ 0,4,0 ],41,'ExternalName','ClienteFacLocalidad').
+struct_dt_elem_i([ 0,4,0 ],41,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],42,name,'Clientefacdepartamento').
+struct_dt_elem_i([ 0,4,0 ],42,camelname,'ClienteFacDepartamento').
+struct_dt_elem_i([ 0,4,0 ],42,basedon,83).
+struct_dt_elem_i([ 0,4,0 ],42,length,18).
+struct_dt_elem_i([ 0,4,0 ],42,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],42,sign,0).
+struct_dt_elem_i([ 0,4,0 ],42,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,4,0 ],42,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],42,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],42,attributeid,'84').
+struct_dt_elem_i([ 0,4,0 ],42,'ExternalName','ClienteFacDepartamento').
+struct_dt_elem_i([ 0,4,0 ],42,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],43,name,'Clientefaccpostal').
+struct_dt_elem_i([ 0,4,0 ],43,camelname,'ClienteFacCpostal').
+struct_dt_elem_i([ 0,4,0 ],43,length,40).
+struct_dt_elem_i([ 0,4,0 ],43,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],43,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,4,0 ],43,pic,'').
+struct_dt_elem_i([ 0,4,0 ],43,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],43,attributeid,'85').
+struct_dt_elem_i([ 0,4,0 ],43,'ExternalName','ClienteFacCpostal').
+struct_dt_elem_i([ 0,4,0 ],43,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],44,name,'Clientefacgiro').
+struct_dt_elem_i([ 0,4,0 ],44,camelname,'ClienteFacGiro').
+struct_dt_elem_i([ 0,4,0 ],44,length,18).
+struct_dt_elem_i([ 0,4,0 ],44,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],44,sign,0).
+struct_dt_elem_i([ 0,4,0 ],44,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,4,0 ],44,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],44,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],44,attributeid,'86').
+struct_dt_elem_i([ 0,4,0 ],44,'ExternalName','ClienteFacGiro').
+struct_dt_elem_i([ 0,4,0 ],44,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],45,name,'Clientecobnombretelefono1').
+struct_dt_elem_i([ 0,4,0 ],45,camelname,'ClienteCobNombreTelefono1').
+struct_dt_elem_i([ 0,4,0 ],45,basedon,85).
+struct_dt_elem_i([ 0,4,0 ],45,length,100).
+struct_dt_elem_i([ 0,4,0 ],45,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],45,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],45,pic,'').
+struct_dt_elem_i([ 0,4,0 ],45,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],45,attributeid,'87').
+struct_dt_elem_i([ 0,4,0 ],45,'ExternalName','ClienteCobNombreTelefono1').
+struct_dt_elem_i([ 0,4,0 ],45,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],46,name,'Clientefactelefonos').
+struct_dt_elem_i([ 0,4,0 ],46,camelname,'ClienteFacTelefonos').
+struct_dt_elem_i([ 0,4,0 ],46,basedon,87).
+struct_dt_elem_i([ 0,4,0 ],46,length,100).
+struct_dt_elem_i([ 0,4,0 ],46,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],46,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],46,pic,'').
+struct_dt_elem_i([ 0,4,0 ],46,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],46,attributeid,'88').
+struct_dt_elem_i([ 0,4,0 ],46,'ExternalName','ClienteFacTelefonos').
+struct_dt_elem_i([ 0,4,0 ],46,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],47,name,'Clientecobnombretelefono2').
+struct_dt_elem_i([ 0,4,0 ],47,camelname,'ClienteCobNombreTelefono2').
+struct_dt_elem_i([ 0,4,0 ],47,basedon,85).
+struct_dt_elem_i([ 0,4,0 ],47,length,100).
+struct_dt_elem_i([ 0,4,0 ],47,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],47,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],47,pic,'').
+struct_dt_elem_i([ 0,4,0 ],47,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],47,attributeid,'89').
+struct_dt_elem_i([ 0,4,0 ],47,'ExternalName','ClienteCobNombreTelefono2').
+struct_dt_elem_i([ 0,4,0 ],47,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],48,name,'Clientecobtelefono2').
+struct_dt_elem_i([ 0,4,0 ],48,camelname,'ClienteCobTelefono2').
+struct_dt_elem_i([ 0,4,0 ],48,basedon,87).
+struct_dt_elem_i([ 0,4,0 ],48,length,100).
+struct_dt_elem_i([ 0,4,0 ],48,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],48,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],48,pic,'').
+struct_dt_elem_i([ 0,4,0 ],48,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],48,attributeid,'90').
+struct_dt_elem_i([ 0,4,0 ],48,'ExternalName','ClienteCobTelefono2').
+struct_dt_elem_i([ 0,4,0 ],48,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],49,name,'Clientecobnombrecelular1').
+struct_dt_elem_i([ 0,4,0 ],49,camelname,'ClienteCobNombreCelular1').
+struct_dt_elem_i([ 0,4,0 ],49,basedon,85).
+struct_dt_elem_i([ 0,4,0 ],49,length,100).
+struct_dt_elem_i([ 0,4,0 ],49,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],49,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],49,pic,'').
+struct_dt_elem_i([ 0,4,0 ],49,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],49,attributeid,'91').
+struct_dt_elem_i([ 0,4,0 ],49,'ExternalName','ClienteCobNombreCelular1').
+struct_dt_elem_i([ 0,4,0 ],49,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],50,name,'Clientecobcelular1').
+struct_dt_elem_i([ 0,4,0 ],50,camelname,'ClienteCobCelular1').
+struct_dt_elem_i([ 0,4,0 ],50,basedon,87).
+struct_dt_elem_i([ 0,4,0 ],50,length,100).
+struct_dt_elem_i([ 0,4,0 ],50,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],50,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],50,pic,'').
+struct_dt_elem_i([ 0,4,0 ],50,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],50,attributeid,'92').
+struct_dt_elem_i([ 0,4,0 ],50,'ExternalName','ClienteCobCelular1').
+struct_dt_elem_i([ 0,4,0 ],50,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],51,name,'Clientecobnombrecelular2').
+struct_dt_elem_i([ 0,4,0 ],51,camelname,'ClienteCobNombreCelular2').
+struct_dt_elem_i([ 0,4,0 ],51,basedon,85).
+struct_dt_elem_i([ 0,4,0 ],51,length,100).
+struct_dt_elem_i([ 0,4,0 ],51,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],51,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],51,pic,'').
+struct_dt_elem_i([ 0,4,0 ],51,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],51,attributeid,'93').
+struct_dt_elem_i([ 0,4,0 ],51,'ExternalName','ClienteCobNombreCelular2').
+struct_dt_elem_i([ 0,4,0 ],51,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],52,name,'Clientecobcelular2').
+struct_dt_elem_i([ 0,4,0 ],52,camelname,'ClienteCobCelular2').
+struct_dt_elem_i([ 0,4,0 ],52,basedon,87).
+struct_dt_elem_i([ 0,4,0 ],52,length,100).
+struct_dt_elem_i([ 0,4,0 ],52,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],52,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],52,pic,'').
+struct_dt_elem_i([ 0,4,0 ],52,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],52,attributeid,'94').
+struct_dt_elem_i([ 0,4,0 ],52,'ExternalName','ClienteCobCelular2').
+struct_dt_elem_i([ 0,4,0 ],52,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],53,name,'Clientecobnombreemail1').
+struct_dt_elem_i([ 0,4,0 ],53,camelname,'ClienteCobNombreEmail1').
+struct_dt_elem_i([ 0,4,0 ],53,basedon,85).
+struct_dt_elem_i([ 0,4,0 ],53,length,100).
+struct_dt_elem_i([ 0,4,0 ],53,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],53,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],53,pic,'').
+struct_dt_elem_i([ 0,4,0 ],53,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],53,attributeid,'95').
+struct_dt_elem_i([ 0,4,0 ],53,'ExternalName','ClienteCobNombreEmail1').
+struct_dt_elem_i([ 0,4,0 ],53,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],54,name,'Clientecobemail1').
+struct_dt_elem_i([ 0,4,0 ],54,camelname,'ClienteCobEmail1').
+struct_dt_elem_i([ 0,4,0 ],54,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],54,length,100).
+struct_dt_elem_i([ 0,4,0 ],54,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],54,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],54,pic,'').
+struct_dt_elem_i([ 0,4,0 ],54,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],54,attributeid,'96').
+struct_dt_elem_i([ 0,4,0 ],54,'ExternalName','ClienteCobEmail1').
+struct_dt_elem_i([ 0,4,0 ],54,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],55,name,'Clientecobnombreemail2').
+struct_dt_elem_i([ 0,4,0 ],55,camelname,'ClienteCobNombreEmail2').
+struct_dt_elem_i([ 0,4,0 ],55,basedon,85).
+struct_dt_elem_i([ 0,4,0 ],55,length,100).
+struct_dt_elem_i([ 0,4,0 ],55,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],55,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],55,pic,'').
+struct_dt_elem_i([ 0,4,0 ],55,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],55,attributeid,'97').
+struct_dt_elem_i([ 0,4,0 ],55,'ExternalName','ClienteCobNombreEmail2').
+struct_dt_elem_i([ 0,4,0 ],55,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],56,name,'Clientecobemail2').
+struct_dt_elem_i([ 0,4,0 ],56,camelname,'ClienteCobEmail2').
+struct_dt_elem_i([ 0,4,0 ],56,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],56,length,100).
+struct_dt_elem_i([ 0,4,0 ],56,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],56,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],56,pic,'').
+struct_dt_elem_i([ 0,4,0 ],56,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],56,attributeid,'98').
+struct_dt_elem_i([ 0,4,0 ],56,'ExternalName','ClienteCobEmail2').
+struct_dt_elem_i([ 0,4,0 ],56,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],57,name,'Clientefacfax').
+struct_dt_elem_i([ 0,4,0 ],57,camelname,'ClienteFacFax').
+struct_dt_elem_i([ 0,4,0 ],57,basedon,87).
+struct_dt_elem_i([ 0,4,0 ],57,length,100).
+struct_dt_elem_i([ 0,4,0 ],57,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],57,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],57,pic,'').
+struct_dt_elem_i([ 0,4,0 ],57,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],57,attributeid,'99').
+struct_dt_elem_i([ 0,4,0 ],57,'ExternalName','ClienteFacFax').
+struct_dt_elem_i([ 0,4,0 ],57,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],58,name,'Clientefacemail').
+struct_dt_elem_i([ 0,4,0 ],58,camelname,'ClienteFacEmail').
+struct_dt_elem_i([ 0,4,0 ],58,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],58,length,100).
+struct_dt_elem_i([ 0,4,0 ],58,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],58,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],58,pic,'').
+struct_dt_elem_i([ 0,4,0 ],58,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],58,attributeid,'100').
+struct_dt_elem_i([ 0,4,0 ],58,'ExternalName','ClienteFacEmail').
+struct_dt_elem_i([ 0,4,0 ],58,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],59,name,'Clientefaccontrato').
+struct_dt_elem_i([ 0,4,0 ],59,camelname,'ClienteFacContrato').
+struct_dt_elem_i([ 0,4,0 ],59,length,80).
+struct_dt_elem_i([ 0,4,0 ],59,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],59,type,[ 13,80,0 ]).
+struct_dt_elem_i([ 0,4,0 ],59,pic,'').
+struct_dt_elem_i([ 0,4,0 ],59,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],59,attributeid,'101').
+struct_dt_elem_i([ 0,4,0 ],59,'ExternalName','ClienteFacContrato').
+struct_dt_elem_i([ 0,4,0 ],59,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],60,name,'Clientefacobservaciones').
+struct_dt_elem_i([ 0,4,0 ],60,camelname,'ClienteFacObservaciones').
+struct_dt_elem_i([ 0,4,0 ],60,length,200).
+struct_dt_elem_i([ 0,4,0 ],60,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],60,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,4,0 ],60,pic,'').
+struct_dt_elem_i([ 0,4,0 ],60,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],60,attributeid,'102').
+struct_dt_elem_i([ 0,4,0 ],60,'ExternalName','ClienteFacObservaciones').
+struct_dt_elem_i([ 0,4,0 ],60,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],61,name,'Clientefaclista').
+struct_dt_elem_i([ 0,4,0 ],61,camelname,'ClienteFacLista').
+struct_dt_elem_i([ 0,4,0 ],61,length,18).
+struct_dt_elem_i([ 0,4,0 ],61,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],61,sign,0).
+struct_dt_elem_i([ 0,4,0 ],61,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,4,0 ],61,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],61,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],61,attributeid,'103').
+struct_dt_elem_i([ 0,4,0 ],61,'ExternalName','ClienteFacLista').
+struct_dt_elem_i([ 0,4,0 ],61,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],62,name,'Clientefaccontado').
+struct_dt_elem_i([ 0,4,0 ],62,camelname,'ClienteFacContado').
+struct_dt_elem_i([ 0,4,0 ],62,length,4).
+struct_dt_elem_i([ 0,4,0 ],62,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],62,sign,0).
+struct_dt_elem_i([ 0,4,0 ],62,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,4,0 ],62,pic,'ZZZ9').
+struct_dt_elem_i([ 0,4,0 ],62,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],62,attributeid,'104').
+struct_dt_elem_i([ 0,4,0 ],62,'ExternalName','ClienteFacContado').
+struct_dt_elem_i([ 0,4,0 ],62,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],63,name,'Clientenotemailfrascos1').
+struct_dt_elem_i([ 0,4,0 ],63,camelname,'ClienteNotEmailFrascos1').
+struct_dt_elem_i([ 0,4,0 ],63,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],63,length,100).
+struct_dt_elem_i([ 0,4,0 ],63,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],63,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],63,pic,'').
+struct_dt_elem_i([ 0,4,0 ],63,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],63,attributeid,'105').
+struct_dt_elem_i([ 0,4,0 ],63,'ExternalName','ClienteNotEmailFrascos1').
+struct_dt_elem_i([ 0,4,0 ],63,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],64,name,'Clientenotemailfrascos2').
+struct_dt_elem_i([ 0,4,0 ],64,camelname,'ClienteNotEmailFrascos2').
+struct_dt_elem_i([ 0,4,0 ],64,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],64,length,100).
+struct_dt_elem_i([ 0,4,0 ],64,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],64,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],64,pic,'').
+struct_dt_elem_i([ 0,4,0 ],64,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],64,attributeid,'106').
+struct_dt_elem_i([ 0,4,0 ],64,'ExternalName','ClienteNotEmailFrascos2').
+struct_dt_elem_i([ 0,4,0 ],64,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],65,name,'Clientenotemailmuestra1').
+struct_dt_elem_i([ 0,4,0 ],65,camelname,'ClienteNotEmailMuestra1').
+struct_dt_elem_i([ 0,4,0 ],65,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],65,length,100).
+struct_dt_elem_i([ 0,4,0 ],65,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],65,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],65,pic,'').
+struct_dt_elem_i([ 0,4,0 ],65,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],65,attributeid,'107').
+struct_dt_elem_i([ 0,4,0 ],65,'ExternalName','ClienteNotEmailMuestra1').
+struct_dt_elem_i([ 0,4,0 ],65,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],66,name,'Clientenotemailmuestra2').
+struct_dt_elem_i([ 0,4,0 ],66,camelname,'ClienteNotEmailMuestra2').
+struct_dt_elem_i([ 0,4,0 ],66,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],66,length,100).
+struct_dt_elem_i([ 0,4,0 ],66,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],66,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],66,pic,'').
+struct_dt_elem_i([ 0,4,0 ],66,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],66,attributeid,'108').
+struct_dt_elem_i([ 0,4,0 ],66,'ExternalName','ClienteNotEmailMuestra2').
+struct_dt_elem_i([ 0,4,0 ],66,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],67,name,'Clientenotemailanalisis1').
+struct_dt_elem_i([ 0,4,0 ],67,camelname,'ClienteNotEmailAnalisis1').
+struct_dt_elem_i([ 0,4,0 ],67,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],67,length,100).
+struct_dt_elem_i([ 0,4,0 ],67,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],67,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],67,pic,'').
+struct_dt_elem_i([ 0,4,0 ],67,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],67,attributeid,'109').
+struct_dt_elem_i([ 0,4,0 ],67,'ExternalName','ClienteNotEmailAnalisis1').
+struct_dt_elem_i([ 0,4,0 ],67,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],68,name,'Clientenotemailanalisis2').
+struct_dt_elem_i([ 0,4,0 ],68,camelname,'ClienteNotEmailAnalisis2').
+struct_dt_elem_i([ 0,4,0 ],68,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],68,length,100).
+struct_dt_elem_i([ 0,4,0 ],68,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],68,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],68,pic,'').
+struct_dt_elem_i([ 0,4,0 ],68,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],68,attributeid,'110').
+struct_dt_elem_i([ 0,4,0 ],68,'ExternalName','ClienteNotEmailAnalisis2').
+struct_dt_elem_i([ 0,4,0 ],68,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],69,name,'Clientenotemailgeneral1').
+struct_dt_elem_i([ 0,4,0 ],69,camelname,'ClienteNotEmailGeneral1').
+struct_dt_elem_i([ 0,4,0 ],69,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],69,length,100).
+struct_dt_elem_i([ 0,4,0 ],69,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],69,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],69,pic,'').
+struct_dt_elem_i([ 0,4,0 ],69,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],69,attributeid,'111').
+struct_dt_elem_i([ 0,4,0 ],69,'ExternalName','ClienteNotEmailGeneral1').
+struct_dt_elem_i([ 0,4,0 ],69,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],70,name,'Clientenotemailgeneral2').
+struct_dt_elem_i([ 0,4,0 ],70,camelname,'ClienteNotEmailGeneral2').
+struct_dt_elem_i([ 0,4,0 ],70,basedon,86).
+struct_dt_elem_i([ 0,4,0 ],70,length,100).
+struct_dt_elem_i([ 0,4,0 ],70,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],70,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],70,pic,'').
+struct_dt_elem_i([ 0,4,0 ],70,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],70,attributeid,'112').
+struct_dt_elem_i([ 0,4,0 ],70,'ExternalName','ClienteNotEmailGeneral2').
+struct_dt_elem_i([ 0,4,0 ],70,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 0,4,0 ],71,name,'Clienteincobrable').
+struct_dt_elem_i([ 0,4,0 ],71,camelname,'ClienteIncobrable').
+struct_dt_elem_i([ 0,4,0 ],71,length,4).
+struct_dt_elem_i([ 0,4,0 ],71,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],71,sign,0).
+struct_dt_elem_i([ 0,4,0 ],71,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,4,0 ],71,pic,'ZZZ9').
+struct_dt_elem_i([ 0,4,0 ],71,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],71,attributeid,'113').
+struct_dt_elem_i([ 0,4,0 ],71,'ExternalName','ClienteIncobrable').
+struct_dt_elem_i([ 0,4,0 ],71,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,13,30 ],1,name,'Id').
+struct_dt_elem_i([ 26,13,30 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,13,30 ],1,length,128).
+struct_dt_elem_i([ 26,13,30 ],1,decimals,0).
+struct_dt_elem_i([ 26,13,30 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,13,30 ],1,pic,'').
+struct_dt_elem_i([ 26,13,30 ],1,collection,'False').
+struct_dt_elem_i([ 26,13,30 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,13,30 ],1,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlName','').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,30 ],1,soaptype,'').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,30 ],1,'JsonName','').
+struct_dt_elem_i([ 26,13,30 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,13,30 ],2,name,'Type').
+struct_dt_elem_i([ 26,13,30 ],2,camelname,'Type').
+struct_dt_elem_i([ 26,13,30 ],2,basedon,47).
+struct_dt_elem_i([ 26,13,30 ],2,length,2).
+struct_dt_elem_i([ 26,13,30 ],2,decimals,0).
+struct_dt_elem_i([ 26,13,30 ],2,sign,0).
+struct_dt_elem_i([ 26,13,30 ],2,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,13,30 ],2,pic,'Z9').
+struct_dt_elem_i([ 26,13,30 ],2,collection,'False').
+struct_dt_elem_i([ 26,13,30 ],2,'ExternalName','Type').
+struct_dt_elem_i([ 26,13,30 ],2,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlName','').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,30 ],2,soaptype,'').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,30 ],2,'JsonName','').
+struct_dt_elem_i([ 26,13,30 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,13,30 ],3,name,'Description').
+struct_dt_elem_i([ 26,13,30 ],3,camelname,'Description').
+struct_dt_elem_i([ 26,13,30 ],3,length,256).
+struct_dt_elem_i([ 26,13,30 ],3,decimals,0).
+struct_dt_elem_i([ 26,13,30 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,13,30 ],3,pic,'').
+struct_dt_elem_i([ 26,13,30 ],3,collection,'False').
+struct_dt_elem_i([ 26,13,30 ],3,'ExternalName','Description').
+struct_dt_elem_i([ 26,13,30 ],3,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlName','').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,30 ],3,soaptype,'').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,30 ],3,'JsonName','').
+struct_dt_elem_i([ 26,13,30 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 0,4,0 ],3,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],5,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],7,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],54,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],56,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],58,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],63,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],64,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],65,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],66,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],67,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],68,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],69,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],70,pic,'ZZZZZZZZZZZZZZZZZ9').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(trn,4,'CLIENTE_BC','INTERNAL','Secure').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\Common','PackageName','GeneXus.jar').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

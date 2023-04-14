@@ -1,0 +1,478 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.artech.colaveco.menu"
+4    android:installLocation="auto"
+5    android:versionCode="10"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="31" />
+10-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml
+11
+12    <!-- Only this application can receive the messages and registration result -->
+13    <permission
+13-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:7:5-118
+14        android:name="com.artech.colaveco.menu.permission.C2D_MESSAGE"
+14-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:7:17-79
+15        android:protectionLevel="signature" />
+15-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:7:80-115
+16
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:8:5-66
+17-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:8:22-63
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:9:5-68
+18-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:9:22-65
+19    <uses-permission android:name="com.artech.colaveco.menu.permission.C2D_MESSAGE" />
+19-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:10:5-87
+19-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:10:22-84
+20    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+20-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:11:5-82
+20-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:11:22-79
+21
+22    <!-- used for CameraAPI or attributes/variables multimedia in android:maxSdkVersion="23" , used for PhotoLibrary API in all apis -->
+23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+23-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:15:5-81
+23-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:15:22-78
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[com.genexus:CoreExternalObjects:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\d05908ded55d99153c9739ba642b3939\jetified-CoreExternalObjects-17.7.2\AndroidManifest.xml:12:5-79
+24-->[com.genexus:CoreExternalObjects:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\d05908ded55d99153c9739ba642b3939\jetified-CoreExternalObjects-17.7.2\AndroidManifest.xml:12:22-76
+25    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+25-->[com.genexus:CoreExternalObjects:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\d05908ded55d99153c9739ba642b3939\jetified-CoreExternalObjects-17.7.2\AndroidManifest.xml:13:5-79
+25-->[com.genexus:CoreExternalObjects:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\d05908ded55d99153c9739ba642b3939\jetified-CoreExternalObjects-17.7.2\AndroidManifest.xml:13:22-76
+26
+27    <queries>
+27-->[com.genexus:CoreExternalObjects:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\d05908ded55d99153c9739ba642b3939\jetified-CoreExternalObjects-17.7.2\AndroidManifest.xml:15:5-26:15
+28        <intent>
+28-->[com.genexus:CoreExternalObjects:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\d05908ded55d99153c9739ba642b3939\jetified-CoreExternalObjects-17.7.2\AndroidManifest.xml:16:9-20:18
+29            <action android:name="android.intent.action.PICK" />
+29-->[com.genexus:CoreExternalObjects:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\d05908ded55d99153c9739ba642b3939\jetified-CoreExternalObjects-17.7.2\AndroidManifest.xml:17:13-65
+29-->[com.genexus:CoreExternalObjects:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\d05908ded55d99153c9739ba642b3939\jetified-CoreExternalObjects-17.7.2\AndroidManifest.xml:17:21-62
+30
+31            <data android:mimeType="vnd.android.cursor.dir/phone_v2" />
+31-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:66:17-79
+32        </intent>
+33        <intent>
+33-->[com.genexus:CoreExternalObjects:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\d05908ded55d99153c9739ba642b3939\jetified-CoreExternalObjects-17.7.2\AndroidManifest.xml:21:9-25:18
+34            <action android:name="android.intent.action.VIEW" />
+34-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:63:17-68
+34-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:63:25-66
+35
+36            <data android:mimeType="*/*" />
+36-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:66:17-79
+37        </intent>
+38        <intent>
+38-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:16:9-20:18
+39            <action android:name="android.intent.action.GET_CONTENT" />
+39-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:17:13-72
+39-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:17:21-69
+40
+41            <data android:mimeType="audio/*, image/*, video/*" />
+41-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:66:17-79
+42        </intent>
+43        <intent>
+43-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:21:9-25:18
+44            <action android:name="android.intent.action.OPEN_DOCUMENT" />
+44-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:22:13-74
+44-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:22:21-71
+45
+46            <data android:mimeType="audio/*, image/*, video/*" />
+46-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:66:17-79
+47        </intent>
+48        <intent>
+48-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:26:9-28:18
+49            <action android:name="android.media.action.IMAGE_CAPTURE" />
+49-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:27:13-73
+49-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:27:21-70
+50        </intent>
+51        <intent>
+51-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:29:9-31:18
+52            <action android:name="android.media.action.VIDEO_CAPTURE" />
+52-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:30:13-73
+52-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:30:21-70
+53        </intent>
+54        <intent>
+54-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:32:9-34:18
+55            <action android:name="android.provider.MediaStore.RECORD_SOUND" />
+55-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:33:13-79
+55-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:33:21-76
+56        </intent>
+57        <intent>
+57-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:35:9-39:18
+58            <action android:name="android.intent.action.SENDTO" />
+58-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:36:13-67
+58-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:36:21-64
+59
+60            <data android:scheme="smsto" />
+60-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:66:17-79
+60-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:66:23-77
+61        </intent>
+62        <intent>
+62-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:40:9-42:18
+63            <action android:name="com.google.android.youtube.api.service.START" />
+63-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:41:13-83
+63-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:41:21-80
+64        </intent>
+65    </queries>
+66
+67    <uses-permission android:name="android.permission.INTERNET" /> <!-- for android -->
+67-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:12:5-67
+67-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:12:22-64
+68    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+69    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+70    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+71    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+72    <!-- for Samsung -->
+73    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+73-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+73-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+74    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+74-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+74-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+75    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+75-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+75-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+76    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+76-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+76-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+77    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+77-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+77-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+78    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+78-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+78-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+79    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+79-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+79-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+80    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+80-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+80-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+81    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+81-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+81-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+82    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+82-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+82-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+83    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+83-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+83-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+84    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+84-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+84-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+85    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+85-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+85-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+86    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+86-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+86-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+87    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+87-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+87-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+88    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+88-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+88-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\be366a3faf9db2b54feef1a6ac2de5f9\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+89
+90    <application
+90-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:17:5-70:17
+91        android:name="com.artech.colaveco.menu.MainApplication"
+91-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:17:18-49
+92        android:allowBackup="false"
+92-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:20:18-45
+93        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+93-->[androidx.core:core:1.3.0-rc01] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\fa10f1979e82292436b8ec829da74736\core-1.3.0-rc01\AndroidManifest.xml:24:18-86
+94        android:debuggable="true"
+95        android:hardwareAccelerated="true"
+95-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:18:18-52
+96        android:icon="@drawable/appicon"
+96-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:23:18-50
+97        android:label="@string/app_name"
+97-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:25:18-50
+98        android:networkSecurityConfig="@xml/network_security_config"
+98-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:24:18-78
+99        android:resizeableActivity="false"
+99-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:19:18-52
+100        android:supportsRtl="true"
+100-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:21:18-44
+101        android:theme="@style/ApplicationTheme" >
+101-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:22:18-57
+102        <uses-library
+102-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:27:6-84
+103            android:name="org.apache.http.legacy"
+103-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:27:20-57
+104            android:required="false" />
+104-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:27:58-82
+105
+106        <activity
+106-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:29:9-34:20
+107            android:name="com.artech.activities.StartupActivity"
+107-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:29:19-71
+108            android:exported="true"
+108-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:29:105-128
+109            android:label="@string/app_name" >
+109-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:29:72-104
+110            <intent-filter>
+110-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:30:13-33:29
+111                <action android:name="android.intent.action.MAIN" />
+111-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:31:17-69
+111-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:31:25-66
+112
+113                <category android:name="android.intent.category.LAUNCHER" />
+113-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:32:17-77
+113-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:32:27-74
+114            </intent-filter>
+115        </activity>
+116
+117        <!-- Only GCM servers can send messages for the app. If permission is not set - any other app can generate it -->
+118        <receiver
+118-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:37:7-47:18
+119            android:name="com.google.android.gms.gcm.GcmReceiver"
+119-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:38:11-64
+120            android:exported="true"
+120-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:38:126-149
+121            android:permission="com.google.android.c2dm.permission.SEND" >
+121-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:38:65-125
+122            <intent-filter>
+122-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:39:9-46:25
+123
+124                <!-- Receive the actual message -->
+125                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+125-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:41:11-75
+125-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:41:19-72
+126                <!-- for Gingerbread GSF backward compat -->
+127                <!-- Receive the registration id -->
+128                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+128-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:44:11-80
+128-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:44:19-77
+129
+130                <category android:name="com.artech.colaveco.menu" />
+130-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:45:11-63
+130-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:45:21-60
+131            </intent-filter>
+132        </receiver>
+133
+134        <service
+134-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:49:7-53:17
+135            android:name="com.artech.android.gcm.GcmService"
+135-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:49:16-64
+136            android:exported="false" >
+136-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:49:65-89
+137            <intent-filter>
+137-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:50:9-52:25
+138                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+138-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:41:11-75
+138-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:41:19-72
+139            </intent-filter>
+140        </service>
+141
+142        <!-- Provider -->
+143        <provider
+143-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:56:9-173
+144            android:name="com.artech.colaveco.menu.AppEntityDataProvider"
+144-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:56:19-80
+145            android:authorities="com.artech.colaveco.menu.appentityprovider"
+145-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:56:106-170
+146            android:exported="false" />
+146-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:56:81-105
+147
+148        <!-- Service -->
+149        <service
+149-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:59:9-100
+150            android:name="com.artech.colaveco.menu.AppEntityService"
+150-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:59:41-97
+151            android:enabled="true" />
+151-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:59:18-40
+152
+153        <activity
+153-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:61:9-68:20
+154            android:name="com.artech.android.gam.AuthRedirectActivity"
+154-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:61:19-77
+155            android:exported="true" >
+155-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:61:78-101
+156            <intent-filter>
+156-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:62:13-67:29
+157                <action android:name="android.intent.action.VIEW" />
+157-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:63:17-68
+157-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:63:25-66
+158
+159                <category android:name="android.intent.category.DEFAULT" />
+159-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:64:17-75
+159-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:64:27-73
+160                <category android:name="android.intent.category.BROWSABLE" />
+160-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:65:17-77
+160-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:65:27-75
+161
+162                <data android:scheme="gxgam94cd50f6dcfe4537a96e37cec5789d26" />
+162-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:66:17-79
+162-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:66:23-77
+163            </intent-filter>
+164        </activity>
+165        <activity
+165-->[com.genexus:CoreExternalObjects:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\d05908ded55d99153c9739ba642b3939\jetified-CoreExternalObjects-17.7.2\AndroidManifest.xml:29:9-31:40
+166            android:name="com.genexus.coreexternalobjects.WebBrowserRedirectActivity"
+166-->[com.genexus:CoreExternalObjects:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\d05908ded55d99153c9739ba642b3939\jetified-CoreExternalObjects-17.7.2\AndroidManifest.xml:30:13-86
+167            android:exported="false" />
+167-->[com.genexus:CoreExternalObjects:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\d05908ded55d99153c9739ba642b3939\jetified-CoreExternalObjects-17.7.2\AndroidManifest.xml:31:13-37
+168        <activity
+168-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:49:9-56:20
+169            android:name="com.artech.activities.GenexusActivity"
+169-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:50:13-65
+170            android:label="@string/app_name"
+170-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:51:13-45
+171            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+171-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:52:13-73
+172            <meta-data
+172-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:53:13-55:76
+173                android:name="android.app.default_searchable"
+173-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:54:17-62
+174                android:value="com.artech.activities.SearchStubActivity" />
+174-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:55:17-73
+175        </activity>
+176        <activity
+176-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:57:9-71:20
+177            android:name="com.artech.activities.SearchStubActivity"
+177-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:58:13-68
+178            android:exported="false" >
+178-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:59:13-37
+179
+180            <!-- Receives search requests. -->
+181            <intent-filter>
+181-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:62:13-66:29
+182                <action android:name="android.intent.action.SEARCH" />
+182-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:63:17-71
+182-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:63:25-68
+183
+184                <category android:name="android.intent.category.DEFAULT" />
+184-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:64:17-75
+184-->C:\Code\ColavecoGX\Colaveco\JavaModel\mobile\Android\Menu\src\main\AndroidManifest.xml:64:27-73
+185            </intent-filter>
+186
+187            <meta-data
+187-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:68:13-70:54
+188                android:name="android.app.searchable"
+188-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:69:17-54
+189                android:resource="@xml/searchable" />
+189-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:70:17-51
+190        </activity>
+191        <activity android:name="com.artech.activities.BTDeviceListActivity" />
+191-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:75:9-79
+191-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:75:19-76
+192        <activity
+192-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:76:9-79:20
+193            android:name="com.artech.activities.WebViewActivity"
+193-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:77:13-65
+194            android:label="@string/GXM_Loading" >
+194-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:78:13-48
+195        </activity>
+196        <activity
+196-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:80:9-83:20
+197            android:name="com.artech.activities.VideoViewActivity"
+197-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:81:13-67
+198            android:label="@string/GXM_Loading" >
+198-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:82:13-48
+199        </activity>
+200        <activity
+200-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:84:9-87:20
+201            android:name="com.artech.application.Preferences"
+201-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:85:13-62
+202            android:label="@string/GXM_Preferences" >
+202-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:86:13-52
+203        </activity>
+204        <activity
+204-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:88:9-91:20
+205            android:name="com.artech.activities.FiltersActivity"
+205-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:89:13-65
+206            android:label="@string/GXM_Filter" >
+206-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:90:13-47
+207        </activity>
+208        <activity
+208-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:92:9-95:20
+209            android:name="com.artech.activities.DetailFiltersActivity"
+209-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:93:13-71
+210            android:label="@string/GXM_Filter" >
+210-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:94:13-47
+211        </activity>
+212        <activity android:name="com.artech.activities.SearchResultsActivity" >
+212-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:96:9-100:20
+212-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:96:19-77
+213            <meta-data
+213-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:68:13-70:54
+214                android:name="android.app.searchable"
+214-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:69:17-54
+215                android:resource="@xml/searchablebox" />
+215-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:70:17-51
+216        </activity>
+217        <activity android:name="com.artech.activities.LoginBiometricsActivity" />
+217-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:101:9-82
+217-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:101:19-79
+218        <activity
+218-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:102:9-106:75
+219            android:name="com.artech.android.gam.AuthManagementActivity"
+219-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:103:13-73
+220            android:exported="false"
+220-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:104:13-37
+221            android:launchMode="singleTask"
+221-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:105:13-44
+222            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+222-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:106:13-72
+223
+224        <receiver android:name="com.artech.android.notification.NotificationAlert" />
+224-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:108:9-86
+224-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:108:19-83
+225
+226        <provider
+226-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:110:9-118:20
+227            android:name="androidx.core.content.FileProvider"
+227-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:111:13-62
+228            android:authorities="com.artech.colaveco.menu.file_provider"
+228-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:112:13-65
+229            android:exported="false"
+229-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:113:13-37
+230            android:grantUriPermissions="true" >
+230-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:114:13-47
+231            <meta-data
+231-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:115:13-117:56
+232                android:name="android.support.FILE_PROVIDER_PATHS"
+232-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:116:17-67
+233                android:resource="@xml/shared_files" />
+233-->[com.genexus:FlexibleClient:17.7.2] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\2e8bd171f8ba471d310ccc6011587aff\jetified-FlexibleClient-17.7.2\AndroidManifest.xml:117:17-53
+234        </provider>
+235        <provider
+235-->[com.squareup.picasso:picasso:2.8] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\e64d7e35297cd41dce00b6cf2b20e9e2\jetified-picasso-2.8\AndroidManifest.xml:8:9-11:40
+236            android:name="com.squareup.picasso.PicassoProvider"
+236-->[com.squareup.picasso:picasso:2.8] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\e64d7e35297cd41dce00b6cf2b20e9e2\jetified-picasso-2.8\AndroidManifest.xml:9:13-64
+237            android:authorities="com.artech.colaveco.menu.com.squareup.picasso"
+237-->[com.squareup.picasso:picasso:2.8] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\e64d7e35297cd41dce00b6cf2b20e9e2\jetified-picasso-2.8\AndroidManifest.xml:10:13-72
+238            android:exported="false" />
+238-->[com.squareup.picasso:picasso:2.8] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\e64d7e35297cd41dce00b6cf2b20e9e2\jetified-picasso-2.8\AndroidManifest.xml:11:13-37
+239
+240        <activity
+240-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\24c21ebee38495bf004b369d425a689f\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+241            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+241-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\24c21ebee38495bf004b369d425a689f\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+242            android:exported="false"
+242-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\24c21ebee38495bf004b369d425a689f\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+243            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+243-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\24c21ebee38495bf004b369d425a689f\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+244
+245        <meta-data
+245-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\095aa936953f9e0629c80d17517cad12\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+246            android:name="com.google.android.gms.version"
+246-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\095aa936953f9e0629c80d17517cad12\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+247            android:value="@integer/google_play_services_version" />
+247-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\095aa936953f9e0629c80d17517cad12\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+248
+249        <provider
+249-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\9b48b36610e441501f0429fdc68b0bb9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+250            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+250-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\9b48b36610e441501f0429fdc68b0bb9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+251            android:authorities="com.artech.colaveco.menu.lifecycle-process"
+251-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\9b48b36610e441501f0429fdc68b0bb9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+252            android:exported="false"
+252-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\9b48b36610e441501f0429fdc68b0bb9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+253            android:multiprocess="true" />
+253-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\abell\.gradle\caches\transforms-2\files-2.1\9b48b36610e441501f0429fdc68b0bb9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+254    </application>
+255
+256</manifest>

@@ -1,0 +1,370 @@
+spec_i([ mnproc,1,'DPTipoinforme','DPTipoinforme',0,eng,'17_0_7-156546' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'MYSQL_VERSION','5')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',root)).
+rule_i(0,datastore(2,'USER_ID',root)).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','3308')).
+rule_i(0,datastore(2,'CS_SERVER',localhost)).
+rule_i(0,datastore(2,'CS_DBNAME','ColavecoconGx_Gam')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'ADONET_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.mysql.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','84')).
+rule_i(0,datastore(2,'DBMS',18)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'MYSQL_VERSION','5')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',root)).
+rule_i(0,datastore(1,'USER_ID',root)).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','3308')).
+rule_i(0,datastore(1,'CS_SERVER',localhost)).
+rule_i(0,datastore(1,'CS_DBNAME','ColavecoconGx')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'ADONET_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.mysql.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',18)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','DPTipoinforme')).
+rule_i(0,prop('Folder',o(8,'DP'))).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityLow')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('OutputCollectionName','DPTipoinforme')).
+rule_i(0,prop('OutputCollection','0')).
+rule_i(0,prop('OutputSDT',o(26,'SDTTipoinforme'))).
+rule_i(0,prop(idINFER_SDT,idINFER_STRUCTURE_NO)).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('Theme',o(25,'Carmine'))).
+rule_i(0,prop(idISWEBSERVICE,'0')).
+rule_i(0,prop('ObjDesc','DPTipoinforme')).
+rule_i(0,prop('ObjName','DPTipoinforme')).
+rule_i(0,rule([ a(22,[ 'Rfr','"Refresh"','5' ]) ],[],[],[])).
+rule_i(0,maingen(12)).
+rule_i(0,parm([ 'Gxm2rootcol' ],[])).
+rule_i(0,parmio([ [ 'Gxm2rootcol',out ] ])).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',8 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',7 ]).
+attri_i('Gxm1sdttipoinforme',[ 'Gxm1sdttipoinforme',o('SDTTipoinforme.SDTTipoinformeItem'),0,0,'',0,'Gxm1sdttipoinforme','',6 ]).
+attri_i('Gxm2rootcol',[ 'Gxm2rootcol',o(objectcollection('SDTTipoinforme.SDTTipoinformeItem')),0,0,'',0,'Gxm2rootcol','',5 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+ 
+b_line_i(3,1,1,cmd,3,[ t('',107,3,0),t('Gxm1sdttipoinforme',23,3,0),t(=,10,3,0),t([ 'SDTTipoinforme.SDTTipoinformeItem',[ t('(',0,3,0),t(')',4,3,0) ],n ],46,3,0) ]).
+b_line_i([ 3,1 ],1,1,cmd,3,[ t('',107,3,0),t([ t('Gxm2rootcol',23,3,0),t('add(',1,3,0) ],31,3,0),t('Gxm1sdttipoinforme',23,3,0),t(')',4,3,0) ]).
+b_line_i(5,1,1,cmd,5,[ t('',107,5,0),t([ t('Gxm1sdttipoinforme',23,5,0),t('Sdttipoinformeid',3,5,0) ],29,5,0),t(=,10,5,0),t('0',3,5,0) ]).
+b_line_i(6,1,1,cmd,5,[ t('',107,6,0),t([ t('Gxm1sdttipoinforme',23,5,0),t('Sdttipoinformenombre',3,5,0) ],29,5,0),t(=,10,5,0),t('"Todos"',3,5,0) ]).
+b_line_i(9,1,1,cmd,5,[ t('',107,9,0),t('Gxm1sdttipoinforme',23,5,0),t(=,10,5,0),t([ 'SDTTipoinforme.SDTTipoinformeItem',[ t('(',0,9,0),t(')',4,9,0) ],n ],46,5,0) ]).
+b_line_i([ 9,1 ],1,1,cmd,5,[ t('',107,9,0),t([ t('Gxm2rootcol',23,9,0),t('add(',1,9,0) ],31,9,0),t('Gxm1sdttipoinforme',23,5,0),t(')',4,5,0) ]).
+b_line_i(11,1,1,cmd,7,[ t('',107,11,0),t([ t('Gxm1sdttipoinforme',23,7,0),t('Sdttipoinformeid',3,7,0) ],29,7,0),t(=,10,7,0),t('1',3,7,0) ]).
+b_line_i(12,1,1,cmd,7,[ t('',107,12,0),t([ t('Gxm1sdttipoinforme',23,7,0),t('Sdttipoinformenombre',3,7,0) ],29,7,0),t(=,10,7,0),t('"Control Lechero"',3,7,0) ]).
+b_line_i(15,1,1,cmd,7,[ t('',107,15,0),t('Gxm1sdttipoinforme',23,7,0),t(=,10,7,0),t([ 'SDTTipoinforme.SDTTipoinformeItem',[ t('(',0,15,0),t(')',4,15,0) ],n ],46,7,0) ]).
+b_line_i([ 15,1 ],1,1,cmd,7,[ t('',107,15,0),t([ t('Gxm2rootcol',23,15,0),t('add(',1,15,0) ],31,15,0),t('Gxm1sdttipoinforme',23,7,0),t(')',4,7,0) ]).
+b_line_i(17,1,1,cmd,9,[ t('',107,17,0),t([ t('Gxm1sdttipoinforme',23,9,0),t('Sdttipoinformeid',3,9,0) ],29,9,0),t(=,10,9,0),t('3',3,9,0) ]).
+b_line_i(18,1,1,cmd,9,[ t('',107,18,0),t([ t('Gxm1sdttipoinforme',23,9,0),t('Sdttipoinformenombre',3,9,0) ],29,9,0),t(=,10,9,0),t('"Agua"',3,9,0) ]).
+b_line_i(21,1,1,cmd,9,[ t('',107,21,0),t('Gxm1sdttipoinforme',23,9,0),t(=,10,9,0),t([ 'SDTTipoinforme.SDTTipoinformeItem',[ t('(',0,21,0),t(')',4,21,0) ],n ],46,9,0) ]).
+b_line_i([ 21,1 ],1,1,cmd,9,[ t('',107,21,0),t([ t('Gxm2rootcol',23,21,0),t('add(',1,21,0) ],31,21,0),t('Gxm1sdttipoinforme',23,9,0),t(')',4,9,0) ]).
+b_line_i(23,1,1,cmd,11,[ t('',107,23,0),t([ t('Gxm1sdttipoinforme',23,11,0),t('Sdttipoinformeid',3,11,0) ],29,11,0),t(=,10,11,0),t('4',3,11,0) ]).
+b_line_i(24,1,1,cmd,11,[ t('',107,24,0),t([ t('Gxm1sdttipoinforme',23,11,0),t('Sdttipoinformenombre',3,11,0) ],29,11,0),t(=,10,11,0),t('"Aislamiento y Antibiograma"',3,11,0) ]).
+b_line_i(27,1,1,cmd,11,[ t('',107,27,0),t('Gxm1sdttipoinforme',23,11,0),t(=,10,11,0),t([ 'SDTTipoinforme.SDTTipoinformeItem',[ t('(',0,27,0),t(')',4,27,0) ],n ],46,11,0) ]).
+b_line_i([ 27,1 ],1,1,cmd,11,[ t('',107,27,0),t([ t('Gxm2rootcol',23,27,0),t('add(',1,27,0) ],31,27,0),t('Gxm1sdttipoinforme',23,11,0),t(')',4,11,0) ]).
+b_line_i(29,1,1,cmd,13,[ t('',107,29,0),t([ t('Gxm1sdttipoinforme',23,13,0),t('Sdttipoinformeid',3,13,0) ],29,13,0),t(=,10,13,0),t('5',3,13,0) ]).
+b_line_i(30,1,1,cmd,13,[ t('',107,30,0),t([ t('Gxm1sdttipoinforme',23,13,0),t('Sdttipoinformenombre',3,13,0) ],29,13,0),t(=,10,13,0),t('"PAL"',3,13,0) ]).
+b_line_i(33,1,1,cmd,13,[ t('',107,33,0),t('Gxm1sdttipoinforme',23,13,0),t(=,10,13,0),t([ 'SDTTipoinforme.SDTTipoinformeItem',[ t('(',0,33,0),t(')',4,33,0) ],n ],46,13,0) ]).
+b_line_i([ 33,1 ],1,1,cmd,13,[ t('',107,33,0),t([ t('Gxm2rootcol',23,33,0),t('add(',1,33,0) ],31,33,0),t('Gxm1sdttipoinforme',23,13,0),t(')',4,13,0) ]).
+b_line_i(35,1,1,cmd,15,[ t('',107,35,0),t([ t('Gxm1sdttipoinforme',23,15,0),t('Sdttipoinformeid',3,15,0) ],29,15,0),t(=,10,15,0),t('6',3,15,0) ]).
+b_line_i(36,1,1,cmd,15,[ t('',107,36,0),t([ t('Gxm1sdttipoinforme',23,15,0),t('Sdttipoinformenombre',3,15,0) ],29,15,0),t(=,10,15,0),t('"Parasitología"',3,15,0) ]).
+b_line_i(39,1,1,cmd,15,[ t('',107,39,0),t('Gxm1sdttipoinforme',23,15,0),t(=,10,15,0),t([ 'SDTTipoinforme.SDTTipoinformeItem',[ t('(',0,39,0),t(')',4,39,0) ],n ],46,15,0) ]).
+b_line_i([ 39,1 ],1,1,cmd,15,[ t('',107,39,0),t([ t('Gxm2rootcol',23,39,0),t('add(',1,39,0) ],31,39,0),t('Gxm1sdttipoinforme',23,15,0),t(')',4,15,0) ]).
+b_line_i(41,1,1,cmd,17,[ t('',107,41,0),t([ t('Gxm1sdttipoinforme',23,17,0),t('Sdttipoinformeid',3,17,0) ],29,17,0),t(=,10,17,0),t('7',3,17,0) ]).
+b_line_i(42,1,1,cmd,17,[ t('',107,42,0),t([ t('Gxm1sdttipoinforme',23,17,0),t('Sdttipoinformenombre',3,17,0) ],29,17,0),t(=,10,17,0),t('"Alimentos"',3,17,0) ]).
+b_line_i(45,1,1,cmd,17,[ t('',107,45,0),t('Gxm1sdttipoinforme',23,17,0),t(=,10,17,0),t([ 'SDTTipoinforme.SDTTipoinformeItem',[ t('(',0,45,0),t(')',4,45,0) ],n ],46,17,0) ]).
+b_line_i([ 45,1 ],1,1,cmd,17,[ t('',107,45,0),t([ t('Gxm2rootcol',23,45,0),t('add(',1,45,0) ],31,45,0),t('Gxm1sdttipoinforme',23,17,0),t(')',4,17,0) ]).
+b_line_i(47,1,1,cmd,19,[ t('',107,47,0),t([ t('Gxm1sdttipoinforme',23,19,0),t('Sdttipoinformeid',3,19,0) ],29,19,0),t(=,10,19,0),t('8',3,19,0) ]).
+b_line_i(48,1,1,cmd,19,[ t('',107,48,0),t([ t('Gxm1sdttipoinforme',23,19,0),t('Sdttipoinformenombre',3,19,0) ],29,19,0),t(=,10,19,0),t('"Serología"',3,19,0) ]).
+b_line_i(51,1,1,cmd,19,[ t('',107,51,0),t('Gxm1sdttipoinforme',23,19,0),t(=,10,19,0),t([ 'SDTTipoinforme.SDTTipoinformeItem',[ t('(',0,51,0),t(')',4,51,0) ],n ],46,19,0) ]).
+b_line_i([ 51,1 ],1,1,cmd,19,[ t('',107,51,0),t([ t('Gxm2rootcol',23,51,0),t('add(',1,51,0) ],31,51,0),t('Gxm1sdttipoinforme',23,19,0),t(')',4,19,0) ]).
+b_line_i(53,1,1,cmd,21,[ t('',107,53,0),t([ t('Gxm1sdttipoinforme',23,21,0),t('Sdttipoinformeid',3,21,0) ],29,21,0),t(=,10,21,0),t('9',3,21,0) ]).
+b_line_i(54,1,1,cmd,21,[ t('',107,54,0),t([ t('Gxm1sdttipoinforme',23,21,0),t('Sdttipoinformenombre',3,21,0) ],29,21,0),t(=,10,21,0),t('"Patología"',3,21,0) ]).
+b_line_i(57,1,1,cmd,21,[ t('',107,57,0),t('Gxm1sdttipoinforme',23,21,0),t(=,10,21,0),t([ 'SDTTipoinforme.SDTTipoinformeItem',[ t('(',0,57,0),t(')',4,57,0) ],n ],46,21,0) ]).
+b_line_i([ 57,1 ],1,1,cmd,21,[ t('',107,57,0),t([ t('Gxm2rootcol',23,57,0),t('add(',1,57,0) ],31,57,0),t('Gxm1sdttipoinforme',23,21,0),t(')',4,21,0) ]).
+b_line_i(59,1,1,cmd,23,[ t('',107,59,0),t([ t('Gxm1sdttipoinforme',23,23,0),t('Sdttipoinformeid',3,23,0) ],29,23,0),t(=,10,23,0),t('10',3,23,0) ]).
+b_line_i(60,1,1,cmd,23,[ t('',107,60,0),t([ t('Gxm1sdttipoinforme',23,23,0),t('Sdttipoinformenombre',3,23,0) ],29,23,0),t(=,10,23,0),t('"Calidad de leche"',3,23,0) ]).
+b_line_i(63,1,1,cmd,23,[ t('',107,63,0),t('Gxm1sdttipoinforme',23,23,0),t(=,10,23,0),t([ 'SDTTipoinforme.SDTTipoinformeItem',[ t('(',0,63,0),t(')',4,63,0) ],n ],46,23,0) ]).
+b_line_i([ 63,1 ],1,1,cmd,23,[ t('',107,63,0),t([ t('Gxm2rootcol',23,63,0),t('add(',1,63,0) ],31,63,0),t('Gxm1sdttipoinforme',23,23,0),t(')',4,23,0) ]).
+b_line_i(65,1,1,cmd,25,[ t('',107,65,0),t([ t('Gxm1sdttipoinforme',23,25,0),t('Sdttipoinformeid',3,25,0) ],29,25,0),t(=,10,25,0),t('11',3,25,0) ]).
+b_line_i(66,1,1,cmd,25,[ t('',107,66,0),t([ t('Gxm1sdttipoinforme',23,25,0),t('Sdttipoinformenombre',3,25,0) ],29,25,0),t(=,10,25,0),t('"Ambiental"',3,25,0) ]).
+b_line_i(69,1,1,cmd,25,[ t('',107,69,0),t('Gxm1sdttipoinforme',23,25,0),t(=,10,25,0),t([ 'SDTTipoinforme.SDTTipoinformeItem',[ t('(',0,69,0),t(')',4,69,0) ],n ],46,25,0) ]).
+b_line_i([ 69,1 ],1,1,cmd,25,[ t('',107,69,0),t([ t('Gxm2rootcol',23,69,0),t('add(',1,69,0) ],31,69,0),t('Gxm1sdttipoinforme',23,25,0),t(')',4,25,0) ]).
+b_line_i(71,1,1,cmd,27,[ t('',107,71,0),t([ t('Gxm1sdttipoinforme',23,27,0),t('Sdttipoinformeid',3,27,0) ],29,27,0),t(=,10,27,0),t('12',3,27,0) ]).
+b_line_i(72,1,1,cmd,27,[ t('',107,72,0),t([ t('Gxm1sdttipoinforme',23,27,0),t('Sdttipoinformenombre',3,27,0) ],29,27,0),t(=,10,27,0),t('"Lactómetro - Chequeos"',3,27,0) ]).
+b_line_i(75,1,1,cmd,27,[ t('',107,75,0),t('Gxm1sdttipoinforme',23,27,0),t(=,10,27,0),t([ 'SDTTipoinforme.SDTTipoinformeItem',[ t('(',0,75,0),t(')',4,75,0) ],n ],46,27,0) ]).
+b_line_i([ 75,1 ],1,1,cmd,27,[ t('',107,75,0),t([ t('Gxm2rootcol',23,75,0),t('add(',1,75,0) ],31,75,0),t('Gxm1sdttipoinforme',23,27,0),t(')',4,27,0) ]).
+b_line_i(77,1,1,cmd,29,[ t('',107,77,0),t([ t('Gxm1sdttipoinforme',23,29,0),t('Sdttipoinformeid',3,29,0) ],29,29,0),t(=,10,29,0),t('13',3,29,0) ]).
+b_line_i(78,1,1,cmd,29,[ t('',107,78,0),t([ t('Gxm1sdttipoinforme',23,29,0),t('Sdttipoinformenombre',3,29,0) ],29,29,0),t(=,10,29,0),t('"Nutrición"',3,29,0) ]).
+b_line_i(81,1,1,cmd,29,[ t('',107,81,0),t('Gxm1sdttipoinforme',23,29,0),t(=,10,29,0),t([ 'SDTTipoinforme.SDTTipoinformeItem',[ t('(',0,81,0),t(')',4,81,0) ],n ],46,29,0) ]).
+b_line_i([ 81,1 ],1,1,cmd,29,[ t('',107,81,0),t([ t('Gxm2rootcol',23,81,0),t('add(',1,81,0) ],31,81,0),t('Gxm1sdttipoinforme',23,29,0),t(')',4,29,0) ]).
+b_line_i(83,1,1,cmd,31,[ t('',107,83,0),t([ t('Gxm1sdttipoinforme',23,31,0),t('Sdttipoinformeid',3,31,0) ],29,31,0),t(=,10,31,0),t('14',3,31,0) ]).
+b_line_i(84,1,1,cmd,31,[ t('',107,84,0),t([ t('Gxm1sdttipoinforme',23,31,0),t('Sdttipoinformenombre',3,31,0) ],29,31,0),t(=,10,31,0),t('"Suelos"',3,31,0) ]).
+b_line_i(87,1,1,cmd,31,[ t('',107,87,0),t('Gxm1sdttipoinforme',23,31,0),t(=,10,31,0),t([ 'SDTTipoinforme.SDTTipoinformeItem',[ t('(',0,87,0),t(')',4,87,0) ],n ],46,31,0) ]).
+b_line_i([ 87,1 ],1,1,cmd,31,[ t('',107,87,0),t([ t('Gxm2rootcol',23,87,0),t('add(',1,87,0) ],31,87,0),t('Gxm1sdttipoinforme',23,31,0),t(')',4,31,0) ]).
+b_line_i(89,1,1,cmd,33,[ t('',107,89,0),t([ t('Gxm1sdttipoinforme',23,33,0),t('Sdttipoinformeid',3,33,0) ],29,33,0),t(=,10,33,0),t('15',3,33,0) ]).
+b_line_i(90,1,1,cmd,33,[ t('',107,90,0),t([ t('Gxm1sdttipoinforme',23,33,0),t('Sdttipoinformenombre',3,33,0) ],29,33,0),t(=,10,33,0),t('"Bruselosis en leche"',3,33,0) ]).
+b_line_i(93,1,1,cmd,33,[ t('',107,93,0),t('Gxm1sdttipoinforme',23,33,0),t(=,10,33,0),t([ 'SDTTipoinforme.SDTTipoinformeItem',[ t('(',0,93,0),t(')',4,93,0) ],n ],46,33,0) ]).
+b_line_i([ 93,1 ],1,1,cmd,33,[ t('',107,93,0),t([ t('Gxm2rootcol',23,93,0),t('add(',1,93,0) ],31,93,0),t('Gxm1sdttipoinforme',23,33,0),t(')',4,33,0) ]).
+b_line_i(95,1,1,cmd,35,[ t('',107,95,0),t([ t('Gxm1sdttipoinforme',23,35,0),t('Sdttipoinformeid',3,35,0) ],29,35,0),t(=,10,35,0),t('16',3,35,0) ]).
+b_line_i(96,1,1,cmd,35,[ t('',107,96,0),t([ t('Gxm1sdttipoinforme',23,35,0),t('Sdttipoinformenombre',3,35,0) ],29,35,0),t(=,10,35,0),t('"Efluentes"',3,35,0) ]).
+b_line_i(99,1,1,cmd,35,[ t('',107,99,0),t('Gxm1sdttipoinforme',23,35,0),t(=,10,35,0),t([ 'SDTTipoinforme.SDTTipoinformeItem',[ t('(',0,99,0),t(')',4,99,0) ],n ],46,35,0) ]).
+b_line_i([ 99,1 ],1,1,cmd,35,[ t('',107,99,0),t([ t('Gxm2rootcol',23,99,0),t('add(',1,99,0) ],31,99,0),t('Gxm1sdttipoinforme',23,35,0),t(')',4,35,0) ]).
+b_line_i(101,1,1,cmd,37,[ t('',107,101,0),t([ t('Gxm1sdttipoinforme',23,37,0),t('Sdttipoinformeid',3,37,0) ],29,37,0),t(=,10,37,0),t('17',3,37,0) ]).
+b_line_i(102,1,1,cmd,37,[ t('',107,102,0),t([ t('Gxm1sdttipoinforme',23,37,0),t('Sdttipoinformenombre',3,37,0) ],29,37,0),t(=,10,37,0),t('"Bacteriología de tanque"',3,37,0) ]).
+b_line_i(105,1,1,cmd,37,[ t('',107,105,0),t('Gxm1sdttipoinforme',23,37,0),t(=,10,37,0),t([ 'SDTTipoinforme.SDTTipoinformeItem',[ t('(',0,105,0),t(')',4,105,0) ],n ],46,37,0) ]).
+b_line_i([ 105,1 ],1,1,cmd,37,[ t('',107,105,0),t([ t('Gxm2rootcol',23,105,0),t('add(',1,105,0) ],31,105,0),t('Gxm1sdttipoinforme',23,37,0),t(')',4,37,0) ]).
+b_line_i(107,1,1,cmd,39,[ t('',107,107,0),t([ t('Gxm1sdttipoinforme',23,39,0),t('Sdttipoinformeid',3,39,0) ],29,39,0),t(=,10,39,0),t('18',3,39,0) ]).
+b_line_i(108,1,1,cmd,39,[ t('',107,108,0),t([ t('Gxm1sdttipoinforme',23,39,0),t('Sdttipoinformenombre',3,39,0) ],29,39,0),t(=,10,39,0),t('"Bacteriología clínica aeróbica"',3,39,0) ]).
+b_line_i(111,1,1,cmd,39,[ t('',107,111,0),t('Gxm1sdttipoinforme',23,39,0),t(=,10,39,0),t([ 'SDTTipoinforme.SDTTipoinformeItem',[ t('(',0,111,0),t(')',4,111,0) ],n ],46,39,0) ]).
+b_line_i([ 111,1 ],1,1,cmd,39,[ t('',107,111,0),t([ t('Gxm2rootcol',23,111,0),t('add(',1,111,0) ],31,111,0),t('Gxm1sdttipoinforme',23,39,0),t(')',4,39,0) ]).
+b_line_i(113,1,1,cmd,41,[ t('',107,113,0),t([ t('Gxm1sdttipoinforme',23,41,0),t('Sdttipoinformeid',3,41,0) ],29,41,0),t(=,10,41,0),t('19',3,41,0) ]).
+b_line_i(114,1,1,cmd,41,[ t('',107,114,0),t([ t('Gxm1sdttipoinforme',23,41,0),t('Sdttipoinformenombre',3,41,0) ],29,41,0),t(=,10,41,0),t('"Foliares"',3,41,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+calling_main_i(13,43).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,59,0 ],name,'SDTTipoinforme').
+struct_dt_i([ 26,59,0 ],namespace,'Colaveco').
+struct_dt_i([ 26,59,0 ],'ObjName','SDTTipoinforme').
+struct_dt_i([ 26,59,0 ],'ObjDesc','SDTTipoinforme').
+struct_dt_i([ 26,59,0 ],'ExternalName','SDTTipoinforme').
+struct_dt_i([ 26,59,0 ],'ExternalNamespace','Colaveco').
+struct_dt_i([ 26,59,0 ],collection,'True').
+struct_dt_i([ 26,59,0 ],datatype,[ 26,59,86 ]).
+struct_dt_i([ 26,59,0 ],'CollectionItemName','SDTTipoinformeItem').
+struct_dt_i([ 26,59,0 ],'XmlName','').
+struct_dt_i([ 26,59,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,59,0 ],'XmlNamespace','').
+struct_dt_i([ 26,59,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,59,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,59,0 ],'JsonName','').
+struct_dt_i([ 26,59,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,59,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,59,86 ],name,'SDTTipoinformeItem').
+struct_dt_i([ 26,59,86 ],namespace,'Colaveco.SDTTipoinforme').
+struct_dt_i([ 26,59,0 ],fullname,'SDTTipoinforme').
+struct_dt_i([ 26,59,86 ],fullname,'SDTTipoinforme.SDTTipoinformeItem').
+struct_dt_i([ 26,59,0 ],camelname,'Sdttipoinforme').
+struct_dt_i([ 26,59,86 ],camelname,'Sdttipoinformeitem').
+ 
+struct_dt_elem_i([ 26,59,86 ],1,name,'Sdttipoinformeid').
+struct_dt_elem_i([ 26,59,86 ],1,camelname,'SDTTipoinformeId').
+struct_dt_elem_i([ 26,59,86 ],1,basedon,83).
+struct_dt_elem_i([ 26,59,86 ],1,length,18).
+struct_dt_elem_i([ 26,59,86 ],1,decimals,0).
+struct_dt_elem_i([ 26,59,86 ],1,sign,0).
+struct_dt_elem_i([ 26,59,86 ],1,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,59,86 ],1,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 26,59,86 ],1,collection,'False').
+struct_dt_elem_i([ 26,59,86 ],1,'ExternalName','SDTTipoinformeId').
+struct_dt_elem_i([ 26,59,86 ],1,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,59,86 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,59,86 ],1,'XmlName','').
+struct_dt_elem_i([ 26,59,86 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,86 ],1,soaptype,'').
+struct_dt_elem_i([ 26,59,86 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,86 ],1,'JsonName','').
+struct_dt_elem_i([ 26,59,86 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,86 ],2,name,'Sdttipoinformenombre').
+struct_dt_elem_i([ 26,59,86 ],2,camelname,'SDTTipoinformeNombre').
+struct_dt_elem_i([ 26,59,86 ],2,length,40).
+struct_dt_elem_i([ 26,59,86 ],2,decimals,0).
+struct_dt_elem_i([ 26,59,86 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,59,86 ],2,pic,'').
+struct_dt_elem_i([ 26,59,86 ],2,collection,'False').
+struct_dt_elem_i([ 26,59,86 ],2,'ExternalName','SDTTipoinformeNombre').
+struct_dt_elem_i([ 26,59,86 ],2,'ExternalNamespace','Colaveco').
+struct_dt_elem_i([ 26,59,86 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,59,86 ],2,'XmlName','').
+struct_dt_elem_i([ 26,59,86 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,86 ],2,soaptype,'').
+struct_dt_elem_i([ 26,59,86 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,86 ],2,'JsonName','').
+struct_dt_elem_i([ 26,59,86 ],2,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(mnproc,1,'DPTIPOINFORME','INTERNAL','').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

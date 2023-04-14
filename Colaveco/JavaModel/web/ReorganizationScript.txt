@@ -1,0 +1,3 @@
+ALTER TABLE `Anuncio` ADD (`AnuncioDescripcion` national varchar(256) NOT NULL DEFAULT '')
+ALTER TABLE `Anuncio` ALTER COLUMN `AnuncioDescripcion` DROP DEFAULT
+

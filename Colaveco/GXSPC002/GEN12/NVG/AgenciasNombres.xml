@@ -1,0 +1,32 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_7-156546</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>39</ObjId>
+<ObjName>AgenciasNombres</ObjName>
+<ObjDesc>Agencias Nombres</ObjDesc>
+<ObjPgmName>AgenciasNombres</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Agencia</VarId>
+<VarName>&amp;Agencia</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Agencianombre</VarId>
+<VarName>&amp;AgenciaNombre</VarName></Variable></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>
